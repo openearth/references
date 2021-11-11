@@ -1,0 +1,352 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: print_references.aux
+Reallocating 'cite_info' (item size: 4) to 1500 items.
+Reallocating 'cite_list' (item size: 4) to 1500 items.
+Reallocating 'entry_exists' (item size: 1) to 1500 items.
+Reallocating 'type_list' (item size: 4) to 1500 items.
+Reallocating 'cite_info' (item size: 4) to 2250 items.
+Reallocating 'cite_list' (item size: 4) to 2250 items.
+Reallocating 'entry_exists' (item size: 1) to 2250 items.
+Reallocating 'type_list' (item size: 4) to 2250 items.
+White space in argument---line 1994 of file print_references.aux
+ : \citation{jabref-meta:
+ :                        databaseType:biblatex;}
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+The style file: agufull08_mod.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'field_info' (item size: 4) to 56500 items.
+Database file #1: references.bib
+Reallocating 'str_pool' (item size: 1) to 130000 items.
+Reallocating 'str_pool' (item size: 1) to 195000 items.
+Warning--entry type for "Lane57" isn't style-file defined
+--line 12037 of file references.bib
+Reallocating 'str_pool' (item size: 1) to 260000 items.
+Warning--entry type for "Parker04" isn't style-file defined
+--line 15750 of file references.bib
+Warning--entry type for "Reula04" isn't style-file defined
+--line 17157 of file references.bib
+Warning--I'm ignoring Smale00_MSc's extra "school" field
+--line 18679 of file references.bib
+Reallocating 'str_pool' (item size: 1) to 325000 items.
+Repeated entry---line 20401 of file references.bib
+ : @article{vanderMark13
+ :                      ,
+I'm skipping whatever remains of this entry
+Reallocating 'str_pool' (item size: 1) to 390000 items.
+Repeated entry---line 25154 of file references.bib
+ : @article{Luijendijk19
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25168 of file references.bib
+ : @article{Reyns14
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25181 of file references.bib
+ : @article{Dietrich83
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25195 of file references.bib
+ : @article{MosqueraMachado07
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25210 of file references.bib
+ : @techreport{Kranenburg15_2
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25219 of file references.bib
+ : @techreport{Kranenburg15
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25228 of file references.bib
+ : @techreport{Kranenburg15_3
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25237 of file references.bib
+ : @techreport{Cotino20
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25243 of file references.bib
+ : @incollection{Koren93
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25253 of file references.bib
+ : @techreport{Borsboom97
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25260 of file references.bib
+ : @book{Uijttewaal20
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25266 of file references.bib
+ : @article{Ponce91
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25280 of file references.bib
+ : @techreport{Irving20
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 25434 of file references.bib
+ : @techreport{Gruijters01
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "GeowebProfielZN21" isn't style-file defined
+--line 26210 of file references.bib
+Repeated entry---line 26720 of file references.bib
+ : @techreport{Niesten20
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 26928 of file references.bib
+ : @techreport{Mosselman05
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 27723 of file references.bib
+ : @article{Giri21
+ :                ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in Berger25
+Name 1 in "F Engelund, and and J Freds{\o}e" has a comma at the end for entry Engelund82
+while executing---line 1741 of file agufull08_mod.bst
+Name 1 in "F Engelund, and and J Freds{\o}e" has a comma at the end for entry Engelund82
+while executing---line 1741 of file agufull08_mod.bst
+Warning--to sort, need author or key in Flokstra85
+Warning--to sort, need editor or key in Friedrich19
+Warning--to sort, need author or key in HRW90
+Name 2 in "S. Jafarinik and R. Hern\'ández a Moreira, and E. Viparelli" has a comma at the end for entry Jafarinik19
+while executing---line 1741 of file agufull08_mod.bst
+Warning--to sort, need author or key in Klaassen88
+Warning--to sort, need author or key in RWS19
+Warning--to sort, need author or key in SOBEK_Kalman
+Warning--to sort, need author or key in SOBEK_asciiparser
+Warning--to sort, need author or key in SOBEK_flow
+Warning--to sort, need author or key in SOBEK_manual
+Warning--to sort, need author or key in SOBEK_morph
+Warning--to sort, need author or key in SOBEK_salt
+Warning--to sort, need author or key in SOBEK_wqual
+Warning--to sort, need author or key in WAQBANK14
+Warning--to sort, need editor or key in bfg06
+Warning--to sort, need author or key in colombia00
+Warning--to sort, need author or key in deingenieur47
+Warning--to sort, need author or key in dhi70_M932
+Warning--to sort, need author or key in dhi83_M1905
+Warning--to sort, need author or key in swe_int
+Too many commas in name 1 of "Olav J. M. VAN DUIN, J. S. RIBBERINK, C. M. DOHMEN-JANSSEN, S. J. M. H. HULSCHER" for entry vanDuin11
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Olav J. M. VAN DUIN, J. S. RIBBERINK, C. M. DOHMEN-JANSSEN, S. J. M. H. HULSCHER" for entry vanDuin11
+while executing---line 1741 of file agufull08_mod.bst
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Warning--empty author in Klaassen88
+Warning--empty title in Klaassen88
+Warning--missing institution in Klaassen88
+Warning--empty author in swe_int
+Warning--missing institution in swe_int
+Warning--empty author in Berger25
+Warning--empty author in deingenieur47
+Warning--empty author in dhi70_M932
+Warning--empty author in dhi83_M1905
+Warning--empty author in Flokstra85
+Warning--empty author in HRW90
+Warning--empty author in colombia00
+Warning--empty author in WAQBANK14
+Warning--empty journal in Alexy08
+Warning--can't use both author and editor fields in Allen78
+Warning--missing publisher in Allgower90
+Warning--missing publisher in Ashida73
+Warning--can't use both author and editor fields in Batchelor70
+Warning--empty journal in Baydoun18
+Warning--empty journal in Best19
+Warning--can't use both author and editor fields in Biedenharn08
+Warning--can't use both author and editor fields in Blench66
+Warning--missing publisher in Blom15_2
+Warning--missing publisher in Blom16_3
+Warning--missing publisher in Blom17_3
+Warning--missing publisher in Boersema20
+Warning--there's a number but no volume in Boesch94
+Warning--missing publisher in Booij03_2
+Warning--empty journal in BorsboomXX
+Warning--missing school in Bregman18
+Warning--can't use both author and editor fields in Buffington12
+Warning--can't use both author and editor fields in Chapra10
+Warning--missing publisher in Chavarrias17
+Warning--missing publisher in Chavarrias19_8
+Warning--missing publisher in Chavarrias16_2
+Warning--can't use both author and editor fields in Church92
+Warning--missing publisher in Colombini17
+Warning--missing publisher in Crosato13
+Warning--empty journal in Dalton77
+Warning--missing institution in DecykXX
+Warning--empty journal in Delis11
+Warning--missing school in Doets15
+Warning--can't use both author and editor fields in Drazin82
+Warning--can't use both author and editor fields in Drew99
+Warning--missing school in Duro20
+Warning--can't use both author and editor fields in Einstein71
+Warning--missing publisher in Eleftherakis10
+Name 1 in "F Engelund, and and J Freds{\o}e" has a comma at the end for entry Engelund82
+while executing---line 1822 of file agufull08_mod.bst
+Name 1 in "F Engelund, and and J Freds{\o}e" has a comma at the end for entry Engelund82
+while executing---line 1822 of file agufull08_mod.bst
+Warning--missing institution in ENW21
+Warning--can't use both author and editor fields in Fenton15
+Warning--can't use both author and editor fields in Ferguson98
+Warning--empty journal in Escalante17
+Warning--can't use both author and editor fields in FoufoulaGeorgiou13
+Warning--can't use both author and editor fields in Galloway75
+Warning--missing publisher in colombia07
+Warning--there's a number but no volume in Govedarska17
+Warning--missing publisher in Grijsen76
+Warning--missing institution in Hazewinkel04
+Warning--can't use both author and editor fields in Hey87
+Warning--there's a number but no volume in Hirano72
+Warning--can't use both author and editor fields in Howard80
+Warning--can't use both author and editor fields in Howard87
+Warning--there's a number but no volume in Hubbell65
+Warning--missing institution in IW18
+Warning--empty journal in Jafarinik20
+Name 2 in "S. Jafarinik and R. Hern\'ández a Moreira, and E. Viparelli" has a comma at the end for entry Jafarinik19
+while executing---line 1822 of file agufull08_mod.bst
+Name 2 in "S. Jafarinik and R. Hern\'ández a Moreira, and E. Viparelli" has a comma at the end for entry Jafarinik19
+while executing---line 1822 of file agufull08_mod.bst
+Warning--empty journal in Jafarinik19
+Warning--can't use both author and editor fields in Kellermann11
+Warning--missing institution in King18
+Warning--missing institution in King33
+Warning--can't use both author and editor fields in Komarova95
+Warning--can't use both author and editor fields in Kuhnle92_2
+Warning--missing publisher in vanLandeghem20
+Warning--empty journal in Lee94_2
+Warning--can't use both author and editor fields in Leopold92
+Warning--missing school in Lindhart15_2
+Warning--empty journal in Lisle01
+Warning--can't use both volume and number fields in Macqueen67
+Warning--empty journal in vanderMark13
+Warning--empty journal in MartinezAranda21
+Warning--empty journal in McKie21
+Warning--missing publisher in Monge50
+Warning--missing school in Montijn21
+Warning--empty journal in Mosselman20
+Warning--can't use both author and editor fields in Mosselman06
+Warning--can't use both author and editor fields in Mosselman09
+Warning--can't use both author and editor fields in Mosselman10_2
+Warning--missing publisher in Mosselman10_2
+Warning--can't use both author and editor fields in Mosselman12
+Warning--missing publisher in Mosselman02
+Warning--can't use both author and editor fields in Mosselman08_2
+Warning--can't use both author and editor fields in Mosselman03
+Warning--can't use both author and editor fields in Mosselman06_2
+Warning--can't use both author and editor fields in MunozRuiz08
+Warning--missing institution in Muthukumar14
+Warning--can't use both author and editor fields in Nabi17
+Warning--missing publisher in Nedeco73
+Warning--can't use both author and editor fields in Nemec90
+Warning--can't use both author and editor fields in Nemec90_2
+Too many commas in name 1 of "Olav J. M. VAN DUIN, J. S. RIBBERINK, C. M. DOHMEN-JANSSEN, S. J. M. H. HULSCHER" for entry vanDuin11
+while executing---line 1822 of file agufull08_mod.bst
+Too many commas in name 1 of "Olav J. M. VAN DUIN, J. S. RIBBERINK, C. M. DOHMEN-JANSSEN, S. J. M. H. HULSCHER" for entry vanDuin11
+while executing---line 1822 of file agufull08_mod.bst
+Warning--missing publisher in Orru15
+Warning--can't use both author and editor fields in Orton88
+Warning--can't use both author and editor fields in Paola88
+Warning--can't use both author and editor fields in Paola01
+Warning--can't use both author and editor fields in Parker08
+Warning--missing publisher in Parker08
+Warning--missing publisher in Parker08_4
+Warning--missing publisher in Plato_Phaedo
+Warning--missing publisher in Postman85
+Warning--there's a number but no volume in Preissmann61_2
+Warning--there's a number but no volume in Preissmann61_3
+Warning--missing institution in vanProoijen12
+Warning--can't use both author and editor fields in Radecki15
+Warning--missing institution in RoelvinkXX
+Warning--empty booktitle in Roos07_2
+Warning--empty journal in Salt08
+Warning--empty note in Schielen95
+Warning--can't use both author and editor fields in Schielen05
+Warning--can't use both volume and number fields in Schoklitsch33
+Warning--missing publisher in Siele19
+Warning--can't use both author and editor fields in DiSilvio92b
+Warning--empty booktitle in diSilvio16
+Warning--empty journal in Simon05
+Warning--can't use both author and editor fields in Sloff11
+Warning--missing publisher in Smith03
+Warning--empty journal in SoaresFrazao99
+Too many commas in name 1 of "Boersema, M.P., Schielen, R.M.J., Eijsbergen, E. van, Rinsema, J.G." for entry Spruyt20
+while executing---line 1822 of file agufull08_mod.bst
+Too many commas in name 1 of "Boersema, M.P., Schielen, R.M.J., Eijsbergen, E. van, Rinsema, J.G." for entry Spruyt20
+while executing---line 1822 of file agufull08_mod.bst
+Too many commas in name 1 of "Boersema, M.P., Schielen, R.M.J., Eijsbergen, E. van, Rinsema, J.G." for entry Spruyt20
+while executing---line 1822 of file agufull08_mod.bst
+Too many commas in name 1 of "Boersema, M.P., Schielen, R.M.J., Eijsbergen, E. van, Rinsema, J.G." for entry Spruyt20
+while executing---line 1822 of file agufull08_mod.bst
+Too many commas in name 1 of "Boersema, M.P., Schielen, R.M.J., Eijsbergen, E. van, Rinsema, J.G." for entry Spruyt20
+while executing---line 1822 of file agufull08_mod.bst
+Warning--can't use both author and editor fields in Strauss08
+Warning--empty journal in Sumer01
+Warning--empty journal in Sumer98
+Warning--empty journal in Tsujimoto
+Warning--can't use both author and editor fields in Tubino08
+Warning--missing publisher in Uijttewaal20
+Warning--empty journal in Utsugawa16
+Warning--empty journal in vanBalen_XX
+Warning--empty journal in vanBalen_XX2
+Warning--missing publisher in vanDuin13
+Warning--empty journal in vanRooijen20
+Warning--missing school in vanDijk13
+Warning--missing school in vandeLageweg13
+Warning--can't use both author and editor fields in vandeVen93
+Warning--missing publisher in Vanzo11
+Warning--empty journal in Verhagen00
+Warning--can't use both author and editor fields in Verhulst05
+Warning--missing publisher in daVinci78
+Warning--can't use both author and editor fields in Vollmer06
+Warning--missing publisher in Vreugdenhil89
+Warning--missing publisher in deVries69
+Warning--empty journal in vanderWegen14
+Warning--missing publisher in Wiesemann06
+Warning--empty journal in Yalin
+Warning--empty journal in Yang20
+Warning--empty journal in Ylla21
+Warning--empty journal in Zhang21
+You've used 2060 entries,
+            3080 wiz_defined-function locations,
+            13269 strings with 364213 characters,
+and the built_in function-call counts, 1683415 in all, are:
+= -- 184460
+> -- 48555
+< -- 1729
++ -- 23018
+- -- 13326
+* -- 105481
+:= -- 163503
+add.period$ -- 2060
+call.type$ -- 2060
+change.case$ -- 8929
+chr.to.int$ -- 2061
+cite$ -- 2270
+duplicate$ -- 185855
+empty$ -- 103898
+format.name$ -- 19016
+if$ -- 337325
+int.to.chr$ -- 147
+int.to.str$ -- 1
+missing$ -- 18939
+newline$ -- 6187
+num.names$ -- 8241
+pop$ -- 63709
+preamble$ -- 1
+purify$ -- 6696
+quote$ -- 0
+skip$ -- 101429
+stack$ -- 0
+substring$ -- 68672
+swap$ -- 153260
+text.length$ -- 420
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 18060
+warning$ -- 170
+while$ -- 10007
+width$ -- 0
+write$ -- 23930
+(There were 35 error messages)

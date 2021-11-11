@@ -1,0 +1,118 @@
+%general
+\newcommand{\textreg}{$^{\text{\textregistered}}$}
+\newcommand{\Sr}[1]{\S\ref{#1} \nameref{#1}}
+\newcommand{\Fref}[1]{Figure \ref{#1}}
+\newcommand{\issue}[1]{{\bf(A-{#1})}}
+\newcommand{\PVA}[1]{(PVA \S{#1})}
+
+%math
+\newcommand{\mathsub}[2]{#1_{\mathrm{#2}}}
+
+%software
+\newcommand{\matlab}{Matlab\textregistered}
+\newcommand{\Arcpython}{Arcgis python\textregistered}
+\newcommand{\python}{Python}
+\newcommand{\Pmap}{Pmap}
+
+%deltares software
+\newcommand{\dtd}{Delft3D}
+\newcommand{\dtdiv}{Delft3D 4}
+\newcommand{\dtdf}{Delft3D-Flow}
+\newcommand{\fm}{Delft3D FM}
+\newcommand{\dhydro}{D-HYDRO}
+\newcommand{\fmod}{Delft3D FM 1D}
+\newcommand{\rtc}{RTC}
+\newcommand{\smt}{SMT}
+\newcommand{\waqmorf}{\textsc{WAQMORF}}
+
+%institutes
+\newcommand{\RWS}{\textit{Rijkswaterstaat}}
+
+% hydrosettings 
+\newcommand{\morfac}{\textsc{MorFac}}
+\newcommand{\bedlevtype}{\textsc{BedlevType}} 
+\newcommand{\ashld}{$\mathsub{A}{Shld}$}
+\newcommand{\bshld}{$\mathsub{B}{Shld}$}
+\newcommand{\cshld}{$\mathsub{C}{Shld}$}
+\newcommand{\dshld}{$\mathsub{D}{Shld}$}
+\newcommand{\espir}{$\mathsub{E}{spir}$}
+\newcommand{\thtrlyr}{$\mathsub{L}{a}$} 
+\newcommand{\thcrslyr}{$\mathsub{L}{c}$} 
+\newcommand{\ACal}{$\mathsub{A}{cal}$}
+\newcommand{\ASKLHE}{$\mathsub{A}{SKLHE}$}
+\newcommand{\thetacr}{$\mathsub{\theta}{cr}$}
+
+%reference levels 
+\newcommand{\OLR}{OLR}
+\newcommand{\OLRlong}{Overeengekomen lage rivierstand}
+\newcommand{\OLW}{OLW}
+\newcommand{\OLWlong}{Overeengekomen lage waterstand}
+\newcommand{\NAP}{NAP}
+\newcommand{\NAPlong}{Normaal Amsterdams peil}
+\newcommand{\MGD}{MGD}
+\newcommand{\MGDlong}{Minst gepeilde diepte}
+
+\newcommand{\vaargeulEN}{navigation channel} %150 m
+\newcommand{\vaarwaterEN}{navigable part of the river} %170 m
+\newcommand{\bevaarbarebreedteEN}{navigable width} %200 m
+
+\newcommand{\vaargeulNL}{'vaargeul'} %150
+\newcommand{\vaarwaterNL}{'vaarwater'} %170
+\newcommand{\bevaarbarebreedteNL}{'bevaarbare breedte'} %200
+
+%LTW
+\newcommand{\LTW}{LTW}
+\newcommand{\ltws}{longitudinal training walls}
+\newcommand{\Ltws}{Longitudinal training walls}
+\newcommand{\ltw}{longitudinal training wall}
+\newcommand{\Ltw}{Longitudinal training wall}
+
+\newcommand{\oevergeulNL}{oevergeul}
+\newcommand{\oevergeulEN}{auxiliary channel}
+\newcommand{\oevergeulenNL}{oevergeulen}
+\newcommand{\oevergeulenEN}{auxiliary channels}
+\newcommand{\OevergeulNL}{Oevergeul}
+\newcommand{\OevergeulEN}{Auxiliary channel}
+
+%locations
+\newcommand{\SG}{Sambeek-Grave} 
+
+%latinism spanish
+\newcommand{\ie}{\textit{i.~e.}}
+\newcommand{\eg}{\textit{e.~g.}}
+
+%To do list
+%https://tex.stackexchange.com/questions/247681/how-to-create-checkbox-todo-list#313337
+\usepackage{pifont}
+\newcommand{\open}{$\square$}
+\newcommand{\done}{\rlap{\raisebox{0.3ex}{\hspace{0.4ex}\tiny \ding{52}}}$\square$}
+\newcommand{\wontfix}{\rlap{\raisebox{0.3ex}{\hspace{0.4ex}\scriptsize \ding{56}}}$\square$}
+
+% Example: 
+%\begin{itemize}
+%	\item[\open] Still open action.
+%	\item[\done] Completed/Fixed
+%	\item[\wontfix] Won't fix
+%\end{itemize}%references functions
+% \usepackage{xstring}
+
+%references functions
+% \newcommand{\bibentrylanguage}[2]{%
+    % \IfEqCase{#1}{%
+        % {}{$\sqrt{#2}$}%
+        % {b}{Hi}%
+    % }[\PackageError{tree}{Undefined option to tree: #1}{}]%
+% }%
+
+%references to section or ref
+%\newcommand{\isreport}{0} %0=no appendix; 1=add appendix
+%
+%\newcommand{\refsubsecfenomenosmorpho}[1]{
+%\ifnum #1=1
+%(sección \ref{subsec:fenomenos_morpho})
+%\else
+%\citep{Chavarrias21_5}
+%\fi
+%}
+%
+%\refsubsecfenomenosmorpho{\isreport}

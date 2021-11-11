@@ -1,0 +1,145 @@
+%---------references
+\usepackage{natbib} %references
+	\DeclareRobustCommand{\van}[3]{#2} %add \DeclareRobustCommand{\van}[3]{#3} before the bibliography
+
+%---------math
+\usepackage{array} %math arrays
+\usepackage{amsmath} %math matrices
+\usepackage{amssymb}
+\usepackage{cancel} %cancel term in equation
+\usepackage{bbm} %bold math 0 
+\usepackage{bbold} %bold math characters
+\usepackage{multirow} %necessary for bracket in matrix
+\usepackage{bigdelim} %necessary for bracket in matrix
+\usepackage{arydshln} %\hdashline[2pt/2pt] {c;{2pt/2pt}c;{2pt/2pt}c;{2pt/2pt}c}
+\usepackage{upgreek} %\uppi to make \pi number and not variable
+
+\usepackage{booktabs}
+
+%---------include pdf
+\usepackage{pdfpages} %
+\usepackage{pdflscape} %\begin{landscape} \end{landscape}
+%landscape
+%
+%\begin{landscape} 
+%\includepdf[pages=-,offset=2.54cm -2.54cm,angle=0]{include/timeline.pdf}
+%\end{landscape}
+%portrait
+%
+%\includepdf[pages=-,offset=2.54cm -2.54cm]{include/CV_Erik_Mosselman.pdf}
+
+\usepackage{enumitem}
+\usepackage{graphics}
+\usepackage{graphicx}
+%\usepackage[section]{placeins}
+\usepackage[subsection]{extraplaceins}
+%\graphicspath{{figures/}}
+\usepackage{chngpage}
+
+\usepackage{longtable}
+%\begin{longtable}{rrp{3cm}}
+%			\hline		
+%			river km & date & water discharge at Lobith [\si{m^3/s}]	 \\
+%			\midrule
+%			\endhead
+%\input{figures/adcp/measurements_overview/measurements_overview.tex} \\ %for some misterious reason, when updating the packages I needed to add this for \bottomrule not have a
+%			\bottomrule
+%		\caption{Summary of all ADCP profiles along the Waal River.}
+%		\label{tab:table_prepos_all_all}
+%\end{longtable}
+
+\usepackage{tablefootnote}
+
+%---------currency 
+%use as:
+%\EURO{EUR}{49500.54}
+\usepackage{eurosym} 
+\usepackage{euro}
+\EUROSYM{EUR}{\euro}
+\EUROFORMAT{main}{\out} 
+\EUROFORMAT{all}{%
+\form{\,}{.}{\,}%
+\round{-2}%
+\zero{0}{0}{}%
+\plus{}{}%
+\minus{\(-\)}{}
+}
+%
+%align in table:
+%\newcommand*\ALNUM{%
+%\EUROFORMAT{main}{\table\out}%
+%\EUROFORMAT{out}{\align\val}% % no symbol/ISO code
+%\EURO{EUR}}%
+%
+%\begin{table}[ht]
+%	\begin{center}
+%	%\begin{adjustwidth}{-2cm}{-2cm}
+%		\begin{tabular}{lr}		
+%			\toprule
+%			Fase & Coste [\euro] \\
+%			\midrule
+%\phaseA & \ALNUM{7000}\\
+%\phaseB & \ALNUM{15000}\\
+%			\bottomrule
+%		\end{tabular}
+%		\caption{Desglose de costes.}
+%		\label{tab:costes}
+%		%\end{adjustwidth}
+%	\end{center}
+%\end{table}
+%
+%different currency
+%use as:
+%\COP{49500.54}
+%\newcommand*\COP[1]{
+%{%
+%\EUROFORMAT{main}{\in}%
+%\EUROFORMAT{in}{\val\,COP}%
+%\EUROFORMAT{EUR}{\form{\,}{.}{.}
+%\round{-2}}%
+%\EURO{EUR}{#1}}
+%}
+
+\usepackage{siunitx} %SI units
+
+\usepackage{alphalph} %after \appendix add \renewcommand\thesection{\AlphAlph{\value{section}}} 
+
+%figure number reset after chapter
+%\usepackage{chngcntr}
+%\counterwithin{figure}{chapter}
+
+%for table doc
+%\newlength{\texttab}
+%\setlength{\texttab}{\textwidth + 19.75mm + 14mm}%
+
+%symbols
+%\nomenclature{$\zeta$}{[m]}{Waterstand boven referentie vlak}
+
+%photo
+%\begin{photo}[H]
+%%    \includegraphics[width=\textwidth]{../00_figures/04_satellite/00_other/problem_area.jpg}
+%        \caption{Área donde se produce sedimentación.}
+%    \label{photo:problem_area}
+%\end{photo}
+
+%table\begin{table}[ht]
+%    \begin{center}
+%    %\begin{adjustwidth}{-2cm}{-2cm}
+%        \begin{tabular}{r|r|r}        
+%		   
+%\rowcolor{dblue1}             Fecha anterior & Fecha posterior & Volumen [\si{m^3}]  \\
+%            \topline
+%- & 24-11-2014 & 40336 \\
+%23-01-2017 & 16-02-2017 & 1544 \\
+%21-04-2018 & 22-05-2018 & 10265 \\
+%18-02-2019 & 04-03-2019 & 7235 \\
+%20-02-2020 & 26-03-2020 & 7273 \\
+%09-01-2021 & 25-01-2021 & 3009 \\
+%12-07-2021 & 24-07-2021 & 2290 \\
+%            \bottomline
+%        \end{tabular}
+%        \caption{Periodos y volumen de dragado facilitados por Portmagdalena. Fecha anterior (posterior) se refiere a la fecha en la que se realizó la batimetría anterior (posterior) al dragado.}
+%        \label{tab:pm}
+%        %\end{adjustwidth}
+%    \end{center}
+%\end{table}
