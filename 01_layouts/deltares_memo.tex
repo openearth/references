@@ -1,0 +1,67 @@
+\documentclass{deltares_memo}
+
+\input{../00_references/abbreviations}
+
+\begin{document}
+\memoTo{Arjan Sieben  Rien van Zetten}
+\memoConfidentialUntil{}
+\memoDate{\today~\currenttime}
+\memoVersion{11205235-016-ZWS-0005}
+\memoFrom{
+Victor Chavarrias 
+\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
+ Willem Ottevanger
+ }
+\memoTelephone{
++31\,(0)88\,335\,8033 
+\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
++31\,(0)88\,335\,8532
+}
+\memoEmail{
+victor.chavarrias@deltares.nl 
+willem.ottevanger@deltares.nl
+}
+\memoSubject{Literature review of morphodynamic modelling}
+\memoCopy{Erik Mosselman, Kees Sloff}
+
+\deltarestitle
+
+\section{Review}
+
+\citet{Chavarrias18}
+\citep{Chavarrias18}
+
+\section{Discussion}
+
+\newpage
+\appendix
+\renewcommand\thesection{\AlphAlph{\value{section}}}
+
+%
+%
+%
+%----------------------------
+%---------BIBLIOGRAPHY
+%----------------------------
+%
+\newpage
+\section*{References}
+\DeclareRobustCommand{\van}[3]{#3}
+%\bibliographystyle{agufull08_mod}
+\bibliography{references}
+
+\includepdf[pages=-]{include/timeline.pdf} 
+
+%
+%
+%
+%----------------------------
+%---------APPENDIX
+%----------------------------
+%
+\newpage
+\appendix
+\renewcommand\thesection{\AlphAlph{\value{section}}}
+
+\LastPage
+\end{document}

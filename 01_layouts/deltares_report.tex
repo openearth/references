@@ -1,0 +1,104 @@
+\documentclass[spanish,nosummary]{deltares_report}
+%language: english, ducth, spanish
+%nosummary: writes no executive summary 
+
+%adding a different figure on the cover
+%
+%\renewcommand{\FrontCover}{\includegraphics[height=182mm,width=182mm]{../00_figures/12_other/DJI_0017.JPG}}
+%\renewcommand{\FrontCircle}{\includegraphics[height=182mm,width=182mm]{../00_references/01_layouts/cover/cover_transparant_circle.pdf}}																	   
+
+\input{../00_references/abbreviations}
+
+%prevent sentence break between pages		
+\widowpenalties 1 10000
+\raggedbottom
+	
+\begin{document}
+\title{Sedimentación en las inmediaciones del puente Pumarejo}
+\subtitle{Análisis, soluciones y modelización}
+\author{Victor Chavarr\'ias \\
+        %\\
+				%Willem Ottevanger
+				}
+\partner{}
+\coverPhoto{Portada: vista del nuevo y viejo puente Pumarejo (cortesía de Puerta de Oro).}
+\date{\today}
+\version{0.2}
+\references{}
+
+%list of authors
+\authorlisti{V\'ictor Chavarr\'ias}
+\organisationi{Deltares}
+
+\authorlistii{}
+\organisationii{}
+
+%revision table
+\authori{V\'ictor Chavarr\'ias}
+\revieweri{Erik Mosselman}
+\datei{12-11-2021}
+\versioni{0.1}
+%\approvali{Bianca Peters}  
+\approvali{Johan Boon}  
+\publisheri{}
+
+\authorii{V\'ictor Chavarr\'ias}
+\reviewerii{Erik Mosselman}
+\dateii{03-12-2021}
+\versionii{0.2}
+\approvalii{Johan Boon}
+\publisherii{}
+
+\client{Puerta de Oro}
+\contact{Aris José Florez Linares}
+\keywords{sedimentación, Magdalena, alternativas, morfodinámica, 2DH.}
+\reference{}
+\classification{}
+\status{borrador}
+\disclaimer{}
+%\summary{\todo{Escribir resumen ejecutivo}} 
+ 
+\documentid{11205950-000-ZWS-0027}
+\projectnumber{11205950-000}
+
+%deltares cover
+\deltarestitle
+
+\newpage
+
+\chapter{Introducción}
+\label{chap:int}
+
+\citet{Chavarrias18}
+\citep{Chavarrias18}
+
+%
+%
+%
+%----------------------------
+%---------BIBLIOGRAPHY
+%----------------------------
+%
+\newpage
+\chapter{Referencias}
+\DeclareRobustCommand{\van}[3]{#3}
+%\bibliographystyle{agufull08_mod}
+\bibliography{../00_references/references}
+
+%
+%
+%
+%----------------------------
+%---------APPENDIX
+%----------------------------
+%
+\newpage
+\appendix
+\renewcommand\thesection{\AlphAlph{\value{section}}}
+
+
+\chapter{Imágenes de las batimetrías}
+\label{app:imag_bathy}
+
+\LastPage
+\end{document}
