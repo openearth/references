@@ -85,28 +85,27 @@
 %%%%%%%%%
 %currency
 
-%preamble
-
 %euro:
-\EUROSYM{EUR}{\euro}
-\EUROFORMAT{main}{\out} 
-\EUROFORMAT{all}{%
-\form{\,}{.}{\,}%
-\round{-2}%
-\zero{0}{0}{}%
-\plus{}{}%
-\minus{\(-\)}{}
-}
+%defined in <packages.tex>
+%\EUROSYM{EUR}{\euro}
+%\EUROFORMAT{main}{\out} 
+%\EUROFORMAT{all}{%
+%\form{\,}{.}{\,}%
+%\round{-2}%
+%\zero{0}{0}{}%
+%\plus{}{}%
+%\minus{\(-\)}{}
+%}
 
 %different currency:
-\newcommand*\COP[1]{
-{%
-\EUROFORMAT{main}{\in}%
-\EUROFORMAT{in}{\val\,COP}%
-\EUROFORMAT{EUR}{\form{\,}{.}{.}
-\round{-2}}%
-\EURO{EUR}{#1}}
-}
+%\newcommand*\COP[1]{
+%{%
+%\EUROFORMAT{main}{\in}%
+%\EUROFORMAT{in}{\val\,COP}%
+%\EUROFORMAT{EUR}{\form{\,}{.}{.}
+%\round{-2}}%
+%\EURO{EUR}{#1}}
+%}
 
 %use:
 \EURO{EUR}{49500.54}
