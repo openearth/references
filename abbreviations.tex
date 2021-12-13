@@ -116,3 +116,38 @@
 %}
 %
 %\refsubsecfenomenosmorpho{\isreport}
+
+%sections
+\newcommand{\gensection}[3]{
+\ifnum #1=1 %report
+	\ifnum #2=1
+		\chapter{#3}
+	\else
+		\ifnum #2=2
+			\section{#3}
+		\else
+			\ifnum #2=3
+				\subsection{#3}
+			\else
+				\ifnum #2=4
+						\subsubsection{#3}
+				\else
+				\fi %subsubsection
+			\fi %subsection
+		\fi %section
+	\fi %chapter
+\else %memo
+	\ifnum #2=1
+		\section{#3}
+	\else
+		\ifnum #2=2
+			\subsection{#3}
+		\else
+				\ifnum #2=2
+					\subsubsection{#3}
+				\else
+				\fi %subsubsection
+		\fi %subsection
+	\fi %section
+\fi %report
+}
