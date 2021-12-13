@@ -57,6 +57,24 @@
     \midline                                                 
 \end{tabular}
 
+%wrap up text in header but not in table
+\begin{table}[ht]
+	\begin{center}
+	\begin{adjustwidth}{-3cm}{-3cm}
+			\begin{tabular}{p{5cm}rrrr}	
+				\toprule
+\rowcolor{dblue1} Kosten Onderhoudstaken	& \begin{minipage}[t]{2.5cm} Geprognotiseerde kosten B\&O plan 2016 (2016-2021)	\end{minipage} & \begin{minipage}[t]{2.5cm} Werkelijk gemaakte kosten (2016-2021)	\end{minipage} & \begin{minipage}[t]{2.5cm} Verwachte Kosten lange termijn (per 5 jaar) \end{minipage} & \begin{minipage}[t]{2.5cm} Verwachte kosten lange termijn zonder recreatie vaart  (per 5 jaar) \end{minipage} \\
+				\midrule
+a.~ Aanbrengen stortsteen Dam													& \num{500000} 		& \num{0				} & \num{	500000		} & \num{500000} \\
+				\bottomrule
+			\end{tabular}
+			\caption{caption}
+			\label{tab:vH21cost}
+			\end{adjustwidth}
+	\end{center}
+\end{table}
+
+
 %%%%%%%%% 
 %long table
 \begin{longtable}{rrp{3cm}}
