@@ -161,7 +161,7 @@ mohamed.yossef@deltares.nl
 %
 
 \deltarestitle
-\ifnum \ireport=1
+\ifnum \isreport=1
 	\newpage
 \fi
 
@@ -186,7 +186,7 @@ mohamed.yossef@deltares.nl
 %----------------------------
 %
 \newpage
-\chapter*{References}
+\gensection{\isreport}{1}{References}
 \DeclareRobustCommand{\van}[3]{#3}
 %\bibliographystyle{agufull08_mod}
 \bibliography{../00_references/references}
