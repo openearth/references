@@ -1,0 +1,206 @@
+%
+%
+%
+%----------------------------
+%---------DOCUMENT TYPE
+%----------------------------
+%
+
+\newcommand{\isreport}{0}
+%0: memo
+%1: report
+
+%
+%
+%
+%----------------------------
+%---------DOCUMENT CLASS
+%----------------------------
+%
+
+\ifnum \isreport=1
+	\documentclass[nosummary]{deltares_report}
+	%language: english, ducth, spanish
+	%nosummary: writes no executive summary 
+\else
+	\documentclass{deltares_memo}
+\fi
+
+%
+%
+%
+%----------------------------
+%---------PACKAGES AND COMMANDS
+%----------------------------
+%
+
+\input{../00_references/abbreviations}
+\input{../00_references/packages}
+
+%
+%
+%
+%----------------------------
+%---------DOCUEMENT INFORMATION
+%----------------------------
+%
+
+%%%%%%%%
+%---------REPORT INPUT
+%%%%%%%%
+%
+
+\ifnum \isreport=1
+
+%adding a different figure on the cover
+%
+%\renewcommand{\FrontCover}{\includegraphics[height=182mm,width=182mm]{../00_figures/12_other/DJI_0017.JPG}}
+%\renewcommand{\FrontCircle}{\includegraphics[height=182mm,width=182mm]{../00_references/01_layouts/cover/cover_transparant_circle.pdf}}																	   
+%prevent sentence break between pages		
+\widowpenalties 1 10000
+\raggedbottom
+	
+\begin{document}
+\title{Improving the modelling of flow over groynes}
+\subtitle{Analysis of simulations and results of experiments}
+\author{Victor Chavarr\'ias 
+        \\
+				Amgad Omer
+				\\
+				Mohamed Yossef
+				}
+\partner{}
+\coverPhoto{Cover: View of the Waal River.}
+\date{\today}
+\version{0.1}
+\references{}
+
+%list of authors
+\authorlisti{V\'ictor Chavarr\'ias}
+\organisationi{Deltares}
+
+\authorlistii{Amgad Omer}
+\organisationii{Deltares}
+
+\authorlistiii{Mohamed Yossef}
+\organisationiii{Deltares}
+
+%revision table
+\authori{V\'ictor Chavarr\'ias}
+\revieweri{Migena Zagonjoli}
+\datei{\today}
+\versioni{0.1}
+%\approvali{Bianca Peters}  
+\approvali{Johan Boon}  
+\publisheri{}
+
+\authorii{}
+\reviewerii{}
+\dateii{}
+\versionii{}
+\approvalii{}
+\publisherii{}
+
+\client{Rijkswaterstaat}
+\contact{Arjan Sieben}
+\keywords{groynes, Villemonte, laboratory experiments, numerical simulations.}
+\reference{}
+\classification{}
+\status{draft}
+\disclaimer{}
+%\summary{Executive summary} 
+ 
+\documentid{11206793-013-ZWS-0001}
+\projectnumber{11206793-013}
+
+
+%%%%%%%%
+%---------MEMO INPUT
+%%%%%%%%
+%
+
+\else
+
+\begin{document}
+\memoTo{Arjan Sieben}
+\memoConfidentialUntil{}
+\memoDate{\today~\currenttime}
+\memoVersion{11206793-013-ZWS-0001} %11206793-013-ZWS-0001_v0.1-groynes.docx
+\memoFrom{
+Victor Chavarrias 
+\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
+Amgad Omer
+\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
+Mohamed Yossef
+ }
+\memoTelephone{
++31\,(0)88\,335\,8033 
+\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
++31\,(0)88\,335\,7983
+\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
++31\,(0)88\,335\,8149
+}
+\memoEmail{
+victor.chavarrias@deltares.nl 
+\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
+amgad.omer@deltares.nl
+\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
+mohamed.yossef@deltares.nl
+}
+\memoSubject{Improving the modelling of flow over groynes}
+\memoCopy{-}
+
+\fi
+
+%
+%
+%
+%----------------------------
+%---------COVER
+%----------------------------
+%
+
+\deltarestitle
+\ifnum \ireport=1
+	\newpage
+\fi
+
+%
+%
+%
+%----------------------------
+%---------START DOCUMENT
+%----------------------------
+%
+
+
+\gensection{\isreport}{1}{Introduction}
+
+\gensection{\isreport}{2}{Critical discharge}
+
+%
+%
+%
+%----------------------------
+%---------BIBLIOGRAPHY
+%----------------------------
+%
+\newpage
+\chapter*{References}
+\DeclareRobustCommand{\van}[3]{#3}
+%\bibliographystyle{agufull08_mod}
+\bibliography{../00_references/references}
+	
+%
+%
+%
+%----------------------------
+%---------APPENDIX
+%----------------------------
+%
+\newpage
+\appendix
+\renewcommand\thesection{\AlphAlph{\value{section}}}
+
+\LastPage
+\end{document}
