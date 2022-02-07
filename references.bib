@@ -28626,4 +28626,18 @@ For recommendations, to evaluate the skill of the interFoam solver the 3D simula
   keywords     = {Sediment bedload transport, Shallow water exner model, Gravitational effects, Semi-implicit scheme},
 }
 
+@Article{Eca16,
+  author       = {L. Eça and C. M. Klaij and G. Vaz and M. Hoekstra and F. S. Pereira},
+  date         = {2016},
+  journaltitle = {Journal of Computational Physics},
+  title        = {On code verification of RANS solvers},
+  doi          = {https://doi.org/10.1016/j.jcp.2016.01.002},
+  issn         = {0021-9991},
+  pages        = {418-439},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0021999116000036},
+  volume       = {310},
+  abstract     = {This article discusses Code Verification of Reynolds-Averaged Navier Stokes (RANS) solvers that rely on face based finite volume discretizations for volumes of arbitrary shape. The study includes test cases with known analytical solutions (generated with the method of manufactured solutions) corresponding to laminar and turbulent flow, with the latter using eddy-viscosity turbulence models. The procedure to perform Code Verification based on grid refinement studies is discussed and the requirements for its correct application are illustrated in a simple one-dimensional problem. It is shown that geometrically similar grids are recommended for proper Code Verification and so the data should not have scatter making the use of least square fits unnecessary. Results show that it may be advantageous to determine the extrapolated error to cell size/time step zero instead of assuming that it is zero, especially when it is hard to determine the asymptotic order of grid convergence. In the RANS examples, several of the features of the ReFRESCO solver are checked including the effects of the available turbulence models in the convergence properties of the code. It is shown that it is required to account for non-orthogonality effects in the discretization of the diffusion terms and that the turbulence quantities transport equations can deteriorate the order of grid convergence of mean flow quantities.},
+  keywords     = {Code verification, Numerical error, Order of grid convergence, Manufactured solutions},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
