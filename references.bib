@@ -29277,4 +29277,21 @@ abstract = {Abstract In this paper we utilize a numerical morphological simulati
   note = {Jamuna, Erik Mosselman, }
 }
 
+@article{Kramen08,
+author = {Kramer, Stephan C. and Stelling, Guus S.},
+title = {A conservative unstructured scheme for rapidly varied flows},
+journal = {International Journal for Numerical Methods in Fluids},
+volume = {58},
+number = {2},
+pages = {183-212},
+keywords = {rapidly varied flow, inundation, unstructured mesh, hybrid mesh, conservation properties, momentum conservation, advection, locally implicit, flooding and drying},
+doi = {https://doi.org/10.1002/fld.1722},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/fld.1722},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/fld.1722},
+abstract = {Abstract This article introduces a new semi-implicit, staggered finite volume scheme on unstructured meshes for the modelling of rapidly varied shallow water flows. Rapidly varied flows occur in the inundation of dry land during flooding situations. They typically involve bores and hydraulic jumps after obstacles such as road banks. Near such sudden flow transitions, the grid resolution is often low compared with the gradients of the bathymetry. Locally the hydrostatic pressure assumption may become invalid. In these situations, it is crucial to apply the correct conservation properties to obtain accurate results. An important feature of this scheme is therefore its ability to conserve momentum locally or, by choice, preserve constant energy head along a streamline. This is achieved using a special interpolation method and control volumes for momentum. The efficiency of inundation calculations with locally very high velocities, and in the case of unstructured meshes locally very small grid distances, is severely hampered by the Courant condition. This article provides a solution in the form of a locally implicit time integration for the advective terms that allows for an explicit calculation in most of the domain, while maintaining unconditional stability by implicit calculations only where necessary. The complex geometry of flooded urban areas asks for the flexibility of unstructured meshes. The efficient calculation of the pressure gradient in this, and other semi-implicit staggered schemes, requires, however, an orthogonality condition to be put on the grid. In this article a simple method is introduced to generate unstructured hybrid meshes that fulfil this requirement. Copyright © 2008 John Wiley \& Sons, Ltd.},
+year = {2008}
+}
+
+
+
 @Comment{jabref-meta: databaseType:biblatex;}
