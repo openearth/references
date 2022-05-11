@@ -1,4 +1,4 @@
-\begin{thebibliography}{2151}
+\begin{thebibliography}{2168}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -2002,7 +2002,7 @@ Chaudhry, M.~H. (2010), \textit{Applied Hydraulic Transients}, Springer.
 \bibitem[{\textit{Chavarrías et~al.}(2019)\textit{Chavarrías, Arkesteijn, and
   Blom}}]{Chavarrias19_4}
 Chavarrías, V., L.~Arkesteijn, and A.~Blom (2019), A well-posed alternative to
-  the hirano active layer model for rivers with mixed-size sediment,
+  the {H}irano active layer model for rivers with mixed-size sediment,
   \textit{Journal of Geophysical Research: Earth Surface}, \textit{124}(11),
   2491--2520, \doi{10.1029/2019JF005081}.
 
@@ -2702,6 +2702,11 @@ Cross, M.~C., and P.~C. Hohenberg (1993), Pattern formation outside of
   equilibrium, \textit{Rev. Mod. Phys.}, \textit{65}, 851--1112,
   \doi{10.1103/RevModPhys.65.851}.
 
+\bibitem[{\textit{Crowe et~al.}()\textit{Crowe, Elger, Williams, and
+  Roberson}}]{Crowe09}
+Crowe, C.~T., D.~F. Elger, B.~C. Williams, and J.~A. Roberson (),
+  \textit{Engineering fluid mechanics}, 9 ed., 597 pp.
+
 \bibitem[{\textit{CSO}(2013)}]{CSO13}
 CSO (2013), Rapportage resultaten vks, \textit{Tech. rep.}, CSO.
 
@@ -2828,6 +2833,10 @@ Dargahi, B. (1990), Controlling mechanism of local scouring, \textit{Journal of
 Darmofal, D.~L., and P.~J. Schmid (1996), The importance of eigenvectors for
   local preconditioners of the euler equations, \textit{J. Comput. Phys.},
   \textit{127}(2), 346--362, \doi{10.1006/jcph.1996.0180}.
+
+\bibitem[{\textit{Davidson}()}]{Davidson04}
+Davidson, P. (), \textit{Turbulence: An Introduction for Scientists and
+  Engineers}, 1 ed., 678 pp., Oxford University Press.
 
 \bibitem[{\textit{Day}(1980)}]{Day80}
 Day, T.~J. (1980), A study of the transport of graded sediments,
@@ -3358,6 +3367,9 @@ Egiazaroff, I.~V. (1967{\natexlab{a}}), Discussion to "sediment transport
 Egiazaroff, I.~V. (1967{\natexlab{b}}), Closure to "calculation of nonuniform
   sediment concentrations", \textit{J. Hydraulics Div.}, \textit{93}, 245--253.
 
+\bibitem[{\textit{Einfeldt}()}]{Einfeldt15}
+Einfeldt, B. (), The carbuncle phenomenon in shallow water simulations.
+
 \bibitem[{\textit{Einstein}(1905)}]{Einstein05}
 Einstein, A. (1905), \"{U}ber die von der molekularkinetischen {T}heorie der
   {W}\"arme geforderte {B}ewegung von in ruhenden {F}l\"ussigkeiten
@@ -3437,6 +3449,11 @@ Eleftherakis, D., E.~Mosselman, A.~Amiri-Simkooei, S.~Giri, M.~Snellen, and
   sediment composition using multi-beam echo-sounder measurements, in
   \textit{Proc. 10th European Conf. Underwater Acoustics, Istanbul, Turkey,
   July 5--9}, vol.~2, pp. 1365--1373.
+
+\bibitem[{\textit{Elling}()}]{Elling09}
+Elling, V. (), The carbuncle phenomenon is incurable, \textit{29}(6),
+  1647--1656, \doi{https://doi.org/10.1016/S0252-9602(10)60007-0}, mathematics
+  Dedicated to professor James Glimm on the occasion of his 75th birthday.
 
 \bibitem[{\textit{Elman}(1999)}]{Howard99}
 Elman, H.~C. (1999), Preconditioning for the steady-state navier--stokes
@@ -3992,10 +4009,15 @@ Frings, R.~M., G.~Hillebrand, N.~Gehres, K.~Banhold, S.~Schriever, and
   {R}hine {R}iver, \textit{Earth Sci. Rev.}, \textit{196},
   \doi{10.1016/j.earscirev.2019.04.002}.
 
-\bibitem[{\textit{F.R.S.}()}]{Reynolds85}
-F.R.S., P. O. R.~L. (), Lvii. on the dilatancy of media composed of rigid
-  particles in contact. with experimental illustrations, \textit{20}(127),
-  469--481, \doi{10.1080/14786448508627791}.
+\bibitem[{\textit{F.R.S.}({\natexlab{a}})}]{Blaas01}
+F.R.S., P. O. R.~L. ({\natexlab{a}}), Large-scale circulation and flushing
+  characteristics of the north sea under various climate forcings, \textit{18},
+  47--57.
+
+\bibitem[{\textit{F.R.S.}({\natexlab{b}})}]{Reynolds85}
+F.R.S., P. O. R.~L. ({\natexlab{b}}), Lvii. on the dilatancy of media composed
+  of rigid particles in contact. with experimental illustrations,
+  \textit{20}(127), 469--481, \doi{10.1080/14786448508627791}.
 
 \bibitem[{\textit{Furbish and Schmeeckle}(2013)}]{Furbish13}
 Furbish, D.~J., and M.~W. Schmeeckle (2013), A probabilistic derivation of the
@@ -4314,6 +4336,10 @@ Godfrey, A.~G., R.~W. Walters, and B.~{\van{Leer}{Van}{van}}~Leer (1993),
   chemistry, \textit{Tech. Rep. 1993-535}, AIAA, Washington, DC, United States,
   23 pp.
 
+\bibitem[{\textit{Godin}()}]{Godin74}
+Godin, G. (), The tide in eastern and western james bay, \textit{27}(2),
+  104--110.
+
 \bibitem[{\textit{Godunov}(1959)}]{Godunov59}
 Godunov, S.~K. (1959), A difference method for numerical calculation of
   discontinuous solutions of the equations of hydrodynamics, \textit{Mat. Sb.},
@@ -4559,6 +4585,10 @@ Guo, L., M.~Wegen, Z.~B. Wang, D.~Roelvink, and Q.~He (2016), Exploring the
   large-scale estuarine morphodynamics by means of a 1-d model, \textit{J.
   Geophys. Res., Earth Surface}, \textit{121}(5), 1000--1022,
   \doi{10.1002/2016JF003821}.
+
+\bibitem[{\textit{Gupta}(2022)}]{Gupta22}
+Gupta, A. (Ed.) (2022), \textit{Large Rivers: Geomorphology and Management},
+  1028 pp., John Wiley \& Sons, Ltd., jamuna, Erik Mosselman.
 
 \bibitem[{\textit{Guralnik et~al.}(1964)\textit{Guralnik, Hagen, and
   Kibble}}]{Guralnik64}
@@ -5019,6 +5049,10 @@ Holmes, M.~H. (2013), \textit{Introduction to Perturbation Methods},
   \textit{Texts in Applied Mathematics}, vol.~20, 2 ed., 438 pp.,
   Springer-Verlag New York, \doi{10.1007/978-1-4614-5477-9}.
 
+\bibitem[{\textit{Holthuijsen}()}]{Holthuijsen07}
+Holthuijsen, L.~H. (), \textit{WAVES IN OCEANIC ANDCOASTAL WATERS}, 1 ed., 405
+  pp., Cambridge University Press.
+
 \bibitem[{\textit{Hong-Yuan and In-Song}(1994)}]{Lee94}
 Hong-Yuan, L., and H.~In-Song (1994), Investigation of saltating particle
   motions, \textit{J. Hydraul. Eng.}, \textit{120}(7), 831--845,
@@ -5359,6 +5393,9 @@ Jafarinik, S., and E.~Viparelli (), Alluvial morphodynamics of low-slope
 Jafarinik, S., R.~H. a~Moreira, and E.~Viparelli (), Alluvial morphodynamics of
   bedrock reaches transporting mixed-size sand. laboratory experiments.
 
+\bibitem[{\textit{Jagers}()}]{Jagers99}
+Jagers, B. (), \textit{Tech. rep.}
+
 \bibitem[{\textit{Jagers}(2003)}]{Jagers03_PhD}
 Jagers, B. (2003), Modelling planform changes of braided rivers, Ph.D. thesis,
   University of Twente, Enschede, the Netherlands.
@@ -5489,15 +5526,14 @@ Johnson, M.~A., P.~Noble, L.~M. Rodrigues, and K.~Zumbrun (2014), Behavior of
 {\van{Jong}{De}{de}}~Jong, J. (2018), Become acquainted with d-flow flexible
   mesh: Extended grid generation, deltares (unpublished).
 
-\bibitem[{\textit{{\van{Jong}{De}{de}}~Jong}(2020{\natexlab{a}})}]{deJong20_2}
-{\van{Jong}{De}{de}}~Jong, J. (2020{\natexlab{a}}), Ontwikkeling
-  zesde-generatie maas-model: Modelbouw, kalibratie en validatie,
-  \textit{{T}ech. {R}ep. 11200569-003-ZWS-0014}, Deltares, Delft, the
-  Netherlands, 370 pp.
+\bibitem[{\textit{{\van{Jong}{De}{de}}~Jong}(2020)}]{deJong20_3}
+{\van{Jong}{De}{de}}~Jong, J. (2020), Tussenoplevering maas-model j19\_6-w2
+  intern, (modelschematisatie).
 
-\bibitem[{\textit{{\van{Jong}{De}{de}}~Jong}(2020{\natexlab{b}})}]{deJong20_3}
-{\van{Jong}{De}{de}}~Jong, J. (2020{\natexlab{b}}), Tussenoplevering maas-model
-  j19\_6-w2 intern, (modelschematisatie).
+\bibitem[{\textit{{\van{Jong}{De}{de}}~Jong}(2021)}]{deJong21_2}
+{\van{Jong}{De}{de}}~Jong, J. (2021), Ontwikkeling zesde-generatie maas-model:
+  Modelbouw, kalibratie en validatie, \textit{{T}ech. {R}ep.
+  11200569-003-ZWS-0014}, Deltares, Delft, the Netherlands, 375 pp.
 
 \bibitem[{\textit{{\van{Jong}{De}{de}}~Jong and Asselman}(2019)}]{deJong19}
 {\van{Jong}{De}{de}}~Jong, J., and N.~E.~M. Asselman (2019), {Topvervlakking
@@ -5870,6 +5906,14 @@ Kleinhans, M.~G., J.~R. F.~W. Leuven, L.~Braat, and A.~Baar (2017), Scour holes
 Klonsky, L., and R.~M. Vogel (2011), Effective measures of ``effective''
   discharge, \textit{J. Geol.}, \textit{119}(1), 1--14, \doi{10.1086/657258}.
 
+\bibitem[{\textit{Kl\"{o}sch et~al.}(2022)\textit{Kl\"{o}sch, ten Brinke,
+  Krapesch, and Habersack}}]{Klosch22}
+Kl\"{o}sch, M., W.~ten Brinke, M.~Krapesch, and H.~Habersack (2022), Sediment
+  management in the rhine catchment: Inventory of knowledge, research and
+  monitoring, and an advice on future sediment research, \textit{Tech. Rep.
+  Report No I-27 of the CHR}, International Commission for the Hydrology of the
+  Rhine Basin.
+
 \bibitem[{\textit{Knaapen and Hulscher}(2003)}]{Knaapen03}
 Knaapen, M. A.~F., and S.~J. M.~H. Hulscher (2003), Use of a genetic algorithm
   to improve predictions of alternate bar dynamics, \textit{Water Resour.
@@ -6012,6 +6056,11 @@ Kothe, H. (2003), Existing sediment management guidelines: an overview,
 \bibitem[{\textit{Kragten}(2018)}]{Kragten18}
 Kragten (2018), {Analyse Bodempeilingen Maas}, \textit{Handleiding
   GDV083-0001}, Kragten, 22 p. pp.
+
+\bibitem[{\textit{Kramer and Stelling}(2008)}]{Kramer08}
+Kramer, S.~C., and G.~S. Stelling (2008), A conservative unstructured scheme
+  for rapidly varied flows, \textit{International Journal for Numerical Methods
+  in Fluids}, \textit{58}(2), 183--212, \doi{https://doi.org/10.1002/fld.1722}.
 
 \bibitem[{\textit{Kranenburg}(1992)}]{Kranenburg92}
 Kranenburg, C. (1992), On the evolution of roll waves, \textit{J. Fluid Mech.},
@@ -6712,6 +6761,13 @@ Lokin, L. (2020), Dune dynamics under high and low flows, \textit{{CE\&M}
   research report {2020R-003WEM-003}, ISSN:1568-4652}, University of Twente, 60
   pp.
 
+\bibitem[{\textit{Lokin et~al.}(2022)\textit{Lokin, Warmink, Bomers, and
+  Hulscher}}]{Lokin22}
+Lokin, L.~R., J.~J. Warmink, A.~Bomers, and S.~J. M.~H. Hulscher (2022), River
+  dune dynamics during low flows, \textit{Geophysical Research Letters},
+  \textit{49}(8), e2021GL097,127, \doi{https://doi.org/10.1029/2021GL097127},
+  e2021GL097127 2021GL097127.
+
 \bibitem[{\textit{Long}(1956)}]{Long56}
 Long, R.~R. (1956), Long waves in a two-fluid system, \textit{J. Meteor.},
   \textit{13}(1), 70--74,
@@ -6791,6 +6847,11 @@ Luchi, R., G.~Zolezzi, and M.~Tubino (2010), Modelling mid-channel bars in
 LUCHINI, P., and F.~CHARRU (), The phase lead of shear stress in shallow-water
   flow over a perturbed bottom, \textit{665}, 516–539,
   \doi{10.1017/S0022112010004313}.
+
+\bibitem[{\textit{Luchini and Charru}()}]{Luchini19}
+Luchini, P., and F.~Charru (), On the large difference between benjamin’s and
+  hanratty’s formulations of perturbed flow over uneven terrain,
+  \textit{871}, 534–561, \doi{10.1017/jfm.2019.312}.
 
 \bibitem[{\textit{Luijendijk et~al.}(2019)\textit{Luijendijk, de~Schipper, and
   Ranasinghe}}]{Luijendijk19}
@@ -8113,6 +8174,10 @@ Palmsten, M.~L., J.~L. Kozarek, and J.~Calantoni (2015), Video observations of
   bed form morphodynamics in a meander bend, \textit{Water Resour. Res.},
   \textit{51}(9), 7238--7257, \doi{10.1002/2014WR016321}.
 
+\bibitem[{\textit{Paola}()}]{Paola96_02}
+Paola, C. (), \textit{Incoherent Structure: Turbulence as a Metaphor for Stream
+  Braiding}, p. 760, John Wiley \& Sons.
+
 \bibitem[{\textit{Paola}(1988)}]{Paola88}
 Paola, C. (1988), \textit{New Perspectives in Basin Analysis}, chap. Subsidence
   and Gravel Transport in Alluvial Basins, pp. 231--243, Springer New York, New
@@ -8396,6 +8461,10 @@ P\'echon, P., F.~Rivero, H.~Johnson, T.~Chesher, B.~O'Connor, J.-M. Tanguy,
   T.~Karambas, M.~Mory, and L.~Hamm (1997), Intercomparison of wave-driven
   current models, \textit{Coastal Engineering}, \textit{31}(1), 199 -- 215,
   \doi{https://doi.org/10.1016/S0378-3839(97)00006-9}.
+
+\bibitem[{\textit{PEERY and IMLAY}(1988)}]{Peery88}
+PEERY, K., and S.~IMLAY (1988), \textit{Blunt-body flow simulations},
+  \doi{10.2514/6.1988-2904}.
 
 \bibitem[{\textit{Pelanti et~al.}(2008)\textit{Pelanti, Bouchut, and
   Mangeney}}]{Pelanti08}
@@ -8790,9 +8859,9 @@ Raudkivi, A.~J., and R.~Ettema (1983), Clear water scour at cylindrical piers,
 Ravenstijn, E. (2009), Behaviour of nourishments in quasi 3-dimensional graded
   sediment models, Master's thesis, Delft University of Technology.
 
-\bibitem[{\textit{Recking}()}]{Recking16_2}
-Recking, A. (), A generalized threshold model for computing bed load grain size
-  distribution, \textit{Water Resour. Res.}, pp. n/a--n/a,
+\bibitem[{\textit{Recking}(2016)}]{Recking16_2}
+Recking, A. (2016), A generalized threshold model for computing bed load grain
+  size distribution, \textit{Water Resour. Res.}, \textit{52}(12), 9274--9289,
   \doi{10.1002/2016WR018735}.
 
 \bibitem[{\textit{Recking et~al.}(2009)\textit{Recking, Frey, Paquier, and
@@ -10062,6 +10131,11 @@ Stecca, G., R.~Measures, and D.~M. Hicks (2017), A framework for the analysis
 Stelling, G.~S., and N.~Booij (1999), Computational modelling flow and
   transport, \textit{Tech. rep.}, Delft University of Technology, Delft, the
   Netherlands.
+
+\bibitem[{\textit{Stelling and Duinmeijer}()}]{Stelling03}
+Stelling, G.~S., and S.~P.~A. Duinmeijer (), A staggered conservative scheme
+  for every {F}roude number in rapidly varied shallow water flows, \textit{43},
+  1329--1354, \doi{10.1002/fld.537}.
 
 \bibitem[{\textit{Stenfert}(2017)}]{Stenfert17_MSc}
 Stenfert, J. (2017), Scour holes in heterogeneous subsoil: An experimental
@@ -11593,6 +11667,10 @@ Wesselius, C., and J.~{\van{Jong}{De}{de}}~Jong (2017), Become acquainted with
   d-flow flexible mesh: Hand-out for the use of d-flow fm in interactor,
   deltares (unpublished).
 
+\bibitem[{\textit{White}()}]{White99}
+White, F.~M. (), \textit{Fluid mechanics}, 4 ed., 1023 pp., McGrawHill, New
+  York.
+
 \bibitem[{\textit{Whiting et~al.}(1988)\textit{Whiting, Dietrich, Leopold,
   Drake, and Shreve}}]{Whiting88}
 Whiting, P.~J., W.~E. Dietrich, L.~B. Leopold, T.~G. Drake, and R.~L. Shreve
@@ -12061,9 +12139,9 @@ Zhou, Z., G.~Coco, I.~Townend, M.~Olabarrieta, M.~van~der Wegen, Z.~Gong,
   \doi{10.1016/j.earscirev.2016.12.002}.
 
 \bibitem[{\textit{Zhu et~al.}(2018)\textit{Zhu, LeRoy, Rhoads, and
-  Garc\'ia}}]{Zhu18}
-Zhu, Z., J.~Z. LeRoy, B.~L. Rhoads, and M.~H. Garc\'ia (2018), Hydrosedfoam: A
-  new parallelized two-dimensional hydrodynamic, sediment transport, and bed
+  Garc\'{i}a}}]{Zhu18}
+Zhu, Z., J.~Z. LeRoy, B.~L. Rhoads, and M.~H. Garc\'{i}a (2018), Hydrosedfoam:
+  A new parallelized two-dimensional hydrodynamic, sediment transport, and bed
   morphology model, \textit{Comput. Geosci.}, \textit{120}, 32--39,
   \doi{https://doi.org/10.1016/j.cageo.2018.07.008}.
 
@@ -12073,7 +12151,7 @@ Zijlema, M. (2015), Computational modelling flow and transport, \textit{Tech.
 
 \bibitem[{\textit{Zijlema}(2020)}]{Zijlema20}
 Zijlema, M. (2020), Computation of free surface waves in coastal waters with
-  swash on unstructured grids, \textit{Computers & Fluids}, \textit{213},
+  swash on unstructured grids, \textit{Computers \& Fluids}, \textit{213},
   104,751, \doi{https://doi.org/10.1016/j.compfluid.2020.104751}.
 
 \bibitem[{\textit{Zima et~al.}(2015)\textit{Zima, Nowak-Oc\l{}o\'{n}, and
