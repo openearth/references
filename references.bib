@@ -29771,4 +29771,32 @@ discussion on scour at tidal bridges to reflect material now covered in HEC-25 (
   number =      {only data - report to follow}, 
 }
 
+@Article{Vanzo21,
+  author       = {Davide Vanzo and Samuel Peter and Lukas Vonwiller and Matthias Bürgler and Manuel Weberndorfer and Annunziato Siviglia and Daniel Conde and David F. Vetsch},
+  date         = {2021},
+  journaltitle = {Environmental Modelling & Software},
+  title        = {basement v3: A modular freeware for river process modelling over multiple computational backends},
+  doi          = {https://doi.org/10.1016/j.envsoft.2021.105102},
+  issn         = {1364-8152},
+  pages        = {105102},
+  url          = {https://www.sciencedirect.com/science/article/pii/S1364815221001456},
+  volume       = {143},
+  abstract     = {Modelling river physical processes is of critical importance for flood protection, river management and restoration of riverine environments. Developments in algorithms and computational power have led to a wider spread of river simulation tools. However, the use of two-dimensional models can still be hindered by complexity in the setup and the high computational costs. Here we present the freeware basement version 3, a flexible tool for two-dimensional river simulations that bundles solvers for hydrodynamic, morphodynamic and scalar advection-diffusion processes. basement leverages different computational platforms (multi-core CPUs and graphics processing units GPUs) to enable the simulation of large domains and long-term river processes. The adoption of a fully costless workflow and a light GUI facilitate its broad utilization. We test its robustness and efficiency in a selection of benchmarks. Results confirm that basement could be an efficient and versatile tool for research, engineering practice and education in river modelling.},
+  keywords     = {GPU-CUDA, River modelling, Unstructured grid, Shallow water, Sediment transport, Pollutant transport},
+}
+
+@Article{Siviglia22,
+  author       = {A. Siviglia and D. Vanzo and E.F. Toro},
+  date         = {2022},
+  journaltitle = {Advances in Water Resources},
+  title        = {A splitting scheme for the coupled Saint-Venant-Exner model},
+  doi          = {https://doi.org/10.1016/j.advwatres.2021.104062},
+  issn         = {0309-1708},
+  pages        = {104062},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0309170821002153},
+  volume       = {159},
+  abstract     = {We present a splitting method for the one-dimensional Saint-Venant-Exner equations used for describing the bed evolution in shallow water systems. We adapt the flux vector splitting approach of Toro and Vázquez-Cendón (2012) and identify one subsystem of conservative equations (advection system) and one of non-conservative equations (pressure system), both having a very simple eigenstructure compared to the full system. The final numerical scheme is constructed using a Godunov-type path-conservative scheme for the pressure system and a simple conservative Godunov method for the advection system and solved following a coupled solution strategy. The resulting first-order accurate method is extended to second order of accuracy in space and time via the ADER approach together with an AENO reconstruction technique. Accuracy, robustness and well-balanced properties of the resulting scheme are assessed through a carefully selected suite of testcases. The scheme is exceedingly simple, accurate and robust as the sophisticated Godunov methods. A distinctive feature of the novel scheme is its flexibility in the choice of the sediment transport closure formula, which makes it particularly attractive for scientific and engineering applications.},
+  keywords     = {Numerical morphodynamics, Saint-Venant-Exner model, Flux splitting, Finite volume methods, Sediment transport, ADER Method},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
