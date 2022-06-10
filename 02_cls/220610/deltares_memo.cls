@@ -109,6 +109,7 @@
 
 \usepackage{hyperref}
 \hypersetup{pdfborder={0 0 0}, bookmarksnumbered=true, colorlinks=true, linkcolor=dbluelink, citecolor=dbluelink, urlcolor=dbluelink}
+\usepackage{lastpage}
 \usepackage{etoolbox}% http://ctan.org/pkg/etoolbox: needed for conditional list of figures and list of tables
 \usepackage{nomencl}
 \usepackage[intoc]{nomentbl}
@@ -253,21 +254,21 @@
 \renewcommand{\@dotsep}{10000}
 %\renewcommand*\l@chapter{\@dottedtocline{0}{-14mm}{14mm}}
 \renewcommand*\l@section{\@dottedtocline{1}{-14mm}{14mm}}
-\renewcommand*\l@subsection{\@dottedtocline{2}{-14mm}{14mm}}
-\renewcommand*\l@subsubsection{\@dottedtocline{3}{-14mm}{14mm}}
+\renewcommand*\l@subsection{\@dottedtocline{2}{-14mm}{21mm}}
+\renewcommand*\l@subsubsection{\@dottedtocline{3}{-14mm}{28mm}}
 \renewcommand*\l@paragraph{\@dottedtocline{4}{-14mm}{14mm}}
 \renewcommand*\l@subparagraph{\@dottedtocline{5}{-14mm}{14mm}}
 \renewcommand*\l@figure{\@dottedtocline{1}{-14mm}{14mm}}
 \renewcommand*\l@table{\l@figure}
 
-\AtEndEnvironment{figure}{\gdef\there@is@a@figure{}}%
+\AtEndEnvironment{figure}{\gdef\there@is@a@figure{}\label{fig:was:used:in:doc}}%
 \AtEndDocument{\ifdefined\there@is@a@figure\label{fig:was:used:in:doc}\fi}%
-\newcommand{\conditionalLoF}{\@ifundefined{r@fig:was:used:in:doc}{}{\listofFigures\adjustmtc}}%
+\newcommand{\conditionalLoF}{\@ifundefined{r@fig:was:used:in:doc}{}{\listofFigures}}%
 
-\AtBeginEnvironment{longtable}{\gdef\there@is@a@table{}}%
-\AtEndEnvironment{table}{\gdef\there@is@a@table{}}%
+\AtBeginEnvironment{longtable}{\gdef\there@is@a@table{}\label{table:was:used:in:doc}}%
+\AtEndEnvironment{table}{\gdef\there@is@a@table{}\label{table:was:used:in:doc}}%
 \AtEndDocument{\ifdefined\there@is@a@table\label{table:was:used:in:doc}\fi}%
-\newcommand{\conditionalLoT}{\@ifundefined{r@table:was:used:in:doc}{}{\listofTables\adjustmtc}}%
+\newcommand{\conditionalLoT}{\@ifundefined{r@table:was:used:in:doc}{}{\listofTables}}%
 
 \renewcommand\tableofcontents{%
     \if@twocolumn
@@ -330,23 +331,15 @@
         \if@restonecol\twocolumn\fi
     \endgroup
     }
-%------------------------------------------------------------------------------
-
-\usepackage{lastpage}  % must be behind any macro \AtEndDocument{...}
 
 %------------------------------------------------------------------------------
 \def\draftname{}
 
 \def\ds@draft{\overfullrule 5pt \@drafttrue}
-
 \if@dutch
     \def\@Version{Versie: \@version.\svnrev}
 \else
-    \if@spanish
-        \def\@Version{Versi\'on: \@version.\svnrev}
-    \else
-        \def\@Version{Version: \@version.\svnrev}
-    \fi
+    \def\@Version{Version: \@version.\svnrev}
 \fi
 \def\svn@revinit{00}
 \let\svnrev\svn@revinit\let\@svn@rev\svn@revinit
@@ -359,21 +352,12 @@
         \or september \or oktober \or november%
         \or december\fi}%
 \else
-    \if@spanish
-        \renewcommand{\monthname}{%
-            \ifcase\month\or Enero\or Febrero%
-            \or Marzo\or Abril\or Mayo%
-            \or Junio\or Julio\or Agosto%
-            \or Septiembre\or Octubre\or Noviembre%
-            \or Diciembre\fi}%
-    \else
-        \renewcommand{\monthname}{%
-            \ifcase\month\or January\or February%
-            \or March\or April\or May%
-            \or June\or July\or August%
-            \or September\or October\or November%
-            \or December\fi}%
-    \fi
+    \renewcommand{\monthname}{%
+        \ifcase\month\or January\or February%
+        \or March\or April\or May%
+        \or June\or July\or August%
+        \or September\or October\or November%
+        \or December\fi}%
 \fi
 %------------------------------------------------------------------------------
 \raggedbottom
@@ -737,15 +721,9 @@
       {\begin{singleplural}{Opmerking}{Opmerkingen}}
       {\end{singleplural}}
 \else
-    \if@spanish
-        \newenvironment{Remark}%
-          {\begin{singleplural}{Advertencia}{Advertencias}}
-          {\end{singleplural}}
-    \else
-        \newenvironment{Remark}%
-          {\begin{singleplural}{Remark}{Remarks}}
-          {\end{singleplural}}
-    \fi
+    \newenvironment{Remark}%
+      {\begin{singleplural}{Remark}{Remarks}}
+      {\end{singleplural}}
 \fi
 %
 \if@dutch
@@ -753,15 +731,9 @@
       {\begin{singleplural}{Restrictie}{Restricties}}
       {\end{singleplural}}
 \else
-    \if@spanish
-        \newenvironment{Restriction}%
-          {\begin{singleplural}{Restricci\'on}{Restricciones}}
-          {\end{singleplural}}
-    \else
-        \newenvironment{Restriction}%
-          {\begin{singleplural}{Restriction}{Restrictions}}
-          {\end{singleplural}}
-    \fi
+    \newenvironment{Restriction}%
+      {\begin{singleplural}{Restriction}{Restrictions}}
+      {\end{singleplural}}
 \fi
 %
 \if@dutch
@@ -769,29 +741,15 @@
       {\begin{singleplural}{Waarschuwing}{Waarschuwingen}}
       {\end{singleplural}}
 \else
-    \if@spanish
-        \newenvironment{Warning}%
-          {\begin{singleplural}{Advertencia}{Advertencias}}
-          {\end{singleplural}}
-    \else
-        \newenvironment{Warning}%
-          {\begin{singleplural}{Warning}{Warnings}}
-          {\end{singleplural}}
-    \fi
+    \newenvironment{Warning}%
+      {\begin{singleplural}{Warning}{Warnings}}
+      {\end{singleplural}}
 \fi
 %
 \newcommand{\Note}%
     {\marginpar%
         { {\vspace{-1\baselineskip}\includegraphics[height=1.5\baselineskip]{pictures/margin_note.pdf}} }%
-        \if@dutch
-            \textbf{Note:\ }
-        \else
-            \if@spanish
-                \textbf{Comprobar:\ }
-            \else
-                \textbf{Note:\ }
-            \fi
-        \fi
+     \textbf{Note:\ }
     }
 %
 \newcommand{\Tip}%
@@ -864,23 +822,13 @@
        }
       {\end{tabular}}
 \else
-    \if@spanish
-        \newenvironment{domain} % Added more spacing around the text in the header, 19/11/2008 RMC Spiteri
-        {%
-            \small\begin{tabular}{|p{4.4cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{\textwidth-63pt-11.0cm}|}
-            \multicolumn{5}{@{}l}{\textbf{Dominio:}} \\ \hline
-           \textbf{Par\'ametro} & \textbf{Inferior l\'imite} & \textbf{Superior l\'imite} & \textbf{Predeterminado} & \textbf{Unit} \\ \hline
-           }
-          {\end{tabular}}
-    \else
-        \newenvironment{domain} % Added more spacing around the text in the header, 19/11/2008 RMC Spiteri
-        {%
-            \small\begin{tabular}{|p{4.4cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{\textwidth-63pt-11.0cm}|}
-            \multicolumn{5}{@{}l}{\textbf{Domain:}} \\ \hline
-            \textbf{Parameter} & \textbf{Lower limit} & \textbf{Upper limit} & \textbf{Default} & \textbf{Unit} \\ \hline
-            }
-            {\end{tabular}}
-    \fi
+    \newenvironment{domain} % Added more spacing around the text in the header, 19/11/2008 RMC Spiteri
+    {%
+        \small\begin{tabular}{|p{4.4cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{\textwidth-63pt-11.0cm}|}
+        \multicolumn{5}{@{}l}{\textbf{Domain:}} \\ \hline
+       \textbf{Parameter} & \textbf{Lower limit} & \textbf{Upper limit} & \textbf{Default} & \textbf{Unit} \\ \hline
+       }
+      {\end{tabular}}
 \fi
 
 \newenvironment{action}%
@@ -957,8 +905,8 @@
 \newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
 \newcommand{\STRUT}{\rule{0in}{3ex}}
 
-\newcommand{\Deltares}{Deltares\xspace}
-\newcommand{\WL}{{WL\,$|$\,Delft Hydraulics\xspace}}
+\newcommand{\Deltares}{Deltares}
+\newcommand{\WL}{{WL\,$|$\,Delft Hydraulics}}
 \newcommand{\degr}{\ensuremath{^\circ}}
 \newcommand{\tenlog}{ \ensuremath{\ {}^{10}\!\log} }
 \newcommand{\twolog}{ \ensuremath{\ {}^{2}\!\log} }
@@ -985,7 +933,7 @@
 \newcommand{\option}[1]{\vspace{0.5cm}\underline{#1}}  % Emphasize an option, mainly used in WAQ TRM
 
 %% Referencing
-\newcommand*\Autoref[1]{% First letter is a capital, also from macro \Autoref; needed at the start of a sentence
+\newcommand*\Autoref[1]{% First letter is a capital, also from macro \Autoref
     \begingroup
         \if@dutch
             \def\appendixautorefname{Appendix}%
@@ -1005,8 +953,8 @@
             \def\theoremautorefname{Theorema}%
         \else
             \if@spanish
-                \def\appendixautorefname{Ap\'endice}%
-                \def\chapterautorefname{Cap\'itulo}%
+                \def\appendixautorefname{Appendix}%
+                \def\chapterautorefname{Chapter}%
                 \def\equationautorefname~##1\null{Ecuaci\'on~(##1)\null}%
                 \def\figureautorefname{Figura}%
                 \def\footnoteautorefname{Nota}%
@@ -1065,7 +1013,7 @@
     \if@spanish
         \addto\extrasspanish{%
 	        \def\appendixautorefname{ap\'endice}%
-            \def\chapterautorefname{cap\'itulo}%
+	        \def\chapterautorefname{chapter}%
 	        \def\equationautorefname~#1\null{ecuaci\'on~(#1)\null}%
 	        \def\figureautorefname{figura}%
 	        \def\footnoteautorefname{nota}%
@@ -1512,12 +1460,11 @@
 \newcommand{\perscomm}[1]{\citetext{#1, pers.\ comm.}}
 
 \if@dbiblatex
-    \newcommand{\citet}{\textcite}
-    \newcommand{\citep}{\parencite}
     \usepackage[backend=bibtex, style=deltares_authoryear, maxcitenames=2, maxbibnames=10]{biblatex}
     \newcommand{\printrefsegment}{\printbibliography[segment=\therefsegment, heading=subbibheading]}
     \newcommand{\printallbibliography}{\printbibliography[heading=bibintoc,locallabelwidth=true]}
-
+    \newcommand{\citet}{\textcite}
+    \newcommand{\citep}{\parencite}
     \if@dutch
         \DefineBibliographyStrings{dutch}{%
             bibliography = {Referenties}
@@ -1588,11 +1535,11 @@
     \def\nomZname{Subscripts}%
 \else
     \if@spanish
-        \def\nomname{Lista de S\'imbolos}
-        \def\nomAname{Caract'eres latinos}%
-        \def\nomGname{Caract'eres griegos}%
-        \def\nomXname{Super\'indices}%
-        \def\nomZname{Sub\'indices}%
+        \def\nomname{{Lista de simbolos}}
+        \def\nomAname{Caracteres latinos}%
+        \def\nomGname{Caracteres griegos}%
+        \def\nomXname{{Superindices}}%
+        \def\nomZname{{Subindices}}%
     \else
         \def\nomname{List of Symbols}
         \def\nomAname{Latin Letters}%
@@ -1625,7 +1572,6 @@
     }%
     \endgroup
     \@esphack%
-    \gdef\there@is@a@NomenClature{}
 }
 
 \makenomenclature

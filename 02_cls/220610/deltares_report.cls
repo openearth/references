@@ -19,6 +19,11 @@
 \DeclareOption{spanish}{%
     \@spanishtrue%
 }
+\newif\if@addsummary
+\@addsummarytrue
+\DeclareOption{nosummary}{%
+    \@addsummaryfalse%
+}
 \newif\if@dbiblatex% deltares biblatex
 \@dbiblatexfalse
 \DeclareOption{biblatex}{%
@@ -114,7 +119,7 @@
 
 \usepackage{hyperref}
 \hypersetup{pdfborder={0 0 0}, bookmarksnumbered=true, colorlinks=true, linkcolor=dbluelink, citecolor=dbluelink, urlcolor=dbluelink}
-
+\usepackage{lastpage}
 \usepackage{etoolbox}% http://ctan.org/pkg/etoolbox: needed for conditional list of figures and list of tables
 \usepackage{nomencl}
 \usepackage[intoc]{deltares_nomentbl}  % adjusted for the table of content
@@ -301,7 +306,7 @@
 \setlength{\mylen}{45mm} % extra space
 \addtolength{\cftpartnumwidth}{\mylen} % add the extra space
 \newlength{\tocindent}  % needed for nomenclature reference in table of contents
-\setlength{\tocindent}{19mm}
+\setlength{\tocindent}{19mm} 
 
 \renewcommand{\@dotsep}{10000}
 %\renewcommand*\l@chapter{\@dottedtocline{0}{-19mm}{23.5mm}}
@@ -319,8 +324,8 @@
 \AtEndDocument{\ifdefined\there@is@a@figure\label{fig:was:used:in:doc}\fi}%
 \newcommand{\conditionalLoF}{\@ifundefined{r@fig:was:used:in:doc}{}{\listofFigures\adjustmtc}}%
 
-\AtBeginEnvironment{longtable}{\gdef\there@is@a@table{}}%
 \AtEndEnvironment{table}{\gdef\there@is@a@table{}}%
+\AtEndEnvironment{longtable}{\gdef\there@is@a@table{}}%
 \AtEndDocument{\ifdefined\there@is@a@table\label{table:was:used:in:doc}\fi}%
 \newcommand{\conditionalLoT}{\@ifundefined{r@table:was:used:in:doc}{}{{\renewcommand{\addvspace}[1]{}\listofTables\adjustmtc}}}%
 
@@ -450,9 +455,7 @@
     \endgroup
 }
 \let\l@actie\l@figure % layout of list is the same as for figures
-%------------------------------------------------------------------------------
-
-\usepackage{lastpage}  % must be behind any macro \AtEndDocument{...}
+%=================================
 
 %------------------------------------------------------------------------------
 \def\draftname{}
@@ -479,21 +482,12 @@
         \or september \or oktober \or november%
         \or december\fi}%
 \else
-    \if@spanish
-        \renewcommand{\monthname}{%
-            \ifcase\month\or Enero\or Febrero%
-            \or Marzo\or Abril\or Mayo%
-            \or Junio\or Julio\or Agosto%
-            \or Septiembre\or Octubre\or Noviembre%
-            \or Diciembre\fi}%
-    \else
-        \renewcommand{\monthname}{%
-            \ifcase\month\or January\or February%
-            \or March\or April\or May%
-            \or June\or July\or August%
-            \or September\or October\or November%
-            \or December\fi}%
-    \fi
+    \renewcommand{\monthname}{%
+        \ifcase\month\or January\or February%
+        \or March\or April\or May%
+        \or June\or July\or August%
+        \or September\or October\or November%
+        \or December\fi}%
 \fi
 %------------------------------------------------------------------------------
 \raggedbottom
@@ -505,16 +499,20 @@
 \def\version#1{\gdef\@version{#1}}
 \def\author#1{\gdef\@author{#1}}
 \def\partner#1{\gdef\@partner{#1}}
-\def\coverPhoto#1{\gdef\@coverPhoto{#1}}
+\def\coverPhoto#1{\gdef\@coverPhoto{#1}}         
 \def\date#1{\gdef\@date{#1}}
 \def\client#1{\gdef\@client{#1}}
 \def\contact#1{\gdef\@contact{#1}}
 \def\summary#1{\gdef\@summary{#1}}
 \def\keywords#1{\gdef\@keywords{#1}}
 \def\reference#1{\gdef\@reference{#1}}
+\def\references#1{\gdef\@references{#1}}
 \def\reviewer#1{\gdef\@reviewer{#1}}
 \def\approval#1{\gdef\@approval{#1}}
 \def\disclaimer#1{\gdef\@disclaimer{#1}}
+\def\authorlisti#1{\gdef\@authorlisti{#1}}
+\def\authorlistii#1{\gdef\@authorlistii{#1}}
+\def\authorlistiii#1{\gdef\@authorlistiii{#1}}
 \def\versioni#1{\gdef\@versioni{#1}}
 \def\datei#1{\gdef\@datei{#1}}
 \def\authori#1{\gdef\@authori{#1}}
@@ -537,6 +535,7 @@
 \def\@contact{\texttt{$\backslash$contact\{\ldots\}}}
 \def\@summary{\texttt{$\backslash$summary\{\ldots\}}}
 \def\@reference{\texttt{$\backslash$reference\{\ldots\}}}
+\def\@references{\texttt{$\backslash$references\{\ldots\}}}
 \def\@keywords{\texttt{$\backslash$keywords\{\ldots\}}}
 \def\@reviewer{\texttt{$\backslash$reviewer\{\ldots\}}}
 \def\@approval{\texttt{$\backslash$approval\{\ldots\}}}
@@ -563,6 +562,10 @@
 \def\@documentid{\texttt{$\backslash$documentid\{\ldots\}}}
 \def\@classification{\texttt{$\backslash$classification\{\ldots\}}}
 
+\def\@authorlisti{\texttt{$\backslash$authorlisti\{\ldots\}}}
+\def\@authorlistii{\texttt{$\backslash$authorlistii\{\ldots\}}}
+\def\@authorlistiii{\texttt{$\backslash$authorlistiii\{\ldots\}}}
+
 \def\@versioni{\texttt{$\backslash$versioni\{\ldots\}}}
 \def\@datei{\texttt{$\backslash$datei\{\ldots\}}}
 \def\@authori{\texttt{$\backslash$authori\{\ldots\}}}
@@ -586,6 +589,10 @@
     \@statustrue%
 \else
 \fi
+
+
+
+
 
 \newcommand{\thechap}{$\;$\leftmark{}$\;$}
 \renewcommand\today{%
@@ -650,6 +657,7 @@
 \long\def\organisationiii#1{\gdef\@organisationiii{#1}}
 \long\def\organisationiv#1{\gdef\@organisationiv{#1}}
 \long\def\documentid#1{\gdef\@documentid{#1}}
+\long\def\references#1{\gdef\@references{#1}}
 \long\def\revieweri#1{\gdef\@revieweri{#1}}
 \long\def\reviewerii#1{\gdef\@reviewerii{#1}}
 \long\def\revieweriii#1{\gdef\@revieweriii{#1}}
@@ -686,6 +694,7 @@
 \long\def\@organisationiii{}
 \long\def\@organisationiv{}
 \long\def\@documentid{\texttt{$\backslash$documentid\{\ldots\}}}
+\long\def\@references{\texttt{$\backslash$references\{\ldots\}}}
 \long\def\@revieweri{\texttt{$\backslash$revieweri\{\ldots\}}}
 \long\def\@reviewerii{}
 \long\def\@revieweriii{}
@@ -730,28 +739,13 @@
 \definecolor{dgrey3}{RGB}{210,210,210}
 \definecolor{dgrey4}{RGB}{230,230,230}  % v5: color of the word 'concept' on title page
 
-\newif\if@partners
-\def\partner#1{%
-    \def\tempa{}%
-    \def\tempb{#1}%
-    \ifx\tempa\tempb
-        \@partnersfalse%
-    \else
-        \@partnerstrue%
-        \gdef\@partner{#1}
-    \fi
-}
-\ifdefined\partner
-    \@partnerstrue%
-\else
-\fi
 
 \def\maketitle{
     \newpage
     \thispagestyle{frontmatterplain}
     \setcounter{page}{2}
     \vskip 18mm
-    \hangindent 0mm \hspace*{0pt}{\huge \bf \@title\par}
+    \hangindent 0mm \hspace*{0pt}{\baselineskip 9mm \huge \bf \@title\newline}
     \hangindent 0mm \hspace*{0pt}{\large \@subtitle \par}
     \vspace{18mm}
     \if@dutch
@@ -765,21 +759,11 @@
     \fi
     \hangindent 0mm \hspace*{0mm}{\@author \par}
     \vspace{9mm}
-    \if@partners
-        \if@dutch
-            \hangindent 0mm \hspace*{0mm}{\textbf{Partners}\newline}
-        \else
-            \if@spanish
-                \hangindent 0mm \hspace*{0mm}{\textbf{Asociados}\newline}
-            \else
-                \hangindent 0mm \hspace*{0mm}{\textbf{Partners}\newline}
-            \fi
-        \fi
-        \hangindent 0mm \hspace*{0mm}{\@partner \par}
-    \fi
+    %\hangindent 0mm \hspace*{0mm}{\textbf{Partners}\newline}
+    \hangindent 0mm \hspace*{0mm}{\@partner \par}
     \vspace*{\fill}
     \begin{flushright}
-    \footnotesize\@coverPhoto
+    \@coverPhoto
     \end{flushright}
     \clearpage
     \let\maketitle\relax
@@ -831,10 +815,12 @@
     \signatureDocVersion
 
     \vfill
-
+	
+	\if@addsummary
     \nonumchapter{Executive summary}
     \@summary
-
+	\fi
+	
     {\color{dblue4}
         \nonumchapter{About Deltares}
         Deltares is an independent institute for applied research in the field of water and subsurface.
@@ -888,9 +874,9 @@
     \begin{tabular}{p{40mm-12pt}|p{\texttab-40.0mm-12pt}}
         \rowcolor{dblue1} \multicolumn{2}{l}{\textbf{Document controle}} \\
         \topline
-        \footnotesize{\textbf{Versie}} & \@versioni \\
+        \footnotesize{\textbf{Versie}} & \@version \\
         \midline
-        \footnotesize{\textbf{Datum}} & \@datei  \\
+        \footnotesize{\textbf{Datum}} & \@date  \\
         \midline
         \footnotesize{\textbf{Project nr.}} & \@projectnumber  \\
         \midline
@@ -906,10 +892,12 @@
     \signatureDocVersion
 
     \vfill
-
+	
+	\if@addsummary
     \nonumchapter{Samenvatting}
     \@summary
-
+	\fi
+	
     {\color{dblue4}
         \nonumchapter{Over Deltares}
         Deltares is een onafhankelijk kennisinstituut voor toegepast onderzoek op het gebied van water en ondergrond.
@@ -979,30 +967,32 @@
 
     \vfill
 
-    \nonumchapter{Resumen ejecutivo}
-    \@summary
-
+	\if@addsummary
+		\nonumchapter{Resumen ejecutivo}
+		\@summary
+	\fi
+	
     {\color{dblue4}
         \nonumchapter{Sobre Deltares}
         Deltares es un instituto independiente de investigaci\'on aplicada en el campo del agua y el subsuelo.
-        Trabajamos en todo el mundo buscando soluciones inteligentes, innovaci\'ones, y aplicaciones para la gente, el medio ambiente, y la sociedad.
-        Nuestro foco principal son cuencas fluviales, regiones costeras y deltas.
-        La gesti\'on de \'estas \'areas densamente pobladas es compleja, por lo que trabajamos junto con gobiernos, empresas, y otras instituciones de investigaci\'on como universidades nacionales e internacionales.
-        Nuesto motto es '\textit{Enabling Delta Life}' (posibilitando la vida en el delta).
-
-        Como instituto de investigaci\'on aplicada, el \'exito de Deltares se puede medir en base al uso de nuestro conocimiento experto en y para la sociedad.
-        Deltares aspira a la excel\'encia en nuestras habilidades y consejos, teniendo siempre en cuenta las consecuencias de nuestros resultados en el medio ambiente y la sociedad.
-
+        Trabajamos en todo el mundo buscando soluciones inteligentes, innovaci\'ones, y aplicaciones para la gente, el medio ambiente, y la sociedad. 
+        Nuestro foco principal son cuencas fluviales, regiones costeras y deltas. 
+        La gesti\'on de \'estas \'areas densamente pobladas es compleja, por lo que trabajamos junto con gobiernos, empresas, y otras instituciones de investigaci\'on como universidades nacionales e internacionales. 
+        Nuestro motto es '\textit{Enabling Delta Life}' (posibilitando la vida en el delta).
+        
+        Como instituto de investigaci\'on aplicada, el \'exito de Deltares se puede medir en base al uso de nuestro conocimiento experto en y para la sociedad. 
+        Deltares aspira a la excel\'encia en nuestras habilidades y consejos, teniendo siempre en cuenta las consecuencias de nuestros resultados en el medio ambiente y la sociedad. 
+        
         Todos nuestros contratos y proyectos contribuyen a la consolidaci\'on de nuestro conocimiento.
-        Tenemos en perspectiva el largo plazo en las soluciones de hoy.
-        Creemos en la franqueza y transparencia, como es evidente en el libre acceso a nuestros modelos y software.
-        El libre accesso funciona, es nuestra firme convicci\'on.
+        Tenemos en perspectiva el largo plazo en las soluciones de hoy. 
+        Creemos en la franqueza y transparencia, como es evidente en el libre acceso a nuestros modelos y software. 
+        El libre accesso funciona, es nuestra firme convicci\'on.    
 
         Deltares se sit\'ua en Delft y Utrecht, Pa\'ises Bajos.
         Empleas a m\'as de 800 personas de 40 nacionalidades.
         Tenemos oficinas en Australia, Indonesia, Nueva Zelanda, Filipinas, Singapur, Estados Unidos, Emiratos \'Arabes Unidos y Vietnam.
-
-        En Estados Unidos tambi\'en existe una organizaci\'on afiliada.
+        
+        En Estados Unidos tambi\'en existe una organizaci\'on afiliada. 
 
         \url{www.deltares.nl}
     }
@@ -1013,9 +1003,9 @@
         \begin{tabular}{p{40mm-12pt}|p{\texttab/2-20mm-12pt}|p{\texttab/2-20mm-12pt}}
             \rowcolor{dblue1} \multicolumn{3}{l}{\textbf{Auteur(s)}} \\
             \topline
-            & \@authori & \@organisationi \\
+            & \@authorlisti & \@organisationi \\
             \midline
-            & \@authorii & \@organisationii \\
+            & \@authorlistii & \@organisationii \\
         \end{tabular}
     \else
         \if@spanish
@@ -1023,28 +1013,24 @@
             \begin{tabular}{p{40mm-12pt}|p{\texttab/2-20mm-12pt}|p{\texttab/2-20mm-12pt}}
                 \rowcolor{dblue1} \multicolumn{3}{l}{\textbf{Autor(es)}} \\
                 \topline
-                & \@authori & \@organisationi \\
+                & \@authorlisti & \@organisationi \\
                 \midline
-                & \@authorii & \@organisationii \\
+                & \@authorlistii & \@organisationii \\
             \end{tabular}
         \else
             \hspace*{-19.75mm}
             \begin{tabular}{p{40mm-12pt}|p{\texttab/2-20mm-12pt}|p{\texttab/2-20mm-12pt}}
                 \rowcolor{dblue1} \multicolumn{3}{l}{\textbf{Author(s)}} \\
                 \topline
-                & \@authori & \@organisationi \\
+                & \@authorlisti & \@organisationi \\
                 \midline
-                & \@authorii & \@organisationii \\
+                & \@authorlistii & \@organisationii \\
             \end{tabular}
         \fi
     \fi
 }
 \newcommand{\signatureDocVersion}{
-    \vspace{\baselineskip}
     \if@dutch
-        \begin{center}
-        \color{dblue4}\huge{Onderstaande tabel is niet voor publicatie}
-        \end{center}
         \hspace*{-19.75mm}
         \begin{tabular}{p{40mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}}
             \rowcolor{dblue1}  \textbf{Doc.\ Versie} & \textbf{Auteur} & \textbf{Controle} & \textbf{Akkoord} & \textbf{Publicatie} \\
@@ -1055,22 +1041,17 @@
         \end{tabular}
     \else
         \if@spanish
-            \begin{center}
-            \color{dblue4}\huge{Esta tabla no debe ser publicada}
-            \end{center}
-            \hspace*{-19.75mm}
-            \begin{tabular}{p{40mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}}
-                \rowcolor{dblue1}  \textbf{Versi\'on doc.} & \textbf{Autor} & \textbf{Revisor} & \textbf{Visto bueno} & \textbf{Publicar} \\
+        \hspace*{-19.75mm}
+            %\begin{tabular}{p{40mm-12pt}             |p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}}
+			 \begin{tabular}{p{16mm-12pt}|p{24mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}}
+                \rowcolor{dblue1}  \textbf{Versi\'on} & \textbf{Fecha} & \textbf{Autor} & \textbf{Revisor} & \textbf{Visto bueno} & \textbf{Publicar} \\
                 \topline
-                \@versioni   & \@authori   & \@revieweri  & \@approvali  & \@publisheri \\
+                \@versioni  & \@datei & \@authori   & \@revieweri  & \@approvali  & \@publisheri \\
                 \midline
-                \@versionii  & \@authorii  & \@reviewerii & \@approvalii & \@publisherii \\
+                \@versionii & \@dateii& \@authorii  & \@reviewerii & \@approvalii & \@publisherii \\
             \end{tabular}
         \else
-            \begin{center}
-            \color{dblue4}\huge{This table is not for publication}
-            \end{center}
-            \hspace*{-19.75mm}
+        \hspace*{-19.75mm}
             \begin{tabular}{p{40mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}}
                 \rowcolor{dblue1}  \textbf{Doc.\ version} & \textbf{Author} & \textbf{Reviewer} & \textbf{Approver} & \textbf{Publish} \\
                 \topline
@@ -1140,7 +1121,7 @@
         \parbox[b]{182mm}{\FrontCircleB}%
     }%
 
-    \put(20.74,-2.54){\textcolor{white}{\rule{2.8cm}{19.7cm}}}  % white
+    %\put(20.74,-2.54){\textcolor{white}{\rule{2.8cm}{19.7cm}}}
     \put(2.54,17.06){\textcolor{white}{\rule{210mm}{8mm}}}
     \put(3.94,19.46){% 3.94 = 2.54 + 1.4; 19.46 = (29.7 - 7.7) - 2.54
         \parbox[b]{168mm}{\color{dblue4}\flushleft\Huge\textbf{\@title}}}
@@ -1149,7 +1130,7 @@
     \put(17.0,24.91){\includegraphics[height=18mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}  % 24.91 = 29.7 - 1.8 - 2.54 - 0.45(=\baselineskip)
 }
 \long\def\LastPage{%
-    \clearpage%
+    \cleardoublepage%
     \pagestyle{empty}%
 }
 \newcommand\BackCover{
@@ -1241,7 +1222,7 @@
     \if@dutch
         \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ van \pageref*{LastPage}}}%  33mm = 47 - 14mm
         \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
-                    \@documentid, Versie \@version, \@date, \@status}
+                    \@reference, Versie \@version, \@date, \@status}
         \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
         \if@druler
             \AddToShipoutPicture{\BackgroundRuler}
@@ -1250,7 +1231,7 @@
         \if@spanish
             \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ of \pageref*{LastPage}}}%
             \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
-                        \@documentid, Versi\'on \@version, \@date, \@status}
+                        \@reference, Versi\'on \@version, \@date, \@status}
             \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
             \if@druler
                 \AddToShipoutPicture{\BackgroundRuler}
@@ -1258,7 +1239,7 @@
         \else
             \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ of \pageref*{LastPage}}}%
             \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
-                        \@documentid, Version \@version, \@date, \@status}
+                        \@reference, Version \@version, \@date, \@status}
             \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
             \if@druler
                 \AddToShipoutPicture{\BackgroundRuler}
@@ -1277,18 +1258,18 @@
     \if@dutch
         \fancyfoot[LO]{\hspace{-33mm}\headerfont \thepage\ van \pageref*{LastPage}}%
         \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
-                \@documentid, Versie \@version, \@date, \@status}
+                \@reference, Versie \@version, \@date, \@status}
         \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
     \else
         \if@spanish
-            \fancyfoot[LO]{\hspace{-33mm}\headerfont \thepage\ de \pageref*{LastPage}}%
+            \fancyfoot[LO]{\hspace{-33mm}\headerfont \thepage\ of \pageref*{LastPage}}%
             \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
-                    \@documentid, Versi\'on \@version, \@date, \@status}
+                    \@reference, Versi\'on \@version, \@date, \@status}
             \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
         \else
             \fancyfoot[LO]{\hspace{-33mm}\headerfont \thepage\ of \pageref*{LastPage}}%
             \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
-                    \@documentid, Version \@version, \@date, \@status}
+                    \@reference, Version \@version, \@date, \@status}
             \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
         \fi
     \fi
@@ -1304,18 +1285,18 @@
     \if@dutch
         \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ van \pageref*{LastPage}}}%  33mm = 47 - 14mm
         \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
-                    \@documentid, Versie \@version, \@date, \@status}
+                    \@reference, Versie \@version, \@date, \@status}
         \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
     \else
         \if@spanish
-            \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ de \pageref*{LastPage}}}%
+            \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ of \pageref*{LastPage}}}%
             \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
-                        \@documentid, Versi\'on \@version, \@date, \@status}
+                        \@reference, Versi\'on \@version, \@date, \@status}
             \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
         \else
             \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ of \pageref*{LastPage}}}%
             \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
-                        \@documentid, Version \@version, \@date, \@status}
+                        \@reference, Version \@version, \@date, \@status}
             \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
         \fi
     \fi
@@ -1332,18 +1313,18 @@
     \if@dutch
         \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ van \pageref*{LastPage}}}%  33mm = 47 - 14mm
         \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle}\newline
-                    \@documentid, Versie \@version, \@date, \@status}
+                    \@reference, Versie \@version, \@date, \@status}
         \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
     \else
         \if@spanish
-            \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ de \pageref*{LastPage}}}%
+            \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ of \pageref*{LastPage}}}%
             \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
-                        \@documentid, Versi\'on \@version, \@date, \@status}
+                        \@reference, Versi\'on \@version, \@date, \@status}
             \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
         \else
             \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ of \pageref*{LastPage}}}%
             \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
-                        \@documentid, Version \@version, \@date, \@status}
+                        \@reference, Version \@version, \@date, \@status}
             \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
         \fi
     \fi
@@ -1407,15 +1388,9 @@
       {\begin{singleplural}{Opmerking}{Opmerkingen}}
       {\end{singleplural}}
 \else
-    \if@spanish
-        \newenvironment{Remark}%
-          {\begin{singleplural}{Advertencia}{Advertencias}}
-          {\end{singleplural}}
-    \else
-        \newenvironment{Remark}%
-          {\begin{singleplural}{Remark}{Remarks}}
-          {\end{singleplural}}
-    \fi
+    \newenvironment{Remark}%
+      {\begin{singleplural}{Remark}{Remarks}}
+      {\end{singleplural}}
 \fi
 %
 \if@dutch
@@ -1423,15 +1398,9 @@
       {\begin{singleplural}{Restrictie}{Restricties}}
       {\end{singleplural}}
 \else
-    \if@spanish
-        \newenvironment{Restriction}%
-          {\begin{singleplural}{Restricci\'on}{Restricciones}}
-          {\end{singleplural}}
-    \else
-        \newenvironment{Restriction}%
-          {\begin{singleplural}{Restriction}{Restrictions}}
-          {\end{singleplural}}
-    \fi
+    \newenvironment{Restriction}%
+      {\begin{singleplural}{Restriction}{Restrictions}}
+      {\end{singleplural}}
 \fi
 %
 \if@dutch
@@ -1439,29 +1408,15 @@
       {\begin{singleplural}{Waarschuwing}{Waarschuwingen}}
       {\end{singleplural}}
 \else
-    \if@spanish
-        \newenvironment{Warning}%
-          {\begin{singleplural}{Advertencia}{Advertencias}}
-          {\end{singleplural}}
-    \else
-        \newenvironment{Warning}%
-          {\begin{singleplural}{Warning}{Warnings}}
-          {\end{singleplural}}
-    \fi
+    \newenvironment{Warning}%
+      {\begin{singleplural}{Warning}{Warnings}}
+      {\end{singleplural}}
 \fi
 %
 \newcommand{\Note}%
     {\marginpar%
         { {\vspace{-1\baselineskip}\includegraphics[height=1.5\baselineskip]{pictures/margin_note.pdf}} }%
-        \if@dutch
-            \textbf{Note:\ }
-        \else
-            \if@spanish
-                \textbf{Comprobar:\ }
-            \else
-                \textbf{Note:\ }
-            \fi
-        \fi
+     \textbf{Note:\ }
     }
 %
 \newcommand{\Tip}%
@@ -1536,23 +1491,13 @@
        }
       {\end{tabular}}
 \else
-    \if@spanish
-        \newenvironment{domain} % Added more spacing around the text in the header, 19/11/2008 RMC Spiteri
-        {%
-            \small\begin{tabular}{|p{4.4cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{\textwidth-63pt-11.0cm}|}
-            \multicolumn{5}{@{}l}{\textbf{Dominio:}} \\ \hline
-           \textbf{Par\'ametro} & \textbf{Inferior l\'imite} & \textbf{Superior l\'imite} & \textbf{Predeterminado} & \textbf{Unit} \\ \hline
-           }
-          {\end{tabular}}
-    \else
-        \newenvironment{domain} % Added more spacing around the text in the header, 19/11/2008 RMC Spiteri
-        {%
-            \small\begin{tabular}{|p{4.4cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{\textwidth-63pt-11.0cm}|}
-            \multicolumn{5}{@{}l}{\textbf{Domain:}} \\ \hline
-            \textbf{Parameter} & \textbf{Lower limit} & \textbf{Upper limit} & \textbf{Default} & \textbf{Unit} \\ \hline
-            }
-            {\end{tabular}}
-    \fi
+    \newenvironment{domain} % Added more spacing around the text in the header, 19/11/2008 RMC Spiteri
+    {%
+        \small\begin{tabular}{|p{4.4cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{\textwidth-63pt-11.0cm}|}
+        \multicolumn{5}{@{}l}{\textbf{Domain:}} \\ \hline
+       \textbf{Parameter} & \textbf{Lower limit} & \textbf{Upper limit} & \textbf{Default} & \textbf{Unit} \\ \hline
+       }
+      {\end{tabular}}
 \fi
 
 \newenvironment{action}%
@@ -1624,6 +1569,7 @@
     \markboth{#1}{}}
 
 %------------------------------------------------------------------------------
+
 \newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
 \newcommand{\STRUT}{\rule{0in}{3ex}}
 
@@ -2282,7 +2228,7 @@
             \thefield{urlday} \addspace%
             \mkbibmonth{\thefield{urlmonth}}\addspace%
             \thefield{urlyear}\isdot)}
-    \else
+    \else 
         \if@spanish
             \DefineBibliographyStrings{spanish}{%
                 bibliography = {Referencias}
@@ -2294,7 +2240,7 @@
                 (Accedido %
                 \thefield{urlday} \addspace%
                 \mkbibmonth{\thefield{urlmonth}}\addspace%
-                \thefield{urlyear}\isdot)}
+                \thefield{urlyear}\isdot)}        
         \else %  i.e. English
             \DefineBibliographyStrings{english}{%
                 bibliography = {References}
