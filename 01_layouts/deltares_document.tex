@@ -5,11 +5,8 @@
 %---------DOCUMENT TYPE
 %----------------------------
 %
-
-\newcommand{\isreport}{0}
-%0: memo
-%1: report
-
+\newcommand{\isreport}{0} %0=memo; 1=report
+\newcommand{\addAppendix}{0} %0=no appendix; 1=add appendix
 %
 %
 %
@@ -195,9 +192,13 @@ bert.jagers@deltares.nl
 %---------APPENDIX
 %----------------------------
 %
+\ifnum \addAppendix=1
+
 \newpage
 \appendix
 \renewcommand\thesection{\AlphAlph{\value{section}}}
+
+\fi
 
 \LastPage
 \end{document}
