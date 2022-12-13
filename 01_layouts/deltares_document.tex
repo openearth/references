@@ -5,7 +5,7 @@
 %---------DOCUMENT TYPE
 %----------------------------
 %
-\newcommand{\isreport}{0} %0=memo; 1=report
+\newcommand{\isreport}{1} %0=memo; 1=report
 \newcommand{\addAppendix}{0} %0=no appendix; 1=add appendix
 %
 %
@@ -16,9 +16,10 @@
 %
 
 \ifnum \isreport=1
-	\documentclass[nosummary]{deltares_report}
+	\documentclass[english,signature]{deltares_report}
 	%language: english, ducth, spanish
 	%nosummary: writes no executive summary 
+	%signature: adds box for signatures
 \else
 	\documentclass{deltares_memo}
 \fi
@@ -52,63 +53,63 @@
 %adding a different figure on the cover
 %
 %\renewcommand{\FrontCover}{\includegraphics[height=182mm,width=182mm]{../00_figures/12_other/DJI_0017.JPG}}
-%\renewcommand{\FrontCircle}{\includegraphics[height=182mm,width=182mm]{../00_references/01_layouts/cover/cover_transparant_circle.pdf}}																	   
+%\renewcommand{\FrontCircle}{\includegraphics[height=182mm,width=182mm]{../00_references/01_layouts/cover/cover_transparant_circle.pdf}}		
+\renewcommand{\FrontCover}{\includegraphics[height=182mm,width=182mm]{pictures/Deltares_rapport_omslag_gennepperhuis.jpg}}															   
 %prevent sentence break between pages		
 \widowpenalties 1 10000
 \raggedbottom
 	
 \begin{document}
-\title{Improving the modelling of flow over groynes}
-\subtitle{Analysis of simulations and results of experiments}
-\author{Victor Chavarr\'ias 
+\svnInfo $Id: report.tex 83 2022-12-05 10:24:56Z ottevan $
+
+\title{Morphological model for the River Meuse}
+\subtitle{Case Study for the reach Lixhe-Keizersveer}
+\author{Willem Ottevanger
         \\
-				Amgad Omer
-				\\
-				Mohamed Yossef
+				V\'ictor Chavarr\'ias 
+				%\\
+				%Mohamed Yossef
 				}
 \partner{}
-\coverPhoto{Cover: View of the Waal River.}
+\coverPhoto{Cover: View of the Meuse River.}
 \date{\today}
-\version{0.1}
-\references{}
+\version{0.1.\svnInfoRevision}
 
-%list of authors
-\authorlisti{V\'ictor Chavarr\'ias}
+\authori{Willem Ottevanger}
 \organisationi{Deltares}
 
-\authorlistii{Amgad Omer}
+\authorii{V\'ictor Chavarr\'ias}
 \organisationii{Deltares}
 
-\authorlistiii{Mohamed Yossef}
-\organisationiii{Deltares}
+%\authorlistiii{Mohamed Yossef}
+%\organisationiii{Deltares}
 
 %revision table
-\authori{V\'ictor Chavarr\'ias}
 \revieweri{Migena Zagonjoli}
 \datei{\today}
-\versioni{0.1}
+\versioni{0.1.\svnInfoRevision}
 %\approvali{Bianca Peters}  
 \approvali{Johan Boon}  
 \publisheri{}
 
-\authorii{}
-\reviewerii{}
-\dateii{}
-\versionii{}
-\approvalii{}
-\publisherii{}
+%\authorii{}
+%\reviewerii{}
+%\dateii{}
+%\versionii{}
+%\approvalii{}
+%\publisherii{}
 
 \client{Rijkswaterstaat}
 \contact{Arjan Sieben}
-\keywords{groynes, Villemonte, laboratory experiments, numerical simulations.}
+\keywords{Meuse, Lixhe, Keizersveer, D-HYDRO, SMT, morphology.}
 \reference{}
 \classification{}
 \status{draft}
 \disclaimer{}
 %\summary{Executive summary} 
  
-\documentid{11206793-013-ZWS-0001}
-\projectnumber{11206793-013}
+\documentid{}
+\projectnumber{}
 
 
 %%%%%%%%
@@ -161,9 +162,6 @@ amgad.omer@deltares.nl
 %
 
 \deltarestitle
-\ifnum \isreport=1
-	\newpage
-\fi
 
 %
 %
