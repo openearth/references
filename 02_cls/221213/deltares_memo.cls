@@ -67,8 +67,6 @@
 \usepackage{float} % needed to force the location of figures \begin{figure}[H]
 \usepackage{textcomp} % needed for the promille sign: \textperthousand
 \usepackage{xspace} % needed for spaces behind a macro, but no space before punctuation
-\usepackage{xstring} % needed for string handling (GIT repository, branch and hash)
-\usepackage{catchfile} % needed for GIT repository, branch and hash
 \usepackage[final]{pdfpages} % needed for cover pages
 \usepackage[detect-all=true]{siunitx}
 
@@ -559,6 +557,7 @@
     \fancyfoot{}%
     \if@dutch
         \fancyfoot[LO]{
+            \vspace{-18mm}
             \hspace{-21mm}\parbox[t][29mm]{29mm}{\includegraphics[height=15mm]{pictures/Deltares_pay-off_D-blauw_RGB.pdf}}\newline
             \vspace{-3.0\baselineskip}
             \begin{tabular}{@{}p{\foottitlewidth}}
@@ -569,6 +568,7 @@
     \else
         \if@spanish
             \fancyfoot[LO]{
+                \vspace{-18mm}
                 \hspace{-21mm}\parbox[t][29mm]{29mm}{\includegraphics[height=15mm]{pictures/Deltares_pay-off_D-blauw_RGB.pdf}}\newline
                 \vspace{-3.0\baselineskip}
                 \begin{tabular}{@{}p{\foottitlewidth}}
@@ -578,6 +578,7 @@
             }
         \else
             \fancyfoot[LO]{
+                \vspace{-18mm}
                 \hspace{-21mm}\parbox[t][29mm]{29mm}{\includegraphics[height=15mm]{pictures/Deltares_pay-off_D-blauw_RGB.pdf}}\newline
                 \vspace{-3.0\baselineskip}
                 \begin{tabular}{@{}p{\foottitlewidth}}
@@ -1628,44 +1629,4 @@
 }
 
 \makenomenclature
-
-%------------------------------------------------------------------------------
-% retrieving GIT repository, branch and hash
-%
-
-\def\@setgitdirectory{-{}-{}-{}-}
-\def\setgitdirectory#1{\gdef\@setgitdirectory{#1}\giscontent}
-\def\@gitrepository{----}
-\def\@branch{-{}-{}-{}-}
-\def\@githashlong{-{}-{}-{}-}
-\def\@githashshort{-{}-{}-{}-}
-%
-\def\giscontent{
-    \IfFileExists{\@setgitdirectory/HEAD.}{%
-    \CatchFileDef{\headfull}{\@setgitdirectory/HEAD.}{}
-    \StrGobbleRight{\headfull}{1}[\head]
-    \StrBehind[2]{\head}{/}[\@branch]
-    \IfFileExists{\@setgitdirectory/refs/heads/\@branch.}{%
-        \CatchFileDef{\@githashlong}{\@setgitdirectory/refs/heads/\@branch.}{}
-        }{%
-        \newcommand{\@githashlong}{\dots~(in \emph{packed-refs})}
-        }
-
-    % find the git-repository
-    \CatchFileDef{\configfull}{\@setgitdirectory/config.}{}
-    \StrBehind{\configfull}{[remote "origin"]}[\gitreposA]  % look for the string "[remote "origin"]"
-    \StrBehind{\gitreposA}{=}[\gitreposB]  % then behind the equal-sign
-    \StrBefore{\gitreposB}{fetch}[\gitreposC]  % the before the "fetch" string
-    \gdef\@gitrepository{\gitreposC}
-    \StrLeft{\@githashlong}{7}[\@githashshort]
-    }{
-    }
-}
-\newcommand{\gitdirectory}{\@setgitdirectory}
-\newcommand{\gitrepository}{\@gitrepository}
-\newcommand{\githashlong}{\@githashlong}
-\newcommand{\githash}{\@githashshort}
-\newcommand{\gitbranch}{\StrSubstitute{\@branch}{_}{\_}}
-
-%------------------------------------------------------------------------------
 \makeatother

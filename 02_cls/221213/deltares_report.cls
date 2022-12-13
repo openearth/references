@@ -1,3 +1,4 @@
+\NeedsTeXFormat{LaTeX2e}[1995/12/01]
 \ProvidesClass{deltares_report}
               [2020/01/05 v2.0 Deltares report class]
 \DeclareOption{onecolumn}{\OptionNotUsed}
@@ -18,12 +19,7 @@
 \DeclareOption{spanish}{%
     \@spanishtrue%
 }
-\newif\if@signature
-\@signaturefalse
-\DeclareOption{signature}{%
-    \@signaturetrue%
-}
-\newif\if@dbiblatex%  deltares biblatex
+\newif\if@dbiblatex% deltares biblatex
 \@dbiblatexfalse
 \DeclareOption{biblatex}{%
     \@dbiblatextrue%
@@ -76,8 +72,6 @@
 \usepackage{float} % needed to force the location of figures \begin{figure}[H]
 \usepackage{textcomp} % needed for the promille sign: \textperthousand
 \usepackage{xspace} % needed for spaces behind a macro, but no space before punctuation
-\usepackage{xstring} % needed for string handling (GIT repository, branch and hash)
-\usepackage{catchfile} % needed for GIT repository, branch and hash
 \usepackage[final]{pdfpages} % needed for cover pages
 \usepackage[detect-all=true]{siunitx}
 
@@ -121,9 +115,7 @@
 \usepackage{hyperref}
 \hypersetup{pdfborder={0 0 0}, bookmarksnumbered=true, colorlinks=true, linkcolor=dbluelink, citecolor=dbluelink, urlcolor=dbluelink}
 
-% Because the \newif have side effects, use \newtoggle
 \usepackage{etoolbox}% http://ctan.org/pkg/etoolbox: needed for conditional list of figures and list of tables
-
 \usepackage{nomencl}
 \usepackage[intoc]{deltares_nomentbl}  % adjusted for the table of content
 \usepackage{bookmark}
@@ -216,7 +208,6 @@
 \if@druler
     \usepackage{deltares_ruler}
 \fi
-\usepackage{deltares_backcover}
 
 %------------------------------------------------------------------------------
 %
@@ -315,31 +306,31 @@
 \renewcommand{\@dotsep}{10000}
 %\renewcommand*\l@chapter{\@dottedtocline{0}{-19mm}{23.5mm}}
 \renewcommand*\l@section{\@dottedtocline{1}{-19mm}{23.5mm}}
-\renewcommand*\l@subsection{\@dottedtocline{2}{-19mm}{28.0mm}}
-\renewcommand*\l@subsubsection{\@dottedtocline{3}{-19mm}{28.0mm}}
-\renewcommand*\l@paragraph{\@dottedtocline{4}{-19mm}{28.0mm}}
-\renewcommand*\l@subparagraph{\@dottedtocline{5}{-19mm}{28.0mm}}
+\renewcommand*\l@subsection{\@dottedtocline{2}{-19mm}{23.5mm}}
+\renewcommand*\l@subsubsection{\@dottedtocline{3}{-19mm}{23.5mm}}
+\renewcommand*\l@paragraph{\@dottedtocline{4}{-19mm}{23.5mm}}
+\renewcommand*\l@subparagraph{\@dottedtocline{5}{-19mm}{23.5mm}}
 \renewcommand*\l@figure{\@dottedtocline{1}{-19mm}{19mm}}
 \renewcommand*\l@table{\l@figure}
 
 \newcommand{\conditionalToC}{\tableofcontents}
 
-\AtBeginEnvironment{longtable}{\gdef\there@is@a@table{}}%
-\AtEndEnvironment{table}{\gdef\there@is@a@table{}}%
-\AtEndDocument{\ifdefined\there@is@a@table\label{table:was:used:in:doc}\fi}%
-\newcommand{\conditionalLoT}{\@ifundefined{r@table:was:used:in:doc}{}{{\listofTables\adjustmtc}}}%
-
 \AtEndEnvironment{figure}{\gdef\there@is@a@figure{}}%
 \AtEndDocument{\ifdefined\there@is@a@figure\label{fig:was:used:in:doc}\fi}%
 \newcommand{\conditionalLoF}{\@ifundefined{r@fig:was:used:in:doc}{}{\listofFigures\adjustmtc}}%
 
+\AtBeginEnvironment{longtable}{\gdef\there@is@a@table{}}%
+\AtEndEnvironment{table}{\gdef\there@is@a@table{}}%
+\AtEndDocument{\ifdefined\there@is@a@table\label{table:was:used:in:doc}\fi}%
+\newcommand{\conditionalLoT}{\@ifundefined{r@table:was:used:in:doc}{}{{\renewcommand{\addvspace}[1]{}\listofTables\adjustmtc}}}%
+
 \AtEndEnvironment{photo}{\gdef\there@is@a@photo{}}%
 \AtEndDocument{\ifdefined\there@is@a@photo\label{photo:was:used:in:doc}\fi}%
-\newcommand{\conditionalLoP}{\@ifundefined{r@photo:was:used:in:doc}{}{\listofPhotos\adjustmtc}}%
+\newcommand{\conditionalLoP}{\@ifundefined{r@photo:was:used:in:doc}{}{{\renewcommand{\addvspace}[1]{}\listofPhotos\adjustmtc}}}%
 
 \AtEndEnvironment{actie}{\gdef\there@is@a@actie{}}%
 \AtEndDocument{\ifdefined\there@is@a@actie\label{actie:was:used:in:doc}\fi}%
-\newcommand{\conditionalLoToDo}{\@ifundefined{r@actie:was:used:in:doc}{}{\listofActies\adjustmtc}}%
+\newcommand{\conditionalLoToDo}{\@ifundefined{r@actie:was:used:in:doc}{}{{\renewcommand{\addvspace}[1]{}\listofActies\adjustmtc}}}%
 
 \AtEndDocument{\ifdefined\there@is@a@NomenClature\label{nom:was:used:in:doc}\fi}%
 \newcommand{\conditionalNomenclature}{\@ifundefined{r@nom:was:used:in:doc}{}{{\renewcommand{\addvspace}[1]{}\printnomenclature\adjustmtc}}}%
@@ -391,10 +382,8 @@
     }
 
 %=================================
-% https://www.cnltx.de/2017/04/define-new-floating-environment/
-%
-\newcounter{photo}[chapter]% the counter
-\renewcommand*\thephoto{\ifnum \c@chapter>\z@ \thechapter.\fi \@arabic\c@photo}% the default format for the counter
+\newcounter{photo}% the counter
+\renewcommand*\thephoto{\arabic{photo}}% the default format for the counter
 \newcommand*\fps@photo{tbp}% default floating options
 \newcommand*\ftype@photo{4}% float type number, needs to be a power of 2;
 % \ftype@figure=1, \ftype@table=2
@@ -427,8 +416,8 @@
 }
 \let\l@photo\l@figure % layout of list is the same as for figures
 %=================================
-\newcounter{actie}[chapter]% the counter
-\renewcommand*\theactie{\thechapter.\arabic{actie}}% the default format for the counter
+\newcounter{actie}% the counter
+\renewcommand*\theactie{\arabic{actie}}% the default format for the counter
 \newcommand*\fps@actie{tbp}% default floating options
 \newcommand*\ftype@actie{4}% float type number, needs to be a power of 2;
 % \ftype@figure=1, \ftype@table=2
@@ -446,6 +435,7 @@
         \def\@listactiename{List of To Do's}
     \fi
 \fi
+
 \newenvironment{actie}{\@float{actie}}{\end@float}% the environment
 \newenvironment{actie*}{\@dblfloat{actie}}{\end@dblfloat}% the starred
 % version for twocolumn documents
@@ -524,7 +514,7 @@
 \def\reference#1{\gdef\@reference{#1}}
 \def\reviewer#1{\gdef\@reviewer{#1}}
 \def\approval#1{\gdef\@approval{#1}}
-%\def\disclaimer#1{\gdef\@disclaimer{#1}}
+\def\disclaimer#1{\gdef\@disclaimer{#1}}
 \def\versioni#1{\gdef\@versioni{#1}}
 \def\datei#1{\gdef\@datei{#1}}
 \def\authori#1{\gdef\@authori{#1}}
@@ -534,6 +524,7 @@
 \def\projectnumber#1{\gdef\@projectnumber{#1}}
 \def\documentid#1{\gdef\@documentid{#1}}
 \def\classification#1{\gdef\@classification{#1}}
+
 
 \def\@title{\texttt{$\backslash$title\{\ldots\}}}
 \def\@subtitle{\texttt{$\backslash$subtitle\{\ldots\}}}
@@ -549,70 +540,25 @@
 \def\@keywords{\texttt{$\backslash$keywords\{\ldots\}}}
 \def\@reviewer{\texttt{$\backslash$reviewer\{\ldots\}}}
 \def\@approval{\texttt{$\backslash$approval\{\ldots\}}}
-
-\newtoggle{b_status}
-\toggletrue{b_status}
-\def\status#1{%
-    \def\tempa{}%
-    \def\tempb{#1}%
-    \ifx\tempa\tempb
-        \togglefalse{b_status}%
-    \else
-        \toggletrue{b_status}%
-        \if@ddraft
-            % Default draft text, because option ddraft was given
-        \else
-            \gdef\@status{#1}
-        \fi
+\if@dutch
+    \def\@status{\texttt{$\backslash$status\{\ldots\}}}
+    \if@ddraft
+        \def\@status{concept}
     \fi
-}
-\ifdefined\status
-    \toggletrue{b_status}%
 \else
-\fi
-
-\newtoggle{b_disclaimer}
-\toggletrue{b_disclaimer}
-\def\disclaimer#1{%
-    \def\tempa{}%
-    \def\tempb{#1}%
-    \ifx\tempa\tempb
+    \if@spanish
+        \def\@status{\texttt{$\backslash$status\{\ldots\}}}
         \if@ddraft
-            \toggletrue{b_disclaimer}
-        \else
-            \togglefalse{b_disclaimer}
+            \def\@status{borrador}
         \fi
     \else
-        \toggletrue{b_disclaimer}%
+        \def\@status{\texttt{$\backslash$status\{\ldots\}}}
         \if@ddraft
-            % Default draft text, because option ddraft was given
-        \else
-            \gdef\@disclaimer{#1}
+            \def\@status{draft}
         \fi
     \fi
-}
-
-
+\fi
 \def\@disclaimer{\texttt{$\backslash$disclaimer\{\ldots\}}}
-\def\@status{\texttt{$\backslash$status\{\ldots\}}}
-\if@ddraft
-    \toggletrue{b_disclaimer}
-    \if@dutch
-        \def\@status{Voorlopig}
-        \def\@disclaimer{Dit document is een concept en uitsluitend bedoeld voor discussiedoeleinden. Aan de inhoud van dit rapport kunnen noch door de opdrachtgever, noch door derden rechten worden ontleend.}
-    \else
-        \if@spanish
-            \def\@status{Borrador}
-            \def\@disclaimer{Este documento es un borrador el cual \'unicamente debe utilizarse para la discusi\'on del mismo. Ni el cliente ni terceros puedes derivar derecho alguno del contenido de este borrador.}
-        \else
-            \def\@status{Draft}
-            \def\@disclaimer{This is a draft report, intended for discussion purposes only. No part of this report may be relied upon by either principals or third parties.}
-       \fi
-    \fi
-\fi
-
-
-
 \def\@projectnumber{\texttt{$\backslash$projectnumber\{\ldots\}}}
 \def\@documentid{\texttt{$\backslash$documentid\{\ldots\}}}
 \def\@classification{\texttt{$\backslash$classification\{\ldots\}}}
@@ -623,6 +569,23 @@
 \def\@revieweri{\texttt{$\backslash$revieweri\{\ldots\}}}
 \def\@approvali{\texttt{$\backslash$approvali\{\ldots\}}}
 \def\@publisheri{\texttt{$\backslash$publisheri\{\ldots\}}}
+
+%\def\status#1{\gdef\@status{#1}}
+\newif\if@status
+\def\status#1{%
+    \def\tempa{}%
+    \def\tempb{#1}%
+    \ifx\tempa\tempb
+        \@statusfalse%
+    \else
+        \@statustrue%
+        \gdef\@status{#1}
+    \fi
+}
+\ifdefined\status
+    \@statustrue%
+\else
+\fi
 
 \newcommand{\thechap}{$\;$\leftmark{}$\;$}
 \renewcommand\today{%
@@ -826,7 +789,7 @@
 % Signatures GB
 %------------------------------------------------------------------------------
 %
-\newcommand{\signatureGB}{
+\newcommand{\signaturegb}{
     \newlength{\texttab}
     \setlength{\texttab}{\textwidth + 19.75mm + 14mm}%
 
@@ -860,18 +823,8 @@
         \midline
         \footnotesize{\textbf{Pages}} &  \pageref*{LastPage}  \\
         \midline
+        \footnotesize{\textbf{Status}} & \@status \newline \@disclaimer
     \end{tabular}
-    \iftoggle{b_disclaimer}{%
-        \hspace*{-19.75mm}
-        \begin{tabular}{p{40mm-12pt}|p{\texttab-40.0mm-12pt}}
-            \footnotesize{\textbf{Status}} & \@status \newline \@disclaimer
-        \end{tabular}
-    }{
-        \hspace*{-19.75mm}
-        \begin{tabular}{p{40mm-12pt}|p{\texttab-40.0mm-12pt}}
-            \footnotesize{\textbf{Status}} & \@status
-        \end{tabular}
-    }
 
     \signatureAuthors
 
@@ -879,15 +832,39 @@
 
     \vfill
 
-    \nonumchapter{Summary}
+    \nonumchapter{Executive summary}
     \@summary
+
+    {\color{dblue4}
+        \nonumchapter{About Deltares}
+        Deltares is an independent institute for applied research in the field of water and subsurface.
+        Throughout the world, we work on smart solutions, innovations and applications for people, environment and society.
+        Our main focus is on deltas, coastal regions and river basins.
+        Managing these densely populated and vulnerable areas is complex, which is why we work closely with governments, businesses, other research institutes and universities at home and abroad.
+        Our motto is 'Enabling Delta Life'.
+
+        As an applied research institute, the success of Deltares can be measured in the extent to which our expert knowledge can be used in and for society.
+        As Deltares we aim at excellence in our expertise and advice, where we always take the consequences of our results for environment and society into consideration.
+
+        All contracts and projects contribute to the consolidation of our knowledge base.
+        We look from a long-term perspective at contributions to the solutions for now.
+        We believe in openness and transparency, as is evident from the free availability of our software and models.
+        Open source works, is our firm conviction.
+
+        Deltares is based in Delft and Utrecht, the Netherlands.
+        We employ over 800 people who represent some 40 nationalities.
+        We have branch and project offices in Australia, Indonesia, New Zealand, the Philippines, Singapore, the United Arab Emirates and Vietnam.
+        In the USA Deltares also has an affiliated organization.
+
+        \url{www.deltares.nl}
+    }
 }
 %
 %------------------------------------------------------------------------------
 % Signature NL
 %------------------------------------------------------------------------------
 %
-\newcommand{\signatureNL}{
+\newcommand{\signaturenl}{
     \newlength{\texttab}
     \setlength{\texttab}{\textwidth + 19.75mm + 14mm}%
 
@@ -898,9 +875,9 @@
     \vspace*{0\baselineskip}
     \hspace*{-19.75mm}
     \begin{tabular}{p{40mm-12pt}|p{\texttab-40.0mm-12pt}}
-        \footnotesize{\textbf{Opdrachtgever}} & \@client \\
+        \footnotesize{\textbf{Klant}} & \@client \\
         \midline
-        \footnotesize{\textbf{Contactpersoon}} & \@contact \\
+        \footnotesize{\textbf{Contact}} & \@contact \\
         \midline
         \footnotesize{\textbf{Referenties}} & \@reference  \\
         \midline
@@ -915,24 +892,14 @@
         \midline
         \footnotesize{\textbf{Datum}} & \@datei  \\
         \midline
-        \footnotesize{\textbf{Projectnummer}} & \@projectnumber  \\
+        \footnotesize{\textbf{Project nr.}} & \@projectnumber  \\
         \midline
         \footnotesize{\textbf{Document ID}} & \@documentid  \\
         \midline
         \footnotesize{\textbf{Pagina's}} &  \pageref*{LastPage}  \\
         \midline
+        \footnotesize{\textbf{Status}} & \@status \newline \@disclaimer
     \end{tabular}
-    \iftoggle{b_disclaimer}{%
-        \hspace*{-19.75mm}
-        \begin{tabular}{p{40mm-12pt}|p{\texttab-40.0mm-12pt}}
-            \footnotesize{\textbf{Status}} & \@status \newline \@disclaimer
-        \end{tabular}
-    }{
-        \hspace*{-19.75mm}
-        \begin{tabular}{p{40mm-12pt}|p{\texttab-40.0mm-12pt}}
-            \footnotesize{\textbf{Status}} & \@status
-        \end{tabular}
-    }
 
     \signatureAuthors
 
@@ -942,13 +909,34 @@
 
     \nonumchapter{Samenvatting}
     \@summary
+
+    {\color{dblue4}
+        \nonumchapter{Over Deltares}
+        Deltares is een onafhankelijk kennisinstituut voor toegepast onderzoek op het gebied van water en ondergrond.
+        Wereldwijd werken we aan slimme innovaties, oplossingen en toepassingen voor mens, milieu en maatschappij.
+        We richten ons voornamelijk op delta's, kustregio's en riviergebieden.
+        Omdat het beheer van deze dichtbevolkte en kwetsbare gebieden complex is, werken we nauw samen met overheden, ondernemingen, kennisinstellingen en universiteiten in binnen- en buitenland.
+        Ons motto is 'Enabling Delta Life'.
+
+        Als toegepast kennisinstituut zijn we succesvol wanneer onze kennis wordt verzilverd in en voor de samenleving.
+        We stellen hoge eisen aan de kwaliteit van onze kennis en adviezen, rekening houdend met nieuwe wetenschappelijke inzichten, maar ook met de gevolgen die onze adviezen hebben voor milieu en samenleving.
+
+        Al onze opdrachten en projecten leveren een bijdrage aan het verstevigen van de kennisbasis.
+        We kijken vanuit een lange termijn perspectief, naar bijdragen voor de oplossingen voor nu.
+        Wij hechten zeer aan openheid en transparantie.
+        Die houding is onder meer terug te zien in het vrij toegankelijk maken van de door Deltares ontwikkelde software en modellen.
+        Open source werkt, is onze vaste overtuiging.
+        Deltares heeft ruim 800 medewerkers en is gevestigd in Delft en Utrecht.
+
+        \url{www.deltares.nl}
+    }
 }
 %
 %------------------------------------------------------------------------------
 % Signatures ES
 %------------------------------------------------------------------------------
 %
-\newcommand{\signatureESP}{
+\newcommand{\signaturees}{
     \newlength{\texttab}
     \setlength{\texttab}{\textwidth + 19.75mm + 14mm}%
 
@@ -982,18 +970,8 @@
         \midline
         \footnotesize{\textbf{P\'aginas}} &  \pageref*{LastPage}  \\
         \midline
+        \footnotesize{\textbf{Estatus}} & \@status \newline \@disclaimer
     \end{tabular}
-    \iftoggle{b_disclaimer}{%
-        \hspace*{-19.75mm}
-        \begin{tabular}{p{40mm-12pt}|p{\texttab-40.0mm-12pt}}
-            \footnotesize{\textbf{Estatus}} & \@status \newline \@disclaimer
-        \end{tabular}
-    }{
-        \hspace*{-19.75mm}
-        \begin{tabular}{p{40mm-12pt}|p{\texttab-40.0mm-12pt}}
-            \footnotesize{\textbf{Estatus}} & \@status
-        \end{tabular}
-    }
 
     \signatureAuthors
 
@@ -1003,6 +981,31 @@
 
     \nonumchapter{Resumen ejecutivo}
     \@summary
+
+    {\color{dblue4}
+        \nonumchapter{Sobre Deltares}
+        Deltares es un instituto independiente de investigaci\'on aplicada en el campo del agua y el subsuelo.
+        Trabajamos en todo el mundo buscando soluciones inteligentes, innovaci\'ones, y aplicaciones para la gente, el medio ambiente, y la sociedad.
+        Nuestro foco principal son cuencas fluviales, regiones costeras y deltas.
+        La gesti\'on de \'estas \'areas densamente pobladas es compleja, por lo que trabajamos junto con gobiernos, empresas, y otras instituciones de investigaci\'on como universidades nacionales e internacionales.
+        Nuesto motto es '\textit{Enabling Delta Life}' (posibilitando la vida en el delta).
+
+        Como instituto de investigaci\'on aplicada, el \'exito de Deltares se puede medir en base al uso de nuestro conocimiento experto en y para la sociedad.
+        Deltares aspira a la excel\'encia en nuestras habilidades y consejos, teniendo siempre en cuenta las consecuencias de nuestros resultados en el medio ambiente y la sociedad.
+
+        Todos nuestros contratos y proyectos contribuyen a la consolidaci\'on de nuestro conocimiento.
+        Tenemos en perspectiva el largo plazo en las soluciones de hoy.
+        Creemos en la franqueza y transparencia, como es evidente en el libre acceso a nuestros modelos y software.
+        El libre accesso funciona, es nuestra firme convicci\'on.
+
+        Deltares se sit\'ua en Delft y Utrecht, Pa\'ises Bajos.
+        Empleas a m\'as de 800 personas de 40 nacionalidades.
+        Tenemos oficinas en Australia, Indonesia, Nueva Zelanda, Filipinas, Singapur, Estados Unidos, Emiratos \'Arabes Unidos y Vietnam.
+
+        En Estados Unidos tambi\'en existe una organizaci\'on afiliada.
+
+        \url{www.deltares.nl}
+    }
 }
 \newcommand{\signatureAuthors}{
     \if@dutch
@@ -1037,56 +1040,46 @@
     \fi
 }
 \newcommand{\signatureDocVersion}{
-    \if@signature
-        \vspace{\baselineskip}
-        \if@dutch
-            \hspace*{-19.75mm+14mm}
-            \begin{tabular}{p{\texttab-28mm-12pt}}
-                \color{dblue4}\textbf{\textit{Gebruik van deze tabel is voor de controle van juiste uitvoering door Deltares van de opdracht. Ieder ander klantgebruik en externe verspreiding is niet toegestaan.}}
-             \end{tabular}
-
+    \vspace{\baselineskip}
+    \if@dutch
+        \begin{center}
+        \color{dblue4}\huge{Onderstaande tabel is niet voor publicatie}
+        \end{center}
+        \hspace*{-19.75mm}
+        \begin{tabular}{p{40mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}}
+            \rowcolor{dblue1}  \textbf{Doc.\ Versie} & \textbf{Auteur} & \textbf{Controle} & \textbf{Akkoord} & \textbf{Publicatie} \\
+            \topline
+            \@versioni & \@authori  & \@revieweri  & \@approvali & \@publisheri \\
+            \midline
+            \@versionii & \@authorii & \@reviewerii & \@approvalii & \@publisherii \\
+        \end{tabular}
+    \else
+        \if@spanish
+            \begin{center}
+            \color{dblue4}\huge{Esta tabla no debe ser publicada}
+            \end{center}
             \hspace*{-19.75mm}
-            \begin{tabular}{p{40mm-12pt}|p{\texttab/3-13mm-12pt}|p{\texttab/3-13mm-12pt}|p{\texttab/3-14mm-12pt}}
-                \rowcolor{dblue1}  \textbf{Doc.\ Versie} & \textbf{Auteur} & \textbf{Controle} & \textbf{Akkoord}  \\
+            \begin{tabular}{p{40mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}}
+                \rowcolor{dblue1}  \textbf{Versi\'on doc.} & \textbf{Autor} & \textbf{Revisor} & \textbf{Visto bueno} & \textbf{Publicar} \\
                 \topline
-                \@versioni & \@authori  & \@revieweri  & \@approvali  \\
+                \@versioni   & \@authori   & \@revieweri  & \@approvali  & \@publisheri \\
                 \midline
-                \@versionii & \@authorii & \@reviewerii & \@approvalii  \\
+                \@versionii  & \@authorii  & \@reviewerii & \@approvalii & \@publisherii \\
             \end{tabular}
         \else
-            \if@spanish
-                \hspace*{-19.75mm+14mm}
-                \begin{tabular}{p{\texttab-28mm-12pt}}
-                    \color{dblue4}\textbf{\textit{El uso de esta tabla se limita al control de la ejecuci\'on del encargo por parte de Deltares. No se permite cualquier otro uso por parte del cliente ni su distribuci\'on a terceros.}}
-                \end{tabular}
-
-                \hspace*{-19.75mm}
-                \begin{tabular}{p{40mm-12pt}|p{\texttab/3-13mm-12pt}|p{\texttab/3-13mm-12pt}|p{\texttab/3-14mm-12pt}}
-                    \rowcolor{dblue1}  \textbf{Versi\'on doc.} & \textbf{Autor} & \textbf{Revisor} & \textbf{Visto bueno} \\
-                    \topline
-                    \@versioni   & \@authori   & \@revieweri  & \@approvali  \\
-                    \midline
-                    \@versionii  & \@authorii  & \@reviewerii & \@approvalii  \\
-                \end{tabular}
-            \else
-                \hspace*{-19.75mm+14mm}
-                \begin{tabular}{p{\texttab-28mm-12pt}}
-                    \color{dblue4}\textbf{\textit{The allowed use of this table is limited to check the correct order-performance by Deltares. Any other client-internal-use and any external distribution is not allowed.}}
-                \end{tabular}
-
-                \hspace*{-19.75mm}
-                \begin{tabular}{p{40mm-12pt}|p{\texttab/3-13mm-12pt}|p{\texttab/3-13mm-12pt}|p{\texttab/3-14mm-12pt}}
-                    \rowcolor{dblue1}  \textbf{Doc.\ version} & \textbf{Author} & \textbf{Reviewer} & \textbf{Approver}  \\
-                    \topline
-                    \@versioni   & \@authori   & \@revieweri  & \@approvali   \\
-                    \midline
-                    \@versionii  & \@authorii  & \@reviewerii & \@approvalii  \\
-                \end{tabular}
-            \fi
+            \begin{center}
+            \color{dblue4}\huge{This table is not for publication}
+            \end{center}
+            \hspace*{-19.75mm}
+            \begin{tabular}{p{40mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}|p{\texttab/4-10mm-12pt}}
+                \rowcolor{dblue1}  \textbf{Doc.\ version} & \textbf{Author} & \textbf{Reviewer} & \textbf{Approver} & \textbf{Publish} \\
+                \topline
+                \@versioni   & \@authori   & \@revieweri  & \@approvali  & \@publisheri \\
+                \midline
+                \@versionii  & \@authorii  & \@reviewerii & \@approvalii & \@publisherii \\
+            \end{tabular}
         \fi
-        \vspace{\baselineskip}
-    \else
-    \fi% end if@signature
+    \fi
 }
 %
 %------------------------------------------------------------------------------
@@ -1121,7 +1114,15 @@
 \newcommand\BackgroundTitle{%
     \setlength{\unitlength}{1cm}%
     \if@ddraft
-        \put(3.94,25.76){\textcolor{dgrey4}{\Huge\bfseries\MakeUppercase\@status}}%  25.76  = 29.7 - 1.4 - 2.54
+        \if@dutch
+            \put(3.94,25.76){\textcolor{dgrey4}{\Huge\bfseries CONCEPT}}%  25.76  = 29.7 - 1.4 - 2.54
+        \else
+            \if@spanish
+                \put(3.94,25.76){\textcolor{dgrey4}{\Huge\bfseries BORRADOR}}%  25.76  = 29.7 - 1.4 - 2.54
+            \else
+                \put(3.94,25.76){\textcolor{dgrey4}{\Huge\bfseries DRAFT}}%  25.76  = 29.7 - 1.4 - 2.54
+            \fi
+        \fi
     \fi
     \put(2.54,-1.14){%
         \parbox[b]{182mm}{\FrontCover}%
@@ -1147,13 +1148,16 @@
         \parbox[t]{168mm}{\color{dblue4}\flushleft\Large\textbf{\@subtitle}}}
     \put(17.0,24.91){\includegraphics[height=18mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}  % 24.91 = 29.7 - 1.8 - 2.54 - 0.45(=\baselineskip)
 }
-\AtEndEnvironment{document}{
-    \cleardoublepage%
+\long\def\LastPage{%
+    \clearpage%
     \pagestyle{empty}%
-    \addtocounter{page}{0}%
-    \AddToShipoutPicture*{\BackCover}%
 }
-\long\def\LastPage{}  % empty macro, legacy
+\newcommand\BackCover{
+    \setlength{\unitlength}{1cm}
+    \put(2.54,-2.54){\transparent{1.0}{\textcolor{white}{\rule{210mm}{297mm}}}}
+    %
+    \put(15.54,-0.54){\includegraphics{pictures/deltares_merk.pdf}}
+}%
 %
 \newcommand{\reporttitle}{%
     % At this point document title is known for sure.
@@ -1176,12 +1180,12 @@
     \maketitle%
     \cleardoublepage%
     \if@dutch
-        \signatureNL
+        \signaturenl
     \else
         \if@spanish
-            \signatureESP
+            \signaturees
         \else
-            \signatureGB
+            \signaturegb
         \fi
     \fi
 
@@ -1189,8 +1193,8 @@
     \setlength{\cftbeforetoctitleskip}{-\baselineskip}
     \setlength{\cftaftertoctitleskip}{1\baselineskip}
     \conditionalToC% tableofcontents%
-    \conditionalLoT% Conditionally insert List of Tables
     \conditionalLoF% Conditionally insert List of Figures
+    \conditionalLoT% Conditionally insert List of Tables
     \conditionalLoP% Conditionally insert List of Photos
     \conditionalNomenclature% Conditionally nomenclature package: nomentbl
     \conditionalLoToDo% Conditionally insert List of To Do's
@@ -1238,22 +1242,28 @@
         \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ van \pageref*{LastPage}}}%  33mm = 47 - 14mm
         \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
                     \@documentid, Versie \@version, \@date, \@status}
-        \fancyfoot[RO]{}%
+        \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
+        \if@druler
+            \AddToShipoutPicture{\BackgroundRuler}
+        \fi
     \else
         \if@spanish
             \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ of \pageref*{LastPage}}}%
             \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
                         \@documentid, Versi\'on \@version, \@date, \@status}
-            \fancyfoot[RO]{}%
+            \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
+            \if@druler
+                \AddToShipoutPicture{\BackgroundRuler}
+            \fi
         \else
             \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ of \pageref*{LastPage}}}%
             \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
                         \@documentid, Version \@version, \@date, \@status}
-            \fancyfoot[RO]{}%
+            \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
+            \if@druler
+                \AddToShipoutPicture{\BackgroundRuler}
+            \fi
         \fi
-    \fi
-    \if@druler
-        \AddToShipoutPicture{\BackgroundRuler}
     \fi
 }
 % Used for other pages
@@ -1268,22 +1278,19 @@
         \fancyfoot[LO]{\hspace{-33mm}\headerfont \thepage\ van \pageref*{LastPage}}%
         \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
                 \@documentid, Versie \@version, \@date, \@status}
-        \fancyfoot[RO]{}%
+        \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
     \else
         \if@spanish
             \fancyfoot[LO]{\hspace{-33mm}\headerfont \thepage\ de \pageref*{LastPage}}%
             \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
                     \@documentid, Versi\'on \@version, \@date, \@status}
-            \fancyfoot[RO]{}%
+            \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
         \else
             \fancyfoot[LO]{\hspace{-33mm}\headerfont \thepage\ of \pageref*{LastPage}}%
             \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
                     \@documentid, Version \@version, \@date, \@status}
-            \fancyfoot[RO]{}%
+            \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
         \fi
-    \fi
-    \if@druler
-        \AddToShipoutPicture{\BackgroundRuler}
     \fi
 }
 % Used for signature pages
@@ -1298,22 +1305,19 @@
         \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ van \pageref*{LastPage}}}%  33mm = 47 - 14mm
         \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
                     \@documentid, Versie \@version, \@date, \@status}
-        \fancyfoot[RO]{}%
+        \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
     \else
         \if@spanish
             \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ de \pageref*{LastPage}}}%
             \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
                         \@documentid, Versi\'on \@version, \@date, \@status}
-            \fancyfoot[RO]{}%
+            \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
         \else
             \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ of \pageref*{LastPage}}}%
             \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
                         \@documentid, Version \@version, \@date, \@status}
-            \fancyfoot[RO]{}%
+            \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
         \fi
-    \fi
-    \if@druler
-        \AddToShipoutPicture{\BackgroundRuler}
     \fi
 }
 
@@ -1329,22 +1333,19 @@
         \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ van \pageref*{LastPage}}}%  33mm = 47 - 14mm
         \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle}\newline
                     \@documentid, Versie \@version, \@date, \@status}
-        \fancyfoot[RO]{}%
+        \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
     \else
         \if@spanish
             \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ de \pageref*{LastPage}}}%
             \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
                         \@documentid, Versi\'on \@version, \@date, \@status}
-            \fancyfoot[RO]{}%
+            \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
         \else
             \fancyfoot[LO]{\hspace{-34mm}\parbox[t][15mm]{15mm}{\hfill\headerfont \thepage\ of \pageref*{LastPage}}}%
             \fancyfoot[CO]{\raggedright \headerfont  \parbox[t]{\foottitlewidth}{\@exttitle} \newline
                         \@documentid, Version \@version, \@date, \@status}
-            \fancyfoot[RO]{}%
+            \fancyfoot[RO]{\vspace{-1.75mm}\parbox[t][28.5mm]{28.5mm}{\headerfont \includegraphics[height=10mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}}%
         \fi
-    \fi
-    \if@druler
-        \AddToShipoutPicture{\BackgroundRuler}
     \fi
 }
 
@@ -1577,7 +1578,7 @@
     \renewcommand{\makelabel}[1]{\quad{##1}\hfill\varlistcolon}%
     \setlength{\labelwidth}{3.7cm}% Changed to 3.7cm, 19/11/2008 RMC Spiteri
     \setlength{\leftmargin}{\labelwidth+\labelsep}%
-    \setlength{\parskip}{0pt}%
+    \setlength{\parskip}{\baselineskip/2}%
     \setlength{\topsep}{0pt}%
     \setlength{\parsep}{0pt}%
     \setlength{\itemsep}{0pt}}}
@@ -1590,7 +1591,7 @@
     \renewcommand{\makelabel}[1]{\quad{##1}\hfill\varlistcolon}%
     \setlength{\labelwidth}{2.0cm}
     \setlength{\leftmargin}{\labelwidth+\labelsep}%
-    \setlength{\parskip}{0pt}%
+    \setlength{\parskip}{\baselineskip/2}%
     \setlength{\topsep}{0pt}%
     \setlength{\parsep}{0pt}%
     \setlength{\itemsep}{0pt}}}
@@ -1607,7 +1608,7 @@
         {\parbox[t]{\labelwidth}{\raggedright\hspace{0pt}##1}}}}%
         \setlength{\labelwidth}{3.7cm}%
         \setlength{\leftmargin}{\labelwidth+\labelsep}%
-        \setlength{\parskip}{0pt}%
+        \setlength{\parskip}{\baselineskip/2}%
         \setlength{\topsep}{0pt}%
         \setlength{\parsep}{0pt}%
         \setlength{\itemsep}{0pt}
@@ -1787,7 +1788,12 @@
 % Copied from report.cls, but pagestyle now depends on front/mainmatter:
 \newcommand\BackgroundPicPart{}
 \usepackage{eso-pic}
-
+\renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
+                    \if@mainmatter\thispagestyle{plainChapter}\else\thispagestyle{frontmatterplain}\fi%
+                    \global\@topnum\z@
+                    \@afterindentfalse
+                    \secdef\@chapter\@schapter
+                    }
 \def\@part[#1]#2{%
     \ifnum \c@secnumdepth >-2\relax
       \refstepcounter{part}%
@@ -1816,6 +1822,7 @@
 \vfuzz2pt % Don't report over-full v-boxes if over-edge is small
 \hfuzz2pt % Don't report over-full h-boxes if over-edge is small
 
+
 \def\@makechapterhead#1{%
   \vspace*{-8.5mm}%
   {\parindent \z@%
@@ -1838,14 +1845,11 @@
   \vskip 1\baselineskip\nopagebreak
 }
 % Copied from report.cls, but pagestyle now depends on front/mainmatter:
-\renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi%
-                      \if@mainmatter\thispagestyle{plain}\else\thispagestyle{frontmatterplain}\fi%
-                    \addtocontents{lod}{\protect\addvspace{10\p@}}%
-                    \addtocontents{lop}{\protect\addvspace{10\p@}}%
-                    \global\@topnum\z@%
-                    \@afterindentfalse%
-                    \secdef\@chapter\@schapter%
-                    }
+\renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
+                    \if@mainmatter\thispagestyle{plain}\else\thispagestyle{frontmatterplain}\fi%
+                    \global\@topnum\z@
+                    \@afterindentfalse
+                    \secdef\@chapter\@schapter}
 
 %------------------------------------------------------------------------------
 %
@@ -2268,10 +2272,10 @@
     }
     \if@dutch
         \DefineBibliographyStrings{dutch}{%
-            bibliography = {Literatuur}
+            bibliography = {Referenties}
         }
         \defbibheading{subbibheading}{
-            \subparagraph*{Literatuur} % for \Autoref{refsegment:\therefsection\therefsegment}}
+            \subparagraph*{Referenties} % for \Autoref{refsegment:\therefsection\therefsegment}}
         }
         \DeclareFieldFormat{urldate}{%
             (Benaderd %
@@ -2375,44 +2379,4 @@
 }
 
 \makenomenclature
-
-%------------------------------------------------------------------------------
-% retrieving GIT repository, branch and hash
-%
-
-\def\@setgitdirectory{-{}-{}-{}-}
-\def\setgitdirectory#1{\gdef\@setgitdirectory{#1}\giscontent}
-\def\@gitrepository{----}
-\def\@branch{-{}-{}-{}-}
-\def\@githashlong{-{}-{}-{}-}
-\def\@githashshort{-{}-{}-{}-}
-%
-\def\giscontent{
-    \IfFileExists{\@setgitdirectory/HEAD.}{%
-    \CatchFileDef{\headfull}{\@setgitdirectory/HEAD.}{}
-    \StrGobbleRight{\headfull}{1}[\head]
-    \StrBehind[2]{\head}{/}[\@branch]
-    \IfFileExists{\@setgitdirectory/refs/heads/\@branch.}{%
-        \CatchFileDef{\@githashlong}{\@setgitdirectory/refs/heads/\@branch.}{}
-        }{%
-        \newcommand{\@githashlong}{\dots~(in \emph{packed-refs})}
-        }
-
-    % find the git-repository
-    \CatchFileDef{\configfull}{\@setgitdirectory/config.}{}
-    \StrBehind{\configfull}{[remote "origin"]}[\gitreposA]  % look for the string "[remote "origin"]"
-    \StrBehind{\gitreposA}{=}[\gitreposB]  % then behind the equal-sign
-    \StrBefore{\gitreposB}{fetch}[\gitreposC]  % the before the "fetch" string
-    \gdef\@gitrepository{\gitreposC}
-    \StrLeft{\@githashlong}{7}[\@githashshort]
-    }{
-    }
-}
-\newcommand{\gitdirectory}{\@setgitdirectory}
-\newcommand{\gitrepository}{\@gitrepository}
-\newcommand{\githashlong}{\@githashlong}
-\newcommand{\githash}{\@githashshort}
-\newcommand{\gitbranch}{\StrSubstitute{\@branch}{_}{\_}}
-
-%------------------------------------------------------------------------------
 \makeatother

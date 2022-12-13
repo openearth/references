@@ -67,17 +67,15 @@
 
 \usepackage{amstext} % for \text command in math environment
 %
+
 % to align equations left add [fleqn] as option to amsmath
 %
 \usepackage[fleqn]{amsmath}
 \usepackage{amssymb}
-\usepackage[detect-all=true]{siunitx}
+\usepackage[amssymb,textstyle]{SIunits}
 \usepackage{paralist} % inline enumeration
 
-\RequirePackage{transparent}
-\definecolor{dbluelink}{RGB}{000,000,100} % the colour of hyper links in the pdf-document (daaark blue)
-\usepackage{hyperref}
-\hypersetup{pdfborder={0 0 0}, bookmarksnumbered=true, colorlinks=true, linkcolor=dbluelink, citecolor=dbluelink, urlcolor=dbluelink}
+\usepackage[destlabel, pagebackref,pdfborder={0 0 0}, bookmarksnumbered=true, colorlinks=true, linkcolor=blue, citecolor=blue]{hyperref}
 \usepackage{lastpage}
 
 \usepackage{datetime} % to generate a timestamp
@@ -298,7 +296,7 @@
 
 \pagestyle{fancy}
 \fancyhead{}
-\fancyhead[LO,RE]{\headerfont \@program: \@memoVersion}
+\fancyhead[LO,RE]{\headerfont \Deltares\\\@program: \@memoVersion}
 \fancyhead[CO,CE]{\headerfont }
 \fancyhead[RO,LE]{\headerfont \@memoDate \\Page \thepage}
 \fancyfoot{}
@@ -310,7 +308,7 @@
     \fancyhead{}%
     \fancyhead[LO,RE]{\headerfont \@memoDate \\Page \thepage}%
     \fancyhead[CO,CE]{\headerfont }%
-    \fancyhead[RO,LE]{\headerfont \@program: \@version}%
+    \fancyhead[RO,LE]{\headerfont \Deltares\\\@program: \@version}%
     \fancyfoot{}%
     \fancyfoot[LO,RE]{\headerfont }%
     \fancyfoot[CO,CE]{}%
@@ -320,7 +318,7 @@
     \fancyhead{}
     \fancyhead[LO,RE]{\headerfont }
     \fancyhead[CO,CE]{\headerfont }
-    \fancyhead[RO,LE]{\headerfont \@program: \@memoVersion}
+    \fancyhead[RO,LE]{\headerfont \Deltares\\\@program: \@memoVersion}
     \fancyfoot{}
     \fancyfoot[LO,RE]{\headerfont }
     \fancyfoot[CO,CE]{}
@@ -333,7 +331,6 @@
 \setlength{\parsep}{1pt}
 \setlength{\partopsep}{1pt}
 
-\def\itemhook{}
 %------------------------------------------------------------------------------
 %
 % MEMO header
@@ -346,9 +343,8 @@
     \textbf{\@From}    & : & \@memoFrom \\
     \textbf{\@Subject} & : & \@memoSubject \\
     \textbf{\@Date}    & : & \@memoDate \\
-    %\textbf{\@CopyTo}  & : & \@memoCopy \\
-    %\textbf{\@Action}  & : & \@memoAction \\
-    [1ex]  \hline
+    \textbf{\@CopyTo}  & : & \@memoCopy \\
+    \textbf{\@Action}  & : & \@memoAction \\ [1ex]  \hline
     \end{tabular}
     \let\makememoHeader\relax
     \pagestyle{frontmatterplain}
@@ -468,30 +464,6 @@
     \setlength{\parsep}{0pt}%
     \setlength{\itemsep}{0pt}}}
   {\end{list}}
-
-\def\itemize{%
-  \ifnum \@itemdepth >\thr@@\@toodeep\else
-    \advance\@itemdepth\@ne
-    \edef\@itemitem{labelitem\romannumeral\the\@itemdepth}%
-    \expandafter
-    \list
-      \csname\@itemitem\endcsname
-      {\def\makelabel##1{\hss\llap{##1}}%
-        \itemhook \csname itemhook\romannumeral\the\@itemdepth\endcsname}%
-  \fi}
-\renewenvironment{description}
-                 {\list{}{\labelwidth\z@ \itemindent-\leftmargin
-                          \let\makelabel\descriptionlabel\descripthook}}
-                 {\endlist}
-
-\renewcommand{\itemhook}{%
-  \setlength{\topsep}{\baselineskip/2}%
-  \setlength{\itemsep}{0pt}%
-  \setlength{\labelwidth}{1em}%
-  \setlength{\labelsep}{2.25mm}%
-  \setlength{\leftmargin}{1em+2.25mm}%
-  \setlength{\parskip}{0pt}%
-}%
 
 %------------------------------------------------------------------------------
 
