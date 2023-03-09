@@ -21350,43 +21350,6 @@ attempting to replicate reference analytical solutions.}
   timestamp = {2015.03.09}
 }
 
-@ARTICLE{Volp15,
-  author = {N. D. Volp and B. C. van Prooijen and J. D. Pietrzak and G. S. Stelling},
-  title = {A subgrid based approach for morphodynamic modelling},
-  journal = {Adv. Water Resour.},
-  year = {2015},
-  pages = {-},
-  abstract = {Abstract To improve the accuracy and the efficiency of morphodynamic
-	simulations, we present a subgrid based approach for a morphodynamic
-	model. This approach is well suited for areas characterized by sub-critical
-	flow, like in estuaries, coastal areas and in low land rivers. This
-	new method uses a different grid resolution to compute the hydrodynamics
-	and the morphodynamics. The hydrodynamic computations are carried
-	out with a subgrid based, two-dimensional, depth-averaged model.
-	This model uses a coarse computational grid in combination with a
-	subgrid. The subgrid contains high resolution bathymetry and roughness
-	information to compute volumes, friction and advection. The morphodynamic
-	computations are carried out entirely on a high resolution grid,
-	the bed grid. It is key to find a link between the information defined
-	on the different grids in order to guaranty the feedback between
-	the hydrodynamics and the morphodynamics. This link is made by using
-	a new physics-based interpolation method. The method interpolates
-	water levels and velocities from the coarse grid to the high resolution
-	bed grid. The morphodynamic solution improves significantly when
-	using the subgrid based method compared to a full coarse grid approach.
-	The Exner equation is discretised with an upwind method based on
-	the direction of the bed celerity. This ensures a stable solution
-	for the Exner equation. By means of three examples, it is shown that
-	the subgrid based approach offers a significant improvement at a
-	minimal computational cost.},
-  doi = {10.1016/j.advwatres.2015.07.013},
-  issn = {0309-1708},
-  keywords = {Subgrid},
-  owner = {victorchavarri},
-  timestamp = {2015.11.27},
-  url = {http://www.sciencedirect.com/science/article/pii/S0309170815001608}
-}
-
 @Article{Vonmiller18,
   author =   {Vonwiller, Lukas and Vetsch, David F. and Boes, Robert M.},
   title =    {Modeling Streambank and Artificial Gravel Deposit Erosion for Sediment Replenishment},
@@ -31955,6 +31918,36 @@ doi = {https://doi.org/10.1016/0021-9991(77)90084-5},
 url = {https://www.sciencedirect.com/science/article/pii/0021999177900845},
 author = {C.K Forester},
 abstract = {Eulerian mesh computations of simple linear and nonlinear one-dimensional wave propagations with second and higher order convective difference schemes exhibit nonphysical oscillations near steep gradient regions of the solution. This computational noise may propagate a significant number of mesh intervals away from the regions in which it is generated and severely compromise the solution accuracy. Boris, Book, and van Leer have developed nonlinear filtering techniques for second order convection algorithms which effectively remove computational noise from steep gradient solutions. The principal disadvantage of these filtering techniques is that solutions of sharply peaked waves are penalized in amplitude accuracy of the extrema. A nonlinear method of filtering computational noise from fourth and higher order accurate convective difference schemes is introduced which removes the computational noise without inflicting significant amplitude losses in sharply peaked waves. One-dimensional simple linear and nonlinear test problems are used to illustrate the performance of various unfiltered and filtered convective difference schemes. It is noted that the filtered higher order convective difference schemes require less than one-third of the mesh points of the filtered second order convective difference schemes to model the extrema of sharply peaked waves to the same accuracy. Finally, the Accurate Space Derivative method of Gazdag is shown to function with the global numerical differentiation performed with compact polynomial splines. This method is at least sixth and tenth order accurate, respectively, for modeling linear waves with cubic and quintic spline differentation for Courant numbers less than about 14.}
+}
+
+@Article{Volp13,
+  author       = {Volp, N. D. and van Prooijen, B. C. and Stelling, G. S.},
+  date         = {2013},
+  journaltitle = {Water Resources Research},
+  title        = {A finite volume approach for shallow water flow accounting for high-resolution bathymetry and roughness data},
+  doi          = {https://doi.org/10.1002/wrcr.20324},
+  eprint       = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/wrcr.20324},
+  number       = {7},
+  pages        = {4126--4135},
+  url          = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/wrcr.20324},
+  volume       = {49},
+  abstract     = {This study presents a finite volume hydrodynamic model for shallow water flow that computes on a coarse grid, but accounts for high-resolution bathymetry and roughness variations on a subgrid. The detailed information can be incorporated by using the assumption of a uniform flow direction and a uniform friction slope within a part of a coarse-grid cell. It is shown in two examples that the results of coarse-grid simulations become as good as high-resolution results, but at much lower computational cost.},
+  keywords     = {shallow water equations, subgrid, salt marsh, effective depth, computational fluid dynamics, friction depth},
+}
+
+@Article{Sehili14,
+  author       = {Sehili, Aissa and Lang, Günther and Lippert, Christoph},
+  date         = {2014},
+  journaltitle = {Ocean Dynamics},
+  title        = {High-resolution subgrid models: background, grid generation, and implementation},
+  doi          = {10.1007/s10236-014-0693-x},
+  issn         = {1616-7228},
+  number       = {4},
+  pages        = {519--535},
+  url          = {https://doi.org/10.1007/s10236-014-0693-x},
+  volume       = {64},
+  abstract     = {The basic idea of subgrid models is the use of available high-resolution bathymetric data at subgrid level in computations that are performed on relatively coarse grids allowing large time steps. For that purpose, an algorithm that correctly represents the precise mass balance in regions where wetting and drying occur was derived by Casulli (Int J Numer Method Fluids 60:391-408, 2009) and Casulli and Stelling (Int J Numer Method Fluids 67:441-449, 2010). Computational grid cells are permitted to be wet, partially wet, or dry, and no drying threshold is needed. Based on the subgrid technique, practical applications involving various scenarios were implemented including an operational forecast model for water level, salinity, and temperature of the Elbe Estuary in Germany. The grid generation procedure allows a detailed boundary fitting at subgrid level. The computational grid is made of flow-aligned quadrilaterals including few triangles where necessary. User-defined grid subdivision at subgrid level allows a correct representation of the volume up to measurement accuracy. Bottom friction requires a particular treatment. Based on the conveyance approach, an appropriate empirical correction was worked out. The aforementioned features make the subgrid technique very efficient, robust, and accurate. Comparison of predicted water levels with the comparatively highly resolved classical unstructured grid model shows very good agreement. The speedup in computational performance due to the use of the subgrid technique is about a factor of 20. A typical daily forecast can be carried out in less than 10 min on a standard PC-like hardware. The subgrid technique is therefore a promising framework to perform accurate temporal and spatial large-scale simulations of coastal and estuarine flow and transport processes at low computational cost.},
+  refid        = {Sehili2014},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
