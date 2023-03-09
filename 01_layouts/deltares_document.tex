@@ -60,7 +60,6 @@
 \raggedbottom
 	
 \begin{document}
-\svnInfo $Id: report.tex 83 2022-12-05 10:24:56Z ottevan $
 
 \title{Morphological model for the River Meuse}
 \subtitle{Case Study for the reach Lixhe-Keizersveer}
@@ -123,7 +122,7 @@
 \memoTo{Arjan Sieben}
 \memoConfidentialUntil{}
 \memoDate{\today~\currenttime}
-\memoVersion{11206793-013-ZWS-0001} %11206793-013-ZWS-0001_v0.1-groynes.docx
+\memoVersion{11208420-005-OA-0002 v0.1.\svnInfoRevision} %11206793-013-ZWS-0001_v0.1-groynes.docx
 \memoFrom{\parbox[t]{3cm}{
 Victor Chavarrias \\ 
 Willem Ottevanger \\ 
@@ -160,9 +159,11 @@ amgad.omer@deltares.nl
 %---------COVER
 %----------------------------
 %
-
+\svnInfo $Id: report.tex 83 2022-12-05 10:24:56Z ottevan $
 \deltarestitle
-
+\ifnum \isreport=1
+	\newpage
+\fi
 %
 %
 %
