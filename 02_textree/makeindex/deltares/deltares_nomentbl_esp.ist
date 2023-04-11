@@ -1,0 +1,53 @@
+%%
+%% This is file `nomentbl.ist',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% nomentbl.dtx  (with options: `idxstyle')
+%% 
+%% Copyright (C) 2006 by Brian Elmegaard <be@mek.dtu.dk>
+%% 
+%% This file can be redistributed and/or modified under the terms
+%% of the LaTeX Project Public License distributed from CTAN
+%% archives in the directory macros/latex/base/lppl.txt; either
+%% version 1.2 of the license, or (at your option) any later version.
+%% 
+%% Nomenclature style file for MAKEINDEX.
+%% For nomentbl v0.4
+%% 
+%% Written by Brian Elmegaard
+%% adjusted by Jan Mooiman for Deltares
+%% 
+
+
+
+actual '@'
+quote '%'
+delim_0   ""
+delim_1   ""
+delim_2   ""
+item_0    ""
+delim_t   " \\\\\n"
+line_max  1000
+heading_prefix   "\\multicolumn{3}{@{}l@{}}{\\textit{\\textbf{\\nomgroup{"
+heading_suffix   "}}}} \\\\\n\\nopagebreak{}"
+headings_flag       0
+group_skip        "\\midline" %"\\multicolumn{3}{c}{Mooiman}\\\\"
+preamble "\n\\begin{thenomenclature}\n%
+\\begin{longtable*}[l]%
+{p{22mm-6pt}|p{19mm-6pt}|p{\\textwidth-41mm-24pt}@{}ll}\n%
+\\rowcolor{dblue1}\\textbf{{S\\'imbolo}} & \\textbf{Unidad} & \\textbf{Descripci\\'on}\\\\ 
+\\topline%
+\\endhead%
+"
+postamble "\n\\end{longtable*}\n\n\\end{thenomenclature}\n"
+keyword "\\nomenclatureentry"
+
+%%
+%%
+
+
+\endinput
+%%
+%% End of file `nomentbl.ist'.

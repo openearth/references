@@ -1,0 +1,8 @@
+{
+"Name"        : "deltares-report",
+"Author"      : "Jan Mooiman, jan.mooiman@deltares.nl",
+"Date"        : "2020-01-05",
+"Version"     : "1.0",
+"Description" : "Template for the Deltares report",
+"License"     : "GNU Free Documentation License"
+}

@@ -1,0 +1,29 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "",
+    "name": "Signature (NL): Document Versie",
+    "shortcut": "",
+    "tag": [
+        "%SCRIPT",
+        "editor.write(\"%\\n\");",
+        "editor.write(\"%--- begin Signature: Document Versie --- \\n\");",
+        "editor.write(\"\\\\renewcommand{\\\\signatureDocVersion}{\\n\");",
+        "editor.write(\"\\\\hspace*{-19.75mm}\\n\");",
+        "editor.write(\"\\\\begin{tabular}{p{40mm-12pt}|p{\\\\texttab/4-10mm-12pt}|p{\\\\texttab/4-10mm-12pt}|p{\\\\texttab/4-10mm-12pt}|p{\\\\texttab/4-10mm-12pt}} \\n\");",
+        "editor.write(\"    \\\\rowcolor{dblue1}  \\\\textbf{Doc.\\\\ versie} & \\\\textbf{Auteur} & \\\\textbf{Controle} & \\\\textbf{Akkoord} & \\\\textbf{Publikatie} \\\\\\\\  \\n\");",
+        "editor.write(\"    \\\\topline \\n\");",
+        "editor.write(\"    versie & Name (date) & Name (date) & Name (date) & 1 Name (date) \\\\\\\\ \\n\");",
+        "editor.write(\"    \\\\midline \\n\");",
+        "editor.write(\"    versie & Name (date) & Name (date) & Name (date) & 1 Name (date) \\\\\\\\ \\n\");",
+        "editor.write(\"\\\\end{tabular} \\n\");",
+        "editor.write(\"} \\n\");",
+        "editor.write(\"%--- end Signature: Document Versie --- \\n\");",
+        "editor.write(\"%\\n\");",
+        ""
+    ],
+    "trigger": ""
+}
