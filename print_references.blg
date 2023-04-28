@@ -575,7 +575,7 @@ Warning--empty journal in Ylla23
 You've used 2417 entries,
             3080 wiz_defined-function locations,
             15224 strings with 426177 characters,
-and the built_in function-call counts, 1930335 in all, are:
+and the built_in function-call counts, 1930339 in all, are:
 = -- 208720
 > -- 57209
 < -- 2012
@@ -588,23 +588,23 @@ call.type$ -- 2417
 change.case$ -- 10516
 chr.to.int$ -- 2418
 cite$ -- 2646
-duplicate$ -- 212299
-empty$ -- 120056
+duplicate$ -- 212300
+empty$ -- 120057
 format.name$ -- 22325
-if$ -- 386533
+if$ -- 386534
 int.to.chr$ -- 160
 int.to.str$ -- 1
 missing$ -- 22194
 newline$ -- 7258
 num.names$ -- 9666
-pop$ -- 73301
+pop$ -- 73298
 preamble$ -- 1
 purify$ -- 7840
 quote$ -- 0
-skip$ -- 114540
+skip$ -- 114543
 stack$ -- 0
 substring$ -- 76908
-swap$ -- 173389
+swap$ -- 173390
 text.length$ -- 480
 text.prefix$ -- 0
 top$ -- 0
