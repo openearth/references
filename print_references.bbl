@@ -1,4 +1,4 @@
-\begin{thebibliography}{2417}
+\begin{thebibliography}{2434}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -1886,6 +1886,10 @@ Bulle, H. (1926), Untersuchungen \"uber die {G}eschiebeableitung bei der
   {F}lussbaulaboratoriumder {T}echnischen {H}ochschule zu {K}arlsruhe,
   \textit{VDI Verlag, Berlin.}, (in German).
 
+\bibitem[{\textit{Burgdorffer}()}]{Burgdorffer93}
+Burgdorffer, M. (), Sedimenttransportmetingenin de maas te eijsden en maaseik
+  januari 1991, \textit{Tech. Rep. C14124-10}, \refRIZA{}, 88 pp.
+
 \bibitem[{\textit{Burge}(2006)}]{Burge06}
 Burge, L.~M. (2006), Stability, morphology and surface grain size patterns of
   channel bifurcation in gravel-cobble bedded anabranching rivers,
@@ -2289,6 +2293,12 @@ Chavarr\'ias, V., and A.~Blom (2019), Modelling degradational rivers, in
   February}, edited by E.~Stouthamer, H.~Middelkoop, M.~Kleinhans, M.~van~der
   Perk, and M.~Straatsma, 43-2019, pp. 40--41, Netherlands Center for River
   studies.
+
+\bibitem[{\textit{Chavarr\'ias and Jagers}(2023)}]{Chavarrias23}
+Chavarr\'ias, V., and B.~Jagers (2023), Implementation of an implicit 1d scheme
+  in {Delft3D FM}, in \textit{NCR DAYS 2023 | Towards 2048: the next 25 years
+  of river studies}, edited by W.~Verberk, F.~Collas, G.~Geerling, and M.-C.
+  Petersdorf, 51-2023, pp. 94--95, Netherlands Centre for River Studies.
 
 \bibitem[{\textit{Chavarr\'ias and Ottevanger}(2016)}]{Chavarrias16}
 Chavarr\'ias, V., and W.~Ottevanger (2016), Mathematical analysis of the
@@ -3231,6 +3241,10 @@ de~Jong, R.~J., N.~Struiksma, and D.~Wilkens (1992), Scale model investigation
   of water intake sunsari morang irrigation ii project, \textit{Tech. rep.},
   Delft Hydraulics Laboratory, Delft, the Netherlands.
 
+\bibitem[{\textit{de~Mars}()}]{deMars18}
+de~Mars, H. (), Systeemanalyse grensmaas, \textit{Tech. Rep.
+  WATBF5303R003F0.1}, \refRHDHV{}.
+
 \bibitem[{\textit{de~Vriend and Geldof}(1983)}]{Vriend83}
 de~Vriend, H.~J., and H.~J. Geldof (1983), Main flow velocity in short river
   bends, \textit{J. Hydraul. Eng.}, \textit{109}(7), 991--1011,
@@ -3633,10 +3647,18 @@ Duan, J.~G., S.~S.~Y. Wang, and Y.~Jia (2001), The applications of the enhanced
   Hydraul. Res.}, \textit{39}(5), 469--480,
   \doi{10.1080/00221686.2001.9628272}.
 
-\bibitem[{\textit{Duizendstra}(1999)}]{Duizendstra99}
-Duizendstra, D. (1999), {Sedimenttransport in de Grensmaas: Transportcapaciteit
-  en aanbod van sediment.}, \textit{Tech. Rep. werkdocument 99.158X},
-  Rijkswaterstaat RIZA.
+\bibitem[{\textit{Duizendstra}(1999{\natexlab{a}})}]{Duizendstra99}
+Duizendstra, D. (1999{\natexlab{a}}), {Sedimenttransport in de Grensmaas:
+  Transportcapaciteit en aanbod van sediment.}, \textit{Tech. Rep. werkdocument
+  99.158X}, Rijkswaterstaat RIZA.
+
+\bibitem[{\textit{Duizendstra}(2000)}]{Duizendstra00}
+Duizendstra, D. (2000), {Bodemtransport metingen in de Grensmaas vanaf
+  bruggen}, \textit{Tech. Rep. werkdocument 2000.083x}, Rijkswaterstaat RIZA.
+
+\bibitem[{\textit{Duizendstra}()}]{Duizendstra01_2}
+Duizendstra, H.~D. (), Centennial channel response to climate change in an
+  engineered river, \textit{26}(1), 59--64.
 
 \bibitem[{\textit{Duizendstra}(2001)}]{Duizendstra01}
 Duizendstra, H.~D. (2001), Determination of the sediment transport in an
@@ -3652,6 +3674,11 @@ Duizendstra, H.~D., and C.~Flokstra (1998), Graded sediment in {SOBEK},
 Duizendstra, H.~D., and M.Laguzzi (1996), A modified numerical scheme
   implemented in {SOBEK-GRA}, \textit{Tech. Rep. Q2128}, Delft Hydraulics
   Laboratory, Delft, the Netherlands.
+
+\bibitem[{\textit{Duizendstra}(1999{\natexlab{b}})}]{Duizendstra99_2}
+Duizendstra, L. W.~J., H. D. en van~Hal (1999{\natexlab{b}}), {Bodemtransport
+  metingen in de Grensmaas vanaf bruggen: Data-rapportage metingen 1998},
+  \textit{Tech. Rep. werkdocument 99.143X}, Rijkswaterstaat RIZA.
 
 \bibitem[{\textit{Dulal et~al.}(2010)\textit{Dulal, Kobayashi, Shimizu, and
   Parker}}]{Dulal10}
@@ -4444,6 +4471,12 @@ Frings, R., and M.~Kleinhans (2008), Complex variations in sediment transport
   at three large river bifurcations during discharge waves in the river rhine,
   \textit{Sedimentology}, \textit{55}(5), 1145--1171,
   \doi{10.1111/j.1365-3091.2007.00940.x}.
+
+\bibitem[{\textit{Frings}(2003)}]{Frings03}
+Frings, R.~M. (2003), \textit{Duinen en bodemtransport in het zomerbed van de
+  Maas bij Broekhuizen II}, 68 pp., Fysische Geoqrafie, Faculteit der
+  Geowetenschappen, Universiteit Utrecht \& Interuniversitair Centrum voor
+  Geo-ecologisch onderzoek Amsterdam.
 
 \bibitem[{\textit{Frings}(2008)}]{Frings08}
 Frings, R.~M. (2008), Downstream fining in large sand-bed rivers, \textit{Earth
@@ -6125,6 +6158,10 @@ Jerolmack, D.~J., and D.~Mohrig (2005), A unified model for subaqueous bed form
 Jervey, M. (1988), Quantitative geological modeling of siliciclastic rock
   sequences and their seismic expression, \textit{Sea-Level Changes: An
   Integrated Approach: SEPM, Special Publication}, \textit{42}, 47--69.
+
+\bibitem[{\textit{Jesse}(2001)}]{Jesse01}
+Jesse, P. (2001), {Uitwerking sedimenttransportmetingen: Zandmaas rkm 141,3:
+  december 1999}, \textit{rapport 2001.141x}, RIZA, Lelystad, 24 p. pp.
 
 \bibitem[{\textit{Jia and Wang}(1999)}]{Jia99}
 Jia, Y., and S.~S.~Y. Wang (1999), Numerical model for channel flow and
@@ -8855,6 +8892,10 @@ on~Flow, A. T.~C., and T.~over Dunes (2002), Flow and transport over dunes,
   \textit{Journal of Hydraulic Engineering}, \textit{128}(8), 726--728,
   \doi{10.1061/(ASCE)0733-9429(2002)128:8(726)}.
 
+\bibitem[{\textit{Onjira}(2023)}]{Onjira23}
+Onjira, P. (2023), Living lab rhine (lilar): Comparison of sediment measurement
+  methods between the netherlands and germany, \textit{Tech. rep.}, BfG.
+
 \bibitem[{\textit{Oreskes et~al.}(1994)\textit{Oreskes, Shrader-Frechette, and
   Belitz}}]{Oreskes94}
 Oreskes, N., K.~Shrader-Frechette, and K.~Belitz (1994), Verification,
@@ -10210,7 +10251,9 @@ Runge, C. (1895), {U}eber die numerische {A}ufl{\"o}sung von
   begroeide kaden, nota 68.8 RWS.
 
 \bibitem[{\textit{{RWS, Directie Limburg}}(1968)}]{RWS68_3}
-{RWS, Directie Limburg} (1968), Materiaaltransport door de maas, nota 68.8 RWS.
+{RWS, Directie Limburg} (1968), Materiaaltransport door de maas, \textit{Tech.
+  Rep. 68.8}, Rijkswaterstaat, Directie Limburg, Studiedienst Maas, Maastricht,
+  the Netherlands, nota 68.8 RWS.
 
 \bibitem[{\textit{{RWS, Directie Limburg}}(1979)}]{RWS79}
 {RWS, Directie Limburg} (1979), Waterloopkundige aspecten in het winterbed van
@@ -10439,6 +10482,14 @@ Schoonman, H. (1991), {Bodemtransportmetingen op de Grensmaas}, \textit{rapport
 \bibitem[{\textit{Schrier}(2004)}]{vanderSchrier04}
 Schrier, D. M. v.~d. (2004), Wanneer de ijssel een rijntak werd en hoe het meer
   flevo afwaterde, \textit{Westerheem}, \textit{53}, 182--189.
+
+\bibitem[{\textit{Schrijvershof et~al.}(2023)\textit{Schrijvershof, van Maren,
+  Torfs, and Hoitink}}]{Schrijvershof23}
+Schrijvershof, R.~A., D.~S. van Maren, P.~J. J.~F. Torfs, and A.~J.~F. Hoitink
+  (2023), A synthetic spring-neap tidal cycle for long-term morphodynamic
+  models, \textit{Journal of Geophysical Research: Earth Surface},
+  \textit{128}(3), e2022JF006,799, \doi{https://doi.org/10.1029/2022JF006799},
+  e2022JF006799 2022JF006799.
 
 \bibitem[{\textit{Schropp et~al.}(2000)\textit{Schropp, Jesse, and
   {\van{Essen}{Van}{van}}~Essen}}]{Schropp00}
@@ -11671,6 +11722,10 @@ Ten~Brinke, W. B.~M., L.~J. Bolwidt, E.~Snippen, and L.~W. van Hal (2001),
   {D}irectie {O}ost-{N}ederland, \textit{Tech. Rep. 2001.043}, RIZA, (in
   Dutch).
 
+\bibitem[{\textit{Termes}()}]{Termes98}
+Termes, A. P.~P. (), Monitoring morfologie maas (hoofdstuk 6), \textit{Tech.
+  Rep. PR075.20}, Directie Limburg, ANWR.
+
 \bibitem[{\textit{Termes}(1986)}]{Termes86}
 Termes, A. P.~P. (1986), Vertical composition of sediment in a dune, {R}
   657-xxx, {R} 1626, \textit{Tech. rep.}, Delft Hydraulics Laboratory, Delft,
@@ -11686,6 +11741,10 @@ Thatcher, M.~L., and D.~R.~F. Harleman (1972), A mathematical model for the
   prediction of unsteady salinity intrusion in estuaries, \textit{{T}ech.
   {R}ep. NOAA-2-35150}, Sea Grant Project Office, Massachusetts Inst. of Tech.,
   Cambridge, MA, United States., 234 pp.
+
+\bibitem[{\textit{Thomas and Paton}()}]{Thomas75}
+Thomas, A.~R., and T.~A.~L. Paton (), Claude cavendish inglis, 3 march 1883 -
+  29 august 1974, \textit{21}, 366--388, \doi{10.1098/rsbm.1975.0010}.
 
 \bibitem[{\textit{Thomas et~al.}(2011)\textit{Thomas, Parsons, Sandbach,
   Keevil, Marra, Hardy, Best, Lane, and Ross}}]{Thomas11}
@@ -12123,6 +12182,10 @@ van~der Kaaij, T., and V.~Chavarrias (2019), Preliminary simulations with the
   6th generation 3d rmm model, \textit{Tech. Rep. 11203714-015-ZWS-0002},
   Deltares, Delft, the Netherlands, 58 pp.
 
+\bibitem[{\textit{van~der Maaten and Hinton}(2008)}]{Maaten08}
+van~der Maaten, L., and G.~E. Hinton (2008), Visualizing data using t-sne,
+  \textit{Journal of Machine Learning Research}, \textit{9}, 2579--2605.
+
 \bibitem[{\textit{{van der}~Mark}(2004)}]{vanderMark04}
 {van der}~Mark, C.~F. (2004), Sedimentverdeling bij riviersplitsingen, Master's
   thesis, Delft University of Technology.
@@ -12202,6 +12265,14 @@ van Rooijen, E., E.~Mosselman, K.~Sloff, and W.~Uijttewaal (2020), The effect
 \van{Deijl}{Van der}{van der} Deijl, E. (2022), Validatie hoogwater maas juli
   2021, \textit{Tech. Rep. 11208053-002-ZWS-0006}, Deltares, Delft, the
   Netherlands.
+
+\bibitem[{\textit{{\van{Van der}{van der}{Toorn}}~Toorn}()}]{vanderToorn66}
+{\van{Van der}{van der}{Toorn}}~Toorn, J. (), Het slibgehalte van het water der
+  rivieren de waal en de maas, \textit{Tech. rep.}, \refRWS{}.
+
+\bibitem[{\textit{{\van{Van de}{van de}{Velde}}}()}]{vandeVelde99}
+{\van{Van de}{van de}{Velde}}, P.~A., Velde (), Analyse bodemmonsters kenmerk
+  amu.0.981, \textit{Tech. Rep. H-1789}, \refFugro{}.
 
 \bibitem[{\textit{\van{Dijk}{Van}{van} Dijk}(2013)}]{vanDijk13}
 \van{Dijk}{Van}{van} Dijk, W.~M. (2013), Meandering rivers - feedbacks between
@@ -13100,14 +13171,22 @@ Wildt, D., C.~Hauer, H.~Habersack, and M.~Tritthart (2022), Les two-phase
   \doi{https://doi.org/10.1016/j.advwatres.2021.104095}.
 
 \bibitem[{\textit{{\van{Wildt}{De}{de}}~Wildt}(1981)}]{deWildt81}
-{\van{Wildt}{De}{de}}~Wildt, P. (1981), Sedimenttransport in de maas, nota
-  81.24 RWS.
+{\van{Wildt}{De}{de}}~Wildt, P. (1981), Sedimenttransport in de maas,
+  \textit{Nota 81.24}, nota 81.24 RWS.
 
 \bibitem[{\textit{{\van{Wildt}{De}{de}}~Wildt}(1983)}]{deWildt83}
 {\van{Wildt}{De}{de}}~Wildt, P. (1983), {E}rosie bochtafsnijding {B}oxmeer,
   \textit{RWS, WW, -rapporten ; nota 83.6 ; projectnr 65.017.00 171229},
   Ministerie van Verkeer en Waterstaat, Rijkswaterstaat, Directie
   Waterhuishouding en Waterbeweging (RWS, WW), 16 pp.
+
+\bibitem[{\textit{Wilkens and Lambeek}()}]{Wilkens97}
+Wilkens, D.~H., and J.~J.~P. Lambeek (), Bodemtransportmetingen grensmaas,
+  \textit{Tech. Rep. Q2354}, \refDHL{}.
+
+\bibitem[{\textit{Wilkens and Mosselman}()}]{Wilkens94}
+Wilkens, D.~H., and E.~Mosselman (), Measuring sediment transport in gravel-bed
+  rivers, \textit{Tech. Rep. Q 1906}, \refDHL{}.
 
 \bibitem[{\textit{Williams}(1978)}]{Williams78}
 Williams, G.~P. (1978), Bankfull discharge of rivers, \textit{Water Resour

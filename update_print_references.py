@@ -15,8 +15,10 @@ header = [
     '\\usepackage[margin=2cm,landscape,a3paper]{geometry}\n',
     '\\usepackage{natbib}\n',
     '\\usepackage{hyperref}\n',
+    '\\usepackage{pifont}\n',
     '\\DeclareRobustCommand{\\van}[3]{#2}\n',
     '\\begin{document}\n',
+    '\\input{abbreviations}\n'
     '\\section{Useless}\n',
 ]
 

@@ -13,14 +13,14 @@ Reallocating 'cite_info' (item size: 4) to 3000 items.
 Reallocating 'cite_list' (item size: 4) to 3000 items.
 Reallocating 'entry_exists' (item size: 1) to 3000 items.
 Reallocating 'type_list' (item size: 4) to 3000 items.
-White space in argument---line 2354 of file print_references.aux
+White space in argument---line 2369 of file print_references.aux
  : \citation{jabref-meta:
  :                        databaseType:biblatex;}
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 The style file: agufull08_mod.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
-Reallocating 'field_info' (item size: 4) to 65425 items.
+Reallocating 'field_info' (item size: 4) to 65850 items.
 Database file #1: references.bib
 Warning--I'm ignoring Ahnert94's extra "journal" field
 --line 381 of file references.bib
@@ -144,29 +144,25 @@ Repeated entry---line 55781 of file references.bib
  :                           ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Merrill95's extra "journal" field
---line 57697 of file references.bib
+--line 57701 of file references.bib
 Warning--I'm ignoring Ketcheson21's extra "journal" field
---line 57727 of file references.bib
-Repeated entry---line 58879 of file references.bib
+--line 57731 of file references.bib
+Repeated entry---line 58883 of file references.bib
  : @mastersthesis{Stenfert17_MSc
  :                              ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Johnson92's extra "journal" field
---line 58999 of file references.bib
+--line 59003 of file references.bib
 Reallocating 'str_pool' (item size: 1) to 455000 items.
 Warning--entry type for "Denaro23" isn't style-file defined
---line 61261 of file references.bib
-"{" immediately follows a field name---line 62137 of file references.bib
- :   abstract
- :           {Understanding the interactions between the ecosystem and the morphology of river floodplains, i.e. floodplain biogeomorphology, is becoming increasingly important in view of modern river management and climate change. There is a need for predictive models for the natural response of river floodplains to hydraulic measures and river rehabilitation, such as river widening, construction of secondary channels and floodplain lowering. This thesis investigates floodplain biogeomorphology from a modeller's perspective. It addresses management concepts such as room-for-the-river and cyclic floodplain rejuvenation, in which a symbiosis is sought for between flood management and nature rehabilitation, and it shows how 1-D, 2-D and 3-D numerical models can be used to support them. Its main focus is on one of the knowledge gaps emerging from these model applications, viz. the effect of floodplain vegetation on the bed shear stress and subsequent bedload sediment transport. By means of a combination of theory development, flume experiments and field work, this research has resulted into a number of practically applicable and validated formulations for the hydraulic resistance and bed shear stress reduction of vegetation. These can be applied in large-scale numerical morphodynamic models to better design river measures in combination with nature rehabilitation.},
-I'm skipping whatever remains of this entry
+--line 61271 of file references.bib
 Warning--string name "ce" is undefined
---line 62205 of file references.bib
-Repeated entry---line 63477 of file references.bib
+--line 62219 of file references.bib
+Repeated entry---line 63491 of file references.bib
  : @techreport{Ogink04
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 64657 of file references.bib
+Repeated entry---line 64671 of file references.bib
  : @article{Barneveld23
  :                     ,
 I'm skipping whatever remains of this entry
@@ -352,6 +348,7 @@ Warning--missing school in Doets15
 Warning--empty booktitle in Donchyts13
 Warning--can't use both author and editor fields in Drazin82
 Warning--can't use both author and editor fields in Drew99
+Warning--empty journal in Duizendstra01_2
 Name 1 in "E. Bladé, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. Vázquez-Cendón, J. Dolz, A. Coll," has a comma at the end for entry Blade14
 while executing---line 1822 of file agufull08_mod.bst
 Too many commas in name 1 of "E. Bladé, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. Vázquez-Cendón, J. Dolz, A. Coll," for entry Blade14
@@ -552,6 +549,7 @@ Warning--empty journal in Stoker92
 Warning--missing publisher in STOWA19
 Warning--can't use both author and editor fields in Strauss08
 Warning--empty booktitle in Symonds17
+Warning--empty journal in Thomas75
 Warning--missing publisher in Tockner22
 Warning--missing school in Tritthart05
 Warning--empty journal in Tsujimoto
@@ -569,48 +567,49 @@ Warning--can't use both author and editor fields in Vollmer06
 Warning--missing publisher in Vreugdenhil89
 Warning--missing publisher in deVries69
 Warning--missing publisher in Wiesemann06
+Warning--missing institution in deWildt81
 Warning--missing publisher in Winterwerp22
 Warning--empty journal in Yalin
 Warning--empty journal in Ylla23
-You've used 2417 entries,
+You've used 2434 entries,
             3080 wiz_defined-function locations,
-            15224 strings with 426177 characters,
-and the built_in function-call counts, 1930339 in all, are:
-= -- 208720
-> -- 57209
-< -- 2012
-+ -- 26694
-- -- 15712
-* -- 121954
-:= -- 189825
-add.period$ -- 2417
-call.type$ -- 2417
-change.case$ -- 10516
-chr.to.int$ -- 2418
-cite$ -- 2646
-duplicate$ -- 212300
-empty$ -- 120057
-format.name$ -- 22325
-if$ -- 386534
-int.to.chr$ -- 160
+            15326 strings with 428712 characters,
+and the built_in function-call counts, 1940439 in all, are:
+= -- 209666
+> -- 57491
+< -- 2039
++ -- 26821
+- -- 15789
+* -- 122588
+:= -- 190917
+add.period$ -- 2434
+call.type$ -- 2434
+change.case$ -- 10592
+chr.to.int$ -- 2435
+cite$ -- 2666
+duplicate$ -- 213404
+empty$ -- 120785
+format.name$ -- 22442
+if$ -- 388557
+int.to.chr$ -- 161
 int.to.str$ -- 1
-missing$ -- 22194
-newline$ -- 7258
-num.names$ -- 9666
-pop$ -- 73298
+missing$ -- 22350
+newline$ -- 7309
+num.names$ -- 9735
+pop$ -- 73811
 preamble$ -- 1
-purify$ -- 7840
+purify$ -- 7896
 quote$ -- 0
-skip$ -- 114543
+skip$ -- 114980
 stack$ -- 0
-substring$ -- 76908
-swap$ -- 173390
-text.length$ -- 480
+substring$ -- 77205
+swap$ -- 174184
+text.length$ -- 491
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 21198
-warning$ -- 185
-while$ -- 11429
+type$ -- 21348
+warning$ -- 188
+while$ -- 11492
 width$ -- 0
-write$ -- 28032
-(There were 131 error messages)
+write$ -- 28227
+(There were 130 error messages)
