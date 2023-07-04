@@ -5,8 +5,53 @@
 %---------DOCUMENT TYPE
 %----------------------------
 %
-\newcommand{\isreport}{1} %0=memo; 1=report
+
+\newcommand{\isreport}{0} %0=memo; 1=report
 \newcommand{\addAppendix}{0} %0=no appendix; 1=add appendix
+\newcommand{\addCitation}{1} %0=no; 1=yes
+
+\def\myTitle{Input for KPP 2023 nieuwsbrief}
+\def\mySubtitle{Morfologisch model van de Maas}
+\def\authorList{{Willem Ottevanger}, {V\'ictor Chavarr\'ias}}
+
+\def\myAuthori{Willem Ottevanger}
+\def\myPhonei{+31\,(0)88\,335\,8532}
+\def\myEmaili{willem.ottevanger@deltares.nl}
+
+\def\myOrganisationi{Deltares}
+\def\myAuthorii{V\'ictor Chavarr\'ias}
+\def\myPhoneii{+31\,(0)88\,335\,8033}
+\def\myEmailii{victor.ottevanger@deltares.nl}
+
+\def\myOrganisationii{Deltares}
+\def\myAuthoriii{}
+\def\myOrganisationiii{}
+\def\myAuthoriv{}
+\def\myOrganisationiv{}
+\def\myVersion{11208033-002-ZWS-xxxx}
+\def\myDate{\today}
+
+%Willem Ottevanger
+%V\'ictor Chavarr\'ias
+%Aukje Spruyt \\ 
+%Bert Jagers \\
+%Mohamed Yossef  \\
+%Amgad Omer
+
+%+31\,(0)88\,335\,8532 \\ %WO
+%+31\,(0)88\,335\,8033 \\ %VC
+%+31\,(0)88\,335\,7961 \\ %AS
+%+31\,(0)88\,335\,8264 \\ %BJ
+%+31\,(0)88\,335\,8149 \\ %MY
+%+31\,(0)88\,335\,7983    %AO
+
+%willem.ottevanger@deltares.nl
+%victor.ottevanger@deltares.nl
+%aukje.spruyt@deltares.nl \\
+%bert.jagers@deltares.nl \\
+%mohamed.yossef@deltares.nl \\
+%amgad.omer@deltares.nl
+
 %
 %
 %
@@ -32,8 +77,8 @@
 %----------------------------
 %
 
-\input{../00_references/abbreviations}
-\input{../00_references/packages}
+\input{../abbreviations}
+\input{../packages}
 
 %
 %
@@ -61,32 +106,32 @@
 	
 \begin{document}
 
-\title{Morphological model for the River Meuse}
-\subtitle{Case Study for the reach Lixhe-Keizersveer}
-\author{Willem Ottevanger
-        \\
-				V\'ictor Chavarr\'ias 
-				%\\
-				%Mohamed Yossef
-				}
+
+\title{\myTitle}
+\subtitle{\mySubtitle}
+\author{}
 \partner{}
 \coverPhoto{Cover: View of the Meuse River.}
 \date{\today}
 \version{0.1.\svnInfoRevision}
+\authori{\myAuthori{}}
+\organisationi{\myOrganisationi}
 
-\authori{Willem Ottevanger}
-\organisationi{Deltares}
 
-\authorii{V\'ictor Chavarr\'ias}
-\organisationii{Deltares}
+%\foreach \var [evaluate=\var as \myindex using {int(\var-1)}] in {1} {
+%	\pgfmathparse{\authorList[\myindex]}\pgfmathresult
+%}
+
+\authorii{\myAuthorii{}}
+\organisationii{\myOrganisationi}
 
 %\authorlistiii{Mohamed Yossef}
 %\organisationiii{Deltares}
 
 %revision table
 \revieweri{Migena Zagonjoli}
-\datei{\today}
-\versioni{0.1.\svnInfoRevision}
+\datei{\myDate}
+\versioni{\myVersion}
 %\approvali{Bianca Peters}  
 \approvali{Johan Boon}  
 \publisheri{}
@@ -116,13 +161,14 @@
 %%%%%%%%
 %
 
+
 \else
 
 \begin{document}
-\memoTo{Arjan Sieben}
+\memoTo{Anke Becker}
 \memoConfidentialUntil{}
 \memoDate{\today~\currenttime}
-\memoVersion{11208420-005-OA-0002 v0.1.\svnInfoRevision} %11206793-013-ZWS-0001_v0.1-groynes.docx
+\memoVersion{\myVersion{}} %11206793-013-ZWS-0001_v0.1-groynes.docx
 \memoFrom{\parbox[t]{3cm}{
 Victor Chavarrias \\ 
 Willem Ottevanger \\ 
@@ -134,6 +180,8 @@ Anna Kosters \\
 Amgad Omer \\
 Anke Becker \\
 Anna van den Hoek 
+\myAuthori{} \\ 
+\myAuthorii{} \\ 
 }}
 \memoTelephone{\parbox[t]{3cm}{
 +31\,(0)88\,335\,8033 \\ %VC
@@ -146,6 +194,8 @@ Anna van den Hoek
 +31\,(0)88\,335\,7983 \\ %AO
 +31\,(0)88\,335\,8161 \\ %AB
 +31\,(0)62\,739\,5038 \\ %AH
+\myPhonei{} \\ 
+\myPhoneii{} \\ 
 }}
 \memoEmail{\parbox[t]{3cm}{
 victor.chavarrias@deltares.nl \\
@@ -158,8 +208,10 @@ anna.kosters@deltares.nl \\
 amgad.omer@deltares.nl \\
 anke.becker@deltares.nl
 anna.vandenhoek@deltares.nl
+\myEmaili{} \\
+\myEmailii{}
 }}
-\memoSubject{Improving the modelling of flow over groynes}
+\memoSubject{\myTitle{}: \mySubtitle{}}
 \memoCopy{-}
 
 \fi
@@ -185,9 +237,40 @@ anna.vandenhoek@deltares.nl
 %
 
 
-\gensection{\isreport}{1}{Introduction}
+%\gensection{\isreport}{1}{Morfologisch model van de Maas}
+De rivierbodem van de Maas is onder meer van invloed op rivierwaterstanden,
+op afmetingen van de vaarweg en het onderhoud daarvan, op
+de standzekerheid van oevers en kunstwerken en op de habitat van de
+rivier. Dat maakt het kennen en voorspellen van de bodemligging voor
+rivierbeheer relevant bij:
+\begin{itemize}
+\item het ontwerp van ingrepen in/langs het zomerbed (normalisatie,
+sedimentbeheer,…),
+\item de evaluatie en toetsing van die ontwerpen (rivierkundig
+beoordelingskader),
+\item monitoring van ingrepen (rivierverruiming, vaarwegverruiming,
+zomerbedverdiepingen, eroderende oevers, ...),
+\item analyses van lange termijn riviergedrag in toekomstscenario’s
+\end{itemize}
+Met een steeds intensiever bevaren Maas en tegelijkertijd op steeds
+meer plaatsen een herstel van rivierdynamiek speelt het kennen van
+de morfodynamiek in komende decennia een grote rol. Momenteel
+kan die morfodynamiek uitsluitend voorspeld en beoordeeld worden
+met expert judgement en vuistregels en daarmee blijft een deel van de
+dynamische ontwikkelingen buiten beeld.
 
-\gensection{\isreport}{2}{Critical discharge}
+Dit is aanleiding om een 2D morfologisch model van de Maas te bouwen.
+De ontwikkeling van dit nieuwe model is gestart in 2020. In 2021
+is de schematisatie verder verfijnd en gevisualiseerd, zodat modelgegevens
+gemakkelijker en eenduidig gecontroleerd kunnen worden. 
+
+%\gensection{\isreport}{2}{Werkzaamheden 2022}
+In 2022 is het model van Sambeek Grave een factor 2 verfijnd in het zomerbed, vanwege de oorspronkelijke resolutie die onvoldoende was voor de morfologische voorspelling. Daarnaast is de samenstelling geactualiseerd op basis van de 2021 meetcampagne. Verder zijn verschillende analyse scripts gemaakt om de bodemveranderingen en transporten te visualiseren en voor de vergelijking met data uit de jaarlijkse peilingen. Er is een eerste kalibratie uitgevoerd op basis van de jaren 2014 t/m 2018. Deze kalibratie geeft nog onvoldoende de gemeten trends weer. 
+
+Naast de kalibratie voor het Sambeek-Grave model is ook het volledige model van Lixhe tot Keizersveer in het zomerbed verfijnd en doorgerekend voor de initi\"ele morfologische aanpassing. Hiervoor was een aanpassing in de stuwsturing van Belfeld bij lage afvoeren nodig om te komen tot een stationair afvoerverloop. Het model toonde grootschalige aanpassingen in de morfologie, maar de vergelijking met de trends uit metingen is nog niet in detail bekeken.  
+
+\nocite{Ottevanger22,Ottevanger22_3}
+
 
 %
 %
@@ -196,12 +279,32 @@ anna.vandenhoek@deltares.nl
 %---------BIBLIOGRAPHY
 %----------------------------
 %
-\newpage
-\gensection{\isreport}{1}{References}
+%\newpage
+%\gensection{\isreport}{1}{References}
 \DeclareRobustCommand{\van}[3]{#3}
 %\bibliographystyle{agufull08_mod}
-\bibliography{../00_references/references}
-	
+\bibliography{../references}
+
+
+\vfill
+\ifnum \addCitation=1
+Please cite this work using: \\
+~\\
+\texttt{@TechReport\{[Add\_bibtex\_reference],\\
+~~author~~~~~~= \{\myAuthori{} and \myAuthorii{}\},\\
+~~title~~~~~~~=  \{\myTitle{}: \mySubtitle{}\},\\
+~~number~~~~~~=      \{\myVersion{}\},\\
+~~year~~~~~~~~=        \{\myDate{}\},\\
+~~institution~= {Deltares, Delft, the Netherlands}\\
+\ifnum \isreport=1
+~~type~~~~~~~~=  \{\{T\}ech. \{R\}ep.\},\\
+\else
+~~type~~~~~~~~= \{\{M\}emo\}, \\
+\fi
+~~\}
+}
+
+
 %
 %
 %
