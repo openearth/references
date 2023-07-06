@@ -33424,6 +33424,20 @@ the discharge capacity of a streamlined groyne is larger than of a reference gro
 comment     = {Villemonte tabellenboek},
 }
 
+@article{doLago23,
+title = {Generalizing rapid flood predictions to unseen urban catchments with conditional generative adversarial networks},
+journal = {Journal of Hydrology},
+volume = {618},
+pages = {129276},
+year = {2023},
+issn = {0022-1694},
+doi = {https://doi.org/10.1016/j.jhydrol.2023.129276},
+url = {https://www.sciencedirect.com/science/article/pii/S0022169423002184},
+author = {Cesar A.F. {do Lago} and Marcio H. Giacomoni and Roberto Bentivoglio and Riccardo Taormina and Marcus N. Gomes and Eduardo M. Mendiondo},
+keywords = {Rapid flood modeling, Deep learning, Generative adversarial networks, Rain on grid},
+abstract = {Two-dimensional hydrodynamic models are computationally expensive. This drawback can limit their application to solving problems requiring real-time predictions or several simulation runs. Although the literature presented improvements in using Deep Learning as an alternative to hydrodynamic models, Artificial Neural Networks applications for flood prediction cannot satisfactorily predict floods for areas outside the training datasets with different boundary conditions. In this paper, we used a conditional generative adversarial network (cGAN) aiming to generalize flood predictions in catchments not included in the training process. The proposed method, called cGAN-Flood, uses two cGAN models to solve a rain-on-grid problem by first identifying wet cells and then estimating the water depths. The cGANs were trained using HEC-RAS outputs as ground truth. cGAN-Flood distributes a target flood volume (vt) in a given catchment, which can be calculated via water balance from hydrological simulations. Our approach was trained on ten and tested on five urban catchments with distinct characteristics. The cGAN-Flood was compared to HEC-RAS for different rainfall magnitudes and surface roughness. We also compared our approach to the Weighted Cellular Automata 2D (WCA2D), a rapid flood model (RFM) used for rain-on-grid simulations. Our method successfully predicted water depths in the testing areas, showing that cGAN-Flood could generalize to different locations. However, cGAN-Flood tended to underestimate depths in channels in some areas for events with a small peak of precipitation intensity. cGAN-Flood was 50 and 250 times faster than WCA2D and HEC-RAS, respectively. Due to its computational efficiency and accuracy, we suggest that cGAN-Flood can be applied when fast simulations are necessary, and it can be a viable modeling solution for flood forecasts in large-scale watersheds.}
+}
+
 @TechReport{Kamphuis90_3,
 	author      = {Kamphuis, H.},
 	institution = {Rijkswaterstaat},
