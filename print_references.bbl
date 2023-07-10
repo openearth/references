@@ -1,4 +1,4 @@
-\begin{thebibliography}{2434}
+\begin{thebibliography}{2483}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -164,6 +164,13 @@ Ahnert, F. (1994), Equilibrium, scale and inheritance in geomorphology,
 Akimoto, T., and E.~Yamamoto (2017), Detection of transition times from
   single-particle-tracking trajectories, \textit{Phys Rev E}, \textit{96},
   052,138, \doi{10.1103/PhysRevE.96.052138}.
+
+\bibitem[{\textit{Akkerman et~al.}(2003)\textit{Akkerman, Bijman, van
+  Heereveld, Peerbolte, and Klaassen}}]{Akkerman03}
+Akkerman, G.~J., W.~B.~G. Bijman, M.~A. van Heereveld, E.~B. Peerbolte, and
+  G.~J. Klaassen (2003), {MER Grensmaas 2003 Achtergronddocument 2.1:
+  Morfologie - bureaustudie}, \textit{Tech. Rep. 9M4711.B0/R001//Nijm},
+  \refRHDHV{} and \refMeander, 178 pp.
 
 \bibitem[{\textit{Akkerman et~al.}(2006)\textit{Akkerman, van Heereveld,
   Barneveld, and Smedes}}]{Akkerman06}
@@ -609,6 +616,10 @@ Backert, M., M.~Ford, and F.~Malartre (2010), Architecture and sedimentology of
   \textit{Sedimentology}, \textit{57}(2), 543--586,
   \doi{10.1111/j.1365-3091.2009.01105.x}.
 
+\bibitem[{\textit{Bader}()}]{Bader18}
+Bader, R. (), Fortran code modernization, \textit{Tech. rep.}, Leibniz
+  Supercomputing Centre.
+
 \bibitem[{\textit{Bagnold}(1941)}]{Bagnold41}
 Bagnold, R.~A. (1941), \textit{The physics of wind blown sand and desert
   dunes}, 265 pp., Methuen, London.
@@ -1045,6 +1056,10 @@ Bernardara, P., D.~Schertzer, E.~Sauquet, I.~Tchiguirinskaia, and M.~Lang
 Bernhardt, C., A.~Guillerme, and E.~Vonau (2009), L'\'emergence des politiques
   de d\'eveloppement durable dans un contexte transfrontalier : L'exemple du
   rhin sup\'erieur (1914-2000), \textit{Tech. rep.}, MEDD.
+
+\bibitem[{\textit{Berrar and Dubitzky}(2013)}]{Berrar13}
+Berrar, D., and W.~Dubitzky (2013), \textit{Overfitting}, pp. 1617--1619,
+  Springer New York, New York, NY, \doi{10.1007/978-1-4419-9863-7_601}.
 
 \bibitem[{\textit{Bertagni}(2019)}]{Bertagni19_PhD}
 Bertagni, M.~B. (2019), Linear and weakly nonlinear analyses of morphological
@@ -1902,6 +1917,11 @@ Burkhalter, J.~E., and E.~L. Koschmieder (1974), Steady supercritical {T}aylor
   vortices after sudden starts, \textit{Phys Fluids}, \textit{17}(11),
   1929--1935, \doi{10.1063/1.1694646}.
 
+\bibitem[{\textit{Busnelli and de~Jong}(2020)}]{Busnelli20}
+Busnelli, M., and H.~de~Jong (2020), {Testcasus 1D Morfologisch Model Maas:
+  Testcasus 1D Morfologisch Model Maas}, \textit{Tech. Rep.
+  BH5379-RHD-ZZ-XX-RP-Z-0002}, \refRHDHV{}.
+
 \bibitem[{\textit{Busnelli et~al.}(2001)\textit{Busnelli, Stelling, and
   Larcher}}]{BusnelliStellingLarcher2001}
 Busnelli, M.~M., G.~S. Stelling, and M.~Larcher (2001), Numerical morphological
@@ -2287,6 +2307,14 @@ Chavarrias, V. (2022{\natexlab{b}}), Obtaining morphodynamic analytical
 \bibitem[{\textit{Chavarrias}(2022{\natexlab{c}})}]{Chavarrias22_5}
 Chavarrias, V. (2022{\natexlab{c}}), Testing of a new morphodynamic scheme,
   \textit{Tech. rep.}, Deltares, Delft, the Netherlands.
+
+\bibitem[{\textit{Chavarrias}(2023{\natexlab{a}})}]{Chavarrias23_2}
+Chavarrias, V. (2023{\natexlab{a}}), Testing of a new morphodynamic scheme,
+  \textit{Tech. rep.}, \refDeltares{}.
+
+\bibitem[{\textit{Chavarrias}(2023{\natexlab{b}})}]{Chavarrias23_3}
+Chavarrias, V. (2023{\natexlab{b}}), Bank erosion literature review,
+  \textit{Tech. Rep. 11208420-005-OA-0002 v0.1.14}, \refDeltares{}.
 
 \bibitem[{\textit{Chavarr\'ias and Blom}(2019)}]{Chavarrias19}
 Chavarr\'ias, V., and A.~Blom (2019), Modelling degradational rivers, in
@@ -3307,6 +3335,17 @@ Deigaard, R., and J.~Freds{\o}e (1978), Longitudinal grain sorting by current
   in alluvial streams, \textit{Nord Hydrol}, \textit{9}(1), 7--16,
   \doi{10.2166/nh.1978.002}.
 
+\bibitem[{\textit{{\van{Deijl}{Van der}{van
+  der}}~Deijl}(2022)}]{vanderDeijl22_2}
+{\van{Deijl}{Van der}{van der}}~Deijl, E. (2022), {Basisrivierbodemligging
+  analyse Grensmaas hoogwater juli 2021}, \textit{rapport deltares}, Deltares,
+  Delft, 67 p. pp.
+
+\bibitem[{\textit{{\van{Deijl}{Van der}{van der}}~Deijl}(2023)}]{vanderDeijl23}
+{\van{Deijl}{Van der}{van der}}~Deijl, E. (2023), {Aanpassing
+  Basisrivierbodemligging eisen en actualisatie rivierbodemligging 2021},
+  \textit{rapport deltares}, Deltares, Delft, 77 p. pp.
+
 \bibitem[{\textit{Delaunay}(1934)}]{Delaunay34}
 Delaunay, B. (1934), Sur la sph\`ere vide, \textit{Bulletin de l'Acad\'emie des
   Sciences de l'URSS. Classe des sciences math\'ematiques et na}, \textit{6},
@@ -3515,9 +3554,30 @@ Disco, N., and B.~Toussaint (2014), From projects to systems: the emergence of
   pp. 155--204, Institute for Water Resources, U.S. Army Corps of Engineers and
   Rijkswaterstaat, Ministry of Infrastructure and the Environment.
 
+\bibitem[{\textit{{do Lago} et~al.}(2023)\textit{{do Lago}, Giacomoni,
+  Bentivoglio, Taormina, Gomes, and Mendiondo}}]{doLago23}
+{do Lago}, C.~A., M.~H. Giacomoni, R.~Bentivoglio, R.~Taormina, M.~N. Gomes,
+  and E.~M. Mendiondo (2023), Generalizing rapid flood predictions to unseen
+  urban catchments with conditional generative adversarial networks,
+  \textit{Journal of Hydrology}, \textit{618}, 129,276,
+  \doi{https://doi.org/10.1016/j.jhydrol.2023.129276}.
+
 \bibitem[{\textit{Doelman}(1991)}]{Doelman91}
 Doelman, A. (1991), Finite-dimensional models of the ginsburg-landau equation,
   \textit{Nonlinearity}, \textit{4}(2), 231.
+
+\bibitem[{\textit{Doering et~al.}(1987)\textit{Doering, Gibbon, Holm, and
+  Nicolaenko}}]{Doering87}
+Doering, C.~R., J.~D. Gibbon, D.~D. Holm, and B.~Nicolaenko (1987), Exact
+  lyapunov dimension of the universal attractor for the complex ginzburg-landau
+  equation, \textit{Phys. Rev. Lett.}, \textit{59}, 2911--2914,
+  \doi{10.1103/PhysRevLett.59.2911}.
+
+\bibitem[{\textit{Doering et~al.}(1988)\textit{Doering, Gibbon, Holm, and
+  Nicolaenko}}]{Doering88}
+Doering, C.~R., J.~D. Gibbon, D.~D. Holm, and B.~Nicolaenko (1988),
+  Low-dimensional behaviour in the complex ginzburg-landau equation,
+  \textit{Nonlinearity}, \textit{1}(2), 279, \doi{10.1088/0951-7715/1/2/001}.
 
 \bibitem[{\textit{Doets}(2015)}]{Doets15}
 Doets, I. J.~E. (2015), The effect of islands in the rio magdalenaon discharge
@@ -3648,6 +3708,10 @@ Duan, J.~G., S.~S.~Y. Wang, and Y.~Jia (2001), The applications of the enhanced
   Hydraul. Res.}, \textit{39}(5), 469--480,
   \doi{10.1080/00221686.2001.9628272}.
 
+\bibitem[{\textit{Duda et~al.}(2001)\textit{Duda, Hart, and G.Stork}}]{Duda01}
+Duda, R., P.~Hart, and D.~G.Stork (2001), \textit{Pattern Classification},
+  Wiley-Interscience, New York.
+
 \bibitem[{\textit{Duizendstra}(1999)}]{Duizendstra99}
 Duizendstra, D. (1999), {Sedimenttransport in de Grensmaas: Transportcapaciteit
   en aanbod van sediment.}, \textit{Tech. Rep. werkdocument 99.158X},
@@ -3657,14 +3721,17 @@ Duizendstra, D. (1999), {Sedimenttransport in de Grensmaas: Transportcapaciteit
 Duizendstra, D. (2000), {Bodemtransport metingen in de Grensmaas vanaf
   bruggen}, \textit{Tech. Rep. werkdocument 2000.083x}, Rijkswaterstaat RIZA.
 
-\bibitem[{\textit{Duizendstra}()}]{Duizendstra01_2}
-Duizendstra, H.~D. (), Centennial channel response to climate change in an
-  engineered river, \textit{26}(1), 59--64.
+\bibitem[{\textit{Duizendstra}(2001{\natexlab{a}})}]{Duizendstra01_2}
+Duizendstra, H. (2001{\natexlab{a}}), Measuring, observing and pattern
+  recognition of sediment transport in an armoured river using a sampler with
+  attached underwater camera, \textit{Physics and Chemistry of the Earth, Part
+  B: Hydrology, Oceans and Atmosphere}, \textit{26}(1), 59--64,
+  \doi{https://doi.org/10.1016/S1464-1909(01)85015-2}.
 
-\bibitem[{\textit{Duizendstra}(2001)}]{Duizendstra01}
-Duizendstra, H.~D. (2001), Determination of the sediment transport in an
-  armoured gravel-bed river, \textit{Earth Surf Proc Land}, \textit{26}(13),
-  1381--1393, \doi{10.1002/esp.302}.
+\bibitem[{\textit{Duizendstra}(2001{\natexlab{b}})}]{Duizendstra01}
+Duizendstra, H.~D. (2001{\natexlab{b}}), Determination of the sediment
+  transport in an armoured gravel-bed river, \textit{Earth Surf Proc Land},
+  \textit{26}(13), 1381--1393, \doi{10.1002/esp.302}.
 
 \bibitem[{\textit{Duizendstra and Flokstra}(1998)}]{Duizendstra98_dhl_Q2347}
 Duizendstra, H.~D., and C.~Flokstra (1998), Graded sediment in {SOBEK},
@@ -3676,10 +3743,21 @@ Duizendstra, H.~D., and M.Laguzzi (1996), A modified numerical scheme
   implemented in {SOBEK-GRA}, \textit{Tech. Rep. Q2128}, Delft Hydraulics
   Laboratory, Delft, the Netherlands.
 
+\bibitem[{\textit{Duizendstra and Scheers}(1995)}]{Duizendstra95}
+Duizendstra, H.~D., and W.~H. Scheers (1995), {Ontwerp van een aangepaste
+  Helley-Smith voor de Grensmaas}, \textit{Tech. Rep. Werkdocument 95.143X},
+  Rijkswaterstaat RIZA en Directie Oost-Nederland.
+
 \bibitem[{\textit{Duizendstra and van Hal}(1999)}]{Duizendstra99_2}
 Duizendstra, H.~D., and L.~W.~J. van Hal (1999), {Bodemtransport metingen in de
   Grensmaas vanaf bruggen: Data-rapportage metingen 1998}, \textit{Tech. Rep.
   werkdocument 99.143X}, Rijkswaterstaat RIZA.
+
+\bibitem[{\textit{Duizendstra et~al.}(1994)\textit{Duizendstra, Kos, and van
+  Hal}}]{Duizendstra94}
+Duizendstra, H.~D., T.~J.~M. Kos, and L.~W.~J. van Hal (1994),
+  {Bodemtransportmetingen in de Grensmaas vanaf bruggen: eerste testmetingen},
+  \textit{Tech. Rep. Werkdocument 94.059X}, Rijkswaterstaat, RIZA.
 
 \bibitem[{\textit{Dulal et~al.}(2010)\textit{Dulal, Kobayashi, Shimizu, and
   Parker}}]{Dulal10}
@@ -3788,8 +3866,10 @@ Eden, S., and S.~Tunstall (2006), Ecological versus social restoration? how
   science-policy nexus in the {U}nited {K}ingdom, \textit{Environment and
   Planning C}, \textit{24}(5), 661.
 
-\bibitem[{\textit{Edler}()}]{Edler20_MSc}
-Edler, T. (), G, Master's thesis.
+\bibitem[{\textit{Edler}(2020)}]{Edler20_MSc}
+Edler, T. (2020), {G}ravel {W}eirs in the {R}iver {M}euse: A 2{D} morphological
+  modelling approach, Master's thesis, Universit\'{e} {C}\^{o}{te} d’{A}zur,
+  {F}rance.
 
 \bibitem[{\textit{Edmonds and Slingerland}(2008)}]{Edmonds08}
 Edmonds, D.~A., and R.~L. Slingerland (2008), Stability of delta distributary
@@ -5503,6 +5583,11 @@ HEC-RAS ({\natexlab{b}}), Hec-ras 1d sediment transport, \textit{Tech. rep.},
   bodem- en oeververdediging, \textit{Tech. Rep.
   9T0542.02/R0009/408540/VVDM/Nijm}, Royal Haskoning, Nijmegen, 39 pp.
 
+\bibitem[{\textit{{\van{Heereveld}{Van}{van}}~Heereveld}(2022)}]{vanHeereveld22}
+{\van{Heereveld}{Van}{van}}~Heereveld, M.~A. (2022), {Pilotsuppleties
+  Gemeenschappelijke Maas: Ontwerp, uitvoeringsplan \& monitoringsplan},
+  \textit{Tech. Rep. BI2918WMRP2109201056}, \refRHDHV{} and \refHKV, 87 pp.
+
 \bibitem[{\textit{Hegnauer et~al.}(2014)\textit{Hegnauer, Beersma,
   {\van{Boogaard}{Van den}{van den}}~Boogaard, Buishand, and
   Passchier}}]{Hegnauer14}
@@ -5523,11 +5608,21 @@ Heller, V. (2011), Scale effects in physical hydraulic engineering models,
   \textit{J. Hydraul. Res.}, \textit{49}(3), 293--306,
   \doi{10.1080/00221686.2011.578914}.
 
+\bibitem[{\textit{Helmer et~al.}(1991)\textit{Helmer, Klaassen, and
+  Silva}}]{Helmer91}
+Helmer, W., G.~J. Klaassen, and W.~Silva (1991), Toekomst voor een grindrivier,
+  deel 5 : rivierkundige aspekten van natuurontwikkeling, \textit{Tech. Rep.
+  91.007}, RIZA Rijkswaterstaat.
+
 \bibitem[{\textit{{\van{Helmholtz}{Von}{von}}~Helmholtz}(1868)}]{Helmholtz68}
 {\van{Helmholtz}{Von}{von}}~Helmholtz, H. (1868), \"{U}ber discontinuierliche
   {F}l\"ussigkeits-{B}ewegungen, \textit{{M}onatsberichte der {K}\"{o}niglichen
   {P}reussische {A}kademie der {W}issenschaften zu {B}erlin}, \textit{23},
   215--228, (in German).
+
+\bibitem[{\textit{Helsloot}(2016)}]{Helsloot16}
+Helsloot, T.~C. (2016), The development of a method to predict ship-bank
+  interaction in real-time, Master's thesis, TUD.
 
 \bibitem[{\textit{Hendriks}(2012)}]{Hendriks12}
 Hendriks, E. (2012), Laboratory test concerning a {G}ilbert-type delta,
@@ -6364,6 +6459,20 @@ Kalkwijk, J. P.~T., and H.~J. \van{}{De}{de} Vriend (1980), Computation of the
   flow in shallow river bends, \textit{J. Hydraul. Res.}, \textit{18}(4),
   327--342, \doi{10.1080/00221688009499539}.
 
+\bibitem[{\textit{Kamphuis}(1990{\natexlab{a}})}]{Kamphuis90}
+Kamphuis, H. (1990{\natexlab{a}}), {Sedimenttransport op de Rijn tijdens
+  hoogwater van 1988}, \textit{Tech. Rep. 90.011X}, Rijkswaterstaat, 30 + 43
+  pp.
+
+\bibitem[{\textit{Kamphuis}(1990{\natexlab{b}})}]{Kamphuis90_2}
+Kamphuis, H. (1990{\natexlab{b}}), {Sedimenttransportmetingen Rijntakken},
+  \textit{Tech. Rep. 90.075}, Rijkswaterstaat, 110 pp.
+
+\bibitem[{\textit{Kamphuis}(1990{\natexlab{c}})}]{Kamphuis90_3}
+Kamphuis, H. (1990{\natexlab{c}}), {Sedimenttransportmetingen Maas. Verslag
+  hoogwater voorjaar 1990 en meetvoorstellen}, \textit{Tech. rep.},
+  Rijkswaterstaat.
+
 \bibitem[{\textit{Kamphuis}(1974)}]{Kamphuis74}
 Kamphuis, J.~W. (1974), Determination of sand roughness for fixed beds,
   \textit{J. Hydraul. Res.}, \textit{12}(2), 193--203,
@@ -6517,6 +6626,18 @@ Ketcheson, D.~I., and M.~Q. de~Luna (2021), Numerical simulation and entropy
   dissipative cure of the carbuncle instability for the shallow water circular
   hydraulic jump, \textit{arXiv}, \doi{10.48550/arXiv.2103.09664}.
 
+\bibitem[{\textit{Khorrami and Banihashemi}({\natexlab{a}})}]{Khorrami19}
+Khorrami, Z., and M.~A. Banihashemi ({\natexlab{a}}), Numerical simulation of
+  sedimentation process in reservoirs and development of a non-coupled
+  algorithm to improve long-term modeling, \textit{34}(3), 279--294,
+  \doi{https://doi.org/10.1016/j.ijsrc.2018.10.003}.
+
+\bibitem[{\textit{Khorrami and Banihashemi}({\natexlab{b}})}]{Khorrami19_2}
+Khorrami, Z., and M.~A. Banihashemi ({\natexlab{b}}), Improving multi-block
+  sigma-coordinate for 3d simulation of sediment transport and steep slope bed
+  evolution, \textit{67}, 378--398,
+  \doi{https://doi.org/10.1016/j.apm.2018.10.027}.
+
 \bibitem[{\textit{Kim et~al.}(2009)\textit{Kim, Mohrig, Twilley, Paola, and
   Parker}}]{Kim09}
 Kim, W., D.~Mohrig, R.~Twilley, C.~Paola, and G.~Parker (2009), Is it feasible
@@ -6550,6 +6671,11 @@ Kitanidis, P.~K., and J.~F. Kennedy (1984), Secondary current and river-meander
   formation, \textit{J Fluid Mech}, \textit{144}, 217--229,
   \doi{10.1017/S0022112084001580}.
 
+\bibitem[{\textit{Klaassen and Struiksma}(1981{\natexlab{a}})}]{Klaassen81}
+Klaassen, G., and N.~Struiksma (1981{\natexlab{a}}), {Morfologische
+  verschijnselen Grensmaas}, \textit{rapport deltares}, WL Delft Hydraulics,
+  Delft.
+
 \bibitem[{\textit{Klaassen}(1987)}]{Klaassen87}
 Klaassen, G.~J. (1987), Armoured river beds during floods, \textit{Tech. Rep.
   394}, Delft Hydraulics Laboratory, Delft, the Netherlands.
@@ -6569,16 +6695,20 @@ Klaassen, G.~J. (1991), Experiments on the effect of gradation and vertical
   sorting on sediment transport phenomena in the dune phase, in \textit{Proc.
   Grain Sorting Seminar, Ascona, Switzerland}, pp. 127--145.
 
-\bibitem[{\textit{Klaassen and Struiksma}(1981)}]{Klaasen81}
-Klaassen, G.~J., and N.~Struiksma (1981), Morfologische verschijnselen
-  grensmaas, \textit{Tech. rep.}, Delft Hydraulics Laboratory, Delft, the
-  Netherlands.
+\bibitem[{\textit{Klaassen and Struiksma}(1981{\natexlab{b}})}]{Klaasen81}
+Klaassen, G.~J., and N.~Struiksma (1981{\natexlab{b}}), Morfologische
+  verschijnselen grensmaas, \textit{Tech. rep.}, Delft Hydraulics Laboratory,
+  Delft, the Netherlands.
 
 \bibitem[{\textit{Klaassen et~al.}(1986)\textit{Klaassen, Tukker, Driegen, and
   van~der Woude}}]{Klaassen86}
 Klaassen, G.~J., H.~Tukker, J.~Driegen, and G.~van~der Woude (1986), Morfologie
   afgepleisterde beddingen: proeven met hoogwatergolven, \textit{Tech. Rep.
   M2061/Q212}, Delft Hydraulics Laboratory, Delft, the Netherlands, (in Dutch).
+
+\bibitem[{\textit{Kleinhans}(2005{\natexlab{a}})}]{Kleinhans05_4}
+Kleinhans, M. (2005{\natexlab{a}}), Manual for the delft nile sampler (dns) at
+  utrecht, \textit{Tech. rep.}, \refUU{}.
 
 \bibitem[{\textit{Kleinhans et~al.}(2007)\textit{Kleinhans, Wilbers, and
   Ten~Brinke}}]{Kleinhans07}
@@ -6601,9 +6731,9 @@ Kleinhans, M.~G. (2004), Sorting in grain flows at the lee side of dunes,
   \textit{Earth Sci Rev}, \textit{65}(1!!e!!2), 75--102,
   \doi{10.1016/S0012-8252(03)00081-3}.
 
-\bibitem[{\textit{Kleinhans}(2005)}]{Kleinhans05}
-Kleinhans, M.~G. (2005), Grain-size sorting in grainflows at the lee side of
-  deltas, \textit{Sedimentology}, \textit{52}(2), 291--311,
+\bibitem[{\textit{Kleinhans}(2005{\natexlab{b}})}]{Kleinhans05}
+Kleinhans, M.~G. (2005{\natexlab{b}}), Grain-size sorting in grainflows at the
+  lee side of deltas, \textit{Sedimentology}, \textit{52}(2), 291--311,
   \doi{10.1111/j.1365-3091.2005.00698.x}.
 
 \bibitem[{\textit{Kleinhans and van Rijn}(2002)}]{Kleinhans02_2}
@@ -7096,6 +7226,11 @@ Langendoen, E.~J., A.~Mendoza, J.~D. Abad, P.~Tassi, D.~Wang, R.~Ata,
   K.~El~Kadi~Abderrezzak, and J.-M. Hervouet (2016), Improved numerical
   modeling of morphodynamics of rivers with steep banks, \textit{Adv Water
   Resour}, \textit{93}, 4--14, \doi{10.1016/j.advwatres.2015.04.002}.
+
+\bibitem[{\textit{Langeveld}(2023)}]{Langeveld23}
+Langeveld, B. (2023), Streamlining river groynes: Laboratory experiments in
+  schematised geometry under submerged flow conditions, Master's thesis, Delft
+  University of Technology.
 
 \bibitem[{\textit{Langham et~al.}(2021)\textit{Langham, Woodhouse, Hogg, and
   Phillips}}]{Langham21}
@@ -7742,6 +7877,13 @@ Lyn, D.~A., and P.~Goodwin (1987), Stability of a general {P}reissmann scheme,
   \textit{J. Hydraul. Eng.}, \textit{113}(1), 16--28,
   \doi{10.1061/(ASCE)0733-9429(1987)113:1(16)}.
 
+\bibitem[{\textit{López-Ramade et~al.}()\textit{López-Ramade, Mulligan,
+  Medellín, and Torres-Freyermuth}}]{Lopez23}
+López-Ramade, E., R.~P. Mulligan, G.~Medellín, and A.~Torres-Freyermuth (),
+  Modelling beach morphological responses near coastal structures under oblique
+  waves driven by sea-breezes, \textit{182}, 104,290,
+  \doi{https://doi.org/10.1016/j.coastaleng.2023.104290}.
+
 \bibitem[{\textit{M~Tubino}(2007)}]{Tubino07}
 M~Tubino, W.~B. (2007), Bifurcations in gravel-bed streams,
   \textit{Developments in Earth Surface Processes}.
@@ -7832,9 +7974,28 @@ Marion, A., and L.~Fraccarollo (1997), Experimental investigation of mobile
   armoring development, \textit{Water Resour Res}, \textit{33}(6), 1447--1453,
   \doi{10.1029/97WR00705}.
 
-\bibitem[{\textit{Markus}()}]{MarkusXX}
-Markus, A. (), Design patterns and fortran 90/95, \textit{Tech. rep.}, Delft
-  Hydraulic Laboraotory, Delft, the Netherlands.
+\bibitem[{\textit{Markus}({\natexlab{a}})}]{Markus12}
+Markus, A. ({\natexlab{a}}), \textit{Modern Fortran in practice}, Cambridge
+  University Press.
+
+\bibitem[{\textit{Markus}({\natexlab{b}})}]{Markus19}
+Markus, A. ({\natexlab{b}}), Fortran as anevolving language, \textit{Tech.
+  rep.}, \refDeltares{}.
+
+\bibitem[{\textit{Markus}({\natexlab{c}})}]{Markus23}
+Markus, A. ({\natexlab{c}}), Coding guidelines fortran, \textit{Tech. rep.},
+  \refDeltares{}.
+
+\bibitem[{\textit{Markus}({\natexlab{d}})}]{Markus99}
+Markus, A. ({\natexlab{d}}), Wl programmeer richtlijnen, \textit{Tech. rep.},
+  \refWL{}.
+
+\bibitem[{\textit{Markus}({\natexlab{e}})}]{MarkusXX}
+Markus, A. ({\natexlab{e}}), Design patterns and fortran 90/95, \textit{Tech.
+  rep.}, Delft Hydraulic Laboraotory, Delft, the Netherlands.
+
+\bibitem[{\textit{Markus}({\natexlab{f}})}]{MarkusXX_2}
+Markus, A. ({\natexlab{f}}), code reviews, \textit{Tech. rep.}, \refDeltares{}.
 
 \bibitem[{\textit{{\van{Mark}{Van der}{van der}}~Mark and
   Lemans}(2020)}]{vanderMark20}
@@ -8037,6 +8198,11 @@ Meijer, D.~G. (2020{\natexlab{b}}), Kennis- en data-inventarisatie voor
   bodemhoogteanalyses {M}aas; systeemrapportage morfologie {M}aas:
   Analyserapport (fase 2), \textit{Tech. Rep. 117.01-02}, RiQuest.
 
+\bibitem[{\textit{Meijer and Vos}(2003)}]{Meijer03}
+Meijer, D.~G., and S.~E. Vos (2003), Nader onderzoek sobek morfologie:
+  Grensmaasproject: eindrapport, \textit{Tech. Rep.
+  LB-7231/LB-7231a/9M4711.A0/10064.3}, Royal Haskoning.
+
 \bibitem[{\textit{Mens et~al.}(2018)\textit{Mens, {\van{Wijk}{Van der}{van
   der}}~Wijk, Kramer, Hunink, {\van{Jong}{De}{de}}~Jong, Becker, Gijsbers, and
   {\van{Velden}{Ten}{ten}}~Velden}}]{Mens18}
@@ -8104,6 +8270,11 @@ Meyer-Peter, E., and R.~M{\"u}ller (1948), Formulas for bed-load transport, in
   van de {M}aaswerken met metingen en {WAQM}orf, \textit{{T}ech. {R}ep.
   1209376-000}, Deltares, Delft, the Netherlands.
 
+\bibitem[{\textit{Micha and Borlee}(1989)}]{Micha89}
+Micha, J.~C., and M.~C. Borlee (1989), Recent historical changes on the belgian
+  meuse, in \textit{Historical change of large alluvial rivers: Western
+  Europe}, John Wiley Publ. Cy.
+
 \bibitem[{\textit{MIKOS et~al.}(1999)\textit{MIKOS, PENDER, and
   HOEY}}]{Mikos99}
 MIKOS, M., G.~PENDER, and T.~HOEY (1999), Use of a modified hiding function in
@@ -8161,6 +8332,10 @@ Miralles, S.~C. (2017), Experiments de flux i sedimentaci\'o de llim fi, Ph.D.
 Misri, R.~L., R.~J. Garde, and K.~G.~R. Raju (1984), Bed load transport of
   coarse nonuniform sediment, \textit{J. Hydraul. Eng.}, \textit{110}(3),
   312--328, \doi{10.1061/(ASCE)0733-9429(1984)110:3(312)}.
+
+\bibitem[{\textit{Mittal and Iaccarino}()}]{Mittal05}
+Mittal, R., and G.~Iaccarino (), Immersed boundary methods, \textit{37}(1),
+  239--261, \doi{10.1146/annurev.fluid.37.061903.175743}.
 
 \bibitem[{\textit{Miwa and Parker}(2012)}]{Miwa12}
 Miwa, H., and G.~Parker (2012), Numerical simulation of low-flow channel
@@ -8378,6 +8553,12 @@ Mosselman, E., and K.~Sloff (2008), \textit{Gravel-Bed Rivers VI: From Process
   floods for bed topography and bed sediment composition: numerical modelling
   of Rhine bifurcation at Pannerden, pp. 161--179, Elsevier B. V.,
   \doi{10.1016/S0928-2025(07)11124-X}.
+
+\bibitem[{\textit{Mosselman et~al.}(1994)\textit{Mosselman, Wang, and
+  Dijkman}}]{Mosselman94}
+Mosselman, E., Z.~Wang, and J.~Dijkman (1994), {Onderzoek watersnood Maas
+  (deelrapport 6) : morfologische aspecten}, \textit{rapport deltares},
+  \refDHL{}, 51 p. pp.
 
 \bibitem[{\textit{Mosselman et~al.}(1999)\textit{Mosselman, Sieben, Sloff, and
   Wolters}}]{Mosselman99}
@@ -9514,6 +9695,15 @@ Pennekamp, J. G.~S., and R.~Booij (1984), Improved simulation of main flow and
 Perko, L. (1993), \textit{Differential Equations and Dynamical Systems},
   Springer Verlag.
 
+\bibitem[{\textit{Peskin}({\natexlab{a}})}]{Peskin72}
+Peskin, C.~S. ({\natexlab{a}}), Flow patterns around heart valves: A numerical
+  method, \textit{10}(2), 252--271,
+  \doi{https://doi.org/10.1016/0021-9991(72)90065-4}.
+
+\bibitem[{\textit{Peskin}({\natexlab{b}})}]{Peskin77}
+Peskin, C.~S. ({\natexlab{b}}), Numerical analysis of blood flow in the heart,
+  \textit{25}(3), 220--252, \doi{https://doi.org/10.1016/0021-9991(77)90100-0}.
+
 \bibitem[{\textit{Peters}(2022)}]{Peters22_MSc}
 Peters, B. (2022), Role of albert canal system in july 2021 flood: what can we
   learn from this?, Master's thesis, Wageningen University.
@@ -9711,6 +9901,13 @@ Postman, N. (1985), \textit{Amusing ourselves to death}.
 Powell, D.~M. (1998), Patterns and processes of sediment sorting in gravel-bed
   rivers, \textit{Prog Phys Geogr}, \textit{22}(1), 1--32,
   \doi{10.1177/030913339802200101}.
+
+\bibitem[{\textit{Pratama et~al.}()\textit{Pratama, Venugopal, and
+  Poleykett}}]{Pratama23}
+Pratama, M., V.~Venugopal, and J.~Poleykett (), Wave and tidal hydrodynamics
+  characterization of montrose bay:a severely-eroding coast in east scotland,
+  in \textit{Proceedings of the 40th IAHR World Congress 21-25 August 2023
+  Vienna, Austria}.
 
 \bibitem[{\textit{Preissmann and Cunge}(1961)}]{Preissmann61_2}
 Preissmann, A., and J.~A. Cunge (1961), Calcul du mascaretsur machine
@@ -10069,6 +10266,12 @@ Rijkswaterstaat, and Deltares (2022), {Factsheet zesde generatie
 RIZA (2005), Flow technical reference sobek-re, \textit{Tech. Rep. 2.52.005},
   RIZA Institute for Inland Water Management and Waste Water Treatment.
 
+\bibitem[{\textit{Robson}(2014)}]{Robson14}
+Robson, B.~J. (2014), When do aquatic systems models provide useful
+  predictions, what is changing, and what is next?, \textit{Environmental
+  Modelling \& Software}, \textit{61}, 287--296,
+  \doi{https://doi.org/10.1016/j.envsoft.2014.01.009}.
+
 \bibitem[{\textit{Rodi}(1982)}]{Rodi82}
 Rodi, W. (1982), \textit{Turbulence model and their application in hydraulics},
   IAHR Monographs, 124 pp., {CRC} press.
@@ -10244,6 +10447,10 @@ Ruelle, D., and F.~Takens (1971), On the nature of turbulence,
 Runge, C. (1895), {U}eber die numerische {A}ufl{\"o}sung von
   {D}ifferentialgleichungen, \textit{Math Ann}, \textit{46}(2), 167--178,
   \doi{10.1007/BF01446807}, (in German).
+
+\bibitem[{\textit{{RWS}}(1997)}]{RWS97}
+{RWS} (1997), Sedimentmetingen zand-maas, \textit{Notitie ZLMD-97.N.001},
+  Rijkswaterstaat, Directie Zeeland, Meetdienst Zeeland.
 
 \bibitem[{\textit{{RWS, Directie Bovenrivieren}}(1968)}]{RWS68_2}
 {RWS, Directie Bovenrivieren} (1968), Stroomsnelheidsmetingen op met gras
@@ -10991,6 +11198,11 @@ Slingerland, R., and N.~D. Smith (2004), River avulsions and their deposits,
 Sloff, C. (2006{\natexlab{a}}), {Vaarwegverbetering Vianen : rivierkundige
   berekeningen}, \textit{rapport deltares}, WL Delft Hydraulics, Delft.
 
+\bibitem[{\textit{Sloff and Flokstra}(2000)}]{Sloff00_2}
+Sloff, C., and C.~Flokstra (2000), {Opzet van een morfologisch rekenmodel met
+  Delft2D-Gegradeerd voor het testgeval 'Grensmaas bij Roosteren'},
+  \textit{rapport deltares}, WL Delft Hydraulics, Delft, 46 p. pp.
+
 \bibitem[{\textit{Sloff et~al.}(2013{\natexlab{a}})\textit{Sloff,
   {\van{Sligte}{Van der}{van der}}~Sligte, and Visser}}]{Sloff13_2}
 Sloff, C., R.~{\van{Sligte}{Van der}{van der}}~Sligte, and A.~Visser
@@ -11001,6 +11213,11 @@ Sloff, C., R.~{\van{Sligte}{Van der}{van der}}~Sligte, and A.~Visser
 Sloff, C.~J. (1992), The method of characteristics applied to analyse 2{DH}
   models, \textit{Tech. Rep. 92--4}, Faculty of Civil Engineering and
   Geosciences, Delft University of Technology, Delft, the Netherlands.
+
+\bibitem[{\textit{Sloff}(2001)}]{Sloff01}
+Sloff, C.~J. (2001), Morfologische berekeningen {Zandmaas}: {Scope} 2000 met
+  gegradeerd sediment, \textit{{T}ech. {R}ep. Q2772}, Delft Hydraulics
+  Laboratory, Delft, the Netherlands.
 
 \bibitem[{\textit{Sloff}(2006{\natexlab{b}})}]{Sloff06}
 Sloff, C.~J. (2006{\natexlab{b}}), Uitbreiding {SOBEK-RT} model naar
@@ -11735,6 +11952,10 @@ Termes, A. P.~P. (1989), Analyse bodembemonstering pannerdensch kanaal 1989,
 Termes, A. P.~P. (1998), Monitoring morfologie maas (hoofdstuk 6),
   \textit{Tech. Rep. PR075.20}, Directie Limburg, ANWR.
 
+\bibitem[{\textit{Tezduyar}()}]{Tezduyar01}
+Tezduyar, T.~E. (), Finite element methods for flow problems with moving
+  boundaries and interfaces, \textit{8}(2), 83--130, \doi{10.1007/BF02897870}.
+
 \bibitem[{\textit{Thatcher and Harleman}(1972)}]{Thatcher72}
 Thatcher, M.~L., and D.~R.~F. Harleman (1972), A mathematical model for the
   prediction of unsteady salinity intrusion in estuaries, \textit{{T}ech.
@@ -12213,6 +12434,11 @@ Van~der Scheer, P., J.~S. Ribberink, and A.~Blom (2002), Transport formulas for
 van~der Stelt, S. (2012), Rise and fall of periodic patterns in a generalized
   klausmeier-gray-scott model, Ph.D. thesis, Universiteit van Amsterdam.
 
+\bibitem[{\textit{van~der Vaart and Dijkstra}()}]{vanderVaart99}
+van~der Vaart, P. C.~F., and H.~A. Dijkstra (), Sideband instabilities of mixed
+  barotropic/baroclinic waves growing on a midlatitude zonal jet, (9),
+  615--631, \doi{10.1063/1.869221}.
+
 \bibitem[{\textit{van~der Ven}(1979)}]{vanderVen79}
 van~der Ven, G.~P. (1979), De waterverdeling tussen de rijntakken in de i7e en
   i8e eeuw, \textit{De Ingenieur}, \textit{91}(11), 193--199, (in Dutch).
@@ -12269,10 +12495,21 @@ van Rooijen, E., E.~Mosselman, K.~Sloff, and W.~Uijttewaal (2020), The effect
   2021, \textit{Tech. Rep. 11208053-002-ZWS-0006}, Deltares, Delft, the
   Netherlands.
 
+\bibitem[{\textit{Vandenbussche et~al.}(2001)\textit{Vandenbussche, Van~Looy,
+  Vanacker, Vermeersch, and Decleer}}]{Vandenbussche01}
+Vandenbussche, V., K.~Van~Looy, S.~Vanacker, S.~Vermeersch, and K.~Decleer
+  (2001), Ecologische gebiedsvisie voor het rivierbed van de {G}rensmaas,
+  \textit{Tech. Rep. IN R/2001.9}, Instituut voor Natuurbehoud, Brussel.
+
 \bibitem[{\textit{\van{Dijk}{Van}{van} Dijk}(2013)}]{vanDijk13}
 \van{Dijk}{Van}{van} Dijk, W.~M. (2013), Meandering rivers - feedbacks between
   channeldynamics, floodplain and vegetation, Ph.D. thesis, Utrecht University,
   Utrecht, the Netherlands.
+
+\bibitem[{\textit{\van{Dongen}{Van}{van} Dongen and Meijer}(2008)}]{Dongen08}
+\van{Dongen}{Van}{van} Dongen, B., and D.~Meijer (2008),
+  {Zomerbedbodemveranderingen van de Maas (1889-2007)}, \textit{Tech. Rep.
+  10314/4500103893}, \refMeander{}.
 
 \bibitem[{\textit{\van{Huib}{De}{de} Vriend}(1981)}]{deVriend81}
 \van{Huib}{De}{de} Vriend, H.~J. (1981), Velocity redistribution in curved
@@ -12513,6 +12750,11 @@ Vermeer, K. (1990), {MAASMOR : morfologisch model van de {M}aas in
 \bibitem[{\textit{Vermeer}(1996)}]{Vermeer96}
 Vermeer, K. (1996), morphological modelling, a personal view, \textit{Tech.
   rep.}, HKV consultants.
+
+\bibitem[{\textit{Vermeer and Ribberink}(1990)}]{Vermeer90_2}
+Vermeer, K., and J.~Ribberink (1990), {Gegradeerd materiaal in 1D
+  programmatuur}, \textit{rapport deltares}, WL Delft Hydraulics, Delft, 39 p.
+  pp.
 
 \bibitem[{\textit{Verwer and Sanz-Serna}(1984)}]{Verwer84}
 Verwer, J.~G., and J.~M. Sanz-Serna (1984), Convergence of method of lines
@@ -12917,6 +13159,13 @@ Wainwright, J., A.~J. Parsons, J.~R. Cooper, P.~Gao, J.~A. Gillies, L.~Mao,
   geomorphology, \textit{Rev Geophys}, \textit{53}(4), 1155--1202,
   \doi{10.1002/2014RG000474}.
 
+\bibitem[{\textit{Walker et~al.}(2003)\textit{Walker, Harremo\"{e}s, Rotmans,
+  Sluijs, Asselt, Janssen, and Kraus}}]{Walker03}
+Walker, W., P.~Harremo\"{e}s, J.~Rotmans, J.~Sluijs, M.~Asselt, P.~Janssen, and
+  M.~Kraus (2003), Defining uncertainty: A conceptual basis for uncertainty
+  management in model-based decision support, \textit{Integrated Assessment},
+  \textit{4}, \doi{10.1076/iaij.4.1.5.16466}.
+
 \bibitem[{\textit{Walling}(1983)}]{Walling83}
 Walling, D.~E. (1983), The sediment delivery problem, \textit{J Hydrol},
   \textit{65}(1), 209--237, \doi{10.1016/0022-1694(83)90217-2}.
@@ -13030,6 +13279,11 @@ Watson, J. (1962), On spatially-growing finite disturbances in plane poiseuille
   Y.~Broekema, W.~Kranenburg, and B.~Huisman (2021), Hydrodynamics in the pits
   of borssele and hansweert: Data-analysis and delft3d-fm modeling,
   \textit{Tech. rep.}, Flanders Marine Institute, 54 pp.
+
+\bibitem[{\textit{Weidema}(2006)}]{Weidema06}
+Weidema, P. (2006), {Green-spotsanalyse van de Maas (i.h.k.v. het project
+  Stroomlijn) en een vergelijking met de Rijntakken}, \textit{Tech. Rep.
+  10213.1/4500030061}, \refMeander, 76 pp.
 
 \bibitem[{\textit{Werner et~al.}(2000)\textit{Werner, Ververs,
   \van{Haselen}{Van}{van}, Pakes., Daamen, and Muerlebach}}]{Werner00}

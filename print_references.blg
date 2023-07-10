@@ -13,14 +13,14 @@ Reallocating 'cite_info' (item size: 4) to 3000 items.
 Reallocating 'cite_list' (item size: 4) to 3000 items.
 Reallocating 'entry_exists' (item size: 1) to 3000 items.
 Reallocating 'type_list' (item size: 4) to 3000 items.
-White space in argument---line 2369 of file print_references.aux
+White space in argument---line 2414 of file print_references.aux
  : \citation{jabref-meta:
  :                        databaseType:biblatex;}
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 The style file: agufull08_mod.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
-Reallocating 'field_info' (item size: 4) to 65850 items.
+Reallocating 'field_info' (item size: 4) to 67075 items.
 Database file #1: references.bib
 Warning--I'm ignoring Ahnert94's extra "journal" field
 --line 381 of file references.bib
@@ -97,10 +97,6 @@ Repeated entry---line 50347 of file references.bib
  : @techreport{Irving20
  :                     ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 50501 of file references.bib
- :   title       = {G}
- :                    RAVEL {W}EIRS IN THE RIVER {M}EUSE: A 2{D} MORPHOLOGICAL MODELLING APPROACH,
-I'm skipping whatever remains of this entry
 Warning--I'm ignoring Swamee88's extra "journal" field
 --line 51583 of file references.bib
 Warning--I'm ignoring Arnaud15's extra "journal" field
@@ -151,9 +147,9 @@ Repeated entry---line 58861 of file references.bib
  : @mastersthesis{Stenfert17_MSc
  :                              ,
 I'm skipping whatever remains of this entry
+Reallocating 'str_pool' (item size: 1) to 455000 items.
 Warning--I'm ignoring Johnson92's extra "journal" field
 --line 58981 of file references.bib
-Reallocating 'str_pool' (item size: 1) to 455000 items.
 Warning--entry type for "Denaro23" isn't style-file defined
 --line 61249 of file references.bib
 Warning--string name "ce" is undefined
@@ -166,11 +162,11 @@ Repeated entry---line 64649 of file references.bib
  : @article{Barneveld23
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 65897 of file references.bib
+Repeated entry---line 65883 of file references.bib
  : @techreport{Onjira23
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 66897 of file references.bib
+Repeated entry---line 66883 of file references.bib
  : @article{vandenBerg95
  :                      ,
 I'm skipping whatever remains of this entry
@@ -326,6 +322,7 @@ Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karaca
 while executing---line 1822 of file agufull08_mod.bst
 Warning--can't use both author and editor fields in Batchelor70
 Warning--empty journal in Baydoun18
+Warning--can't use both author and editor fields in Berrar13
 Warning--can't use both author and editor fields in Biedenharn08
 Warning--can't use both author and editor fields in Blench66
 Warning--missing school in Bloemberg01
@@ -356,7 +353,6 @@ Warning--missing school in Doets15
 Warning--empty booktitle in Donchyts13
 Warning--can't use both author and editor fields in Drazin82
 Warning--can't use both author and editor fields in Drew99
-Warning--empty journal in Duizendstra01_2
 Name 1 in "E. Bladé, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. Vázquez-Cendón, J. Dolz, A. Coll," has a comma at the end for entry Blade14
 while executing---line 1822 of file agufull08_mod.bst
 Too many commas in name 1 of "E. Bladé, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. Vázquez-Cendón, J. Dolz, A. Coll," for entry Blade14
@@ -381,7 +377,6 @@ Too many commas in name 1 of "E. Bladé, L. Cea, G. Corestein, E. Escolano, J. P
 while executing---line 1822 of file agufull08_mod.bst
 Too many commas in name 1 of "E. Bladé, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. Vázquez-Cendón, J. Dolz, A. Coll," for entry Blade14
 while executing---line 1822 of file agufull08_mod.bst
-Warning--missing school in Edler20_MSc
 Warning--empty journal in Einfeldt15
 Warning--can't use both author and editor fields in Einstein71
 Warning--missing publisher in Eleftherakis10
@@ -415,6 +410,8 @@ Warning--empty title in Jagers99
 Warning--missing institution in Jagers99
 Warning--missing publisher in Lindenschmidt20
 Warning--can't use both author and editor fields in Kellermann11
+Warning--empty journal in Khorrami19
+Warning--empty journal in Khorrami19_2
 Warning--missing institution in King18
 Warning--missing institution in King33
 Warning--missing publisher in Kok17
@@ -424,11 +421,13 @@ Warning--missing publisher in vanLandeghem20
 Warning--missing school in deLange22
 Warning--can't use both author and editor fields in Leopold92
 Warning--missing school in Lindhart15_2
+Warning--empty journal in Lopez23
 Warning--can't use both volume and number fields in Macqueen67
 Name 1 in "Matt Czapiga, Astrid Blom, and Enrica Viparelli" has a comma at the end for entry Czapiga21_2
 while executing---line 1822 of file agufull08_mod.bst
 Name 1 in "Matt Czapiga, Astrid Blom, and Enrica Viparelli" has a comma at the end for entry Czapiga21_2
 while executing---line 1822 of file agufull08_mod.bst
+Warning--empty journal in Mittal05
 Warning--missing publisher in Monge50
 Warning--missing school in Montijn21
 Warning--can't use both author and editor fields in Mosselman06
@@ -460,6 +459,8 @@ Warning--missing publisher in Parker08
 Warning--missing publisher in Parker08_4
 Warning--empty chapter and pages in Peery88
 Warning--missing publisher in Peery88
+Warning--empty journal in Peskin72
+Warning--empty journal in Peskin77
 Warning--missing publisher in Plato_Phaedo
 Warning--missing publisher in Postman85
 Warning--there's a number but no volume in Preissmann61_2
@@ -558,6 +559,7 @@ Warning--empty journal in Stoker92
 Warning--missing publisher in STOWA19
 Warning--can't use both author and editor fields in Strauss08
 Warning--empty booktitle in Symonds17
+Warning--empty journal in Tezduyar01
 Warning--empty journal in Thomas75
 Warning--missing publisher in Tockner22
 Warning--missing school in Tritthart05
@@ -566,6 +568,8 @@ Warning--can't use both author and editor fields in Tubino08
 Warning--missing publisher in Uijttewaal20
 Warning--empty journal in vanBalen_XX
 Warning--empty journal in vanBalen_XX2
+Warning--empty journal in vanderVaart99
+Warning--there's a number but no volume in vanderVaart99
 Warning--missing publisher in vanDuin13
 Warning--missing institution in vanRijn00
 Warning--can't use both author and editor fields in vandeVen93
@@ -579,45 +583,45 @@ Warning--missing publisher in Wiesemann06
 Warning--missing publisher in Winterwerp22
 Warning--empty journal in Yalin
 Warning--empty journal in Ylla23
-You've used 2434 entries,
+You've used 2483 entries,
             3080 wiz_defined-function locations,
-            15327 strings with 428720 characters,
-and the built_in function-call counts, 1940555 in all, are:
-= -- 209674
-> -- 57500
-< -- 2040
-+ -- 26823
-- -- 15792
-* -- 122601
-:= -- 190926
-add.period$ -- 2434
-call.type$ -- 2434
-change.case$ -- 10592
-chr.to.int$ -- 2435
-cite$ -- 2666
-duplicate$ -- 213417
-empty$ -- 120793
-format.name$ -- 22449
-if$ -- 388581
-int.to.chr$ -- 160
+            15584 strings with 436167 characters,
+and the built_in function-call counts, 1968781 in all, are:
+= -- 212184
+> -- 58522
+< -- 2093
++ -- 27237
+- -- 16066
+* -- 124552
+:= -- 194136
+add.period$ -- 2483
+call.type$ -- 2483
+change.case$ -- 10812
+chr.to.int$ -- 2484
+cite$ -- 2723
+duplicate$ -- 216374
+empty$ -- 122797
+format.name$ -- 22848
+if$ -- 394189
+int.to.chr$ -- 173
 int.to.str$ -- 1
-missing$ -- 22351
-newline$ -- 7309
-num.names$ -- 9735
-pop$ -- 73795
+missing$ -- 22780
+newline$ -- 7456
+num.names$ -- 9931
+pop$ -- 75079
 preamble$ -- 1
-purify$ -- 7897
+purify$ -- 8057
 quote$ -- 0
-skip$ -- 115002
+skip$ -- 116225
 stack$ -- 0
-substring$ -- 77205
-swap$ -- 174195
-text.length$ -- 492
+substring$ -- 77927
+swap$ -- 176232
+text.length$ -- 508
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 21348
-warning$ -- 188
-while$ -- 11492
+type$ -- 21780
+warning$ -- 196
+while$ -- 11670
 width$ -- 0
-write$ -- 28227
-(There were 132 error messages)
+write$ -- 28782
+(There were 131 error messages)
