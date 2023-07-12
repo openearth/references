@@ -1,4 +1,4 @@
-\begin{thebibliography}{2483}
+\begin{thebibliography}{2492}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -4551,6 +4551,13 @@ Frings, R., and M.~Kleinhans (2008), Complex variations in sediment transport
   \textit{Sedimentology}, \textit{55}(5), 1145--1171,
   \doi{10.1111/j.1365-3091.2007.00940.x}.
 
+\bibitem[{\textit{Frings}(2002)}]{Frings02}
+Frings, R.~M. (2002), {Duinen, hydraulische ruwheid en bodemtransport in het
+  zomerbed van de Maas bij Broekhuizen}, \textit{Tech. rep.},
+  {Interuniversitair Centrum voor Geo-ecologisch onderzoek / Faculteit der
+  Ruimtelijke Wetenschappen, Universiteit Utrecht, Utrecht}, 69 pp. pp., iCG
+  02/1.
+
 \bibitem[{\textit{Frings}(2003)}]{Frings03}
 Frings, R.~M. (2003), \textit{Duinen en bodemtransport in het zomerbed van de
   Maas bij Broekhuizen II}, 68 pp., Fysische Geoqrafie, Faculteit der
@@ -7111,6 +7118,13 @@ Lai, S. Y.~J., Y.-T. Hsiao, and F.-C. Wu (2017), Asymmetric effects of
   prograding deltas, \textit{J. Geophys. Res., Earth Surface},
   \textit{122}(12), 2506--2526, \doi{10.1002/2017JF004244}.
 
+\bibitem[{\textit{Lai et~al.}(2023)\textit{Lai, Zhao, Zhao, and Huang}}]{Lai23}
+Lai, Z., J.~Zhao, S.~Zhao, and L.~Huang (2023), Signed distance field enhanced
+  fully resolved cfd-dem for simulation of granular flows involving multiphase
+  fluids and irregularly shaped particles, \textit{Computer Methods in Applied
+  Mechanics and Engineering}, \textit{414}, 116,195,
+  \doi{https://doi.org/10.1016/j.cma.2023.116195}.
+
 \bibitem[{\textit{Lajeunesse et~al.}(2010)\textit{Lajeunesse, Malverti, and
   Charru}}]{Lajeunesse10}
 Lajeunesse, E., L.~Malverti, and F.~Charru (2010), Bed load transport in
@@ -8013,6 +8027,12 @@ Markus, A. ({\natexlab{f}}), code reviews, \textit{Tech. rep.}, \refDeltares{}.
   bifurcations, \textit{Earth Surface Processes and Landscape}.
 
 \bibitem[{\textit{{\van{Mark}{Van der}{van der}}~Mark and
+  Paarlberg}(2010)}]{vanderMark10}
+{\van{Mark}{Van der}{van der}}~Mark, C.~F., and A.~Paarlberg (2010),
+  {Morfologische analyse rivierverruiming Vianen}, \textit{rapport deltares},
+  Deltares, Delft, 89 p. pp.
+
+\bibitem[{\textit{{\van{Mark}{Van der}{van der}}~Mark and
   Vijververg}(2015)}]{vanderMark15_2}
 {\van{Mark}{Van der}{van der}}~Mark, C.~F., and T.~Vijververg (2015),
   Validatie: vergelijking tussen covadem metingen en rijkswaterstaat metingen,
@@ -8026,6 +8046,14 @@ Markus, A. ({\natexlab{f}}), code reviews, \textit{Tech. rep.}, \refDeltares{}.
   (2008), Quantification of variability in bedform geometry, \textit{J.
   Geophys. Res., Earth Surface}, \textit{113}(F3), F03,020,
   \doi{10.1029/2007JF000940}.
+
+\bibitem[{\textit{{\van{Mark}{Van der}{van der}}~Mark
+  et~al.}(2010)\textit{{\van{Mark}{Van der}{van der}}~Mark, Giri, Sloff, and
+  Mosselman}}]{vanderMark10_2}
+{\van{Mark}{Van der}{van der}}~Mark, C.~F., S.~Giri, C.~J. Sloff, and
+  E.~Mosselman (2010), {Development of a 2D morphological model of the
+  Nederrrijn-Lek river}, \textit{rapport deltares}, Deltares, Delft, ii, 49,
+  [61] p. pp.
 
 \bibitem[{\textit{{\van{Mark}{Van der}{van der}}~Mark
   et~al.}(2011)\textit{{\van{Mark}{Van der}{van der}}~Mark, {van der Sligte},
@@ -10040,6 +10068,12 @@ Rahuel, J.~L. (1993), Discussion of ``fully coupled unsteady mobile boundary
   flow model''; by l. r. p. correia, b. g. krishnappan, and w. h. graf (march,
   1992, vol. 118, no. 3), \textit{J. Hydraul. Eng.}, \textit{119}(4),
   \doi{10.1061/(ASCE)0733-9429(1993)119:4(528)}.
+
+\bibitem[{\textit{Rai~Yangkhurung}(2018)}]{RaiYangkhurung18_MSc}
+Rai~Yangkhurung, J. (2018), {Effect of Canal Operation on Sedimentation and
+  Erosion in Irrigation Canals: A Case Study in Sunsari Morang Irrigation
+  System, Nepal}, Master's thesis, IHE Institute for Water Education, Delft,
+  the Netherlands, rTC + DD in Delft3D 4.
 
 \bibitem[{\textit{Rakha and Kamphuis}(1997)}]{Rakha97}
 Rakha, K.~A., and J.~W. Kamphuis (1997), A morphology model for an eroding
@@ -12536,6 +12570,11 @@ Vandenbussche, V., K.~Van~Looy, S.~Vanacker, S.~Vermeersch, and K.~Decleer
   rivers, \textit{J Hydro-environ Res}, \textit{8}(2), 95--114,
   \doi{10.1016/j.jher.2013.09.004}, moveable Bed Models.
 
+\bibitem[{\textit{\van{Kooij}{van der}{van der} Kooij}(2021)}]{vanderKooij_MSc}
+\van{Kooij}{van der}{van der} Kooij, E. (2021), Nowcasting heavy precipitation
+  in the netherlands: a deep learning approach, Master's thesis, Delft
+  University of Technology.
+
 \bibitem[{\textit{\van{Lageweg}{Van de}{van de}
   Lageweg}(2013)}]{vandeLageweg13}
 \van{Lageweg}{Van de}{van de} Lageweg, W. (2013), Morphodynamics and
@@ -12653,6 +12692,13 @@ V\"astil\"a, K., and J.~J\"arvel\"a (2014), Modeling the flow resistance of
 {\van{Vat}{Van der}{van der}}~Vat, M. (2021), Eindevaluatie pilot {L}angsdammen
   in de {W}aal; functie zoetwatervoorziening, \textit{{R}apport 11204644},
   Deltares, Delft, the Netherlands, september.
+
+\bibitem[{\textit{{\van{Veen}{Van der}{van der}}~Veen
+  et~al.}(1998)\textit{{\van{Veen}{Van der}{van der}}~Veen, Pakes,
+  {\van{Essen}{Van}{van}}~Essen, and Schutte}}]{vanderVeen98}
+{\van{Veen}{Van der}{van der}}~Veen, R., U.~Pakes,
+  J.~{\van{Essen}{Van}{van}}~Essen, and L.~Schutte (1998), {Calibratie
+  SOBEK-Maas (versie 1998.1)}, \textit{monografie}, RWS/RIZA, Lelystad.
 
 \bibitem[{\textit{{\van{Velde}{Van de}{van de}}~Velde}(1999)}]{vandeVelde99}
 {\van{Velde}{Van de}{van de}}~Velde, P.~A. (1999), Analyse bodemmonsters
@@ -13374,6 +13420,15 @@ Wilbers, A. (1996), The border meuse over the years. a study into the
   morphological changes of the bed of the meuse river in the period 1978
   through 1998, \textit{Tech. rep.}, Faculteit Ruimtelijke Wetenschappen,
   Vakgroep Fysische Geografie, Universiteit Utrecht. Nederland.
+
+\bibitem[{\textit{Wilbers}(2002)}]{Wilbers02}
+Wilbers, A. W.~E. (2002), Bed load transport obtained by dune tracking:
+  reliability and optimalisation.
+
+\bibitem[{\textit{Wilbers and Kleinhans}(1999)}]{Wilbers99}
+Wilbers, A. W.~E., and M.~G. Kleinhans (1999), {Gevoeligheidsanalyse dune
+  tracking in 2 dimensies}, \textit{Tech. rep.}, {Fysische Geografie,
+  Universiteit Utrecht, Utrecht}, iCG 99/8.
 
 \bibitem[{\textit{Wilbers and Ten~Brinke}(2003)}]{Wilbers03}
 Wilbers, A. W.~E., and W.~B.~M. Ten~Brinke (2003), The response of subaqueous

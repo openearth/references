@@ -13,14 +13,14 @@ Reallocating 'cite_info' (item size: 4) to 3000 items.
 Reallocating 'cite_list' (item size: 4) to 3000 items.
 Reallocating 'entry_exists' (item size: 1) to 3000 items.
 Reallocating 'type_list' (item size: 4) to 3000 items.
-White space in argument---line 2414 of file print_references.aux
+White space in argument---line 2418 of file print_references.aux
  : \citation{jabref-meta:
  :                        databaseType:biblatex;}
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 The style file: agufull08_mod.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
-Reallocating 'field_info' (item size: 4) to 67075 items.
+Reallocating 'field_info' (item size: 4) to 67300 items.
 Database file #1: references.bib
 Warning--I'm ignoring Ahnert94's extra "journal" field
 --line 381 of file references.bib
@@ -32,9 +32,9 @@ Warning--I'm ignoring Gill68's extra "journal" field
 --line 15787 of file references.bib
 Warning--entry type for "Lane57" isn't style-file defined
 --line 23895 of file references.bib
+Reallocating 'str_pool' (item size: 1) to 260000 items.
 Warning--I'm ignoring Lin84's extra "journal" field
 --line 25591 of file references.bib
-Reallocating 'str_pool' (item size: 1) to 260000 items.
 Warning--entry type for "Parker04" isn't style-file defined
 --line 31283 of file references.bib
 Warning--entry type for "Reula04" isn't style-file defined
@@ -162,13 +162,15 @@ Repeated entry---line 64649 of file references.bib
  : @article{Barneveld23
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 65883 of file references.bib
- : @techreport{Onjira23
- :                     ,
+I was expecting a `,' or a `}'---line 67095 of file references.bib
+ :   
+ :   annote      = {},
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 66883 of file references.bib
- : @article{vandenBerg95
- :                      ,
+I was expecting a `,' or a `}'---line 67137 of file references.bib
+ :   
+ :   annote      = {},
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karacan" has a comma at the end for entry Bakker22
 while executing---line 1741 of file agufull08_mod.bst
@@ -580,48 +582,49 @@ Warning--can't use both author and editor fields in Vollmer06
 Warning--missing publisher in Vreugdenhil89
 Warning--missing publisher in deVries69
 Warning--missing publisher in Wiesemann06
+Warning--empty note in Wilbers02
 Warning--missing publisher in Winterwerp22
 Warning--empty journal in Yalin
 Warning--empty journal in Ylla23
-You've used 2483 entries,
+You've used 2492 entries,
             3080 wiz_defined-function locations,
-            15584 strings with 436167 characters,
-and the built_in function-call counts, 1968781 in all, are:
-= -- 212184
-> -- 58522
-< -- 2093
-+ -- 27237
-- -- 16066
-* -- 124552
-:= -- 194136
-add.period$ -- 2483
-call.type$ -- 2483
-change.case$ -- 10812
-chr.to.int$ -- 2484
-cite$ -- 2723
-duplicate$ -- 216374
-empty$ -- 122797
-format.name$ -- 22848
-if$ -- 394189
+            15636 strings with 437998 characters,
+and the built_in function-call counts, 1973153 in all, are:
+= -- 212521
+> -- 58718
+< -- 2099
++ -- 27306
+- -- 16120
+* -- 124879
+:= -- 194702
+add.period$ -- 2492
+call.type$ -- 2492
+change.case$ -- 10858
+chr.to.int$ -- 2493
+cite$ -- 2733
+duplicate$ -- 216807
+empty$ -- 123120
+format.name$ -- 22925
+if$ -- 395045
 int.to.chr$ -- 173
 int.to.str$ -- 1
-missing$ -- 22780
-newline$ -- 7456
-num.names$ -- 9931
-pop$ -- 75079
+missing$ -- 22855
+newline$ -- 7483
+num.names$ -- 9967
+pop$ -- 75259
 preamble$ -- 1
-purify$ -- 8057
+purify$ -- 8086
 quote$ -- 0
-skip$ -- 116225
+skip$ -- 116380
 stack$ -- 0
-substring$ -- 77927
-swap$ -- 176232
+substring$ -- 78001
+swap$ -- 176486
 text.length$ -- 508
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 21780
-warning$ -- 196
-while$ -- 11670
+type$ -- 21861
+warning$ -- 197
+while$ -- 11699
 width$ -- 0
-write$ -- 28782
+write$ -- 28886
 (There were 131 error messages)
