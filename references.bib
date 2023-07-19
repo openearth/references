@@ -33904,6 +33904,7 @@ year = {2012}
   date        = {2022},
   institution = {\refDeltares{}},
   title       = {Construction and analysis of explicit time integrations for the 2DH/1DH shallow-water equations in SMART form},
+  comment = {original name: analysis; momentum to energy equation.}
 }
 
 @TechReport{Borsboom14,
@@ -33972,13 +33973,13 @@ abstract = {This paper deals with the implementation of a domain decomposition m
   year        = {2023},
 }
 
-@TechReport{Borsboom08_2,
+@TechReport{Borsboom05,
   author      = {Mart Borsboom},
-  date        = {2008},
+  date        = {2005},
   institution = {\refDHL{}},
   title       = {wave run-up in TRITON},
   number      = {H4387.31},
-  comment     = {flooding and drying},
+  comment     = {flooding and drying; original name: "runup-report_200509"},
 }
 
 @TechReport{NASEM23,
@@ -33990,5 +33991,20 @@ abstract = {This paper deals with the implementation of a domain decomposition m
   comment     = {FORTRAN},
 }
 
+@TechReport{Borsboom16,
+  author      = {National Academies of Sciences, Engineering, and Medicine},
+  date        = {2014},
+  institution = {\refDeltares{}},
+  title       = {Analysis of several continuous but non-smooth (i.e. C0) artificial porosity formulations to model drying and flooding (run-up/run-down)},
+  comment     = {orignal name: porouslayerforms_analysis. See email Mart Borsboom to Victor Chavarrias 2306191236: A potential complication with the TRITON exponentially varying artificial porosity is its non-smoothness at z = z_b + Deps. This causes in drying-flooding areas variations in the value of zeta – z_b at subsequent grid points of up to about Dx*tan(alpha), with Dx grid size and alpha bed slope. It is probably for this reason that setting Deps = Dx*tan(alpha) was found to work quite well, cf. halfway page 8 of runup-report_200509.pdf. I have investigated ways to get around that non-smoothness in the Maple worksheet porouslayerforms_analysis (pdf enclosed). See in particular the 3 figures in that worksheet: artificial porosity as a function of normalized depth, (effective) normalized water depth as a function of normalized surface elevation, and normalized wave celerity squared as a function of normalized surface elevation, all presented for a number of artificial porosity formulations.},
+}
+
+@TechReport{Elorche07,
+  author      = {Mustafa Elorch},
+  date        = {2007},
+  institution = {Svasek},
+  title       = {Voorlopige testresultaten Fase 1 en 3 empirische overlaatformulering in WAQUA rev 2},
+  comment     = {Villemonte Tabellenboek fixed weirs},
+}
 
 @Comment{jabref-meta: databaseType:biblatex;}
