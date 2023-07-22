@@ -101,23 +101,27 @@ def save_file(entry):
     os.getcwd()
     if not os.path.exists('adlib'):
         os.mkdir('adlib')
-    path, filename = os.path.split(entry['hyperref'])
-    _, ext = os.path.splitext(filename)
-    dfilename = os.path.split(entry['hyperref'])[-1]
-    if not os.path.exists(dfilename):
-        subprocess.run(r"curl -O " + entry['hyperref'])
-    fullfilename = os.path.join('adlib',entry['Citekey']+ext)
-    if not os.path.exists(fullfilename):
-        shutil.copyfile(dfilename, fullfilename)
-        print(f"Digital document saved to: {fullfilename}")
-    else:
-        if os.path.getsize(dfilename) == os.path.getsize(fullfilename): 
-            print(f"Digital document {fullfilename} already exists")
-            return 1
-        return 0
-    return 1
+    ext = '.pdf'
+    if 'hyperref' in entry.keys():
+        path, filename = os.path.split(entry['hyperref'])
+        _, ext = os.path.splitext(filename)
+        dfilename = os.path.split(entry['hyperref'])[-1]
+        if not os.path.exists(dfilename):
+            subprocess.run(r"curl -O " + entry['hyperref'])
+        fullfilename = os.path.join('adlib',entry['Citekey']+ext)
+        if not os.path.exists(fullfilename):
+            shutil.copyfile(dfilename, fullfilename)
+            print(f"Digital document saved to: {fullfilename}")
+        else:
+            if os.path.getsize(dfilename) == os.path.getsize(fullfilename): 
+                print(f"Digital document {fullfilename} already exists")
+                return 1
+            return 0
+        return 1
         
 def bibtex(entry):
+    if 'Publisher' not in entry.keys():
+        entry['Publisher'] = 'Unknown'
     bibtex_entry = ( 
     f"@techreport{'{'+entry['Citekey']}, \n"
     f"  author      = {entry['Author']},\n"
