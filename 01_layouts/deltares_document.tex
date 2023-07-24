@@ -1,3 +1,11 @@
+%Locate this file one level lower than the folder with references:
+%		-https://svn.oss.deltares.nl/repos/openearthtools/trunk/references
+%which must be checkout with in a folder named <00_references>.
+%E.g., locate this file renamed as <memo.tex> in a structure:
+%		-<#/00_references/>
+%		-<#/01_memo/memo.tex>
+%
+%
 %
 %
 %
@@ -8,49 +16,57 @@
 
 \newcommand{\isreport}{0} %0=memo; 1=report
 \newcommand{\addAppendix}{0} %0=no appendix; 1=add appendix
-\newcommand{\addCitation}{1} %0=no; 1=yes
+\newcommand{\addCitation}{0} %0=no; 1=yes
 
-\def\myTitle{Input for KPP 2023 nieuwsbrief}
-\def\mySubtitle{Morfologisch model van de Maas}
-\def\authorList{{Willem Ottevanger}, {V\'ictor Chavarr\'ias}}
-
-\def\myAuthori{Willem Ottevanger}
-\def\myPhonei{+31\,(0)88\,335\,8532}
-\def\myEmaili{willem.ottevanger@deltares.nl}
+%Add colon in \mySubtitle if desired or leave empty if no substitle is desired. 
+\def\myTitle{Fixed weirs in 6th generation models for BOI.}
+\def\mySubtitle{}
 
 \def\myOrganisationi{Deltares}
-\def\myAuthorii{V\'ictor Chavarr\'ias}
-\def\myPhoneii{+31\,(0)88\,335\,8033}
-\def\myEmailii{victor.ottevanger@deltares.nl}
+\def\myAuthori{V\'ictor Chavarr\'ias}
+\def\myPhonei{+31\,(0)88\,335\,8033}
+\def\myEmaili{victor.chavarrias@deltares.nl}
 
-\def\myOrganisationii{Deltares}
-\def\myAuthoriii{}
-\def\myOrganisationiii{}
-\def\myAuthoriv{}
-\def\myOrganisationiv{}
-\def\myVersion{11208033-002-ZWS-xxxx}
+%\def\myOrganisationii{Deltares}
+%\def\myAuthorii{Willem Ottevanger}
+%\def\myPhoneii{+31\,(0)88\,335\,8033}
+%\def\myEmailii{willem.ottevanger@deltares.nl}
+
+\def\myVersion{I1000641-010-ZWS-0001\_v1.\svnInfoRevision}
 \def\myDate{\today}
 
+%Victor Chavarrias 
 %Willem Ottevanger
-%V\'ictor Chavarr\'ias
-%Aukje Spruyt \\ 
-%Bert Jagers \\
-%Mohamed Yossef  \\
-%Amgad Omer
+%Aukje Spruyt
+%Bert Jagers 
+%Mohamed Yossef  
+%Koen Berends 
+%Anna Kosters 
+%Amgad Omer 
+%Anke Becker 
+%Anna van den Hoek 
 
-%+31\,(0)88\,335\,8532 \\ %WO
 %+31\,(0)88\,335\,8033 \\ %VC
+%+31\,(0)88\,335\,8532 \\ %WO
 %+31\,(0)88\,335\,7961 \\ %AS
 %+31\,(0)88\,335\,8264 \\ %BJ
 %+31\,(0)88\,335\,8149 \\ %MY
-%+31\,(0)88\,335\,7983    %AO
+%+31\,(0)88\,335\,8385 \\ %KB
+%+31\,(0)88\,335\,8065 \\ %AK
+%+31\,(0)88\,335\,7983 \\ %AO
+%+31\,(0)88\,335\,8161 \\ %AB
+%+31\,(0)62\,739\,5038 \\ %AH
 
-%willem.ottevanger@deltares.nl
-%victor.ottevanger@deltares.nl
-%aukje.spruyt@deltares.nl \\
-%bert.jagers@deltares.nl \\
-%mohamed.yossef@deltares.nl \\
-%amgad.omer@deltares.nl
+%victor.chavarrias@deltares.nl 
+%willem.ottevanger@deltares.nl 
+%aukje.spruyt@deltares.nl 
+%bert.jagers@deltares.nl 
+%mohamed.yossef@deltares.nl 
+%koen.berends@deltares.nl 
+%anna.kosters@deltares.nl 
+%amgad.omer@deltares.nl 
+%anke.becker@deltares.nl
+%anna.vandenhoek@deltares.nl
 
 %
 %
@@ -77,8 +93,8 @@
 %----------------------------
 %
 
-\input{../abbreviations}
-\input{../packages}
+\input{../00_references/abbreviations}
+\input{../00_references/packages}
 
 %
 %
@@ -94,6 +110,8 @@
 %
 
 \ifnum \isreport=1
+
+\def\authorList{\myAuthori{}, \myAuthorii{}} %Where does this go in the layout?
 
 %adding a different figure on the cover
 %
@@ -165,54 +183,24 @@
 \else
 
 \begin{document}
-\memoTo{Anke Becker}
+\memoTo{Aukje Spruyt, Johan Boon}
 \memoConfidentialUntil{}
 \memoDate{\today~\currenttime}
 \memoVersion{\myVersion{}} %11206793-013-ZWS-0001_v0.1-groynes.docx
 \memoFrom{\parbox[t]{3cm}{
-Victor Chavarrias \\ 
-Willem Ottevanger \\ 
-Aukje Spruyt \\ 
-Bert Jagers \\
-Mohamed Yossef  \\
-Koen Berends \\
-Anna Kosters \\
-Amgad Omer \\
-Anke Becker \\
-Anna van den Hoek 
-\myAuthori{} \\ 
-\myAuthorii{} \\ 
+\myAuthori{} 
+%\myAuthorii{} \\ 
 }}
 \memoTelephone{\parbox[t]{3cm}{
-+31\,(0)88\,335\,8033 \\ %VC
-+31\,(0)88\,335\,8532 \\ %WO
-+31\,(0)88\,335\,7961 \\ %AS
-+31\,(0)88\,335\,8264 \\ %BJ
-+31\,(0)88\,335\,8149 \\ %MY
-+31\,(0)88\,335\,8385 \\ %KB
-+31\,(0)88\,335\,8065 \\ %AK
-+31\,(0)88\,335\,7983 \\ %AO
-+31\,(0)88\,335\,8161 \\ %AB
-+31\,(0)62\,739\,5038 \\ %AH
-\myPhonei{} \\ 
-\myPhoneii{} \\ 
+\myPhonei{} 
+%\myPhoneii{} \\
 }}
 \memoEmail{\parbox[t]{3cm}{
-victor.chavarrias@deltares.nl \\
-willem.ottevanger@deltares.nl \\
-aukje.spruyt@deltares.nl \\
-bert.jagers@deltares.nl \\
-mohamed.yossef@deltares.nl \\
-koen.berends@deltares.nl \\
-anna.kosters@deltares.nl \\
-amgad.omer@deltares.nl \\
-anke.becker@deltares.nl
-anna.vandenhoek@deltares.nl
-\myEmaili{} \\
-\myEmailii{}
+\myEmaili{} 
+%\myEmailii{}
 }}
-\memoSubject{\myTitle{}: \mySubtitle{}}
-\memoCopy{-}
+\memoSubject{\myTitle{}\mySubtitle{}}
+\memoCopy{Erik de Goede, Jan van Kester, Tjitske Geertsema}
 
 \fi
 
@@ -237,39 +225,7 @@ anna.vandenhoek@deltares.nl
 %
 
 
-%\gensection{\isreport}{1}{Morfologisch model van de Maas}
-De rivierbodem van de Maas is onder meer van invloed op rivierwaterstanden,
-op afmetingen van de vaarweg en het onderhoud daarvan, op
-de standzekerheid van oevers en kunstwerken en op de habitat van de
-rivier. Dat maakt het kennen en voorspellen van de bodemligging voor
-rivierbeheer relevant bij:
-\begin{itemize}
-\item het ontwerp van ingrepen in/langs het zomerbed (normalisatie,
-sedimentbeheer,…),
-\item de evaluatie en toetsing van die ontwerpen (rivierkundig
-beoordelingskader),
-\item monitoring van ingrepen (rivierverruiming, vaarwegverruiming,
-zomerbedverdiepingen, eroderende oevers, ...),
-\item analyses van lange termijn riviergedrag in toekomstscenario’s
-\end{itemize}
-Met een steeds intensiever bevaren Maas en tegelijkertijd op steeds
-meer plaatsen een herstel van rivierdynamiek speelt het kennen van
-de morfodynamiek in komende decennia een grote rol. Momenteel
-kan die morfodynamiek uitsluitend voorspeld en beoordeeld worden
-met expert judgement en vuistregels en daarmee blijft een deel van de
-dynamische ontwikkelingen buiten beeld.
 
-Dit is aanleiding om een 2D morfologisch model van de Maas te bouwen.
-De ontwikkeling van dit nieuwe model is gestart in 2020. In 2021
-is de schematisatie verder verfijnd en gevisualiseerd, zodat modelgegevens
-gemakkelijker en eenduidig gecontroleerd kunnen worden. 
-
-%\gensection{\isreport}{2}{Werkzaamheden 2022}
-In 2022 is het model van Sambeek Grave een factor 2 verfijnd in het zomerbed, vanwege de oorspronkelijke resolutie die onvoldoende was voor de morfologische voorspelling. Daarnaast is de samenstelling geactualiseerd op basis van de 2021 meetcampagne. Verder zijn verschillende analyse scripts gemaakt om de bodemveranderingen en transporten te visualiseren en voor de vergelijking met data uit de jaarlijkse peilingen. Er is een eerste kalibratie uitgevoerd op basis van de jaren 2014 t/m 2018. Deze kalibratie geeft nog onvoldoende de gemeten trends weer. 
-
-Naast de kalibratie voor het Sambeek-Grave model is ook het volledige model van Lixhe tot Keizersveer in het zomerbed verfijnd en doorgerekend voor de initi\"ele morfologische aanpassing. Hiervoor was een aanpassing in de stuwsturing van Belfeld bij lage afvoeren nodig om te komen tot een stationair afvoerverloop. Het model toonde grootschalige aanpassingen in de morfologie, maar de vergelijking met de trends uit metingen is nog niet in detail bekeken.  
-
-\nocite{Ottevanger22,Ottevanger22_3}
 
 
 %
@@ -283,7 +239,7 @@ Naast de kalibratie voor het Sambeek-Grave model is ook het volledige model van 
 %\gensection{\isreport}{1}{References}
 \DeclareRobustCommand{\van}[3]{#3}
 %\bibliographystyle{agufull08_mod}
-\bibliography{../references}
+\bibliography{../00_references/references}
 
 
 \vfill
@@ -292,10 +248,10 @@ Please cite this work using: \\
 ~\\
 \texttt{@TechReport\{[Add\_bibtex\_reference],\\
 ~~author~~~~~~= \{\myAuthori{} and \myAuthorii{}\},\\
-~~title~~~~~~~=  \{\myTitle{}: \mySubtitle{}\},\\
+~~title~~~~~~~=  \{\myTitle{}\mySubtitle{}\},\\
 ~~number~~~~~~=      \{\myVersion{}\},\\
 ~~year~~~~~~~~=        \{\myDate{}\},\\
-~~institution~= {Deltares, Delft, the Netherlands}\\
+~~institution~= \{{Deltares, Delft, the Netherlands}\}\\
 \ifnum \isreport=1
 ~~type~~~~~~~~=  \{\{T\}ech. \{R\}ep.\},\\
 \else
@@ -303,7 +259,7 @@ Please cite this work using: \\
 \fi
 ~~\}
 }
-
+\fi
 
 %
 %
