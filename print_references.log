@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.21)  12 JUL 2023 16:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.21)  24 JUL 2023 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2736,7 +2736,7 @@ cmtt/m/n/10 , \OT1/cmtt/m/it/10 610\OT1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4873--4878
+Underfull \hbox (badness 10000) in paragraph at lines 4878--4883
 []\OT1/cmtt/m/n/10 van Gerwen, W., B. W. Borsje, J. H. Damveld, and S. J. M. H.
  Hulscher (2018), Modelling the effect of suspended load transport and tidal as
 ymmetry on the equilibrium tidal sand wave height, \OT1/cmtt/m/it/10 Coastal En
@@ -2744,7 +2744,7 @@ g\OT1/cmtt/m/n/10 ,
  []
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 4895--4899
+Underfull \hbox (badness 10000) in paragraph at lines 4900--4904
 []\OT1/cmtt/m/n/10 Ghamry, H. K., and P. M. Steffler (2002a), Effect of applyin
 g different distribution shapes for velocities and pressure on simulation of cu
 rved open channels, \OT1/cmtt/m/it/10 J. Hydraul. Eng.\OT1/cmtt/m/n/10 , \OT1/c
@@ -2752,7 +2752,7 @@ mtt/m/it/10 128\OT1/cmtt/m/n/10 (11), 969--982, doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4929--4933
+Underfull \hbox (badness 10000) in paragraph at lines 4934--4938
 []\OT1/cmtt/m/n/10 Gij^^Son Manche~no, A., W. Jansen, J. C. Winterwerp, and W. 
 S. J. Uijttewaal (2021), Predictive model of bulk drag coefficient for a nature
 -based structure exposed to currents, \OT1/cmtt/m/it/10 Sci Rep\OT1/cmtt/m/n/10
@@ -2760,7 +2760,7 @@ S. J. Uijttewaal (2021), Predictive model of bulk drag coefficient for a nature
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4935--4938
+Underfull \hbox (badness 10000) in paragraph at lines 4940--4943
 []\OT1/cmtt/m/n/10 Gilbert, G. K. (1877), \OT1/cmtt/m/it/10 Report on the Geolo
 gy of the Henry Mountains\OT1/cmtt/m/n/10 , 160 pp., US Geographical and Geolog
 ical Survey of the Rocky Mountain Regio, US Government Printing Office, Washing
@@ -2768,7 +2768,7 @@ ton, DC, United
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4969--4974
+Underfull \hbox (badness 10000) in paragraph at lines 4974--4979
 []\OT1/cmtt/m/n/10 Giri, S., S. V. Vuren, W. Ottevanger, K. Sloff, and A. Siebe
 n (2008), A preliminary analysis of bedform evolution in the waal during 2002-2
 003 flood event using delft3d, in \OT1/cmtt/m/it/10 Marid 2008. Third internati
@@ -2776,7 +2776,7 @@ onal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4977--4981
+Underfull \hbox (badness 10000) in paragraph at lines 4982--4986
 []\OT1/cmtt/m/n/10 Giri, S., A. Thompson, G. Donchyts, K. Oberhagemann, E. Moss
 elman, and J. Alam (2021), Stabilization of the lower jamuna river in banglades
 h-hydraulic and morphological assessment, \OT1/cmtt/m/it/10 Geosciences\OT1/cmt
@@ -2784,7 +2784,7 @@ t/m/n/10 , \OT1/cmtt/m/it/10 11\OT1/cmtt/m/n/10 (9), doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4984--4991
+Underfull \hbox (badness 10000) in paragraph at lines 4989--4996
 []\OT1/cmtt/m/n/10 Giuliani, Y., P. C. Klingeman, and J.-P. Bravard (1994), Les
  impacts morphodynamiques sur un cours d'eau soumis []A un am[]A\TS1/cmtt/m/n/1
 0 ©\OT1/cmtt/m/n/10 nagement hydro[]A\TS1/cmtt/m/n/10 ©\OT1/cmtt/m/n/10 lectriq
@@ -2793,15 +2793,15 @@ ue []A d[]A\TS1/cmtt/m/n/10 ©\OT1/cmtt/m/n/10 rivation : le rh[]A\TS1/cmtt/m/n/
  []
 
 LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
-5024.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 5024.
+5029.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 5029.
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/it' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 5024.
+(Font)              for symbol `textbraceleft' on input line 5029.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5042--5045
+Underfull \hbox (badness 10000) in paragraph at lines 5047--5050
 []\OT1/cmtt/m/n/10 Gomez, B., R. L. Naff, and D. W. Hubbell (1989), Temporal va
 riations in bedload transport rates associated with the migration of bedforms, 
 \OT1/cmtt/m/it/10 Earth Surf Process Landf\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 
@@ -2809,14 +2809,14 @@ riations in bedload transport rates associated with the migration of bedforms,
  []
 
 [33]
-Underfull \hbox (badness 10000) in paragraph at lines 5054--5058
+Underfull \hbox (badness 10000) in paragraph at lines 5059--5063
 []\OT1/cmtt/m/n/10 Gomez, B., S. E. Coleman, V. W. K. Sy, D. H. Peacock, and M.
  Kent (2007), Channel change, bankfull and effective discharges on a vertically
  accreting, meandering, gravel-bed river, \OT1/cmtt/m/it/10 Earth Surf Process
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5115--5119
+Underfull \hbox (badness 10000) in paragraph at lines 5120--5124
 []\OT1/cmtt/m/n/10 Greco, M., M. Iervolino, and A. Vacca (2008), Boundary condi
 tions in a two-layer geomorphological model: Application to a hydraulic jump ov
 er a mobile bed, \OT1/cmtt/m/it/10 J. Hydraul. Res.\OT1/cmtt/m/n/10 , \OT1/cmtt
@@ -2824,7 +2824,7 @@ er a mobile bed, \OT1/cmtt/m/it/10 J. Hydraul. Res.\OT1/cmtt/m/n/10 , \OT1/cmtt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5136--5139
+Underfull \hbox (badness 10000) in paragraph at lines 5141--5144
 []\OT1/cmtt/m/n/10 Grijsen, J. G., and C. B. Vreugdenhil (1976), Numerical repr
 esentation of flood waves in rivers, in \OT1/cmtt/m/it/10 Proceedings of the In
 ternational symposium on Unsteady flow in Open Channels, Newcastle-upon-Tune, 1
@@ -2832,21 +2832,21 @@ ternational symposium on Unsteady flow in Open Channels, Newcastle-upon-Tune, 1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5145--5153
+Underfull \hbox (badness 10000) in paragraph at lines 5150--5158
 []\OT1/cmtt/m/n/10 Grill, G., B. Lehner, M. Thieme, B. Geenen, D. Tickner, F. A
 ntonelli, S. Babu, P. Borrelli, L. Cheng, H. Crochetiere, H. Ehalt Macedo, R. F
 ilgueiras, M. Goichot, J. Higgins, Z. Hogan, B. Lip, M. E.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5145--5153
+Underfull \hbox (badness 10000) in paragraph at lines 5150--5158
 \OT1/cmtt/m/n/10 McClain, J. Meng, M. Mulligan, C. Nilsson, J. D. Olden, J. J. 
 Opperman, P. Petry, C. Reidy Liermann, L. S^^Saenz, S. Salinas-Rodr^^S^^Pguez, 
 P. Schelle, R. J. P. Schmitt, J. Snider, F. Tan, K. Tockner, P. H.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5165--5168
+Underfull \hbox (badness 10000) in paragraph at lines 5170--5173
 []\OT1/cmtt/m/n/10 Gruijters, S. H. L., J. G. Veldkamp, J. Gunnink, and J. H. A
 . Bosch (2001), The lithological and sedimentological structure of the pannerde
 nsche kop bifurcation, \OT1/cmtt/m/it/10 Tech. rep.\OT1/cmtt/m/n/10 , Geologica
@@ -2854,7 +2854,7 @@ l Survey of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5171--5175
+Underfull \hbox (badness 10000) in paragraph at lines 5176--5180
 []\OT1/cmtt/m/n/10 Guala, M., A. Singh, N. BadHeartBull, and E. Foufoula-Georgi
 ou (2014), Spectral description of migrating bed forms and sediment transport, 
 \OT1/cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmtt/m/n/10 , \OT1/cmtt/m
@@ -2862,7 +2862,7 @@ ou (2014), Spectral description of migrating bed forms and sediment transport,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5197--5201
+Underfull \hbox (badness 10000) in paragraph at lines 5202--5206
 []\OT1/cmtt/m/n/10 Guerrero, M., and A. Lamberti (2011), Flow field and morphol
 ogy mapping using ADCP and multibeam techniques: Survey in the Po River, \OT1/c
 mtt/m/it/10 J. Hydraul. Eng.\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 137\OT1/cmtt/m
@@ -2871,7 +2871,7 @@ mtt/m/it/10 J. Hydraul. Eng.\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 137\OT1/cmtt/m
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5203--5207
+Underfull \hbox (badness 10000) in paragraph at lines 5208--5212
 []\OT1/cmtt/m/n/10 Guerrero, M., and A. Lamberti (2013), Bed-roughness investig
 ation for a 2-D model calibration: the San Mart^^S^^Pn case study at Lower Para
 n^^Sa, \OT1/cmtt/m/it/10 Int J Sediment Res\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10
@@ -2880,7 +2880,7 @@ n^^Sa, \OT1/cmtt/m/it/10 Int J Sediment Res\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5210--5214
+Underfull \hbox (badness 10000) in paragraph at lines 5215--5219
 []\OT1/cmtt/m/n/10 Guerrero, M., M. Re, L. D. Kazimierski, A. N. Men^^Sendez, a
 nd R. Ugarelli (2013a), Effect of climate change on navigation channel dredging
  of the Paran^^Sa River, \OT1/cmtt/m/it/10 International Journal of River Basin
@@ -2888,23 +2888,23 @@ nd R. Ugarelli (2013a), Effect of climate change on navigation channel dredging
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5217--5221
+Underfull \hbox (badness 10000) in paragraph at lines 5222--5226
 []\OT1/cmtt/m/n/10 Guerrero, M., M. Nones, R. Saurral, N. Montroull, and R. N. 
 Szupiany (2013b), Paran^^Sa River morphodynamics in the context of climate chan
 ge, \OT1/cmtt/m/it/10 International Journal of River Basin Management\OT1/cmtt/
 m/n/10 , \OT1/cmtt/m/it/10 11\OT1/cmtt/m/n/10 (4), 423--437,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 5224--5229
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 5229--5234
 []\OT1/cmtt/m/n/10 Guerrero, M., F. Latosinski, M. Nones, R. N. Szupiany, M. Re
 , and M. G. Gaeta (2015), A sediment fluxes investigation for the 2-D modelling
  of large river morphodynamics, \OT1/cmtt/m/it/10 Adv Water Resour\OT1/cmtt/m/n
 /10 , \OT1/cmtt/m/it/10 81\OT1/cmtt/m/n/10 , 186--198,
  []
 
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 5246--5250
+
+Underfull \hbox (badness 10000) in paragraph at lines 5251--5255
 []\OT1/cmtt/m/n/10 Guo, L., M. van der Wegen, J. A. Roelvink, and Q. He (2014),
  The role of river flow and tidal asymmetry on 1-d estuarine morphodynamics, \O
 T1/cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmtt/m/n/10 , \OT1/cmtt/m/i
@@ -2912,7 +2912,7 @@ t/10 119\OT1/cmtt/m/n/10 (11), 2315--2334, doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5253--5257
+Underfull \hbox (badness 10000) in paragraph at lines 5258--5262
 []\OT1/cmtt/m/n/10 Guo, L., M. van der Wegen, D. Roelvink, and Q. He (2015a), E
 xploration of the impact of seasonal river discharge variations on long-term es
 tuarine morphodynamic behavior, \OT1/cmtt/m/it/10 Coastal Eng\OT1/cmtt/m/n/10 ,
@@ -2920,7 +2920,7 @@ tuarine morphodynamic behavior, \OT1/cmtt/m/it/10 Coastal Eng\OT1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5260--5264
+Underfull \hbox (badness 10000) in paragraph at lines 5265--5269
 []\OT1/cmtt/m/n/10 Guo, L., M. van der Wegen, D. J. A. Roelvink, Z. B. Wang, an
 d Q. He (2015b), Long-term, process-based morphodynamic modeling of a fluvio-de
 ltaic system, part i: The role of river discharge, \OT1/cmtt/m/it/10 Cont Shelf
@@ -2928,21 +2928,21 @@ ltaic system, part i: The role of river discharge, \OT1/cmtt/m/it/10 Cont Shelf
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5267--5272
+Underfull \hbox (badness 10000) in paragraph at lines 5272--5277
 []\OT1/cmtt/m/n/10 Guo, L., M. Wegen, Z. B. Wang, D. Roelvink, and Q. He (2016)
 , Exploring the impacts of multiple tidal constituents and varying river flow o
 n long-term, large-scale estuarine morphodynamics by means of a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5289--5294
+Underfull \hbox (badness 10000) in paragraph at lines 5294--5299
 []\OT1/cmtt/m/n/10 Gutierrez, R. R., J. D. Abad, D. R. Parsons, and J. L. Best 
 (2013), Discrimination of bed form scales using robust spline filters and wavel
 et transforms: Methods and application to synthetic signals and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5301--5304
+Underfull \hbox (badness 10000) in paragraph at lines 5306--5309
 []\OT1/cmtt/m/n/10 Guy, H. P., D. B. Simons, and E. V. Richardson (1966), Summa
 ry of alluvial channel data from flume experiments, 1956-61, \OT1/cmtt/m/it/10 
 Tech. Rep. 462-I\OT1/cmtt/m/n/10 , USGS, US Government Printing Office, Washing
@@ -2950,7 +2950,7 @@ ton, DC, United
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5307--5311
+Underfull \hbox (badness 10000) in paragraph at lines 5312--5316
 []\OT1/cmtt/m/n/10 G^^Somez-Bueno, I., S. Boscarino, M. Castro, C. Par^^Ses, an
 d G. Russo (2023), Implicit and semi-implicit well-balanced finite-volume metho
 ds for systems of balance laws, \OT1/cmtt/m/it/10 Applied Numerical Mathematics
@@ -2958,7 +2958,7 @@ ds for systems of balance laws, \OT1/cmtt/m/it/10 Applied Numerical Mathematics
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5314--5318
+Underfull \hbox (badness 10000) in paragraph at lines 5319--5323
 []\OT1/cmtt/m/n/10 H., B., E. Mosselman, V. Chavarr^^S^^Pas, and T. Hoitink (20
 22), Linear stability analysis put into practice for river bed waves with lengt
 hs larger than the water depth., in \OT1/cmtt/m/it/10 AGU 2022 fall meeting, Ch
@@ -2966,14 +2966,14 @@ icago,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5327--5333
+Underfull \hbox (badness 10000) in paragraph at lines 5332--5338
 []\OT1/cmtt/m/n/10 den Haan, R. J., M. C. van der Voort, F. Baart, K. D. Berend
 s, M. C. van den Berg, M. W. Straatsma, A. J. P. Geenen, and S. J. M. H. Hulsch
 er (2020), The virtual river game: Gaming using models to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5339--5343
+Underfull \hbox (badness 10000) in paragraph at lines 5344--5348
 []\OT1/cmtt/m/n/10 Habersack, H. M. (2001), Radio-tracking gravel particles in 
 a large braided river in New Zealand: A field test of the stochastic theory of 
 bed load transport proposed by Einstein, \OT1/cmtt/m/it/10 Hydrol Process\OT1/c
@@ -2981,21 +2981,21 @@ mtt/m/n/10 , \OT1/cmtt/m/it/10 15\OT1/cmtt/m/n/10 (3),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5351--5355
+Underfull \hbox (badness 10000) in paragraph at lines 5356--5360
 []\OT1/cmtt/m/n/10 Hackney, C. R., S. E. Darby, D. R. Parsons, J. Leyland, R. A
 alto, A. P. Nicholas, and J. L. Best (2017), The influence of flow discharge va
 riations on the morphodynamics of a diffluence!!e!!confluence unit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5358--5362
+Underfull \hbox (badness 10000) in paragraph at lines 5363--5367
 []\OT1/cmtt/m/n/10 Hackney, C. R., S. E. Darby, D. R. Parsons, J. Leyland, J. L
 . Best, R. Aalto, A. P. Nicholas, and R. C. Houseago (2020), River bank instabi
 lity from unsustainable sand mining in the lower mekong river,
  []
 
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 5428--5432
+Underfull \hbox (badness 10000) in paragraph at lines 5433--5437
 []\OT1/cmtt/m/n/10 Harada, E., H. Gotoh, and N. Tsuruta (2015), Vertical sortin
 g process under oscillatory sheet flow condition by resolved discrete particle 
 model, \OT1/cmtt/m/it/10 J. Hydraul. Res.\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 5
@@ -3004,7 +3004,7 @@ model, \OT1/cmtt/m/it/10 J. Hydraul. Res.\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5528--5532
+Underfull \hbox (badness 10000) in paragraph at lines 5533--5537
 []\OT1/cmtt/m/n/10 Hassan, M. A., A. P. Schick, and P. A. Shaw (1999), The tran
 sport of gravel in an ephemeral sandbed river, \OT1/cmtt/m/it/10 Earth Surf Pro
 cess Landf\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 24\OT1/cmtt/m/n/10 (7), 623--640
@@ -3013,23 +3013,23 @@ cess Landf\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 24\OT1/cmtt/m/n/10 (7), 623--640
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5535--5539
+Underfull \hbox (badness 10000) in paragraph at lines 5540--5544
 []\OT1/cmtt/m/n/10 Hassan, M. A., H. Voepel, R. Schumer, G. Parker, and L. Frac
 carollo (2013), Displacement characteristics of coarse fluvial bed sediment, \O
 T1/cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmtt/m/n/10 , \OT1/cmtt/m/i
 t/10 118\OT1/cmtt/m/n/10 (1), 155--165, doi:$\OT1/cmr/m/n/10 10 . 1029 /
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 5570--5574
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 5575--5579
 []\OT1/cmtt/m/n/10 Heays, K. G., H. Friedrich, B. W. Melville, and R. Nokes (20
 14b), Quantifying the dynamic evolution of graded gravel beds using particle tr
 acking velocimetry, \OT1/cmtt/m/it/10 Journal of Hydraulic Engineering\OT1/cmtt
 /m/n/10 , \OT1/cmtt/m/it/10 140\OT1/cmtt/m/n/10 (7),
  []
 
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 5594--5597
+
+Underfull \hbox (badness 10000) in paragraph at lines 5599--5602
 []\OT1/cmtt/m/n/10 van Heereveld, M. A. (2022), Pilotsuppleties Gemeenschappeli
 jke Maas: Ontwerp, uitvoeringsplan & monitoringsplan, \OT1/cmtt/m/it/10 Tech. R
 ep. BI2918WMRP2109201056\OT1/cmtt/m/n/10 , HaskoningDHV Nederland B.V., the Net
@@ -3037,14 +3037,14 @@ herlands and HKV
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5601--5605
+Underfull \hbox (badness 10000) in paragraph at lines 5606--5610
 []\OT1/cmtt/m/n/10 Hegnauer, M., J. Beersma, H. van den Boogaard, T. Buishand, 
 and R. Passchier (2014), Generator of Rainfall and Discharge Extremes (GRADE) f
 or the Rhine and Meuse basins : final report of GRADE 2.0,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5664--5668
+Underfull \hbox (badness 10000) in paragraph at lines 5669--5673
 []\OT1/cmtt/m/n/10 Heyman, J., H. B. Ma, F. Mettra, and C. Ancey (2014), Spatia
 l correlations in bed load transport: Evidence, importance, and modeling, \OT1/
 cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/1
@@ -3052,7 +3052,7 @@ cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5671--5675
+Underfull \hbox (badness 10000) in paragraph at lines 5676--5680
 []\OT1/cmtt/m/n/10 Heyman, J., P. Bohorquez, and C. Ancey (2016), Entrainment, 
 motion, and deposition of coarse particles transported by water over a sloping 
 mobile bed, \OT1/cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmtt/m/n/10 ,
@@ -3060,7 +3060,7 @@ mobile bed, \OT1/cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5677--5681
+Underfull \hbox (badness 10000) in paragraph at lines 5682--5686
 []\OT1/cmtt/m/n/10 Hickin, E. J., and G. C. Nanson (1975), The character of cha
 nnel migration on the beatton river, northeast british columbia, canada, \OT1/c
 mtt/m/it/10 GSA Bulletin\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 86\OT1/cmtt/m/n/10
@@ -3069,7 +3069,7 @@ mtt/m/it/10 GSA Bulletin\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 86\OT1/cmtt/m/n/10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5684--5688
+Underfull \hbox (badness 10000) in paragraph at lines 5689--5693
 []\OT1/cmtt/m/n/10 Hicks, D., E. Baynes, R. Measures, G. Stecca, J. Tunnicliffe
 , and H. Friedrich (2021), Morphodynamic research challenges for braided river 
 environments: Lessons from the iconic case of new zealand, \OT1/cmtt/m/it/10 Ea
@@ -3077,7 +3077,7 @@ rth
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5696--5700
+Underfull \hbox (badness 10000) in paragraph at lines 5701--5705
 []\OT1/cmtt/m/n/10 Hill, K. M., L. DellAngelo, and M. M. Meerschaert (2010), He
 avy-tailed travel distance in gravel bed transport: An exploratory enquiry, \OT
 1/cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it
@@ -3085,21 +3085,21 @@ avy-tailed travel distance in gravel bed transport: An exploratory enquiry, \OT
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5703--5707
+Underfull \hbox (badness 10000) in paragraph at lines 5708--5712
 []\OT1/cmtt/m/n/10 Hill, K. M., J. Gaffney, S. Baumgardner, P. Wilcock, and C. 
 Paola (2017), Experimental study of the effect of grain sizes in a bimodal mixt
 ure on bed slope, bed texture, and the transition to washload,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5731--5735
+Underfull \hbox (badness 10000) in paragraph at lines 5736--5740
 []\OT1/cmtt/m/n/10 Hodge, R. A., T. B. Hoey, and L. S. Sklar (2011), Bed load t
 ransport in bedrock rivers: The role of sediment cover in grain entrainment, tr
 anslation, and deposition, \OT1/cmtt/m/it/10 Journal of Geophysical Research:
  []
 
 [37]
-Underfull \hbox (badness 10000) in paragraph at lines 5747--5750
+Underfull \hbox (badness 10000) in paragraph at lines 5752--5755
 []\OT1/cmtt/m/n/10 Hoey, T. (1992), Temporal variations in bedload transport ra
 tes and sediment storage in gravel-bed rivers, \OT1/cmtt/m/it/10 Progress in Ph
 ysical Geography: Earth and Environment\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 16\
@@ -3107,7 +3107,7 @@ OT1/cmtt/m/n/10 (3), 319--338, doi:$\OT1/cmr/m/n/10 10 . 1177 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5752--5756
+Underfull \hbox (badness 10000) in paragraph at lines 5757--5761
 []\OT1/cmtt/m/n/10 Hoey, T. B., and R. I. Ferguson (1994), Numerical simulation
  of downstream fining by selective transport in gravel bed rivers: Model develo
 pment and illustration, \OT1/cmtt/m/it/10 Water Resour Res\OT1/cmtt/m/n/10 , \O
@@ -3115,7 +3115,7 @@ T1/cmtt/m/it/10 30\OT1/cmtt/m/n/10 (7), 2251--2260, doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5842--5846
+Underfull \hbox (badness 10000) in paragraph at lines 5847--5851
 []\OT1/cmtt/m/n/10 Houssais, M., C. P. Ortiz, D. J. Durian, and D. J. Jerolmack
  (2015), Onset of sediment transport is a continuous transition driven by fluid
  shear and granular creep, \OT1/cmtt/m/it/10 Nat Commun\OT1/cmtt/m/n/10 , \OT1/
@@ -3123,7 +3123,7 @@ cmtt/m/it/10 6\OT1/cmtt/m/n/10 , 6527, doi:$\OT1/cmr/m/n/10 10 . 1038 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5886--5890
+Underfull \hbox (badness 10000) in paragraph at lines 5891--5895
 []\OT1/cmtt/m/n/10 Hsieh, T. Y., and J. C. Yang (2003), Investigation on the su
 itability of two-dimensional depth-averaged models for bend-flow simulation, \O
 T1/cmtt/m/it/10 J. Hydraul. Eng.\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 129\OT1/cm
@@ -3132,7 +3132,7 @@ tt/m/n/10 (8), 597--612, doi:$\OT1/cmr/m/n/10 10 . 1061 / (ASCE ) 0733-[]9429(2
  []
 
 [38]
-Underfull \hbox (badness 10000) in paragraph at lines 5926--5930
+Underfull \hbox (badness 10000) in paragraph at lines 5931--5935
 []\OT1/cmtt/m/n/10 Huang, J., Y. Zhou, M. Niessner, J. R. Shewchuk, and L. J. G
 uibas (2018), Quadriflow: A scalable and robust method for quadrangulation, \OT
 1/cmtt/m/it/10 Comput Graph Forum\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 37\OT1/cm
@@ -3141,7 +3141,7 @@ tt/m/n/10 (5), 147--160, doi:$\OT1/cmr/m/n/10 https : / / doi . org / 10 . 1111
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5961--5965
+Underfull \hbox (badness 10000) in paragraph at lines 5966--5970
 []\OT1/cmtt/m/n/10 Huismans, Y., G. van Velzen, T. O'Mahoney, G. Hoffmans, and 
 A. Wiersma (2016), Scour hole development in river beds with mixed sand-clay-pe
 at stratigraphy, in \OT1/cmtt/m/it/10 ICSE 2016 (8th International Conference o
@@ -3149,7 +3149,7 @@ n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5978--5982
+Underfull \hbox (badness 10000) in paragraph at lines 5983--5987
 []\OT1/cmtt/m/n/10 Humphries, R., J. G. Venditti, L. S. Sklar, and J. K. Wooste
 r (2012), Experimental evidence for the effect of hydrographs on sediment pulse
  dynamics in gravel-bedded rivers, \OT1/cmtt/m/it/10 Water Resour Res\OT1/cmtt/
@@ -3157,7 +3157,7 @@ m/n/10 , \OT1/cmtt/m/it/10 48\OT1/cmtt/m/n/10 (1),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6006--6010
+Underfull \hbox (badness 10000) in paragraph at lines 6011--6015
 []\OT1/cmtt/m/n/10 I en W (2018), Mirt onderzoek duurzame bodemligging rijntakk
 en eindrapportage: "de rivierbodem is de basis van alle belangen". bijlage 1: E
 indrapport mirt onderzoek inclusief kostenramingen, \OT1/cmtt/m/it/10 Tech. rep
@@ -3165,7 +3165,7 @@ indrapport mirt onderzoek inclusief kostenramingen, \OT1/cmtt/m/it/10 Tech. rep
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6064--6068
+Underfull \hbox (badness 10000) in paragraph at lines 6069--6073
 []\OT1/cmtt/m/n/10 Infrasite.nl (2007), Groen licht voor hoger stuwpeil Maas en
  Maas-Waalkanaal, []$https : / / www . infrasite . nl / waterbouw-[]deltas / 20
 07 / 09 / 27 / groen-[]licht-[]voor-[]hoger-[]stuwpeil-[]maas-[]en-[]maas-[]waa
@@ -3173,22 +3173,22 @@ lkanaal/$[], accessed:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6084--6088
+Underfull \hbox (badness 10000) in paragraph at lines 6089--6093
 []\OT1/cmtt/m/n/10 Isaacson, E., J. J. Stoker, and A. Troesch (1954), Numerical
  solution of flood prediction and river regulation problems, \OT1/cmtt/m/it/10 
 Tech. Rep. II IMN-NYU 205\OT1/cmtt/m/n/10 , New York University Institute for M
 athematics and
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 6090--6094
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 6095--6099
 []\OT1/cmtt/m/n/10 Iseya, F., and H. Ikeda (1987), Pulsations in bedload transp
 ort rates induced by a longitudinal sediment sorting: A flume study using sand 
 and gravel mixtures, \OT1/cmtt/m/it/10 Geografiska Annaler: Series A, Physical
  []
 
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 6102--6106
+
+Underfull \hbox (badness 10000) in paragraph at lines 6107--6111
 []\OT1/cmtt/m/n/10 Itoh, T., A. Ikeda, T. Nagayama, and T. Mizuyama (2017), Hyd
 raulic model tests for propagation of flow and sediment in floods due to breaki
 ng of a natural landslide dam during a mountainous torrent, \OT1/cmtt/m/it/10 I
@@ -3196,7 +3196,7 @@ nt J
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6109--6113
+Underfull \hbox (badness 10000) in paragraph at lines 6114--6118
 []\OT1/cmtt/m/n/10 Itoh, T., A. Ikeda, T. Nagayama, and T. Mizuyama (2018), Hyd
 raulic model tests for propagation of flow and sediment in floods due to breaki
 ng of a natural landslide dam during a mountainous torrent, \OT1/cmtt/m/it/10 I
@@ -3204,7 +3204,7 @@ nt J
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6125--6129
+Underfull \hbox (badness 10000) in paragraph at lines 6130--6134
 []\OT1/cmtt/m/n/10 Iwantoro, A. P., M. van der Vegt, and M. G. Kleinhans (2021)
 , Effects of sediment grain size and channel slope on the stability of river bi
 furcations, \OT1/cmtt/m/it/10 Earth Surf Proc Land\OT1/cmtt/m/n/10 , \OT1/cmtt/
@@ -3212,7 +3212,7 @@ m/it/10 46\OT1/cmtt/m/n/10 (10), 2004--2018, doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6132--6136
+Underfull \hbox (badness 10000) in paragraph at lines 6137--6141
 []\OT1/cmtt/m/n/10 Iwasaki, T., J. Nelson, Y. Shimizu, and G. Parker (2017), Nu
 merical simulation of large-scale bed load particle tracer advection-dispersion
  in rivers with free bars, \OT1/cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT
@@ -3220,7 +3220,7 @@ merical simulation of large-scale bed load particle tracer advection-dispersion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6143--6147
+Underfull \hbox (badness 10000) in paragraph at lines 6148--6152
 []\OT1/cmtt/m/n/10 Jaballah, M., B. Camenen, L. P^^Senard, and A. Paquier (2015
 ), Alternate bar development in an alpine river following engineering works, \O
 T1/cmtt/m/it/10 Adv Water Resour\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 81\OT1/cmt
@@ -3229,7 +3229,7 @@ t/m/n/10 , 103--113, doi:$\OT1/cmr/m/n/10 10 . 1016 / j . advwatres . 2015 . 03
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6154--6158
+Underfull \hbox (badness 10000) in paragraph at lines 6159--6163
 []\OT1/cmtt/m/n/10 Jafarinik, S., and E. Viparelli (2020), Alluvial morphodynam
 ics of low-slope bedrock reaches transporting nonuniform bed material, \OT1/cmt
 t/m/it/10 Water Resour Res\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 56\OT1/cmtt/m/n/
@@ -3238,7 +3238,7 @@ t/m/it/10 Water Resour Res\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 56\OT1/cmtt/m/n/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6187--6191
+Underfull \hbox (badness 10000) in paragraph at lines 6192--6196
 []\OT1/cmtt/m/n/10 James, F., M. Postel, and M. Sep^^Sulveda (2000), Numerical 
 comparison between relaxation and nonlinear equilibrium models. application to 
 chemical engineering, \OT1/cmtt/m/it/10 Phys D Nonlinear Phenom\OT1/cmtt/m/n/10
@@ -3246,7 +3246,7 @@ chemical engineering, \OT1/cmtt/m/it/10 Phys D Nonlinear Phenom\OT1/cmtt/m/n/10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6198--6202
+Underfull \hbox (badness 10000) in paragraph at lines 6203--6207
 []\OT1/cmtt/m/n/10 Jang, C.-L., and Y. Shimizu (2005a), Numerical simulation of
  relatively wide, shallow channels with erodible banks, \OT1/cmtt/m/it/10 Journ
 al of Hydraulic Engineering\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 131\OT1/cmtt/m/
@@ -3255,7 +3255,7 @@ n/10 (7), 565--575, doi:$\OT1/cmr/m/n/10 10 . 1061 / (ASCE ) 0733-[]9429(2005 )
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6226--6230
+Underfull \hbox (badness 10000) in paragraph at lines 6231--6235
 []\OT1/cmtt/m/n/10 Javernick, L., D. M. Hicks, R. Measures, B. Caruso, and J. B
 rasington (2016), Numerical modelling of braided rivers with structure-from-mot
 ion-derived terrain models, \OT1/cmtt/m/it/10 River Res. Appl.\OT1/cmtt/m/n/10 
@@ -3263,7 +3263,7 @@ ion-derived terrain models, \OT1/cmtt/m/it/10 River Res. Appl.\OT1/cmtt/m/n/10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6233--6237
+Underfull \hbox (badness 10000) in paragraph at lines 6238--6242
 []\OT1/cmtt/m/n/10 Javernick, L., M. Redolfi, and W. Bertoldi (2018), Evaluatio
 n of a numerical model's ability to predict bed load transport observed in brai
 ded river experiments, \OT1/cmtt/m/it/10 Adv Water Resour\OT1/cmtt/m/n/10 , \OT
@@ -3271,7 +3271,7 @@ ded river experiments, \OT1/cmtt/m/it/10 Adv Water Resour\OT1/cmtt/m/n/10 , \OT
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6239--6243
+Underfull \hbox (badness 10000) in paragraph at lines 6244--6248
 []\OT1/cmtt/m/n/10 Jeffreys, H. (1925), The flow of water in an inclined channe
 l of rectangular section, \OT1/cmtt/m/it/10 The London, Edinburgh, and Dublin P
 hilosophical Magazine and Journal of Science\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/1
@@ -3279,7 +3279,7 @@ hilosophical Magazine and Journal of Science\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/1
  []
 
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 6308--6312
+Underfull \hbox (badness 10000) in paragraph at lines 6313--6317
 []\OT1/cmtt/m/n/10 John, F. (1960), Continuous dependence on data for solutions
  of partial differential equations with a prescribed bound, \OT1/cmtt/m/it/10 C
 ommun Pure Appl Math\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 13\OT1/cmtt/m/n/10 (4)
@@ -3288,7 +3288,7 @@ ommun Pure Appl Math\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 13\OT1/cmtt/m/n/10 (4)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6324--6328
+Underfull \hbox (badness 10000) in paragraph at lines 6329--6333
 []\OT1/cmtt/m/n/10 Johnson, M. A., P. Noble, L. M. Rodrigues, and K. Zumbrun (2
 014), Behavior of periodic solutions of viscous conservation laws under localiz
 ed and nonlocalized perturbations, \OT1/cmtt/m/it/10 Inventiones mathematicae\O
@@ -3296,7 +3296,7 @@ T1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6358--6362
+Underfull \hbox (badness 10000) in paragraph at lines 6363--6367
 []\OT1/cmtt/m/n/10 de Jong, J., and M. Yossef (2016), Riviermodellen in D-HYDRO
  - pilotapplicatie Rijntakken : Advies voor algemeen functioneel ontwerp voor d
 e zesde generatie modellen van RWS, \OT1/cmtt/m/it/10 rapport deltares\OT1/cmtt
@@ -3304,7 +3304,7 @@ e zesde generatie modellen van RWS, \OT1/cmtt/m/it/10 rapport deltares\OT1/cmtt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6374--6378
+Underfull \hbox (badness 10000) in paragraph at lines 6379--6383
 []\OT1/cmtt/m/n/10 de Jong, J., V. Chavarrias, and W. Ottevanger (2021), Eindev
 aluatie pilot Langsdammen in de Waal; hydromorphological data and observations,
  \OT1/cmtt/m/it/10 Rapport Deltares 11204644\OT1/cmtt/m/n/10 , Deltares, Delft,
@@ -3312,14 +3312,14 @@ aluatie pilot Langsdammen in de Waal; hydromorphological data and observations,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6380--6384
+Underfull \hbox (badness 10000) in paragraph at lines 6385--6389
 []\OT1/cmtt/m/n/10 de Jong, W. (2005), Onzekerheidsanalyse bodemverandering Gre
 nsmaas: Een onderzoek naar de onzekerheid in de met SOBEK-graded gemodelleerde 
 bodemverandering van de Grensmaas ten gevolge van de variatie in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6408--6412
+Underfull \hbox (badness 10000) in paragraph at lines 6413--6417
 []\OT1/cmtt/m/n/10 Juez, C., J. Murillo, and P. Garc^^S^^Pa-Navarro (2014), A 2
 d weakly-coupled and efficient numerical model for transient shallow flow and m
 ovable bed, \OT1/cmtt/m/it/10 Adv Water Resour\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it
@@ -3328,7 +3328,7 @@ g / 10 . 1016 / j .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6415--6419
+Underfull \hbox (badness 10000) in paragraph at lines 6420--6424
 []\OT1/cmtt/m/n/10 Juez, C., C. Ferrer-Boix, J. Murillo, M. A. Hassan, and P. G
 arc^^S^^Pa-Navarro (2016), A model based on hirano-exner equations for two-dime
 nsional transient flows over heterogeneous erodible beds, \OT1/cmtt/m/it/10 Adv
@@ -3336,7 +3336,7 @@ nsional transient flows over heterogeneous erodible beds, \OT1/cmtt/m/it/10 Adv
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6421--6425
+Underfull \hbox (badness 10000) in paragraph at lines 6426--6430
 []\OT1/cmtt/m/n/10 Juez, C., M. A. Hassan, and M. J. Franca (2018), The origin 
 of fine sediment determines the observations of suspended sediment fluxes under
  unsteady flow conditions, \OT1/cmtt/m/it/10 Water Resour Res\OT1/cmtt/m/n/10 ,
@@ -3344,7 +3344,7 @@ of fine sediment determines the observations of suspended sediment fluxes under
  []
 
 [41]
-Underfull \hbox (badness 10000) in paragraph at lines 6433--6438
+Underfull \hbox (badness 10000) in paragraph at lines 6438--6443
 []\OT1/cmtt/m/n/10 Julien, P. Y., G. J. Klaassen, W. B. M. ten. Brinke, A. W. E
 . Wilbers, and L. van. Bendegom (2002), Case study: Bed resistance of Rhine Riv
 er during 1998 flood, \OT1/cmtt/m/it/10 Journal of Hydraulic Engineering\OT1/cm
@@ -3352,7 +3352,7 @@ tt/m/n/10 , \OT1/cmtt/m/it/10 128\OT1/cmtt/m/n/10 (12),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6520--6524
+Underfull \hbox (badness 10000) in paragraph at lines 6525--6529
 []\OT1/cmtt/m/n/10 Karim, M. F., F. M. Holly, and J. F. Kennedy (1983), Bed arm
 ouring procedures in IALLUVIAL and application to the Missouri River, \OT1/cmtt
 /m/it/10 Tech. Rep. 269\OT1/cmtt/m/n/10 , Iowa Institute for Hydraulic Research
@@ -3360,21 +3360,21 @@ ouring procedures in IALLUVIAL and application to the Missouri River, \OT1/cmtt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6542--6546
+Underfull \hbox (badness 10000) in paragraph at lines 6547--6551
 []\OT1/cmtt/m/n/10 Kassa, K., C. Castro-Bolinaga, L. Guertault, G. A. Fox, P. R
 ussell, and E. D. Brown (2023), Quantifying the impact of model selection when 
 examining bank retreat and sediment transport in stream
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6554--6559
+Underfull \hbox (badness 10000) in paragraph at lines 6559--6564
 []\OT1/cmtt/m/n/10 Kasvi, E., P. Alho, E. Lotsari, Y. Wang, A. Kukko, H. Hyypp^
 ^?a, and J. Hyypp^^?a (2015), Two-dimensional and three-dimensional computation
 al models in hydrodynamic and morphodynamic reconstructions of a river
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6561--6565
+Underfull \hbox (badness 10000) in paragraph at lines 6566--6570
 []\OT1/cmtt/m/n/10 Kater, E. (2014), P-map rijntakken rws-on 1999-2014: Gis-mod
 ules en datasets gemiddelde zomerbedhoogten per hectometervak, nautisch kilomet
 ervak en riviertraject, \OT1/cmtt/m/it/10 Tech. rep.\OT1/cmtt/m/n/10 , Rijkswat
@@ -3382,7 +3382,7 @@ erstaat,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6573--6577
+Underfull \hbox (badness 10000) in paragraph at lines 6578--6582
 []\OT1/cmtt/m/n/10 Kaye, C. A., and E. S. Barghoorn (1964), Late Quaternary sea
 -level change and crustal rise at Boston, Massachusetts, with notes on the auto
 compaction of peat, \OT1/cmtt/m/it/10 Geol Soc Am Bull\OT1/cmtt/m/n/10 , \OT1/c
@@ -3390,7 +3390,7 @@ mtt/m/it/10 75\OT1/cmtt/m/n/10 (2), 63--80, doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6584--6588
+Underfull \hbox (badness 10000) in paragraph at lines 6589--6593
 []\OT1/cmtt/m/n/10 Kellermann, J. (2011), \OT1/cmtt/m/it/10 Information 2011, W
 asser und Schifffahrtsdirektion S^^?ud\OT1/cmtt/m/n/10 , chap. Langfristige Soh
 lentwicklungen in der Donau zwischen Straubing und Hofkirchen, pp. 72--77, Wass
@@ -3398,7 +3398,7 @@ er und
  []
 
 [42]
-Underfull \hbox (badness 10000) in paragraph at lines 6624--6630
+Underfull \hbox (badness 10000) in paragraph at lines 6629--6635
 []\OT1/cmtt/m/n/10 van Kessel, T., H. Winterwerp, B. van Prooijen, M. van Ledde
 n, and W. Borst (2011b), Modelling the seasonal dynamics of SPM with a simple a
 lgorithm for the buffering of fines in a sandy seabed, \OT1/cmtt/m/it/10 Cont S
@@ -3406,7 +3406,7 @@ helf
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6637--6641
+Underfull \hbox (badness 10000) in paragraph at lines 6642--6646
 []\OT1/cmtt/m/n/10 Khorrami, Z., and M. A. Banihashemi (a), Numerical simulatio
 n of sedimentation process in reservoirs and development of a non-coupled algor
 ithm to improve long-term modeling, \OT1/cmtt/m/it/10 34\OT1/cmtt/m/n/10 (3), 2
@@ -3414,7 +3414,7 @@ ithm to improve long-term modeling, \OT1/cmtt/m/it/10 34\OT1/cmtt/m/n/10 (3), 2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6656--6660
+Underfull \hbox (badness 10000) in paragraph at lines 6661--6665
 []\OT1/cmtt/m/n/10 Kimiaghalam, N., M. Goharrokhi, S. P. Clark, and H. Ahmari (
 2015), A comprehensive fluvial geomorphology study of riverbank erosion on the 
 red river in winnipeg, manitoba, canada, \OT1/cmtt/m/it/10 J Hydrol\OT1/cmtt/m/
@@ -3422,7 +3422,7 @@ n/10 , \OT1/cmtt/m/it/10 529\OT1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6670--6675
+Underfull \hbox (badness 10000) in paragraph at lines 6675--6680
 []\OT1/cmtt/m/n/10 Kinneging, N., M. Snellen, D. Eleftherakis, D. Simons, E. Mo
 sselman, and A. Sieben (2012), River bed classification using multi-beam echo-s
 ounder backscatter data, in \OT1/cmtt/m/it/10 Proc. Hydro12 - Taking care of th
@@ -3430,7 +3430,7 @@ e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6712--6715
+Underfull \hbox (badness 10000) in paragraph at lines 6717--6720
 []\OT1/cmtt/m/n/10 Klaassen, G. J., H. Tukker, J. Driegen, and G. van der Woude
  (1986), Morfologie afgepleisterde beddingen: proeven met hoogwatergolven, \OT1
 /cmtt/m/it/10 Tech. Rep. M2061/Q212\OT1/cmtt/m/n/10 , Delft Hydraulics Laborato
@@ -3438,21 +3438,21 @@ ry, Delft, the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6722--6726
+Underfull \hbox (badness 10000) in paragraph at lines 6727--6731
 []\OT1/cmtt/m/n/10 Kleinhans, M., A. Wilbers, and W. Ten Brinke (2007), Opposit
 e hysteresis of sand and gravel transport upstream and downstream of a bifurcat
 ion during a flood in the river rhine, the netherlands,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6730--6735
+Underfull \hbox (badness 10000) in paragraph at lines 6735--6740
 []\OT1/cmtt/m/n/10 Kleinhans, M., A. Verkade, T. van Wessel, M. Bastings, W. Ma
 rra, T. van Gog, W. van Westrenen, and M. Reichwein (2015), Moon, mars and mund
 us: primary school children discover the nature and science of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6767--6771
+Underfull \hbox (badness 10000) in paragraph at lines 6772--6776
 []\OT1/cmtt/m/n/10 Kleinhans, M. G., H. R. A. Jagers, E. Mosselman, and C. J. S
 loff (2008), Bifurcation dynamics and avulsion duration in meandering rivers by
  one-dimensional and three-dimensional models, \OT1/cmtt/m/it/10 Water Resour R
@@ -3460,22 +3460,22 @@ es\OT1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6779--6783
+Underfull \hbox (badness 10000) in paragraph at lines 6784--6788
 []\OT1/cmtt/m/n/10 Kleinhans, M. G., M. F. P. Bierkens, and M. van der Perk (20
 10), Hess opinions on the use of laboratory experimentation: "hydrologists, bri
 ng out shovels and garden hoses and hit the dirt", \OT1/cmtt/m/it/10 Hydrol Ear
 th
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 6793--6799
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 6798--6804
 []\OT1/cmtt/m/n/10 Kleinhans, M. G., W. M. van Dijk, W. I. van de Lageweg, D. C
 . J. D. Hoyal, H. Markies, M. van Maarseveen, C. Roosendaal, W. van Weesep, D. 
 van Breemen, R. Hoendervoogt, and N. Cheshier (2014), Quantifiable
  []
 
-[43]
-Underfull \hbox (badness 10000) in paragraph at lines 6802--6806
+
+Underfull \hbox (badness 10000) in paragraph at lines 6807--6811
 []\OT1/cmtt/m/n/10 Kleinhans, M. G., J. R. F. W. Leuven, L. Braat, and A. Baar 
 (2017), Scour holes and ripples occur below the hydraulic smooth to rough trans
 ition of movable beds, \OT1/cmtt/m/it/10 Sedimentology\OT1/cmtt/m/n/10 , \OT1/c
@@ -3483,14 +3483,14 @@ mtt/m/it/10 64\OT1/cmtt/m/n/10 (5), 1381--1401, doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6813--6818
+Underfull \hbox (badness 10000) in paragraph at lines 6818--6823
 []\OT1/cmtt/m/n/10 Kl^^?osch, M., W. ten Brinke, M. Krapesch, and H. Habersack 
 (2022), Sediment management in the rhine catchment: Inventory of knowledge, res
 earch and monitoring, and an advice on future sediment research,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6826--6830
+Underfull \hbox (badness 10000) in paragraph at lines 6831--6835
 []\OT1/cmtt/m/n/10 Knight, D. W., M. Omran, and X. Tang (2007), Modeling depth-
 averaged velocity and boundary shear in trapezoidal channels with secondary flo
 ws, \OT1/cmtt/m/it/10 J. Hydraul. Eng.\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 133\
@@ -3498,7 +3498,7 @@ OT1/cmtt/m/n/10 (1), 39--47, doi:$\OT1/cmr/m/n/10 10 . 1061 / (ASCE )
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6893--6897
+Underfull \hbox (badness 10000) in paragraph at lines 6898--6902
 []\OT1/cmtt/m/n/10 Komarova, N. L., and A. C. Newell (1995), \OT1/cmtt/m/it/10 
 Nonlinear Dynamics and Pattern Formation in the Natural Environment\OT1/cmtt/m/
 n/10 , chap. 10: The mean flows driven by sandbar instabilities, pp. 147--167, 
@@ -3506,7 +3506,7 @@ Pitman research notes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6914--6917
+Underfull \hbox (badness 10000) in paragraph at lines 6919--6922
 []\OT1/cmtt/m/n/10 Kondolf, G. M., and J. T. Minear (2004), Coarse sediment aug
 mentation on the Trinity River below Lewiston Dam: Geomorphic perspectives and 
 review of past projects, \OT1/cmtt/m/it/10 Tech. rep.\OT1/cmtt/m/n/10 , Trinity
@@ -3514,14 +3514,14 @@ review of past projects, \OT1/cmtt/m/it/10 Tech. rep.\OT1/cmtt/m/n/10 , Trinity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6921--6927
+Underfull \hbox (badness 10000) in paragraph at lines 6926--6932
 []\OT1/cmtt/m/n/10 Kondolf, G. M., Y. Gao, G. W. Annandale, G. L. Morris, E. Ji
 ang, J. Zhang, Y. Cao, P. Carling, K. Fu, Q. Guo, R. Hotchkiss, C. Peteuil, T. 
 Sumi, H.-W. Wang, Z. Wang, Z. Wei, B. Wu, C. Wu, and C. T. Yang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6929--6933
+Underfull \hbox (badness 10000) in paragraph at lines 6934--6938
 []\OT1/cmtt/m/n/10 Koren, B. (1993), A robust upwind discretization method for 
 advection, diffusion and source terms, in \OT1/cmtt/m/it/10 Numerical Methods f
 or Advection-Diffusion Problems\OT1/cmtt/m/n/10 , edited by C. B. Vreugdenhil a
@@ -3529,7 +3529,7 @@ nd B. Koren, pp.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6941--6945
+Underfull \hbox (badness 10000) in paragraph at lines 6946--6950
 []\OT1/cmtt/m/n/10 Kostaschuk, R., D. Shugar, J. Best, D. Parsons, S. Lane, R. 
 Hardy, and O. Orfeo (2009), Suspended sediment transport and deposition over a 
 dune: R^^S^^Po Paran^^Sa, Argentina, \OT1/cmtt/m/it/10 Earth Surf Process Landf
@@ -3537,14 +3537,14 @@ dune: R^^S^^Po Paran^^Sa, Argentina, \OT1/cmtt/m/it/10 Earth Surf Process Landf
  []
 
 [44]
-Underfull \hbox (badness 10000) in paragraph at lines 7003--7010
+Underfull \hbox (badness 10000) in paragraph at lines 7008--7015
 []\OT1/cmtt/m/n/10 Kremer, J. N., J. M. Vaudrey, D. S. Ullman, D. L. Bergondo, 
 N. LaSota, C. Kincaid, D. L. Codiga, and M. J. Brush (2010), Simulating propert
 y exchange in estuarine ecosystem models at ecologically
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7003--7010
+Underfull \hbox (badness 10000) in paragraph at lines 7008--7015
 \OT1/cmtt/m/n/10 appropriate scales, \OT1/cmtt/m/it/10 Ecol Model\OT1/cmtt/m/n/
 10 , \OT1/cmtt/m/it/10 221\OT1/cmtt/m/n/10 (7), 1080--1088, doi:$\OT1/cmr/m/n/1
 0 https : / / doi . org / 10 . 1016 / j . ecolmodel . 2009 . 12 . 014$\OT1/cmtt
@@ -3553,7 +3553,7 @@ s: Approaches, Validation, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7018--7022
+Underfull \hbox (badness 10000) in paragraph at lines 7023--7027
 []\OT1/cmtt/m/n/10 Kubatko, E. J., and J. J. Westerink (2007), Exact discontinu
 ous solutions of exner's bed evolution model: Simple theory for sediment bores,
  \OT1/cmtt/m/it/10 J. Hydraul. Eng.\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 133\OT1
@@ -3561,7 +3561,7 @@ ous solutions of exner's bed evolution model: Simple theory for sediment bores,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7076--7080
+Underfull \hbox (badness 10000) in paragraph at lines 7081--7085
 []\OT1/cmtt/m/n/10 Kurstjens, G. (2019), Effect van langsdammen opstroomdalflor
 a langs de Waal vier jaar na aanleg, \OT1/cmtt/m/it/10 Tech. rep.\OT1/cmtt/m/n/
 10 , Ontwikkeling+beheer natuurkwaliteit, ARK natuur ontwikkeling, Staatsbosbeh
@@ -3569,7 +3569,7 @@ eer, WWF, 35 pp., (in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7098--7102
+Underfull \hbox (badness 10000) in paragraph at lines 7103--7107
 []\OT1/cmtt/m/n/10 Laan, S., V. Chavarrias, Y. Huismans, and R. van der Wijk ()
 , Verzilting hollandsche ijssel en lek: Evaluatie en systeemanalyse op basis va
 n metingen, \OT1/cmtt/m/it/10 Tech. Rep. 11206830-017-ZWS-0001\OT1/cmtt/m/n/10 
@@ -3577,14 +3577,14 @@ n metingen, \OT1/cmtt/m/it/10 Tech. Rep. 11206830-017-ZWS-0001\OT1/cmtt/m/n/10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7105--7110
+Underfull \hbox (badness 10000) in paragraph at lines 7110--7115
 []\OT1/cmtt/m/n/10 Labbe, J. M., K. S. Hadley, A. M. Schipper, R. S. E. W. Leuv
 en, and C. Perala-Gardiner (2011), Influence of bank materials, bed sediment, a
 nd riparian vegetation on channel form along a gravel-to-sand
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7116--7120
+Underfull \hbox (badness 10000) in paragraph at lines 7121--7125
 []\OT1/cmtt/m/n/10 Lai, S. Y. J., Y.-T. Hsiao, and F.-C. Wu (2017), Asymmetric 
 effects of subaerial and subaqueous basement slopes on self-similar morphology 
 of prograding deltas, \OT1/cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmt
@@ -3592,7 +3592,7 @@ t/m/n/10 , \OT1/cmtt/m/it/10 122\OT1/cmtt/m/n/10 (12),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7122--7127
+Underfull \hbox (badness 10000) in paragraph at lines 7127--7132
 []\OT1/cmtt/m/n/10 Lai, Z., J. Zhao, S. Zhao, and L. Huang (2023), Signed dista
 nce field enhanced fully resolved cfd-dem for simulation of granular flows invo
 lving multiphase fluids and irregularly shaped particles, \OT1/cmtt/m/it/10 Com
@@ -3600,7 +3600,7 @@ puter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7130--7134
+Underfull \hbox (badness 10000) in paragraph at lines 7135--7139
 []\OT1/cmtt/m/n/10 Lajeunesse, E., L. Malverti, and F. Charru (2010), Bed load 
 transport in turbulent flow at the grain scale: Experiments and modeling, \OT1/
 cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/1
@@ -3608,7 +3608,7 @@ cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7143--7148
+Underfull \hbox (badness 10000) in paragraph at lines 7148--7153
 []\OT1/cmtt/m/n/10 Lajeunesse, E., O. Devauchelle, F. Lachauss^^See, and P. Cla
 udin (2017), Bedload transport in laboratory rivers: The erosion-deposition mod
 el, in \OT1/cmtt/m/it/10 Gravel-Bed Rivers: Process and Disasters\OT1/cmtt/m/n/
@@ -3616,7 +3616,7 @@ el, in \OT1/cmtt/m/it/10 Gravel-Bed Rivers: Process and Disasters\OT1/cmtt/m/n/
  []
 
 [45]
-Underfull \hbox (badness 10000) in paragraph at lines 7166--7170
+Underfull \hbox (badness 10000) in paragraph at lines 7171--7175
 []\OT1/cmtt/m/n/10 Lamb, M. P., W. E. Dietrich, and L. S. Sklar (2008), A model
  for fluvial bedrock incision by impacting suspended and bed load sediment, \OT
 1/cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it
@@ -3624,7 +3624,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7166--7170
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7173--7177
+Underfull \hbox (badness 10000) in paragraph at lines 7178--7182
 []\OT1/cmtt/m/n/10 Lamb, M. P., J. A. Nittrouer, D. Mohrig, and J. Shaw (2012),
  Backwater and river plume controls on scour upstream of river mouths: Implicat
 ions for fluvio-deltaic morphodynamics, \OT1/cmtt/m/it/10 J. Geophys. Res., Ear
@@ -3632,7 +3632,7 @@ th
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7186--7190
+Underfull \hbox (badness 10000) in paragraph at lines 7191--7195
 []\OT1/cmtt/m/n/10 van Landeghem, K., I. Yiannoukos, C. McCarron, J. Morgan, an
 d B. Clayton-Smith (2020), The influence of gravel mixed with sand on the forma
 tion and development of ripples, in \OT1/cmtt/m/it/10 Proceedings of the Europe
@@ -3640,7 +3640,7 @@ an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7216--7220
+Underfull \hbox (badness 10000) in paragraph at lines 7221--7225
 []\OT1/cmtt/m/n/10 de Lange, S. I., S. Naqshband, and A. J. F. Hoitink (2021), 
 Quantifying hydraulic roughness from field data: Can dune morphology tell the w
 hole story?, \OT1/cmtt/m/it/10 Water Resour Res\OT1/cmtt/m/n/10 , \OT1/cmtt/m/i
@@ -3648,7 +3648,7 @@ t/10 57\OT1/cmtt/m/n/10 (12), e2021WR030,329, doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7222--7225
+Underfull \hbox (badness 10000) in paragraph at lines 7227--7230
 []\OT1/cmtt/m/n/10 Langendoen, E. J. (2000), CONCEPTS|conservational channel ev
 olu-tion and pollutant transport system, \OT1/cmtt/m/it/10 Res. rep. 16\OT1/cmt
 t/m/n/10 , USDA, Agricultural Research Service, National Sedimentation Laborato
@@ -3656,7 +3656,7 @@ ry, Oxford, Miss.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7227--7231
+Underfull \hbox (badness 10000) in paragraph at lines 7232--7236
 []\OT1/cmtt/m/n/10 Langendoen, E. J., and C. V. Alonso (2008), Modeling the evo
 lution of incised streams: I. model formulation and validation of flow and stre
 ambed evolution components, \OT1/cmtt/m/it/10 Journal of Hydraulic Engineering\
@@ -3664,7 +3664,7 @@ OT1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7239--7243
+Underfull \hbox (badness 10000) in paragraph at lines 7244--7248
 []\OT1/cmtt/m/n/10 Langendoen, E. J., A. Mendoza, J. D. Abad, P. Tassi, D. Wang
 , R. Ata, K. El Kadi Abderrezzak, and J.-M. Hervouet (2016), Improved numerical
  modeling of morphodynamics of rivers with steep banks, \OT1/cmtt/m/it/10 Adv W
@@ -3672,7 +3672,7 @@ ater
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7256--7260
+Underfull \hbox (badness 10000) in paragraph at lines 7261--7265
 []\OT1/cmtt/m/n/10 Langhorst, T., and T. Pavelsky (2023), Global observations o
 f riverbank erosion and accretion from landsat imagery, \OT1/cmtt/m/it/10 Journ
 al of Geophysical Research: Earth Surface\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 1
@@ -3680,7 +3680,7 @@ al of Geophysical Research: Earth Surface\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7294--7298
+Underfull \hbox (badness 10000) in paragraph at lines 7299--7303
 []\OT1/cmtt/m/n/10 Lanzoni, S., A. Ferdousi, and N. Tambroni (2017b), River ban
 ks and channel axis curvature: effects on the longitudinal dispersion in alluvi
 al rivers, \OT1/cmtt/m/it/10 Adv Water Resour\OT1/cmtt/m/n/10 , pp. --, doi:$\O
@@ -3688,7 +3688,7 @@ T1/cmr/m/n/10 10 . 1016 / j . advwatres . 2017 . 10 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7301--7305
+Underfull \hbox (badness 10000) in paragraph at lines 7306--7310
 []\OT1/cmtt/m/n/10 Lanzoni, S., A. Ferdousi, and N. Tambroni (2018), River bank
 s and channel axis curvature: Effects on the longitudinal dispersion in alluvia
 l rivers, \OT1/cmtt/m/it/10 Adv Water Resour\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/1
@@ -3696,16 +3696,16 @@ l rivers, \OT1/cmtt/m/it/10 Adv Water Resour\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/1
 .
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 7316--7320
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 7321--7325
 []\OT1/cmtt/m/n/10 Lauer, J. W., and G. Parker (2008), Modeling framework for s
 ediment deposition, storage, and evacuation in the floodplain of a meandering r
 iver: Theory, \OT1/cmtt/m/it/10 Water Resour Res\OT1/cmtt/m/n/10 , \OT1/cmtt/m/
 it/10 44\OT1/cmtt/m/n/10 (4), W04,425, doi:$\OT1/cmr/m/n/10 10 . 1029 /
  []
 
-[46]
-Underfull \hbox (badness 10000) in paragraph at lines 7323--7326
+
+Underfull \hbox (badness 10000) in paragraph at lines 7328--7331
 []\OT1/cmtt/m/n/10 Lauer, J. W., G. Parker, and W. E. Dietrich (2008), Response
  of the strickland and fly river confluence to postglacial sea level rise, \OT1
 /cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/
@@ -3713,14 +3713,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 7323--7326
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7329--7333
+Underfull \hbox (badness 10000) in paragraph at lines 7334--7338
 []\OT1/cmtt/m/n/10 Lauer, J. W., C. Li, E. Viparelli, and H. Piegay (2014), Mas
 t-1d: A size-specific sediment transport and tracer model with off-channel stor
 age, in \OT1/cmtt/m/it/10 Proceedings World Environmental and Water Resources
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7336--7340
+Underfull \hbox (badness 10000) in paragraph at lines 7341--7345
 []\OT1/cmtt/m/n/10 Lauer, J. W., E. Viparelli, and H. Pi^^Segay (2016), Morphod
 ynamics and sediment tracers in 1-D (MAST-1D): 1-D sediment transport that incl
 udes exchange with an off-channel sediment reservoir, \OT1/cmtt/m/it/10 Adv Wat
@@ -3728,7 +3728,7 @@ er
  []
 
 
-Overfull \hbox (131.53468pt too wide) in paragraph at lines 7347--7351
+Overfull \hbox (131.53468pt too wide) in paragraph at lines 7352--7356
 []\OT1/cmtt/m/n/10 Laurens, F. (2020), Estimating navigable areas in scarce dat
 a river environments: A Chindwin case study, M.Sc thesis, TU Delft, The Netherl
 ands., available from http://resolver.tudelft.nl/uuid:828da8d0-513a-4f7b-9c8e-b
@@ -3736,7 +3736,7 @@ ands., available from http://resolver.tudelft.nl/uuid:828da8d0-513a-4f7b-9c8e-b
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7378--7382
+Underfull \hbox (badness 10000) in paragraph at lines 7383--7387
 []\OT1/cmtt/m/n/10 Le, T. B., A. Crosato, and W. S. J. Uijttewaal (2018a), Long
 -term morphological developments of river channels separated by a longitudinal 
 training wall, \OT1/cmtt/m/it/10 Adv Water Resour\OT1/cmtt/m/n/10 , \OT1/cmtt/m
@@ -3744,7 +3744,7 @@ training wall, \OT1/cmtt/m/it/10 Adv Water Resour\OT1/cmtt/m/n/10 , \OT1/cmtt/m
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7385--7389
+Underfull \hbox (badness 10000) in paragraph at lines 7390--7394
 []\OT1/cmtt/m/n/10 Le, T. B., A. Crosato, E. Mosselman, and W. S. J. Uijttewaal
  (2018b), On the stability of river bifurcations created by longitudinal traini
 ng walls. numerical investigation, \OT1/cmtt/m/it/10 Adv Water Resour\OT1/cmtt/
@@ -3752,7 +3752,7 @@ m/n/10 , \OT1/cmtt/m/it/10 113\OT1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7453--7457
+Underfull \hbox (badness 10000) in paragraph at lines 7458--7462
 []\OT1/cmtt/m/n/10 Legleiter, C. J., and P. C. Kyriakidis (2006), Forward and i
 nverse transformations between Cartesian and channel-fitted coordinate systems 
 for meandering rivers, \OT1/cmtt/m/it/10 Math Geol\OT1/cmtt/m/n/10 , \OT1/cmtt/
@@ -3760,29 +3760,29 @@ m/it/10 38\OT1/cmtt/m/n/10 (8), 927--958, doi:$\OT1/cmr/m/n/10 10 . 1007 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7459--7463
+Underfull \hbox (badness 10000) in paragraph at lines 7464--7468
 []\OT1/cmtt/m/n/10 Leijnse, T. (2018), Computationally efficient modelling of c
 ompound flooding due to tropical cyclones with the explicit inclusion of wave-d
 riven processes: Research into the required processes and the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7466--7472
+Underfull \hbox (badness 10000) in paragraph at lines 7471--7477
 []\OT1/cmtt/m/n/10 Leijnse, T., M. van Ormondt, K. Nederhoff, and A. van Donger
 en (2021), Modeling compound flooding in coastal systems using a computationall
 y efficient reduced-physics solver: Including fluvial, pluvial,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 7489--7493
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 7494--7498
 []\OT1/cmtt/m/n/10 Lenzi, M. A., L. Mao, and F. Comiti (2006), Effective discha
 rge for sediment transport in a mountain river: Computational approaches and ge
 omorphic effectiveness, \OT1/cmtt/m/it/10 J Hydrol\OT1/cmtt/m/n/10 , \OT1/cmtt/
 m/it/10 326\OT1/cmtt/m/n/10 (1!!e!!4), 257--276, doi:
  []
 
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 7510--7514
+
+Underfull \hbox (badness 10000) in paragraph at lines 7515--7519
 []\OT1/cmtt/m/n/10 Leopold, L. B., W. W. Emmett, and R. M. Myrick (1966), Chann
 el and hillslope processes in a semiarid area, New Mexico, \OT1/cmtt/m/it/10 Pr
 ofessional Paper 352-G\OT1/cmtt/m/n/10 , USGS, US Government Printing Office, W
@@ -3790,7 +3790,7 @@ ashington, DC, United
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7521--7525
+Underfull \hbox (badness 10000) in paragraph at lines 7526--7530
 []\OT1/cmtt/m/n/10 Lesser, G. R., J. A. Roelvink, J. A. T. M. van Kester, and G
 . S. Stelling (2004), Development and validation of a three-dimensional morphol
 ogical model, \OT1/cmtt/m/it/10 Coastal Eng\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10
@@ -3798,21 +3798,21 @@ ogical model, \OT1/cmtt/m/it/10 Coastal Eng\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7533--7538
+Underfull \hbox (badness 10000) in paragraph at lines 7538--7543
 []\OT1/cmtt/m/n/10 Li, C., M. J. Czapiga, E. C. Eke, E. Viparelli, and G. Parke
 r (2014a), Variable shields number model for river bankfull geometry: bankfull 
 shear velocity is viscosity-dependent but grain size-independent,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7541--7548
+Underfull \hbox (badness 10000) in paragraph at lines 7546--7553
 []\OT1/cmtt/m/n/10 Li, C., M. J. Czapiga, E. C. Eke, E. Viparelli, and G. Parke
 r (2016a), Closure to "Variable Shields number model for river bankfull geometr
 y: bankfull shear velocity is viscosity-dependent but grain
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7541--7548
+Underfull \hbox (badness 10000) in paragraph at lines 7546--7553
 \OT1/cmtt/m/n/10 size-independent" by Chuan Li, Matthew J. Czapiga, Esther C. E
 ke, Enrica Viparelli, and Gary Parker, J. Hydraulic Res. 53(1), 2015, 36-48,, \
 OT1/cmtt/m/it/10 J. Hydraul. Res.\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 54\OT1/cm
@@ -3820,7 +3820,7 @@ tt/m/n/10 (2), 234--237, doi:$\OT1/cmr/m/n/10 10 . 1080 / 00221686 . 2015 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7581--7585
+Underfull \hbox (badness 10000) in paragraph at lines 7586--7590
 []\OT1/cmtt/m/n/10 Li, W., H. J. de Vriend, Z. Wang, and D. S. van Maren (2013)
 , Morphological modeling using a fully coupled, total variation diminishing upw
 ind-biased centered scheme, \OT1/cmtt/m/it/10 Water Resour Res\OT1/cmtt/m/n/10 
@@ -3828,7 +3828,7 @@ ind-biased centered scheme, \OT1/cmtt/m/it/10 Water Resour Res\OT1/cmtt/m/n/10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7588--7592
+Underfull \hbox (badness 10000) in paragraph at lines 7593--7597
 []\OT1/cmtt/m/n/10 Li, W., Z. Wang, H. J. de Vriend, and D. S. van Maren (2014b
 ), Long-term effects of water diversions on the longitudinal flow and bed profi
 les, \OT1/cmtt/m/it/10 J. Hydraul. Eng.\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 140
@@ -3836,7 +3836,7 @@ les, \OT1/cmtt/m/it/10 J. Hydraul. Eng.\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 140
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7602--7606
+Underfull \hbox (badness 10000) in paragraph at lines 7607--7611
 []\OT1/cmtt/m/n/10 Li, W., Z. Su, D. S. van Maren, Z. Wang, and H. J. de Vriend
  (2017b), Mechanisms of hyperconcentrated flood propagation in a dynamic channe
 l-floodplain system, \OT1/cmtt/m/it/10 Adv Water Resour\OT1/cmtt/m/n/10 , pp. -
@@ -3844,7 +3844,7 @@ l-floodplain system, \OT1/cmtt/m/it/10 Adv Water Resour\OT1/cmtt/m/n/10 , pp. -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7616--7620
+Underfull \hbox (badness 10000) in paragraph at lines 7621--7625
 []\OT1/cmtt/m/n/10 Liang, M., C. Van Dyk, and P. Passalacqua (2016), Quantifyin
 g the patterns and dynamics of river deltas under conditions of steady forcing 
 and relative sea level rise, \OT1/cmtt/m/it/10 J. Geophys. Res., Earth Surface\
@@ -3852,7 +3852,7 @@ OT1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7622--7626
+Underfull \hbox (badness 10000) in paragraph at lines 7627--7631
 []\OT1/cmtt/m/n/10 Liang, Q., and A. G. L. Borthwick (2008), Simple treatment o
 f non-aligned boundaries in a cartesian grid shallow flow model, \OT1/cmtt/m/it
 /10 International Journal for Numerical Methods in Fluids\OT1/cmtt/m/n/10 , \OT
@@ -3860,7 +3860,7 @@ f non-aligned boundaries in a cartesian grid shallow flow model, \OT1/cmtt/m/it
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7629--7633
+Underfull \hbox (badness 10000) in paragraph at lines 7634--7638
 []\OT1/cmtt/m/n/10 Liang, Q., J. Zang, A. G. L. Borthwick, and P. H. Taylor (20
 07), Shallow flow simulation on dynamically adaptive cut cell quadtree grids, \
 OT1/cmtt/m/it/10 International Journal for Numerical Methods in Fluids\OT1/cmtt
@@ -3868,14 +3868,14 @@ OT1/cmtt/m/it/10 International Journal for Numerical Methods in Fluids\OT1/cmtt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7662--7666
+Underfull \hbox (badness 10000) in paragraph at lines 7667--7671
 []\OT1/cmtt/m/n/10 Lindhart, M., E. Mosselman, and H. Avila (2015), Stratified 
 secondary circulation in the rio magdalena, colombia, in \OT1/cmtt/m/it/10 Proc
 eedings of the 9th symposium of River, Coastal, and Estuarine Morphodynamics,
  []
 
 [48]
-Underfull \hbox (badness 10000) in paragraph at lines 7692--7696
+Underfull \hbox (badness 10000) in paragraph at lines 7697--7701
 []\OT1/cmtt/m/n/10 Lisle, T., Y. Cui, G. Parker, J. Pizzuto, and A. Dodd (2001)
 , The dominance of dispersion in the evolution of bed material waves in grave-b
 ed rivers, \OT1/cmtt/m/it/10 Earth Surf Processes Landf\OT1/cmtt/m/n/10 , \OT1/
@@ -3883,7 +3883,7 @@ cmtt/m/it/10 26\OT1/cmtt/m/n/10 , 1409--1420, doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7699--7703
+Underfull \hbox (badness 10000) in paragraph at lines 7704--7708
 []\OT1/cmtt/m/n/10 Lisle, T. E., H. Ikeda, and F. Iseya (1991), Formation of st
 ationary alternate bars in a steep channel with mixed-size sediment: A flume ex
 periment, \OT1/cmtt/m/it/10 Earth Surf Process Landf\OT1/cmtt/m/n/10 , \OT1/cmt
@@ -3891,7 +3891,7 @@ t/m/it/10 16\OT1/cmtt/m/n/10 (5), 463--469, doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7749--7753
+Underfull \hbox (badness 10000) in paragraph at lines 7754--7758
 []\OT1/cmtt/m/n/10 Lokin, L. R., J. J. Warmink, A. Bomers, and S. J. M. H. Huls
 cher (2022), River dune dynamics during low flows, \OT1/cmtt/m/it/10 Geophys Re
 s Lett\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 49\OT1/cmtt/m/n/10 (8), e2021GL097,1
@@ -3900,7 +3900,7 @@ cmtt/m/n/10 , e2021GL097127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7765--7769
+Underfull \hbox (badness 10000) in paragraph at lines 7770--7774
 []\OT1/cmtt/m/n/10 Longhitano, S. G. (2008), Sedimentary facies and sequence st
 ratigraphy of coarse-grained Gilbert-type deltas within the Pliocene thrust-top
  Potenza Basin (southern Apennines, Italy), \OT1/cmtt/m/it/10 Sediment Geol\OT1
@@ -3908,7 +3908,7 @@ ratigraphy of coarse-grained Gilbert-type deltas within the Pliocene thrust-top
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7772--7777
+Underfull \hbox (badness 10000) in paragraph at lines 7777--7782
 []\OT1/cmtt/m/n/10 Lonnquest, J., B. Toussaint, J. Joe Manous, and M. Ertsen (E
 ds.) (2014), \OT1/cmtt/m/it/10 Two Centuries of Experience in Water Resources M
 anagement. A Dutch-U.S. Retrospective.\OT1/cmtt/m/n/10 , Institute for Water Re
@@ -3916,7 +3916,7 @@ sources, U.S. Army
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7792--7796
+Underfull \hbox (badness 10000) in paragraph at lines 7797--7801
 []\OT1/cmtt/m/n/10 Lorenzo-Trueba, J., and V. R. Voller (2010), Analytical and 
 numerical solution of a generalized Stefan problem exhibiting two moving bounda
 ries with application to ocean delta formation, \OT1/cmtt/m/it/10 J Math Anal A
@@ -3924,7 +3924,7 @@ ppl\OT1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7799--7803
+Underfull \hbox (badness 10000) in paragraph at lines 7804--7808
 []\OT1/cmtt/m/n/10 Lorenzo-Trueba, J., V. R. Voller, T. Muto, W. Kim, C. Paola,
  and J. B. Swenson (2009), A similarity solution for a dual moving boundary pro
 blem associated with a coastal-plain depositional system, \OT1/cmtt/m/it/10 J F
@@ -3932,7 +3932,7 @@ luid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7806--7811
+Underfull \hbox (badness 10000) in paragraph at lines 7811--7816
 []\OT1/cmtt/m/n/10 Lorenzo-Trueba, J., V. R. Voller, and C. Paola (2013), A geo
 metric model for the dynamics of a fluvially dominated deltaic system under bas
 e-level change, \OT1/cmtt/m/it/10 Computers & Geosciences\OT1/cmtt/m/n/10 , \OT
@@ -3940,28 +3940,28 @@ e-level change, \OT1/cmtt/m/it/10 Computers & Geosciences\OT1/cmtt/m/n/10 , \OT
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7840--7844
+Underfull \hbox (badness 10000) in paragraph at lines 7845--7849
 []\OT1/cmtt/m/n/10 Luijendijk, A. P., M. A. de Schipper, and R. Ranasinghe (201
 9), Morphodynamic acceleration techniques for multi-timescale predictions of co
 mplex sandy interventions, \OT1/cmtt/m/it/10 Journal of Marine Science and
  []
 
 [49]
-Underfull \hbox (badness 10000) in paragraph at lines 7863--7867
+Underfull \hbox (badness 10000) in paragraph at lines 7868--7872
 []\OT1/cmtt/m/n/10 Lyczkowski, R. W., C. W. Slobrig, D. Gidaspow, and E. D. Hug
 hes (1975), Characteristics and stability analyses of transient one-dimensional
  two phase flow equations and their finite difference
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7870--7874
+Underfull \hbox (badness 10000) in paragraph at lines 7875--7879
 []\OT1/cmtt/m/n/10 Lyczkowski, R. W., D. Gidaspow, C. W. Solbrig, and E. D. Hug
 hes (1978), Characteristics and stability analyses of transient one-dimensional
  two-phase flow equations and their finite difference
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7896--7900
+Underfull \hbox (badness 10000) in paragraph at lines 7901--7905
 []\OT1/cmtt/m/n/10 L^^Sopez-Ramade, E., R. P. Mulligan, G. Medell^^S^^Pn, and A
 . Torres-Freyermuth (), Modelling beach morphological responses near coastal st
 ructures under oblique waves driven by sea-breezes, \OT1/cmtt/m/it/10 182\OT1/c
@@ -3969,14 +3969,14 @@ mtt/m/n/10 , 104,290, doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7907--7911
+Underfull \hbox (badness 10000) in paragraph at lines 7912--7916
 []\OT1/cmtt/m/n/10 Ma, H., J. A. Nittrouer, K. Naito, X. Fu, Y. Zhang, A. J. Mo
 odie, Y. Wang, B. Wu, and G. Parker (2017), The exceptional sediment load of fi
 ne-grained dispersal systems: Example of the yellow river, china,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7914--7917
+Underfull \hbox (badness 10000) in paragraph at lines 7919--7922
 []\OT1/cmtt/m/n/10 MacArthur, R., D. T. Williams, and W. A. Thomas (1990), Stat
 us and new capabilities of computer program hec-6 'scour and deposition in rive
 rs and reservoirs', \OT1/cmtt/m/it/10 Tech. rep.\OT1/cmtt/m/n/10 , Hydrologic E
@@ -3984,7 +3984,7 @@ ngineering Center
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7923--7927
+Underfull \hbox (badness 10000) in paragraph at lines 7928--7932
 []\OT1/cmtt/m/n/10 MacQueen, J., et al. (1967), Some methods for classification
  and analysis of multivariate observations, in \OT1/cmtt/m/it/10 Proceedings of
  the fifth Berkeley symposium on mathematical statistics and probability\OT1/cm
@@ -3992,7 +3992,7 @@ tt/m/n/10 , vol. 1,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7941--7945
+Underfull \hbox (badness 10000) in paragraph at lines 7946--7950
 []\OT1/cmtt/m/n/10 Mahadevan, A., J. Oliger, and R. Street (1996), A nonhydrost
 atic mesoscale ocean model. part i: Well-posedness and scaling, \OT1/cmtt/m/it/
 10 J Phys Oceanogr\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 26\OT1/cmtt/m/n/10 (9), 
@@ -4000,15 +4000,15 @@ atic mesoscale ocean model. part i: Well-posedness and scaling, \OT1/cmtt/m/it/
 it/10 h\OT1/cmr/m/n/10 1868 : ANMOMP [] 2 .
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8016--8022
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 8021--8027
 []\OT1/cmtt/m/n/10 van der Mark, C. F., and M. Lemans (2020), Operational 2D wa
 ter depth prediction using echo sounder data of inland ships, in \OT1/cmtt/m/it
 /10 River Flow 2020: Proceedings of the 10th Conference on Fluvial Hydraulics
  []
 
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 8096--8100
+
+Underfull \hbox (badness 10000) in paragraph at lines 8101--8105
 []\OT1/cmtt/m/n/10 Marra, W. A., D. R. Parsons, M. G. Kleinhans, G. M. Keevil, 
 and R. E. Thomas (2014), Near-bed and surface flow division patterns in experim
 ental river bifurcations, \OT1/cmtt/m/it/10 Water Resour Res\OT1/cmtt/m/n/10 , 
@@ -4016,7 +4016,7 @@ ental river bifurcations, \OT1/cmtt/m/it/10 Water Resour Res\OT1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8103--8107
+Underfull \hbox (badness 10000) in paragraph at lines 8108--8112
 []\OT1/cmtt/m/n/10 Martin, L. R., K. P. Purohit, and D. J. Jerolmack (2014), Se
 dimentary bed evolution as a mean-reverting random walk: Implications for trace
 r statistics, \OT1/cmtt/m/it/10 Geophys Res Lett\OT1/cmtt/m/n/10 , \OT1/cmtt/m/
@@ -4024,7 +4024,7 @@ it/10 41\OT1/cmtt/m/n/10 (17), 6152--6159, doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8116--8120
+Underfull \hbox (badness 10000) in paragraph at lines 8121--8125
 []\OT1/cmtt/m/n/10 Mart^^S^^Pn-Vide, J. P., C. Ferrer-Boix, and A. Ollero (2010
 ), Incision due to gravel mining: Modeling a case study from the G^^Sallego Riv
 er, Spain, \OT1/cmtt/m/it/10 Geomorphology\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 
@@ -4033,7 +4033,7 @@ h . 2009 . 01 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8123--8127
+Underfull \hbox (badness 10000) in paragraph at lines 8128--8132
 []\OT1/cmtt/m/n/10 Mart^^S^^Pnez-Aranda, S., J. Murillo, and P. Garc^^S^^Pa-Nav
 arro (2021), Comparison of new efficient 2D models for the simulation of bedloa
 d transport using the augmented roe approach, \OT1/cmtt/m/it/10 Adv Water Resou
@@ -4041,7 +4041,7 @@ r\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 153\OT1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8137--8141
+Underfull \hbox (badness 10000) in paragraph at lines 8142--8146
 []\OT1/cmtt/m/n/10 Martini, I., E. Ambrosetti, and F. Sandrelli (2017), The rol
 e of sediment supply in large-scale stratigraphic architecture of ancient Gilbe
 rt-type deltas (Pliocene Siena-Radicofani Basin, Italy), \OT1/cmtt/m/it/10 Sedi
@@ -4049,14 +4049,14 @@ ment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8150--8155
+Underfull \hbox (badness 10000) in paragraph at lines 8155--8160
 []\OT1/cmtt/m/n/10 Mart^^S^^Pn-Vide, J. P., C. M. S. Fael, F. N. nez Gonz^^Sale
 z, C. Ferrer-Boix, C. A. V. Santos, A. Prats-Punt^^S^^P, and V. Chavarrias (202
 2), A large bridge pier in an alluvial channel: Local scourversus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8176--8180
+Underfull \hbox (badness 10000) in paragraph at lines 8181--8185
 []\OT1/cmtt/m/n/10 Mays, L. W. (2010b), A brief history of roman water technolo
 gy, in \OT1/cmtt/m/it/10 Ancient Water Technologies\OT1/cmtt/m/n/10 , edited by
  L. W. Mays, chap. 7, pp. 115--137, Springer, Dordrecht, the Netherlands, doi:$
@@ -4064,14 +4064,14 @@ gy, in \OT1/cmtt/m/it/10 Ancient Water Technologies\OT1/cmtt/m/n/10 , edited by
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8182--8187
+Underfull \hbox (badness 10000) in paragraph at lines 8187--8192
 []\OT1/cmtt/m/n/10 Mazure, J. P. (1963), Hydraulic research for the Zuiderzeewo
 rks, in \OT1/cmtt/m/it/10 Selected Aspects of Hydraulic Engineering. Liber Amic
 orum dedicated to Johannes Theodoor Thijsse, on occasion of his retirement as
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8196--8200
+Underfull \hbox (badness 10000) in paragraph at lines 8201--8205
 []\OT1/cmtt/m/n/10 McKie, C. W., C. Juez, B. D. Plumb, W. K. Annable, and M. J.
  Franca (2021), How large immobile sediments in gravel bed rivers impact sedime
 nt transport and bed morphology, \OT1/cmtt/m/it/10 Journal of Hydraulic Enginee
@@ -4079,7 +4079,7 @@ ring\OT1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8203--8207
+Underfull \hbox (badness 10000) in paragraph at lines 8208--8212
 []\OT1/cmtt/m/n/10 McLean, D., K. Oberhagemann, H. Wiebe, and S. Bennett (2016)
 , River stabilization and development: Jamuna-padma and dependent areas, \OT1/c
 mtt/m/it/10 Tech. rep.\OT1/cmtt/m/n/10 , JV Northwest Hydraulic Consultants - E
@@ -4087,14 +4087,14 @@ uroconsult Mott
  []
 
 [51]
-Underfull \hbox (badness 10000) in paragraph at lines 8237--8242
+Underfull \hbox (badness 10000) in paragraph at lines 8242--8247
 []\OT1/cmtt/m/n/10 Mens, M., R. van der Wijk, N. Kramer, J. Hunink, J. de Jong,
  B. Becker, P. Gijsbers, and C. ten Velden (2018), Hotspotanalyses voor het Del
 taprogramma Zoetwater : inhoudelijke rapportage, \OT1/cmtt/m/it/10 rapport
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8245--8249
+Underfull \hbox (badness 10000) in paragraph at lines 8250--8254
 []\OT1/cmtt/m/n/10 Men^^Sendez, A., P. Garc^^S^^Pa, N. Badano, L. Kazimierski, 
 and S. Guizzardi (2021), Prediction of sedimentation in an extended and heterog
 eneous navigation waterway, \OT1/cmtt/m/it/10 Ribagua\OT1/cmtt/m/n/10 , \OT1/cm
@@ -4103,7 +4103,7 @@ tt/m/it/10 8\OT1/cmtt/m/n/10 (1), 13--33, doi:$\OT1/cmr/m/n/10 10 . 1080 / 2386
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8256--8259
+Underfull \hbox (badness 10000) in paragraph at lines 8261--8264
 []\OT1/cmtt/m/n/10 Merkle, C., and M. Athavale (1987), Time-accurate unsteady i
 ncompressible flow algorithms based on artificial compressibility, \OT1/cmtt/m/
 it/10 Tech. Rep. 1987-1137\OT1/cmtt/m/n/10 , AIAA, Washington, DC, United State
@@ -4111,7 +4111,7 @@ s, doi:$\OT1/cmr/m/n/10 10 . 2514 / 6 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8276--8280
+Underfull \hbox (badness 10000) in paragraph at lines 8281--8285
 []\OT1/cmtt/m/n/10 Metzler, R., and J. Klafter (2004), The restaurant at the en
 d of the random walk: recent developments in the description of anomalous trans
 port by fractional dynamics, \OT1/cmtt/m/it/10 J Phys A: Math Gen\OT1/cmtt/m/n/
@@ -4119,7 +4119,7 @@ port by fractional dynamics, \OT1/cmtt/m/it/10 J Phys A: Math Gen\OT1/cmtt/m/n/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8283--8288
+Underfull \hbox (badness 10000) in paragraph at lines 8288--8293
 []\OT1/cmtt/m/n/10 Meulen, M. J. van der., M. Rijnveld, L. M. Gerrits, J. Jozia
 sse, and M. W. van Heijst (2006), Handling sediments in dutch river management:
  The planning stage of the maaswerken river widening project, \OT1/cmtt/m/it/10
@@ -4127,7 +4127,7 @@ sse, and M. W. van Heijst (2006), Handling sediments in dutch river management:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8296--8300
+Underfull \hbox (badness 10000) in paragraph at lines 8301--8305
 []\OT1/cmtt/m/n/10 van der Mheen, M., and J. Prins (2015), Morfologische ontwik
 kelingen in de Grensmaas; Analyse van bodemveranderingen als gevolg van de Maas
 werken met metingen en WAQMorf, \OT1/cmtt/m/it/10 Tech. Rep. 1209376-000\OT1/cm
@@ -4135,14 +4135,14 @@ tt/m/n/10 , Deltares,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8308--8313
+Underfull \hbox (badness 10000) in paragraph at lines 8313--8318
 []\OT1/cmtt/m/n/10 MIKOS, M., G. PENDER, and T. HOEY (1999), Use of a modified 
 hiding function in the simulation ofgraded sediment transport during degradatio
 n, in \OT1/cmtt/m/it/10 Proc. 28th IAHR World Congress, 22--27 August, Graz,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8321--8326
+Underfull \hbox (badness 10000) in paragraph at lines 8326--8331
 []\OT1/cmtt/m/n/10 Miller, K. L., T. Szab^^So, D. J. Jerolmack, and G. Domokos 
 (2014), Quantifying the significance of abrasion and selective transport for do
 wnstream fluvial grain size evolution, \OT1/cmtt/m/it/10 J. Geophys. Res., Eart
@@ -4150,7 +4150,7 @@ h
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8338--8342
+Underfull \hbox (badness 10000) in paragraph at lines 8343--8347
 []\OT1/cmtt/m/n/10 Minns, A. W., A. Verwey, and I. R. Warren (2022), Computatio
 nal hydraulics: stage for the hydroinformatics act, in \OT1/cmtt/m/it/10 Michae
 l Abbott's Hydroinformatics: Poiesis of New Relationships with Water\OT1/cmtt/m
@@ -4158,22 +4158,22 @@ l Abbott's Hydroinformatics: Poiesis of New Relationships with Water\OT1/cmtt/m
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8375--8379
+Underfull \hbox (badness 10000) in paragraph at lines 8380--8384
 []\OT1/cmtt/m/n/10 Miyagawa, Y., T. Sumi, Y. Takemon, and S. Kobayashi (2017), 
 Effects of sediment replenishment on riverbed material size distribution and at
 tached algal biomass in the downstream reaches of a dam,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8391--8394
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 8396--8399
 []\OT1/cmtt/m/n/10 Mokrzycka, A. (2013), The impact of the change of river chan
 nel geometry on the size and range of backwater from the receiving body, \OT1/c
 mtt/m/it/10 Scientific Journals of The Maritime University of Szczecin\OT1/cmtt
 /m/n/10 , \OT1/cmtt/m/it/10 33\OT1/cmtt/m/n/10 (105),
  []
 
-[52]
-Underfull \hbox (badness 10000) in paragraph at lines 8397--8401
+
+Underfull \hbox (badness 10000) in paragraph at lines 8402--8406
 []\OT1/cmtt/m/n/10 Mol, A., C. Swinkels, J. Schouten, J. de Vroeg, and A. Luije
 ndijk (2008), Wave-driven sediment transport in coastal models : evaluation of 
 model developments in Delft3D and UNIBEST, \OT1/cmtt/m/it/10 rapport deltares\O
@@ -4181,7 +4181,7 @@ T1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8403--8407
+Underfull \hbox (badness 10000) in paragraph at lines 8408--8412
 []\OT1/cmtt/m/n/10 Molnar, P. (2004), Late cenozoic increase in accumulation ra
 tes of terrestrial sediment: How might climate change have affected erosion rat
 es?, \OT1/cmtt/m/it/10 Annu Rev Earth Planet Sci\OT1/cmtt/m/n/10 , \OT1/cmtt/m/
@@ -4190,14 +4190,14 @@ it/10 32\OT1/cmtt/m/n/10 (1), 67--89, doi:$\OT1/cmr/m/n/10 10 . 1146 / annurev
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8433--8437
+Underfull \hbox (badness 10000) in paragraph at lines 8438--8442
 []\OT1/cmtt/m/n/10 Morgan, J. A., N. Kumar, A. R. Horner-Devine, S. Ahrendt, E.
  Istanbullouglu, and C. Bandaragoda (2020), The use of a morphological accelera
 tion factor in the simulation of large-scale fluvial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8449--8453
+Underfull \hbox (badness 10000) in paragraph at lines 8454--8458
 []\OT1/cmtt/m/n/10 Morris, P. H., and D. J. Williams (1999a), A worldwide corre
 lation for exponential bed particle size variation in subaerial aqueous flows, 
 \OT1/cmtt/m/it/10 Earth Surf Process Landf\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 
@@ -4205,7 +4205,7 @@ lation for exponential bed particle size variation in subaerial aqueous flows,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8455--8459
+Underfull \hbox (badness 10000) in paragraph at lines 8460--8464
 []\OT1/cmtt/m/n/10 Morris, P. H., and D. J. Williams (1999b), Worldwide correla
 tions for subaerial aqueous flows with exponential longitudinal profiles, \OT1/
 cmtt/m/it/10 Earth Surf Process Landf\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 24\OT
@@ -4213,7 +4213,7 @@ cmtt/m/it/10 Earth Surf Process Landf\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 24\OT
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8486--8491
+Underfull \hbox (badness 10000) in paragraph at lines 8491--8496
 []\OT1/cmtt/m/n/10 Mosselman, E. (2005), Basic equations for sediment transport
  in CFD for fluvial morphodynamics, in \OT1/cmtt/m/it/10 Computational Fluid Dy
 namics: Applications in Environmental Hydraulics\OT1/cmtt/m/n/10 , edited by P.
@@ -4221,7 +4221,7 @@ namics: Applications in Environmental Hydraulics\OT1/cmtt/m/n/10 , edited by P.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8493--8497
+Underfull \hbox (badness 10000) in paragraph at lines 8498--8502
 []\OT1/cmtt/m/n/10 Mosselman, E. (2006), \OT1/cmtt/m/it/10 Braided Rivers: Proc
 ess, Deposits, Ecology and Management\OT1/cmtt/m/n/10 , chap. Bank Protection a
 nd River Training Along the Braided Brahmaputra-Jamuna River, Bangladesh, pp. 2
@@ -4229,7 +4229,7 @@ nd River Training Along the Braided Brahmaputra-Jamuna River, Bangladesh, pp. 2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8499--8503
+Underfull \hbox (badness 10000) in paragraph at lines 8504--8508
 []\OT1/cmtt/m/n/10 Mosselman, E. (2009), \OT1/cmtt/m/it/10 Proceedings of the 6
 th Symposium on River Coastal and Estuarine Morphodynamics, 21-25 September, Sa
 nta Fe, Argentina.\OT1/cmtt/m/n/10 , chap. Intrinsic steady alternate bars in a
@@ -4237,7 +4237,7 @@ lluvial channels. Part
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8510--8514
+Underfull \hbox (badness 10000) in paragraph at lines 8515--8519
 []\OT1/cmtt/m/n/10 Mosselman, E. (2010b), \OT1/cmtt/m/it/10 Proceedings of the 
 International Conference on Waterways of Russia: Engineering, Operation and Mai
 ntenance, Managements, 1-2 October, Saint Petersburg, Russia.\OT1/cmtt/m/n/10 ,
@@ -4245,7 +4245,7 @@ ntenance, Managements, 1-2 October, Saint Petersburg, Russia.\OT1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8521--8525
+Underfull \hbox (badness 10000) in paragraph at lines 8526--8530
 []\OT1/cmtt/m/n/10 Mosselman, E. (2013a), \OT1/cmtt/m/it/10 Gravel-bed Rivers: 
 Processes, Tools, Environments,\OT1/cmtt/m/n/10 , chap. 9, Modelling Sediment T
 ransport and Morphodynamics of Gravel-bed Rivers, pp. 101--115, John Wiley & So
@@ -4253,7 +4253,7 @@ ns, Chichester,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8531--8535
+Underfull \hbox (badness 10000) in paragraph at lines 8536--8540
 []\OT1/cmtt/m/n/10 Mosselman, E. (2018a), Modelling in applied hydraulics: More
  accurate in decision-making than in science?, in \OT1/cmtt/m/it/10 Advances in
  Hydroinformatics\OT1/cmtt/m/n/10 , edited by P. Gourbesville, J. Cunge, and G.
@@ -4261,7 +4261,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8531--8535
  []
 
 [53]
-Underfull \hbox (badness 10000) in paragraph at lines 8565--8569
+Underfull \hbox (badness 10000) in paragraph at lines 8570--8574
 []\OT1/cmtt/m/n/10 Mosselman, E., and K. Sloff (2002), Effect of local scour ho
 les on macroscale river morphology, in \OT1/cmtt/m/it/10 Proceedings of the XXt
 h International Conference on Fluvial Hydraulics (River Flow), Louvain-la-Neuve
@@ -4269,7 +4269,7 @@ h International Conference on Fluvial Hydraulics (River Flow), Louvain-la-Neuve
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8571--8577
+Underfull \hbox (badness 10000) in paragraph at lines 8576--8582
 []\OT1/cmtt/m/n/10 Mosselman, E., and K. Sloff (2007), The importance of floods
  for bed topography and bed sediment composition: numerical modelling of Rhine 
 bifurcation at Pannerden, in \OT1/cmtt/m/it/10 Gravel-Bed Rivers VI: From Proce
@@ -4277,7 +4277,7 @@ ss
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8571--8577
+Underfull \hbox (badness 10000) in paragraph at lines 8576--8582
 \OT1/cmtt/m/it/10 Understanding to River Restoration\OT1/cmtt/m/n/10 , \OT1/cmt
 t/m/it/10 Developments in Earth Surface Processes\OT1/cmtt/m/n/10 , vol. 11, ed
 ited by H. Habersack, H. Pi^^Segay, and M. Rinaldi, chap. 7, pp. 161--179, Else
@@ -4285,7 +4285,7 @@ vier, doi:$\OT1/cmr/m/n/10 https : / / doi . org / 10 . 1016 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8579--8584
+Underfull \hbox (badness 10000) in paragraph at lines 8584--8589
 []\OT1/cmtt/m/n/10 Mosselman, E., and K. Sloff (2008), \OT1/cmtt/m/it/10 Gravel
 -Bed Rivers VI: From Process Understanding to River Restoration\OT1/cmtt/m/n/10
  , vol. 11, chap. 7: The importance of floods for bed topography and bed sedime
@@ -4293,21 +4293,21 @@ nt composition:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8593--8597
+Underfull \hbox (badness 10000) in paragraph at lines 8598--8602
 []\OT1/cmtt/m/n/10 Mosselman, E., A. Sieben, K. Sloff, and A. Wolters (1999), E
 ffect of spatial grain size variations on two-dimensional river bed morphology,
  in \OT1/cmtt/m/it/10 Proc. of the 1st IAHR symposium on River, Coastal, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8600--8605
+Underfull \hbox (badness 10000) in paragraph at lines 8605--8610
 []\OT1/cmtt/m/n/10 Mosselman, E., T. Shishikura, and G. J. Klaassen (2000), Eff
 ect of bank stabilization on bend scour in anabranches of braided rivers, \OT1/
 cmtt/m/it/10 Physics and Chemistry of the Earth, Part B: Hydrology, Oceans and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8620--8624
+Underfull \hbox (badness 10000) in paragraph at lines 8625--8629
 []\OT1/cmtt/m/n/10 Mosselman, E., P. Kerssens, F. van der Knaap, D. Schwanenber
 g, and K. Sloff (2004), Sustainable river fairway maintenance and improvement, 
 \OT1/cmtt/m/it/10 Tech. Rep. Q3757.00\OT1/cmtt/m/n/10 , Delft Hydraulics Labora
@@ -4315,7 +4315,7 @@ tory, Delft, the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8627--8631
+Underfull \hbox (badness 10000) in paragraph at lines 8632--8636
 []\OT1/cmtt/m/n/10 Mosselman, E., M. Tubino, and G. Zolezzi (2006), \OT1/cmtt/m
 /it/10 Proceedings of the 3rd International Conference on Fluvial Hydraulics, L
 isbon, Portugal, 6-8 September\OT1/cmtt/m/n/10 , chap. The overdeepening theory
@@ -4323,35 +4323,35 @@ isbon, Portugal, 6-8 September\OT1/cmtt/m/n/10 , chap. The overdeepening theory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8641--8648
+Underfull \hbox (badness 10000) in paragraph at lines 8646--8653
 []\OT1/cmtt/m/n/10 Mosselman, E., K. Sloff, and S. van Vuren (2008), Different 
 sediment mixtures at constant flow conditions can produce the same celerity of 
 bed disturbances, in \OT1/cmtt/m/it/10 Procedings of the 4th International
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8641--8648
+Underfull \hbox (badness 10000) in paragraph at lines 8646--8653
 \OT1/cmtt/m/it/10 Conference on Fluvial Hydraulics (River Flow), 3-5 September,
  Cesme, Izmir, Turkey\OT1/cmtt/m/n/10 , vol. 2, edited by M. Altinakar, M. A. K
 okpinar, []Ismail Aydin, []evket Cokgor, and S. Kirgoz, pp. 1373--1377, Kubaba
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8659--8665
+Underfull \hbox (badness 10000) in paragraph at lines 8664--8670
 []\OT1/cmtt/m/n/10 Mosselman, E., T. Buijse, E. van der Deijl, J. de Jong, V. C
 havarr^^S^^Pas, W. Ottevanger, N. Asselman., P. de Grave, R. van der Mark, R. v
 an der Wijk, F. Collas, M. van der Vat, K. Sloff, L. Verbrugge, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8677--8683
+Underfull \hbox (badness 10000) in paragraph at lines 8682--8688
 []\OT1/cmtt/m/n/10 Mu~noz, D., D. Yin, R. Bakhtyar, H. Moftakhari, Z. Xue, K. M
 andli, and C. Ferreira (2021), Inter-Model Comparison of Delft3D-FM and 2D HEC-
 RAS for Total Water Level Prediction in Coastal to Inland
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8685--8689
+Underfull \hbox (badness 10000) in paragraph at lines 8690--8694
 []\OT1/cmtt/m/n/10 Mu~noz-Ruiz, M. L., and C. Par^^Ses (2008), \OT1/cmtt/m/it/1
 0 On Path-Conservative Numerical Schemes for Hyperbolic Systems of Balance Laws
 \OT1/cmtt/m/n/10 , pp. 305--312, Springer-Verlag Berlin-Heidelberg, Heidelgberg
@@ -4359,7 +4359,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8685--8689
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8691--8695
+Underfull \hbox (badness 10000) in paragraph at lines 8696--8700
 []\OT1/cmtt/m/n/10 Murillo, J., and P. Garc^^S^^Pa-Navarro (2021), A solution o
 f the junction riemann problem for 1d hyperbolic balance laws in networks inclu
 ding supersonic flow conditions on elastic collapsible tubes, \OT1/cmtt/m/it/10
@@ -4367,7 +4367,7 @@ ding supersonic flow conditions on elastic collapsible tubes, \OT1/cmtt/m/it/10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8698--8704
+Underfull \hbox (badness 10000) in paragraph at lines 8703--8709
 []\OT1/cmtt/m/n/10 Murillo, J., P. Garcia-Navarro, and J. Burguete (2007), The 
 influence of source terms on stability and conservation in 1d hyperbolic system
  of equations: Aplication to fixed and movable beds, in \OT1/cmtt/m/it/10 Numer
@@ -4375,7 +4375,7 @@ ical
  []
 
 [54]
-Underfull \hbox (badness 10000) in paragraph at lines 8752--8756
+Underfull \hbox (badness 10000) in paragraph at lines 8757--8761
 []\OT1/cmtt/m/n/10 Muto, T., and R. J. Steel (1997), Principles of regression a
 nd transgression; the nature of the interplay between accommodation and sedimen
 t supply, \OT1/cmtt/m/it/10 J Sediment Res\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 
@@ -4383,7 +4383,7 @@ t supply, \OT1/cmtt/m/it/10 J Sediment Res\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8758--8762
+Underfull \hbox (badness 10000) in paragraph at lines 8763--8767
 []\OT1/cmtt/m/n/10 Muto, T., and J. B. Swenson (2005), Large-scale fluvial grad
 e as a nonequilibrium state in linked depositional systems: Theory and experime
 nt, \OT1/cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmtt/m/n/10 , \OT1/cm
@@ -4391,7 +4391,7 @@ tt/m/it/10 110\OT1/cmtt/m/n/10 (F3), F03,002, doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8770--8774
+Underfull \hbox (badness 10000) in paragraph at lines 8775--8779
 []\OT1/cmtt/m/n/10 Na Ranong, C., J. Hapke, and W. Roetzel (2010), Numerical ca
 lculation of the transient behaviour of two pure cross-flow heat exchangers cou
 pled by a circulating flow stream, \OT1/cmtt/m/it/10 Heat Mass Transfer.\OT1/cm
@@ -4399,7 +4399,7 @@ tt/m/n/10 , \OT1/cmtt/m/it/10 46\OT1/cmtt/m/n/10 (10),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8783--8787
+Underfull \hbox (badness 10000) in paragraph at lines 8788--8792
 []\OT1/cmtt/m/n/10 Nabi, M., I. Kimura, and Y. Shimizu (2013a), The effect of d
 ischarge variability on river bedform, \OT1/cmtt/m/it/10 Journal of Japan Socie
 ty of Civil Engineers, Ser. A2 (Applied Mechanics)\OT1/cmtt/m/n/10 , \OT1/cmtt/
@@ -4407,7 +4407,7 @@ m/it/10 69\OT1/cmtt/m/n/10 (2), 553--562, doi:$\OT1/cmr/m/n/10 10 . 2208 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8790--8794
+Underfull \hbox (badness 10000) in paragraph at lines 8795--8799
 []\OT1/cmtt/m/n/10 Nabi, M., H. J. de Vriend, E. Mosselman, C. J. Sloff, and Y.
  Shimizu (2013b), Detailed simulation of morphodynamics: 2. sediment pickup, tr
 ansport, and deposition, \OT1/cmtt/m/it/10 Water Resour Res\OT1/cmtt/m/n/10 , \
@@ -4415,7 +4415,7 @@ OT1/cmtt/m/it/10 49\OT1/cmtt/m/n/10 (8), 4775--4791,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8804--8808
+Underfull \hbox (badness 10000) in paragraph at lines 8809--8813
 []\OT1/cmtt/m/n/10 Nabi, M., I. Kimura, S. M. Hsu, S. Giri, and Y. Shimizu (201
 5), Computational modeling of dissipation and regeneration of fluvial sand dune
 s under variable discharges, \OT1/cmtt/m/it/10 J. Geophys. Res., Earth Surface\
@@ -4423,21 +4423,21 @@ OT1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8817--8822
+Underfull \hbox (badness 10000) in paragraph at lines 8822--8827
 []\OT1/cmtt/m/n/10 Naito, K., H. Ma, J. A. Nittrouer, Y. Zhang, B. Wu, Y. Wang,
  X. Fu, and G. Parker (2019), Extended Engelund-Hansen type sediment transport 
 relation for mixtures based on the sand-silt-bed Lower Yellow
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8833--8837
+Underfull \hbox (badness 10000) in paragraph at lines 8838--8842
 []\OT1/cmtt/m/n/10 Nakagawa, H., and T. Tsujimoto (1980a), Stochastic study on 
 origin of small scale bed forms related to probabilistic characteristics of bed
  load movements, in \OT1/cmtt/m/it/10 Proc. 3rd International Symposium on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8859--8863
+Underfull \hbox (badness 10000) in paragraph at lines 8864--8868
 []\OT1/cmtt/m/n/10 Naqshband, S., J. S. Ribberink, D. Hurther, and S. J. M. H. 
 Hulscher (2014), Bed load and suspended load contributions to migrating sand du
 nes in equilibrium, \OT1/cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmtt/
@@ -4445,7 +4445,7 @@ m/n/10 , \OT1/cmtt/m/it/10 119\OT1/cmtt/m/n/10 (5),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8894--8898
+Underfull \hbox (badness 10000) in paragraph at lines 8899--8903
 []\OT1/cmtt/m/n/10 Nelson, J. M., R. L. Shreve, S. R. McLean, and T. G. Drake (
 1995), Role of near-bed turbulence structure in bed load transport and bed form
  mechanics, \OT1/cmtt/m/it/10 Water Resour Res\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it
@@ -4453,7 +4453,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8894--8898
  []
 
 [55]
-Underfull \hbox (badness 10000) in paragraph at lines 8916--8921
+Underfull \hbox (badness 10000) in paragraph at lines 8921--8926
 []\OT1/cmtt/m/n/10 Nezu, I., H. Nakagawa, and A. Tominaga (1985), Secondary cur
 rents in a straight channel flow and the relation to its aspect ratio, in \OT1/
 cmtt/m/it/10 Turbulent Shear Flows\OT1/cmtt/m/n/10 , edited by L. J. S. Bradbur
@@ -4461,7 +4461,7 @@ y, F. Durst, B. E.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8947--8951
+Underfull \hbox (badness 10000) in paragraph at lines 8952--8956
 []\OT1/cmtt/m/n/10 van Niekerk, A., K. R. Vogel, R. L. Slingerland, and J. S. B
 ridge (1992), Routing of heterogeneous sediments over movable bed: Model develo
 pment, \OT1/cmtt/m/it/10 J. Hydraul. Eng.\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 1
@@ -4469,7 +4469,7 @@ pment, \OT1/cmtt/m/it/10 J. Hydraul. Eng.\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8959--8963
+Underfull \hbox (badness 10000) in paragraph at lines 8964--8968
 []\OT1/cmtt/m/n/10 Niesten, I., S. Giri, and W. Ottevanger (2019), Modelling se
 diment dynamicsin Tenryuu River. Overview of a large-scale and detailed modelli
 ng study., \OT1/cmtt/m/it/10 Tech. Rep. 1002119-001-ZWS-0001\OT1/cmtt/m/n/10 , 
@@ -4477,7 +4477,7 @@ Deltares, Delft, the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8966--8969
+Underfull \hbox (badness 10000) in paragraph at lines 8971--8974
 []\OT1/cmtt/m/n/10 Niesten, I., A. Kosters, and A. Spruyt (2020), Ontwikkeling 
 zesde-generatie rijntakken model: Modelbouw, kalibratie en validatie, \OT1/cmtt
 /m/it/10 Tech Rep. concept 11205258-004-ZWS-0008\OT1/cmtt/m/n/10 , Deltares, De
@@ -4485,7 +4485,7 @@ lft, the Netherlands,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8998--9002
+Underfull \hbox (badness 10000) in paragraph at lines 9003--9007
 []\OT1/cmtt/m/n/10 Nittrouer, J. A., D. Mohrig, M. A. Allison, and A.-P. B. Pey
 ret (2011), The lowermost Mississippi River: a mixed bedrock-alluvial channel, 
 \OT1/cmtt/m/it/10 Sedimentology\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 58\OT1/cmtt
@@ -4494,7 +4494,7 @@ ret (2011), The lowermost Mississippi River: a mixed bedrock-alluvial channel,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9005--9009
+Underfull \hbox (badness 10000) in paragraph at lines 9010--9014
 []\OT1/cmtt/m/n/10 Nittrouer, J. A., J. Shaw, M. P. Lamb, and D. Mohrig (2012),
  Spatial and temporal trends for water-flow velocity and bed-material sediment 
 transport in the lower Mississippi River, \OT1/cmtt/m/it/10 Geol Soc Am Bull\OT
@@ -4502,7 +4502,7 @@ transport in the lower Mississippi River, \OT1/cmtt/m/it/10 Geol Soc Am Bull\OT
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9018--9022
+Underfull \hbox (badness 10000) in paragraph at lines 9023--9027
 []\OT1/cmtt/m/n/10 Ockelford, A., S. Woodcock, and H. Haynes (2019), The impact
  of inter-flood duration on non-cohesive sediment bed stability, \OT1/cmtt/m/it
 /10 Earth Surface Processes and Landforms\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 4
@@ -4511,7 +4511,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9018--9022
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9056--9060
+Underfull \hbox (badness 10000) in paragraph at lines 9061--9065
 []\OT1/cmtt/m/n/10 Olesen, K. W. (1982), Influence of secondary flow on meander
 ing rivers, \OT1/cmtt/m/it/10 Tech. Rep. 1-82\OT1/cmtt/m/n/10 , Laboratory of F
 luid Mechanics, Faculty of Civil Engineering and Geosciences, Delft University 
@@ -4519,7 +4519,7 @@ of Technology, Delft,
  []
 
 [56]
-Underfull \hbox (badness 10000) in paragraph at lines 9115--9119
+Underfull \hbox (badness 10000) in paragraph at lines 9120--9124
 []\OT1/cmtt/m/n/10 Orr^^Su, C., V. Chavarr^^S^^Pas, W. S. J. Uijttewaal, and A.
  Blom (2014a), Image analysis for measuring the size stratification in sand-gra
 vel laboratory experiments, \OT1/cmtt/m/it/10 Earth Surf Dyn\OT1/cmtt/m/n/10 , 
@@ -4527,7 +4527,7 @@ vel laboratory experiments, \OT1/cmtt/m/it/10 Earth Surf Dyn\OT1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9122--9127
+Underfull \hbox (badness 10000) in paragraph at lines 9127--9132
 []\OT1/cmtt/m/n/10 Orr^^Su, C., V. Chavarr^^S^^Pas, V. Ferrara, and A. Blom (20
 14b), A laboratory experiment on the evolution of a sand gravel reach under a l
 ack of sediment supply, in \OT1/cmtt/m/it/10 Absract presented at the 47th Fall
@@ -4535,7 +4535,7 @@ ack of sediment supply, in \OT1/cmtt/m/it/10 Absract presented at the 47th Fall
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9130--9134
+Underfull \hbox (badness 10000) in paragraph at lines 9135--9139
 []\OT1/cmtt/m/n/10 Orr^^Su, C., V. Chavarr^^S^^Pas, V. Ferrara, G. Stecca, and 
 A. Blom (2015), A laboratory experiment on the evolution of a sand gravel reach
  under a lack of sediment supply, in \OT1/cmtt/m/it/10 Proc. of the 36th IAHR W
@@ -4543,14 +4543,14 @@ orld
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9144--9149
+Underfull \hbox (badness 10000) in paragraph at lines 9149--9154
 []\OT1/cmtt/m/n/10 Orr^^Su, C., A. Blom, V. Chavarr^^S^^Pas, V. Ferrara, and G.
  Stecca (2016b), A new technique for measuring the bed surface texture during f
 low and application to a degradational sand-gravel laboratory experiment,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9160--9164
+Underfull \hbox (badness 10000) in paragraph at lines 9165--9169
 []\OT1/cmtt/m/n/10 Orton, G. J., and H. G. Reading (1993), Variability of delta
 ic processes in terms of sediment supply, with particular emphasis on grain siz
 e, \OT1/cmtt/m/it/10 Sedimentology\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 40\OT1/c
@@ -4559,23 +4559,23 @@ mtt/m/n/10 (3), 475--512, doi:$\OT1/cmr/m/n/10 10 . 1111 / j . 1365-[]3091 . 19
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9180--9184
+Underfull \hbox (badness 10000) in paragraph at lines 9185--9189
 []\OT1/cmtt/m/n/10 Osher, S., and J. A. Sethian (1988), Fronts propagating with
  curvature-dependent speed: Algorithms based on hamilton-jacobi formulations, \
 OT1/cmtt/m/it/10 Journal of Computational Physics\OT1/cmtt/m/n/10 , \OT1/cmtt/m
 /it/10 79\OT1/cmtt/m/n/10 (1), 12--49, doi:$\OT1/cmr/m/n/10 https :
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 9257--9261
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 9262--9266
 []\OT1/cmtt/m/n/10 Ottevanger, W., and C. Martinez Barbosa (2020), Delft3d rive
 r bed morphodynamics including bed level assimilation: Covadem depth and multib
 eam bed level measurements, \OT1/cmtt/m/it/10 Tech Rep. 11203766-001-HYE-0002\O
 T1/cmtt/m/n/10 ,
  []
 
-[57]
-Underfull \hbox (badness 10000) in paragraph at lines 9280--9284
+
+Underfull \hbox (badness 10000) in paragraph at lines 9285--9289
 []\OT1/cmtt/m/n/10 Ottevanger, W., K. Blanckaert, W. S. J. Uijttewaal, and H. J
 . de Vriend (2013), Meander dynamics: A reduced-order nonlinear model without c
 urvature restrictions for flow and bed morphology, \OT1/cmtt/m/it/10 J. Geophys
@@ -4583,7 +4583,7 @@ urvature restrictions for flow and bed morphology, \OT1/cmtt/m/it/10 J. Geophys
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9287--9291
+Underfull \hbox (badness 10000) in paragraph at lines 9292--9296
 []\OT1/cmtt/m/n/10 Ottevanger, W., S. Giri, and C. J. Sloff (2015), Sustainable
  fairway Rhinedelta II : effects of yearly bed stabilisation nourishments, Delt
 a Program measures and training walls, \OT1/cmtt/m/it/10 rapport\OT1/cmtt/m/n/1
@@ -4591,7 +4591,7 @@ a Program measures and training walls, \OT1/cmtt/m/it/10 rapport\OT1/cmtt/m/n/1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9306--9310
+Underfull \hbox (badness 10000) in paragraph at lines 9311--9315
 []\OT1/cmtt/m/n/10 Ottevanger, W., V. Chavarrias, S. Giri, and E. van der Deijl
  (2021), Morphological model for the river meuse: Model setup, input visualisat
 ion, and future steps, \OT1/cmtt/m/it/10 Tech Rep. 11206792-003-ZWS-0002\OT1/cm
@@ -4599,14 +4599,14 @@ tt/m/n/10 , Deltares,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9328--9333
+Underfull \hbox (badness 10000) in paragraph at lines 9333--9338
 []\OT1/cmtt/m/n/10 Owens, P., S. Apitz, R. Batalla, A. Collins, M. Eisma, H. Gl
 indemann, S. Hoornstra, H. Kothe, J. Quinton, K. Taylor, B. Westrich, S. White,
  and H. Wilkinson (2004), Synthesis of the sednet work package 2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9347--9351
+Underfull \hbox (badness 10000) in paragraph at lines 9352--9356
 []\OT1/cmtt/m/n/10 Paarlberg, A. J., C. M. Dohmen-Janssen, S. J. M. H. Hulscher
 , and P. Termes (2009), Modeling river dune evolution using a parameterization 
 of flow separation, \OT1/cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmtt/
@@ -4614,7 +4614,7 @@ m/n/10 , \OT1/cmtt/m/it/10 114\OT1/cmtt/m/n/10 (F1),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9354--9358
+Underfull \hbox (badness 10000) in paragraph at lines 9359--9363
 []\OT1/cmtt/m/n/10 Paarlberg, A. J., A. Y. A. Omer, and M. F. M. Yossef (2021),
  Eindevaluatie pilot Langsdammen in de Waal; Delft3D simulations, \OT1/cmtt/m/i
 t/10 Report HKV Lijn in Water and Deltares PR4153.10 (HKV), 11204644 (Deltares)
@@ -4622,7 +4622,7 @@ t/10 Report HKV Lijn in Water and Deltares PR4153.10 (HKV), 11204644 (Deltares)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9388--9392
+Underfull \hbox (badness 10000) in paragraph at lines 9393--9397
 []\OT1/cmtt/m/n/10 Paola, C. (2001), \OT1/cmtt/m/it/10 Gravel-bed rivers V\OT1/
 cmtt/m/n/10 , chap. Modelling stream braiding over a range of scales, pp. 11--4
 6, New Zealand Hydrological Society Inc., Wellington., retrieved from the Unive
@@ -4630,7 +4630,7 @@ rsity of Minnesota
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9426--9430
+Underfull \hbox (badness 10000) in paragraph at lines 9431--9435
 []\OT1/cmtt/m/n/10 Paola, C., G. Parker, R. Seal, S. K. Sinha, J. B. Southard, 
 and P. R. Wilcock (1992b), Downstream fining by selective deposition in a labor
 atory flume, \OT1/cmtt/m/it/10 Science\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 258\
@@ -4638,16 +4638,16 @@ OT1/cmtt/m/n/10 (5089), 1757--1760, doi:$\OT1/cmr/m/n/10 10 . 1126 / science .
 258 .
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 9445--9449
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 9450--9454
 []\OT1/cmtt/m/n/10 Paola, C., R. R. Twilley, D. A. Edmonds, W. Kim, D. Mohrig, 
 G. Parker, E. Viparelli, and V. R. Voller (2011), Natural processes in delta re
 storation: Application to the Mississippi Delta, \OT1/cmtt/m/it/10 Annu Rev Mar
 
  []
 
-[58]
-Underfull \hbox (badness 10000) in paragraph at lines 9452--9456
+
+Underfull \hbox (badness 10000) in paragraph at lines 9457--9461
 []\OT1/cmtt/m/n/10 Papanicolaou, A. N., A. Bdour, and E. Wicklein (2004), One-d
 imensional hydrodynamic/sediment transport model applicable to steep mountain s
 treams, \OT1/cmtt/m/it/10 J Hydraul Res\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 42\
@@ -4656,7 +4656,7 @@ OT1/cmtt/m/n/10 (4), 357--375, doi:$\OT1/cmr/m/n/10 10 . 1080 / 00221686 . 2004
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9497--9501
+Underfull \hbox (badness 10000) in paragraph at lines 9502--9506
 []\OT1/cmtt/m/n/10 Parker, G. (1990b), The ``Acronym'' series of Pascal program
 s for computing bed load transport in gravel rivers., \OT1/cmtt/m/it/10 Externa
 l Memorandum M-220\OT1/cmtt/m/n/10 , St. Anthony Falls Hydraulic Laboratory, Un
@@ -4664,7 +4664,7 @@ iversity of Minnesota,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9526--9530
+Underfull \hbox (badness 10000) in paragraph at lines 9531--9535
 []\OT1/cmtt/m/n/10 Parker, G. (2008), Transport of gravel and sediment mixtures
 , in \OT1/cmtt/m/it/10 Sedimentation Engineering\OT1/cmtt/m/n/10 , edited by M.
  Garcia, chap. 3, pp. 165--251, America Society of Civil Engineers, Reston, VA,
@@ -4672,7 +4672,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9526--9530
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9547--9551
+Underfull \hbox (badness 10000) in paragraph at lines 9552--9556
 []\OT1/cmtt/m/n/10 Parker, G., and L. A. Perg (2005), Probabilistic formulation
  of conservation of cosmogenic nuclides: effect of surface elevation fluctuatio
 ns on approach to steady state, \OT1/cmtt/m/it/10 Earth Surf Process Landf\OT1/
@@ -4680,7 +4680,7 @@ cmtt/m/n/10 , \OT1/cmtt/m/it/10 30\OT1/cmtt/m/n/10 (9),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9586--9590
+Underfull \hbox (badness 10000) in paragraph at lines 9591--9595
 []\OT1/cmtt/m/n/10 Parker, G., C. Paola, and S. Leclair (2000), Probabilistic E
 xner sediment continuity equation for mixtures with no active layer, \OT1/cmtt/
 m/it/10 J. Hydraul. Eng.\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 126\OT1/cmtt/m/n/1
@@ -4689,49 +4689,49 @@ m/it/10 J. Hydraul. Eng.\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 126\OT1/cmtt/m/n/1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9599--9603
+Underfull \hbox (badness 10000) in paragraph at lines 9604--9608
 []\OT1/cmtt/m/n/10 Parker, G., P. R. Wilcock, C. Paola, W. E. Dietrich, and J. 
 Pitlick (2007), Physical basis for quasi-universal relations describing bankful
 l hydraulic geometry of single-thread gravel bed rivers, \OT1/cmtt/m/it/10 J.
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 9612--9617
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 9617--9622
 []\OT1/cmtt/m/n/10 Parker, G., T. Muto, Y. Akamatsu, W. E. Dietrich, and J. W. 
 Lauer (2008b), Unravelling the conundrum of river response to rising sea-level 
 from laboratory to field. Part I: Laboratory experiments,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9620--9625
+Underfull \hbox (badness 10000) in paragraph at lines 9625--9630
 []\OT1/cmtt/m/n/10 Parker, G., T. Muto, Y. Akamatsu, W. E. Dietrich, and J. W. 
 Lauer (2008c), Unravelling the conundrum of river response to rising sea-level 
 from laboratory to field. Part II. the Fly--Strickland River
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9628--9633
+Underfull \hbox (badness 10000) in paragraph at lines 9633--9638
 []\OT1/cmtt/m/n/10 Parker, G., V. Voller, C. Paola, K. Hill, L. S. Sklar, and W
 . E. Dietrich (2008d), Comminution as a mechanism for downstream fining in rive
 rs: formulation, in \OT1/cmtt/m/it/10 Procedings of the 4th International
  []
 
-[59]
-Underfull \hbox (badness 10000) in paragraph at lines 9636--9641
+
+Underfull \hbox (badness 10000) in paragraph at lines 9641--9646
 []\OT1/cmtt/m/n/10 Parker, G., Y. Shimizu, G. V. Wilkerson, E. C. Eke, J. D. Ab
 ad, J. W. Lauer, C. Paola, W. E. Dietrich, and V. R. Voller (2011), A new frame
 work for modeling the migration of meandering rivers, \OT1/cmtt/m/it/10 Earth
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9649--9654
+Underfull \hbox (badness 10000) in paragraph at lines 9654--9659
 []\OT1/cmtt/m/n/10 Parsons, D. R., J. L. Best, O. Orfeo, R. J. Hardy, R. Kostas
 chuk, and S. N. Lane (2005), Morphology and flow fields of three-dimensional du
 nes, rio paran^^Sa, argentina: Results from simultaneous multibeam
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9666--9670
+Underfull \hbox (badness 10000) in paragraph at lines 9671--9675
 []\OT1/cmtt/m/n/10 P^^Sechon, P., F. Rivero, H. Johnson, T. Chesher, B. O'Conno
 r, J.-M. Tanguy, T. Karambas, M. Mory, and L. Hamm (1997), Intercomparison of w
 ave-driven current models, \OT1/cmtt/m/it/10 Coast Eng\OT1/cmtt/m/n/10 , \OT1/c
@@ -4739,7 +4739,7 @@ mtt/m/it/10 31\OT1/cmtt/m/n/10 (1), 199 -- 215, doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9677--9681
+Underfull \hbox (badness 10000) in paragraph at lines 9682--9686
 []\OT1/cmtt/m/n/10 Pelanti, M., F. Bouchut, and A. Mangeney (2008), A Roe-type 
 scheme for two-phase shallow granular flows over variable topography, \OT1/cmtt
 /m/it/10 ESAIM: Mathematical Modelling and Numerical Analysis\OT1/cmtt/m/n/10 ,
@@ -4747,21 +4747,21 @@ scheme for two-phase shallow granular flows over variable topography, \OT1/cmtt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9689--9694
+Underfull \hbox (badness 10000) in paragraph at lines 9694--9699
 []\OT1/cmtt/m/n/10 Pelosi, A., G. Parker, R. Schumer, and H.-B. Ma (2014), Exne
 r-based master equation for transport and dispersion of river pebble tracers: D
 erivation, asymptotic forms, and quantification of nonlocal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9697--9702
+Underfull \hbox (badness 10000) in paragraph at lines 9702--9707
 []\OT1/cmtt/m/n/10 Pelosi, A., R. Schumer, G. Parker, and R. I. Ferguson (2016)
 , The cause of advective slowdown of tracer pebbles in rivers: Implementation o
 f Exner-based Master Equation for coevolving streamwise and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9710--9715
+Underfull \hbox (badness 10000) in paragraph at lines 9715--9720
 []\OT1/cmtt/m/n/10 Pennekamp, J. G. S., and R. Booij (1983), Simulation of flow
  in rivers and tidal channels with an implicit finite difference method of the 
 adi-type, \OT1/cmtt/m/it/10 Tech. rep.\OT1/cmtt/m/n/10 , Laboratory of Fluid Me
@@ -4769,7 +4769,7 @@ chanics, Faculty of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9717--9721
+Underfull \hbox (badness 10000) in paragraph at lines 9722--9726
 []\OT1/cmtt/m/n/10 Pennekamp, J. G. S., and R. Booij (1984), Improved simulatio
 n of main flow and secondary flow in a curved open channel, \OT1/cmtt/m/it/10 T
 ech. rep.\OT1/cmtt/m/n/10 , Laboratory of Fluid Mechanics, Faculty of Civil Eng
@@ -4777,7 +4777,7 @@ ineering and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9741--9745
+Underfull \hbox (badness 10000) in paragraph at lines 9746--9750
 []\OT1/cmtt/m/n/10 Peters, B., A. Dittrich, T. Stoesser, T. Smits, and G. Geerl
 ing (2001), The Restrhine: New opportunities for nature rehabilitation and floo
 d prevention, \OT1/cmtt/m/it/10 Tech. rep.\OT1/cmtt/m/n/10 , University of Nijm
@@ -4785,7 +4785,7 @@ egen, the Netherlands
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9748--9752
+Underfull \hbox (badness 10000) in paragraph at lines 9753--9757
 []\OT1/cmtt/m/n/10 Petts, G. E., M. C. Thoms, K. Brittan, and B. Atkin (1989), 
 A freeze-coring technique applied to pollution by fine sediments in gravel-bed 
 rivers, \OT1/cmtt/m/it/10 Sci Total Environ\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10
@@ -4794,14 +4794,14 @@ rivers, \OT1/cmtt/m/it/10 Sci Total Environ\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10
  []
 
 [60]
-Underfull \hbox (badness 10000) in paragraph at lines 9822--9827
+Underfull \hbox (badness 10000) in paragraph at lines 9827--9832
 []\OT1/cmtt/m/n/10 Pilarczyk, K. W. (1995), Simplified unification of stability
  formulae for revetments under current and wave attach, in \OT1/cmtt/m/it/10 Ri
 ver, coastal, and shorteline protection: erosion control using riprap and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9834--9838
+Underfull \hbox (badness 10000) in paragraph at lines 9839--9843
 []\OT1/cmtt/m/n/10 Pinos, J., and L. Timbe (2019), Performance assessment of tw
 o-dimensional hydraulic models for generation of flood inundation maps in mount
 ain river basins, \OT1/cmtt/m/it/10 Water Science and Engineering\OT1/cmtt/m/n/
@@ -4809,14 +4809,14 @@ ain river basins, \OT1/cmtt/m/it/10 Water Science and Engineering\OT1/cmtt/m/n/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9843--9847
+Underfull \hbox (badness 10000) in paragraph at lines 9848--9852
 []\OT1/cmtt/m/n/10 Platzek, F. (2017), Accuracy and efficiency in numerical riv
 er modelling: Investigating the large effects of seemingly small numerical choi
 ces, Ph.D. thesis, Delft University of Technology, doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9850--9854
+Underfull \hbox (badness 10000) in paragraph at lines 9855--9859
 []\OT1/cmtt/m/n/10 Platzek, F. W., G. S. Stelling, J. A. Jankowski, R. Patzwahl
 , and J. D. Pietrzak (2016), An efficient semi-implicit subgrid method for free
 -surface flows on hierarchical grids, \OT1/cmtt/m/it/10 Int J Numer Meth Fl\OT1
@@ -4824,7 +4824,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9850--9854
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9870--9874
+Underfull \hbox (badness 10000) in paragraph at lines 9875--9879
 []\OT1/cmtt/m/n/10 Popinet, S. (2003), Gerris: a tree-based adaptive solver for
  the incompressible euler equations in complex geometries, \OT1/cmtt/m/it/10 Jo
 urnal of Computational Physics\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 190\OT1/cmtt
@@ -4833,7 +4833,7 @@ urnal of Computational Physics\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 190\OT1/cmtt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9877--9881
+Underfull \hbox (badness 10000) in paragraph at lines 9882--9886
 []\OT1/cmtt/m/n/10 PORNPROMMIN, A., A. TERAMOTO, N. IZUMI, T. KITAMURA, and T. 
 TSUJIMOTO (2002), Numerical simulation of bar formation in straight channels by
  the nhsed2d model, \OT1/cmtt/m/it/10 J Appl Mech\OT1/cmtt/m/n/10 , \OT1/cmtt/m
@@ -4842,7 +4842,7 @@ TSUJIMOTO (2002), Numerical simulation of bar formation in straight channels by
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9906--9910
+Underfull \hbox (badness 10000) in paragraph at lines 9911--9915
 []\OT1/cmtt/m/n/10 Posamentier, H. W., G. P. Allen, D. P. James, and M. Tesson 
 (1992), Forced regressions in a sequence stratigraphic framework: Concepts, exa
 mples, and exploration significance, \OT1/cmtt/m/it/10 Am Assoc Pet Geol Bull\O
@@ -4850,7 +4850,7 @@ T1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9935--9939
+Underfull \hbox (badness 10000) in paragraph at lines 9940--9944
 []\OT1/cmtt/m/n/10 Pratama, M., V. Venugopal, and J. Poleykett (), Wave and tid
 al hydrodynamics characterization of montrose bay:a severely-eroding coast in e
 ast scotland, in \OT1/cmtt/m/it/10 Proceedings of the 40th IAHR World Congress 
@@ -4858,14 +4858,14 @@ ast scotland, in \OT1/cmtt/m/it/10 Proceedings of the 40th IAHR World Congress
  []
 
 [61]
-Underfull \hbox (badness 10000) in paragraph at lines 9986--9991
+Underfull \hbox (badness 10000) in paragraph at lines 9991--9996
 []\OT1/cmtt/m/n/10 Provansal, M., S. Dufour, F. Sabatier, E. J. Anthony, G. Rac
 casi, and S. Robresco (2014), The geomorphic evolution and sediment balance of 
 the lower rh^one river (southern france) over the last 130 years:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10002--10006
+Underfull \hbox (badness 10000) in paragraph at lines 10007--10011
 []\OT1/cmtt/m/n/10 Pyrce, R. S., and P. E. Ashmore (2003), The relation between
  particle path length distributions and channel morphology in gravel-bed stream
 s: A synthesis, \OT1/cmtt/m/it/10 Geomorphology\OT1/cmtt/m/n/10 , \OT1/cmtt/m/i
@@ -4873,7 +4873,7 @@ t/10 56\OT1/cmtt/m/n/10 (1), 167--187, doi:$\OT1/cmr/m/n/10 10 . 1016 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10009--10013
+Underfull \hbox (badness 10000) in paragraph at lines 10014--10018
 []\OT1/cmtt/m/n/10 Qian, H., Z. Cao, G. Pender, H. Liu, and P. Hu (2015), Well-
 balanced numerical modelling of non-uniform sediment transport in alluvial rive
 rs, \OT1/cmtt/m/it/10 Int J Sediment Res\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 30
@@ -4882,7 +4882,7 @@ g / 10 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10016--10020
+Underfull \hbox (badness 10000) in paragraph at lines 10021--10025
 []\OT1/cmtt/m/n/10 Qian, H., Z. Cao, H. Liu, and G. Pender (2016), Numerical mo
 delling of alternate bar formation, development and sediment sorting in straigh
 t channels, \OT1/cmtt/m/it/10 Earth Surf Process Landf\OT1/cmtt/m/n/10 , \OT1/c
@@ -4890,7 +4890,7 @@ mtt/m/it/10 42\OT1/cmtt/m/n/10 (7), 555--574, doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10022--10027
+Underfull \hbox (badness 10000) in paragraph at lines 10027--10032
 []\OT1/cmtt/m/n/10 Qin, C., X. Shao, and G. Zhou (2016), Comparison of two diff
 erent secondary flow correction models for depth-averaged flow simulation of me
 andering channels, \OT1/cmtt/m/it/10 Procedia Eng\OT1/cmtt/m/n/10 , \OT1/cmtt/m
@@ -4898,14 +4898,14 @@ andering channels, \OT1/cmtt/m/it/10 Procedia Eng\OT1/cmtt/m/n/10 , \OT1/cmtt/m
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10030--10035
+Underfull \hbox (badness 10000) in paragraph at lines 10035--10040
 []\OT1/cmtt/m/n/10 Quick, I., F. K^^?onig, Y. Baulig, S. Schriever, and S. Voll
 mer (2020), Evaluation of depth erosion as a major issue along regulated rivers
  using the classification tool valmorph for the case study of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10061--10065
+Underfull \hbox (badness 10000) in paragraph at lines 10066--10070
 []\OT1/cmtt/m/n/10 Rahuel, J., F. Holly, J. Chollet, P. Belleudy, and G. Yang (
 1989), Modeling of riverbed evolution for bedload sediment mixtures, \OT1/cmtt/
 m/it/10 J. Hydraul. Eng.\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 115\OT1/cmtt/m/n/1
@@ -4914,7 +4914,7 @@ m/it/10 J. Hydraul. Eng.\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 115\OT1/cmtt/m/n/1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10067--10071
+Underfull \hbox (badness 10000) in paragraph at lines 10072--10076
 []\OT1/cmtt/m/n/10 Rahuel, J. L. (1993), Discussion of ``fully coupled unsteady
  mobile boundary flow model''; by l. r. p. correia, b. g. krishnappan, and w. h
 . graf (march, 1992, vol. 118, no. 3), \OT1/cmtt/m/it/10 J. Hydraul. Eng.\OT1/c
@@ -4922,14 +4922,14 @@ mtt/m/n/10 , \OT1/cmtt/m/it/10 119\OT1/cmtt/m/n/10 (4),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10073--10077
+Underfull \hbox (badness 10000) in paragraph at lines 10078--10082
 []\OT1/cmtt/m/n/10 Rai Yangkhurung, J. (2018), Effect of Canal Operation on Sed
 imentation and Erosion in Irrigation Canals: A Case Study in Sunsari Morang Irr
 igation System, Nepal, Master's thesis, IHE Institute for Water
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10096--10100
+Underfull \hbox (badness 10000) in paragraph at lines 10101--10105
 []\OT1/cmtt/m/n/10 Ranasinghe, R., C. Swinkels, A. Luijendijk, D. Roelvink, J. 
 Bosboom, M. Stive, and D. Walstra (2011), Morphodynamic upscaling with the MORF
 AC approach: Dependencies and sensitivities, \OT1/cmtt/m/it/10 Coastal Eng\OT1/
@@ -4937,7 +4937,7 @@ cmtt/m/n/10 , \OT1/cmtt/m/it/10 58\OT1/cmtt/m/n/10 (8),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10103--10108
+Underfull \hbox (badness 10000) in paragraph at lines 10108--10113
 []\OT1/cmtt/m/n/10 Rathbun, R. E., V. C. Kennedy, and J. K. Culbertson (1971), 
 Transport and dispersion of fluorescent tracer particles for the flat-bed condi
 tion, Rio Grande conveyance channel, near Bernardo, New Mexico, \OT1/cmtt/m/it/
@@ -4945,23 +4945,23 @@ tion, Rio Grande conveyance channel, near Bernardo, New Mexico, \OT1/cmtt/m/it/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10125--10129
+Underfull \hbox (badness 10000) in paragraph at lines 10130--10134
 []\OT1/cmtt/m/n/10 Recking, A., P. Frey, A. Paquier, and P. Belleudy (2009), An
  experimental investigation of mechanisms involved in bed load sheet production
  and migration, \OT1/cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmtt/m/n/
 10 , \OT1/cmtt/m/it/10 114\OT1/cmtt/m/n/10 (F3), F03,010,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 10148--10152
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 10153--10157
 []\OT1/cmtt/m/n/10 Recktenwald, G. (2017b), Alternative boundary condition impl
 ementations for crank nicolson solution to the heat equation, \OT1/cmtt/m/it/10
  Tech. Rep. ME 448/548\OT1/cmtt/m/n/10 , Department of Mechanical Engineering, 
 Portland State
  []
 
-[62]
-Underfull \hbox (badness 10000) in paragraph at lines 10154--10158
+
+Underfull \hbox (badness 10000) in paragraph at lines 10159--10163
 []\OT1/cmtt/m/n/10 Redolfi, M. (2021), Free alternate bars in rivers: Key physi
 cal mechanisms and simple formation criterion, \OT1/cmtt/m/it/10 Water Resour R
 es\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 57\OT1/cmtt/m/n/10 (12), e2021WR030,617,
@@ -4970,7 +4970,7 @@ t/m/n/10 , e2021WR030617
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10173--10177
+Underfull \hbox (badness 10000) in paragraph at lines 10178--10182
 []\OT1/cmtt/m/n/10 Reeze, B., A. van Winden, J. Postma, R. Pot, J. Hop, and W. 
 Liefveld (2017), Watersysteemrapportage rijntakken 1990-2015. ontwikkelingen wa
 terkwaliteit en ecologie., \OT1/cmtt/m/it/10 Tech. rep.\OT1/cmtt/m/n/10 , Bart 
@@ -4978,7 +4978,7 @@ Reeze Water &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10179--10183
+Underfull \hbox (badness 10000) in paragraph at lines 10184--10188
 []\OT1/cmtt/m/n/10 Rehbock, T. (1931), Wasserbauliche Modellversuche zur Kl^^?a
 rung der Abflusserscheinungen beim Abschluss der Zuiderzee ausgef^^?uhrt im Flu
 ssbaulaboratorium der Technischen Hochschule zu Karlsruhe, \OT1/cmtt/m/it/10 Te
@@ -4986,7 +4986,7 @@ ch. rep.\OT1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10186--10190
+Underfull \hbox (badness 10000) in paragraph at lines 10191--10195
 []\OT1/cmtt/m/n/10 Reid, I., L. E. Frostick, and J. T. Layman (1985), The incid
 ence and nature of bedload transport during flood flows in coarse-grained alluv
 ial channels, \OT1/cmtt/m/it/10 Earth Surf Proc Land\OT1/cmtt/m/n/10 , \OT1/cmt
@@ -4994,7 +4994,7 @@ t/m/it/10 10\OT1/cmtt/m/n/10 (1), 33--44, doi:$\OT1/cmr/m/n/10 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10206--10210
+Underfull \hbox (badness 10000) in paragraph at lines 10211--10215
 []\OT1/cmtt/m/n/10 Reyns, J., A. Dastgheib, R. Ranasinghe, A. Luijendijk, D.-J.
  Walstra, and D. Roelvink (2014), Morphodynamic upscaling with the morfac appro
 ach in tidal conditions: the critical morfac, \OT1/cmtt/m/it/10 Coastal Enginee
@@ -5002,7 +5002,7 @@ ring
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10216--10219
+Underfull \hbox (badness 10000) in paragraph at lines 10221--10224
 []\OT1/cmtt/m/n/10 Rhebergen, S. (2010), Discontinuous galerkin finite element 
 methods for (non)conservative partial differential equations, Ph.D. thesis, Uni
 versity of Twente, Netherlands, doi:$\OT1/cmr/m/n/10 10 . 3990 / 1 . 9789036529
@@ -5010,15 +5010,15 @@ versity of Twente, Netherlands, doi:$\OT1/cmr/m/n/10 10 . 3990 / 1 . 9789036529
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10258--10261
+Underfull \hbox (badness 10000) in paragraph at lines 10263--10266
 []\OT1/cmtt/m/n/10 Rijkswaterstaat (1973), de ontwikkeling van de stroombaanber
 ekening met een rekenvoorbeeld van de huidige methode, \OT1/cmtt/m/it/10 Nota 7
 3.6\OT1/cmtt/m/n/10 , Rijkswaterstaat, Directie Bovenrivieren, Afdeling studied
 ienst, Arnhem, the
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 10294--10298
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 10299--10303
 []\OT1/cmtt/m/n/10 van Rijn, L. C., M. W. C. Nieuwjaar, T. van der Kaay, E. Nap
 , and A. van Kampen (1993), Transport of fine sands by currents and waves, \OT1
 /cmtt/m/it/10 Journal of Waterway, Port, Coastal, and Ocean Engineering\OT1/cmt
@@ -5026,7 +5026,7 @@ t/m/n/10 , \OT1/cmtt/m/it/10 119\OT1/cmtt/m/n/10 (2),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10304--10308
+Underfull \hbox (badness 10000) in paragraph at lines 10309--10313
 []\OT1/cmtt/m/n/10 Robson, B. J. (2014), When do aquatic systems models provide
  useful predictions, what is changing, and what is next?, \OT1/cmtt/m/it/10 Env
 ironmental Modelling & Software\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 61\OT1/cmtt
@@ -5034,8 +5034,8 @@ ironmental Modelling & Software\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/10 61\OT1/cmtt
 . envsoft . 2014 .
  []
 
-[63]
-Underfull \hbox (badness 10000) in paragraph at lines 10314--10318
+
+Underfull \hbox (badness 10000) in paragraph at lines 10319--10323
 []\OT1/cmtt/m/n/10 Rodrigues, L., and K. Zumbrun (2016), Periodic-coefficient d
 amping estimates, and stability of large-amplitude roll waves in inclined thin 
 film flow, \OT1/cmtt/m/it/10 SIAM J Math Anal\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/
@@ -5043,14 +5043,14 @@ film flow, \OT1/cmtt/m/it/10 SIAM J Math Anal\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10321--10325
+Underfull \hbox (badness 10000) in paragraph at lines 10326--10330
 []\OT1/cmtt/m/n/10 Rodrigues, S., E. Mosselman, N. Claude, C. L. Wintenberger, 
 and P. Juge (2015), Alternate bars in a sandy gravel bed river: generation, mig
 ration and interactions with superimposed dunes, \OT1/cmtt/m/it/10 Earth Surf
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10357--10361
+Underfull \hbox (badness 10000) in paragraph at lines 10362--10366
 []\OT1/cmtt/m/n/10 Roos, P. C., R. Wemmenhove, S. J. M. H. Hulscher, H. W. M. H
 oeijmakers, and N. P. Kruyt (2007a), Modeling the effect of nonuniform sediment
  on the dynamics of offshore tidal sandbanks, \OT1/cmtt/m/it/10 J. Geophys. Res
@@ -5058,14 +5058,14 @@ oeijmakers, and N. P. Kruyt (2007a), Modeling the effect of nonuniform sediment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10365--10371
+Underfull \hbox (badness 10000) in paragraph at lines 10370--10376
 []\OT1/cmtt/m/n/10 Roos, P. C., S. J. M. H. Hulscher, F. M. van der Meer, T. A.
  G. P. van Dijk, I. G. M. Wientjes, and J. van den Berg (2007b), Proceedings of
  the 5th Symposium on River Coastal and Estuarine Morphodynamics,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10379--10383
+Underfull \hbox (badness 10000) in paragraph at lines 10384--10388
 []\OT1/cmtt/m/n/10 Roseberry, J. C., M. W. Schmeeckle, and D. J. Furbish (2012)
 , A probabilistic description of the bed load sediment flux: 2. Particle activi
 ty and motions, \OT1/cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmtt/m/n/
@@ -5073,7 +5073,7 @@ ty and motions, \OT1/cmtt/m/it/10 J. Geophys. Res., Earth Surface\OT1/cmtt/m/n/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10403--10407
+Underfull \hbox (badness 10000) in paragraph at lines 10408--10412
 []\OT1/cmtt/m/n/10 Royal Haskoning DHV (2019), Grip op nevengeulen: Pilot voor 
 programmeringsmethodiek beheer en onderhoud van nevengeulen, \OT1/cmtt/m/it/10 
 Tech. Rep. BF9237-101[]Grip op nevengeulen[]04032019[]d6.0\OT1/cmtt/m/n/10 , Ro
@@ -5081,7 +5081,7 @@ yal Haskoning DHV,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10415--10419
+Underfull \hbox (badness 10000) in paragraph at lines 10420--10424
 []\OT1/cmtt/m/n/10 R^^Uadoane, M., N. R^^Uadoane, D. Dumitriu, and C. Micl^^Uau
 ^^Xs (2008), Downstream variation in bed sediment size along the east carpathia
 n rivers: evidence of the role of sediment sources, \OT1/cmtt/m/it/10 Earth Sur
@@ -5089,7 +5089,7 @@ f Process Landf\OT1/cmtt/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10443--10447
+Underfull \hbox (badness 10000) in paragraph at lines 10448--10452
 []\OT1/cmtt/m/n/10 de Ruijsscher, T. V., A. J. F. Hoitink, S. Naqshband, and A.
  J. Paarlberg (2019), Bed morphodynamics at the intake of a side channel contro
 lled by sill geometry, \OT1/cmtt/m/it/10 Adv Water Resour\OT1/cmtt/m/n/10 , \OT
@@ -5097,15 +5097,15 @@ lled by sill geometry, \OT1/cmtt/m/it/10 Adv Water Resour\OT1/cmtt/m/n/10 , \OT
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10459--10463
+Underfull \hbox (badness 10000) in paragraph at lines 10464--10468
 []\OT1/cmtt/m/n/10 de Ruijsscher, T. V., B. Vermeulen, and A. J. F. Hoitink (20
 20b), Diversion of flow and sediment toward a side channel separated from a riv
 er by a longitudinal training dam, \OT1/cmtt/m/it/10 Water Resour Res\OT1/cmtt/
 m/n/10 , \OT1/cmtt/m/it/10 56\OT1/cmtt/m/n/10 (6),
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 10467--10471
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 10472--10476
 []\OT1/cmtt/m/n/10 de Ruijsscher, T. V., S. Naqshband, B. Vermeulen, and A. J. 
 F. Hoitink (2020c), Morfodynamische effecten van langsdammen in de waal, \OT1/c
 mtt/m/it/10 H2O : tijdschrift voor watervoorziening en afvalwaterbehandeling\OT
@@ -5113,14 +5113,14 @@ mtt/m/it/10 H2O : tijdschrift voor watervoorziening en afvalwaterbehandeling\OT
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10475--10479
+Underfull \hbox (badness 10000) in paragraph at lines 10480--10484
 []\OT1/cmtt/m/n/10 de Ruijsscher, T. V. d., A. J. F. Hoitink, S. Dinnissen, B. 
 Vermeulen, and P. Hazenberg (2018), Application of a line laser scanner for bed
  form tracking in a laboratory flume, \OT1/cmtt/m/it/10 Water Resour Res\OT1/cm
 tt/m/n/10 , \OT1/cmtt/m/it/10 54\OT1/cmtt/m/n/10 (3),
  []
 
-[64]
+
 Underfull \hbox (badness 10000) in paragraph at lines 10507--10511
 []\OT1/cmtt/m/n/10 R^^?uther, N., and N. R. B. Olsen (2007), Modelling free-for
 ming meander evolution in a laboratory channel using three-dimensional computat
@@ -5202,7 +5202,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10625--10630
 an Nes, M. Pascual, and J. Vandermeer (2012), Anticipating
  []
 
-
+[65]
 Underfull \hbox (badness 10000) in paragraph at lines 10633--10637
 []\OT1/cmtt/m/n/10 Scheingross, J. S., E. W. Winchell, M. P. Lamb, and W. E. Di
 etrich (2013), Influence of bed patchiness, slope, grain hiding, and form drag 
@@ -5219,7 +5219,7 @@ nd bedload sediment, \OT1/cmtt/m/it/10 Geology\OT1/cmtt/m/n/10 , \OT1/cmtt/m/it
 
  []
 
-[65]
+
 Underfull \hbox (badness 10000) in paragraph at lines 10665--10670
 []\OT1/cmtt/m/n/10 Schielen, R. M. J., T. van Leeuwen, and P. A. Zegeling (2005
 ), \OT1/cmtt/m/it/10 Proc. of the 4th IAHR symposium on River, Coastal, and Est
@@ -5384,7 +5384,7 @@ ystems to environmental change, \OT1/cmtt/m/it/10 Ecol Complex\OT1/cmtt/m/n/10
 , \OT1/cmtt/m/it/10 20\OT1/cmtt/m/n/10 , 81--96, doi:
  []
 
-
+[68]
 Underfull \hbox (badness 10000) in paragraph at lines 11162--11166
 []\OT1/cmtt/m/n/10 Siviglia, A., A. Stocchino, and M. Colombini (2009), Case st
 udy: Design of flood control systems on the vara river by numerical and physica
@@ -5408,7 +5408,7 @@ h: insights from mathematical and numerical analysis, in \OT1/cmtt/m/it/10 Proc
 .
  []
 
-[68]
+
 Underfull \hbox (badness 10000) in paragraph at lines 11183--11189
 []\OT1/cmtt/m/n/10 Siviglia, A., G. Stecca, and A. Blom (2017b), Modeling of mi
 xed-sediment morphodynamics in gravel bed rivers using the active layer approac
@@ -5526,7 +5526,7 @@ moli^^Reres, C. Grac, H. Pi^^Segay, A. Barillier, V. Chardon, and J.-N. Beisel
 (2018), How do instream flow increase and gravel augmentation impact
  []
 
-
+[70]
 Underfull \hbox (badness 10000) in paragraph at lines 11526--11530
 []\OT1/cmtt/m/n/10 Stahl, W. M. v. T. M. K. I. H. A.-F.-D. S. J. G. K. M. G., K
 . (2022), Impact of climate change on the rain,snow and glacier melt components
@@ -5534,7 +5534,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11526--11530
 Rep.
  []
 
-[70]
+
 Underfull \hbox (badness 10000) in paragraph at lines 11532--11537
 []\OT1/cmtt/m/n/10 Stam, J. (1998), Exact evaluation of catmull-clark subdivisi
 on surfaces at arbitrary parameter values, in \OT1/cmtt/m/it/10 Proceedings of 
@@ -5626,7 +5626,7 @@ estion of a Velocity Formula and Roughness Data for Streams, Channels and Close
 d Pipelines.'' W. M. Keck Laboratory of Hydraulics and Water Resources
  []
 
-
+[71]
 Underfull \hbox (badness 10000) in paragraph at lines 11692--11695
 []\OT1/cmtt/m/n/10 Strikwerda, J. (2004), \OT1/cmtt/m/it/10 Finite Difference S
 chemes and Partial Differential Equations\OT1/cmtt/m/n/10 , 2 ed., 427 pp., Soc
@@ -5634,7 +5634,7 @@ iety for Industrial and Applied Mathematics, Philadelphia, PA, United States, d
 oi:$\OT1/cmr/m/n/10 10 . 1137 / 1 .
  []
 
-[71]
+
 Underfull \hbox (badness 10000) in paragraph at lines 11712--11716
 []\OT1/cmtt/m/n/10 Struiksma, N. (1983a), Point bar initiation in bends of allu
 vial rivers with dominant bed load transport : Report on theoretical investigat
@@ -5698,7 +5698,7 @@ resented at the 23rd National Hydraulics Symposium, Jpn. Soc. of Civ. Eng., Tok
 yo,
  []
 
-
+[72]
 Underfull \hbox (badness 10000) in paragraph at lines 11861--11865
 []\OT1/cmtt/m/n/10 Swenson, J. B., and T. Muto (2007), Response of coastal plai
 n rivers to falling relative sea-level: allogenic controls on the aggradational
@@ -5707,7 +5707,7 @@ OT1/cmtt/m/n/10 (1), 207--221, doi:$\OT1/cmr/m/n/10 10 . 1111 / j . 1365-[]3091
  . 2006 .
  []
 
-[72]
+
 Underfull \hbox (badness 10000) in paragraph at lines 11874--11879
 []\OT1/cmtt/m/n/10 Swenson, J. B., C. Paola, L. Pratson, V. R. Voller, and A. B
 . Murray (2005), Fluvial and marine controls on combined subaerial and subaqueo
@@ -6187,7 +6187,7 @@ ng flow and sediment transport dynamics in the lowermost mississippi river, lou
 isiana, usa, with an upstream alluvial-bedrock transition and a
  []
 
-
+[78]
 Underfull \hbox (badness 10000) in paragraph at lines 12905--12910
 []\OT1/cmtt/m/n/10 Viparelli, E., R. R. H. Moreira, and A. Blom (2017), Modelli
 ng stratigraphy-based GBR morphodynamics., in \OT1/cmtt/m/it/10 Gravel-Bed Rive
@@ -6195,7 +6195,7 @@ rs: Process and Disasters\OT1/cmtt/m/n/10 , edited by D. Tsutsumi and J. Laronn
 e, chap. 23, pp.
  []
 
-[78]
+
 Underfull \hbox (badness 10000) in paragraph at lines 12913--12917
 []\OT1/cmtt/m/n/10 Visconti, F., L. Stefanon, C. Camporeale, F. Susin, L. Ridol
 fi, and S. Lanzoni (2012), Bed evolution measurement with flowing water in morp
@@ -6311,14 +6311,14 @@ r Yellow River, \OT1/cmtt/m/it/10 J. Hydraul. Eng.\OT1/cmtt/m/n/10 , \OT1/cmtt/
 m/it/10 134\OT1/cmtt/m/n/10 (8), 1064--1078, doi:
  []
 
-
+[80]
 Underfull \hbox (badness 10000) in paragraph at lines 13275--13280
 []\OT1/cmtt/m/n/10 Warmink, J. J., M. W. Straatsma, F. Huthoff, M. J. Booij, an
 d S. J. M. H. Hulscher (2013), Uncertainty of design water levels due to combin
 ed bed form and vegetation roughness in the dutch river waal,
  []
 
-[80]
+
 Underfull \hbox (badness 10000) in paragraph at lines 13297--13301
 []\OT1/cmtt/m/n/10 Watson, J. (1960), On the non-linear mechanics of wave distu
 rbances in stable and unstable parallel flows part 2. the development of a solu
@@ -6484,7 +6484,7 @@ n granular free-surface flows, \OT1/cmtt/m/it/10 J Fluid Mech\OT1/cmtt/m/n/10 ,
  \OT1/cmtt/m/it/10 709\OT1/cmtt/m/n/10 , 543--580, doi:
  []
 
-
+[82]
 Underfull \hbox (badness 10000) in paragraph at lines 13623--13626
 []\OT1/cmtt/m/n/10 WSV (2023), Langfristige Sicherung der Geschiebezugabe in If
 fezheim, []$https : / / www . wsa-[]oberrhein . wsv . de / Webs / WSA / Oberrhe
@@ -6492,7 +6492,7 @@ in / DE / 1 _ Wasserstrasse / Projekte / Langfristige-[]Sicherung-[]der-[]Gesch
 iebezugabe / std _ node .
  []
 
-[82]
+
 Underfull \hbox (badness 10000) in paragraph at lines 13628--13632
 []\OT1/cmtt/m/n/10 Wu, F., and K. Yang (2004), Entrainment probabilities of mix
 ed-size sediment incorporating near-bed coherent flow structures, \OT1/cmtt/m/i
@@ -6596,7 +6596,7 @@ he Bovenrijn, \OT1/cmtt/m/it/10 Tech. Rep. Q4357.30\OT1/cmtt/m/n/10 , Delft Hyd
 raulics Laboratory,
  []
 
-
+[83]
 Overfull \hbox (520.0313pt too wide) in paragraph at lines 13778--13782
 []\OT1/cmtt/m/n/10 Yossef, M., B. Jagers, G. Donchyts, and J. de. Jong (2018), 
 From earth observations to river models (eo-riv), \OT1/cmtt/m/it/10 Web page\OT
@@ -6605,7 +6605,7 @@ mbraco/nl/idee^^?enplatform/challenge-enabling-technologies-open-call-closed/fr
 om-earth-observations-to-river-models-eo-riv/. 
  []
 
-[83]
+
 Underfull \hbox (badness 10000) in paragraph at lines 13799--13806
 []\OT1/cmtt/m/n/10 Yossef, M. F. M., H. R. A. Jagers, S. van Vuren, and A. Sieb
 en (2008b), Innovative techniques in modelling large-scale river morphology, in
@@ -6724,7 +6724,7 @@ Here is how much of TeX's memory you used:
  36167 multiletter control sequences out of 15000+600000
  515714 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,76p,566b,5609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,76p,566b,5603s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ottevan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
 it1000.pk> <C:\Users\ottevan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
 pi600\tctt1000.pk> <C:\Users\ottevan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
@@ -6740,9 +6740,9 @@ m/cmsy10.pfb><C:/Users/ottevan/AppData/Local/Programs/MiKTeX/fonts/type1/public
 pe1/public/amsfonts/cm/cmtcsc10.pfb><C:/Users/ottevan/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ottevan/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on print_references.pdf (85 pages, 1830590 bytes).
+Output written on print_references.pdf (85 pages, 1830212 bytes).
 PDF statistics:
- 8494 PDF objects out of 8907 (max. 8388607)
+ 8493 PDF objects out of 8907 (max. 8388607)
  2580 named destinations out of 2984 (max. 500000)
  9 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -4867,6 +4867,11 @@ Gensen, M. R.~A., J.~J. Warmink, K.~D. Berends, F.~Huthoff, and S.~J. M.~H.
 George, J.~D., S.~Y. Jung, and N.~M. Mangan (2022), Walking into the complex
   plane to "order" better time integrators.
 
+\bibitem[{\textit{Gerretsen}(1968)}]{RWS68_3}
+Gerretsen (1968), Materiaaltransport door de maas, \textit{Tech. Rep. 68.8},
+  Rijkswaterstaat, Directie Limburg, Studiedienst Maas, Maastricht, the
+  Netherlands, nota 68.8 RWS.
+
 \bibitem[{\textit{{\van{Gerwen}{Van}{van}}~Gerwen
   et~al.}(2018)\textit{{\van{Gerwen}{Van}{van}}~Gerwen, Borsje, Damveld, and
   Hulscher}}]{vanGerwen18}
@@ -10073,7 +10078,7 @@ Rahuel, J.~L. (1993), Discussion of ``fully coupled unsteady mobile boundary
 Rai~Yangkhurung, J. (2018), {Effect of Canal Operation on Sedimentation and
   Erosion in Irrigation Canals: A Case Study in Sunsari Morang Irrigation
   System, Nepal}, Master's thesis, IHE Institute for Water Education, Delft,
-  the Netherlands, rTC + DD in Delft3D 4.
+  the Netherlands.
 
 \bibitem[{\textit{Rakha and Kamphuis}(1997)}]{Rakha97}
 Rakha, K.~A., and J.~W. Kamphuis (1997), A morphology model for an eroding
@@ -10489,11 +10494,6 @@ Runge, C. (1895), {U}eber die numerische {A}ufl{\"o}sung von
 \bibitem[{\textit{{RWS, Directie Bovenrivieren}}(1968)}]{RWS68_2}
 {RWS, Directie Bovenrivieren} (1968), Stroomsnelheidsmetingen op met gras
   begroeide kaden, nota 68.8 RWS.
-
-\bibitem[{\textit{{RWS, Directie Limburg}}(1968)}]{RWS68_3}
-{RWS, Directie Limburg} (1968), Materiaaltransport door de maas, \textit{Tech.
-  Rep. 68.8}, Rijkswaterstaat, Directie Limburg, Studiedienst Maas, Maastricht,
-  the Netherlands, nota 68.8 RWS.
 
 \bibitem[{\textit{{RWS, Directie Limburg}}(1979)}]{RWS79}
 {RWS, Directie Limburg} (1979), Waterloopkundige aspecten in het winterbed van
@@ -13423,7 +13423,7 @@ Wilbers, A. (1996), The border meuse over the years. a study into the
 
 \bibitem[{\textit{Wilbers}(2002)}]{Wilbers02}
 Wilbers, A. W.~E. (2002), Bed load transport obtained by dune tracking:
-  reliability and optimalisation.
+  reliability and optimalisation, (unpublished).
 
 \bibitem[{\textit{Wilbers and Kleinhans}(1999)}]{Wilbers99}
 Wilbers, A. W.~E., and M.~G. Kleinhans (1999), {Gevoeligheidsanalyse dune

@@ -29,148 +29,154 @@ Warning--I'm ignoring Blom16_2's extra "journal" field
 --line 3721 of file references.bib
 Reallocating 'str_pool' (item size: 1) to 195000 items.
 Warning--I'm ignoring Gill68's extra "journal" field
---line 15787 of file references.bib
+--line 15759 of file references.bib
 Warning--entry type for "Lane57" isn't style-file defined
---line 23895 of file references.bib
+--line 23867 of file references.bib
 Reallocating 'str_pool' (item size: 1) to 260000 items.
 Warning--I'm ignoring Lin84's extra "journal" field
---line 25591 of file references.bib
+--line 25563 of file references.bib
 Warning--entry type for "Parker04" isn't style-file defined
---line 31283 of file references.bib
+--line 31255 of file references.bib
 Warning--entry type for "Reula04" isn't style-file defined
---line 34079 of file references.bib
+--line 34051 of file references.bib
 Warning--I'm ignoring Smale00_MSc's extra "school" field
---line 37091 of file references.bib
+--line 37063 of file references.bib
 Reallocating 'str_pool' (item size: 1) to 325000 items.
-Repeated entry---line 40509 of file references.bib
+Repeated entry---line 40481 of file references.bib
  : @article{vanderMark13
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Vreugdenhil01's extra "journal" field
---line 42509 of file references.bib
+--line 42481 of file references.bib
 Reallocating 'str_pool' (item size: 1) to 390000 items.
-Repeated entry---line 50115 of file references.bib
+Repeated entry---line 50087 of file references.bib
  : @article{Luijendijk19
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 50143 of file references.bib
+Repeated entry---line 50115 of file references.bib
  : @article{Dietrich83
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 50171 of file references.bib
+Repeated entry---line 50143 of file references.bib
  : @article{MosqueraMachado07
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 50201 of file references.bib
+Repeated entry---line 50173 of file references.bib
  : @techreport{Kranenburg15_2
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 50219 of file references.bib
+Repeated entry---line 50191 of file references.bib
  : @techreport{Kranenburg15
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 50237 of file references.bib
+Repeated entry---line 50209 of file references.bib
  : @techreport{Kranenburg15_3
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 50255 of file references.bib
+Repeated entry---line 50227 of file references.bib
  : @techreport{Cotino20
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 50267 of file references.bib
+Repeated entry---line 50239 of file references.bib
  : @incollection{Koren93
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 50289 of file references.bib
+Repeated entry---line 50261 of file references.bib
  : @techreport{Borsboom97
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 50305 of file references.bib
+Repeated entry---line 50277 of file references.bib
  : @book{Uijttewaal20
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 50319 of file references.bib
+Repeated entry---line 50291 of file references.bib
  : @article{Ponce91
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 50347 of file references.bib
+Repeated entry---line 50319 of file references.bib
  : @techreport{Irving20
  :                     ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Swamee88's extra "journal" field
---line 51583 of file references.bib
+--line 51555 of file references.bib
 Warning--I'm ignoring Arnaud15's extra "journal" field
---line 51833 of file references.bib
+--line 51805 of file references.bib
 Warning--I'm ignoring An19's extra "journal" field
---line 51949 of file references.bib
+--line 51921 of file references.bib
 Warning--I'm ignoring KabiriSamani12's extra "journal" field
---line 52043 of file references.bib
+--line 52015 of file references.bib
 Warning--entry type for "GeowebProfielZN21" isn't style-file defined
---line 52225 of file references.bib
+--line 52197 of file references.bib
 Warning--I'm ignoring Chavarrias21_2's extra "journal" field
---line 52787 of file references.bib
-Repeated entry---line 53259 of file references.bib
+--line 52759 of file references.bib
+Repeated entry---line 53231 of file references.bib
  : @techreport{Niesten20
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 53675 of file references.bib
+Repeated entry---line 53647 of file references.bib
  : @techreport{Mosselman05
  :                        ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Preissmann61_2's extra "journal" field
---line 54321 of file references.bib
+--line 54293 of file references.bib
 Warning--I'm ignoring Preissmann61_3's extra "journal" field
---line 54341 of file references.bib
+--line 54313 of file references.bib
 Warning--I'm ignoring vonKarman30's extra "journal" field
---line 54851 of file references.bib
+--line 54823 of file references.bib
 Warning--I'm ignoring Gibson34's extra "journal" field
---line 54899 of file references.bib
+--line 54871 of file references.bib
 Warning--I'm ignoring Chiew92's extra "journal" field
---line 55119 of file references.bib
+--line 55091 of file references.bib
 Warning--I'm ignoring Garg05's extra "journal" field
---line 55147 of file references.bib
+--line 55119 of file references.bib
 Warning--I'm ignoring Raudkivi83's extra "journal" field
---line 55207 of file references.bib
-Repeated entry---line 55271 of file references.bib
+--line 55179 of file references.bib
+Repeated entry---line 55243 of file references.bib
  : @article{Giri21
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 55759 of file references.bib
+Repeated entry---line 55731 of file references.bib
  : @techreport{Chavarrias21_6
  :                           ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Merrill95's extra "journal" field
---line 57679 of file references.bib
+--line 57651 of file references.bib
 Warning--I'm ignoring Ketcheson21's extra "journal" field
---line 57709 of file references.bib
-Repeated entry---line 58861 of file references.bib
+--line 57681 of file references.bib
+Repeated entry---line 58833 of file references.bib
  : @mastersthesis{Stenfert17_MSc
  :                              ,
 I'm skipping whatever remains of this entry
 Reallocating 'str_pool' (item size: 1) to 455000 items.
 Warning--I'm ignoring Johnson92's extra "journal" field
---line 58981 of file references.bib
+--line 58953 of file references.bib
 Warning--entry type for "Denaro23" isn't style-file defined
---line 61249 of file references.bib
+--line 61225 of file references.bib
 Warning--string name "ce" is undefined
---line 62197 of file references.bib
-Repeated entry---line 63469 of file references.bib
+--line 62173 of file references.bib
+Repeated entry---line 63445 of file references.bib
  : @techreport{Ogink04
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 64649 of file references.bib
+Repeated entry---line 64625 of file references.bib
  : @article{Barneveld23
  :                     ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 67095 of file references.bib
- :   
- :   annote      = {},
-(Error may have been on previous line)
+Repeated entry---line 67233 of file references.bib
+ : @techreport{Hubbell64
+ :                      ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 67137 of file references.bib
- :   
- :   annote      = {},
-(Error may have been on previous line)
+Repeated entry---line 67335 of file references.bib
+ : @article{Lien99
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 68175 of file references.bib
+ : @techreport{Spruyt22
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 68209 of file references.bib
+ : @article{Petts89
+ :                 ,
 I'm skipping whatever remains of this entry
 Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karacan" has a comma at the end for entry Bakker22
 while executing---line 1741 of file agufull08_mod.bst
@@ -582,49 +588,48 @@ Warning--can't use both author and editor fields in Vollmer06
 Warning--missing publisher in Vreugdenhil89
 Warning--missing publisher in deVries69
 Warning--missing publisher in Wiesemann06
-Warning--empty note in Wilbers02
 Warning--missing publisher in Winterwerp22
 Warning--empty journal in Yalin
 Warning--empty journal in Ylla23
 You've used 2492 entries,
             3080 wiz_defined-function locations,
-            15636 strings with 437998 characters,
-and the built_in function-call counts, 1973153 in all, are:
+            15637 strings with 437999 characters,
+and the built_in function-call counts, 1973133 in all, are:
 = -- 212521
 > -- 58718
 < -- 2099
 + -- 27306
 - -- 16120
-* -- 124879
+* -- 124876
 := -- 194702
 add.period$ -- 2492
 call.type$ -- 2492
 change.case$ -- 10858
 chr.to.int$ -- 2493
-cite$ -- 2733
-duplicate$ -- 216807
-empty$ -- 123120
+cite$ -- 2732
+duplicate$ -- 216802
+empty$ -- 123115
 format.name$ -- 22925
-if$ -- 395045
+if$ -- 395040
 int.to.chr$ -- 173
 int.to.str$ -- 1
 missing$ -- 22855
 newline$ -- 7483
 num.names$ -- 9967
-pop$ -- 75259
+pop$ -- 75264
 preamble$ -- 1
 purify$ -- 8086
 quote$ -- 0
 skip$ -- 116380
 stack$ -- 0
 substring$ -- 78001
-swap$ -- 176486
+swap$ -- 176481
 text.length$ -- 508
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 21861
-warning$ -- 197
+warning$ -- 196
 while$ -- 11699
 width$ -- 0
 write$ -- 28886
-(There were 131 error messages)
+(There were 133 error messages)
