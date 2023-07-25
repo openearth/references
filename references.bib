@@ -34143,4 +34143,32 @@ There, we found that the conservative formulation (also depending on the local w
 So when decreasing the viscosity, this difference becomes smaller. In fact, I expect that decreasing the viscosity has little effect on the water levels in FM, whereas it will decrease the water levels in WAQUA. Hence, the change in the difference between the two.},
 }
 
+@Article{Kazhyken21,
+  author       = {Kazbek Kazhyken and Juha Videman and Clint Dawson},
+  date         = {2021},
+  journaltitle = {Computer Methods in Applied Mechanics and Engineering},
+  title        = {Discontinuous Galerkin methods for a dispersive wave hydro-morphodynamic model with bed-load transport},
+  doi          = {https://doi.org/10.1016/j.cma.2020.113592},
+  issn         = {0045-7825},
+  pages        = {113592},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0045782520307775},
+  volume       = {375},
+  abstract     = {A dispersive wave hydro-morphodynamic model coupling the Green–Naghdi equations (the hydrodynamic part) with the sediment continuity Exner equation (the morphodynamic part) is presented. Numerical solution algorithms based on discontinuous Galerkin finite element discretizations of the model are proposed. The algorithms include both coupled and decoupled approaches for solving the hydrodynamic and morphodynamic parts simultaneously and separately from each other, respectively. The Strang operator splitting technique is employed to treat the dispersive terms separately, and it provides the ability to ignore the dispersive terms in specified regions, such as surf zones. Algorithms that can handle wetting–drying and detect wave breaking are presented. The numerical solution algorithms are validated with numerical experiments to demonstrate the ability of the algorithms to accurately resolve hydrodynamics of solitary and regular waves, and morphodynamic changes induced by such waves. The results indicate that the model has the potential to be used in studies of coastal morphodynamics driven by dispersive water waves, given that the hydrodynamic part resolves the water motion and dispersive wave effects with sufficient accuracy up to swash zones, and the morphodynamic model can capture the major features of bed erosion and deposition.},
+  keywords     = {Green–Naghdi equations, Exner equation, Shallow water flows, Dispersive waves, Sediment transport, Discontinuous Galerkin methods},
+}
+
+@Article{Kazhyken21_2,
+  author       = {Kazbek Kazhyken and Juha Videman and Clint Dawson},
+  date         = {2021},
+  journaltitle = {Computer Methods in Applied Mechanics and Engineering},
+  title        = {Discontinuous Galerkin methods for a dispersive wave hydro-sediment-morphodynamic model},
+  doi          = {https://doi.org/10.1016/j.cma.2021.113684},
+  issn         = {0045-7825},
+  pages        = {113684},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0045782521000207},
+  volume       = {377},
+  abstract     = {A dispersive wave hydro-sediment-morphodynamic model developed by complementing the shallow water hydro-sediment-morphodynamic (SHSM) equations with the dispersive term from the Green–Naghdi equations is presented. A numerical solution algorithm for the model based on the second-order Strang operator splitting is presented. The model is partitioned into two parts, (1) the SHSM equations and (2) the dispersive correction part, which are discretized using discontinuous Galerkin finite element methods. This splitting technique provides a facility to select dynamically regions of a problem domain where the dispersive term is not applied, e.g. wave breaking regions where the dispersive wave model is no longer valid. Algorithms that can handle wetting–drying and detect wave breaking are provided and a number of numerical examples are presented to validate the developed numerical solution algorithm. The results of the simulations indicate that the model is capable of predicting sediment transport and bed morphodynamic processes correctly provided that the empirical models for the suspended and bed load transport are properly calibrated. Moreover, the developed model is able to accurately capture hydrodynamics and wave dispersion effects up to swash zones, and its application is justified for simulations where dispersive wave effects are prevalent.},
+  keywords     = {Green–Naghdi equations, SHSM equations, Dispersive waves, Sediment transport, Discontinuous Galerkin methods},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
