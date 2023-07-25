@@ -34130,4 +34130,17 @@ author = {Ivo Wenneker and Mart Borsboom},
   keywords     = {Geomorphology, Sediment transport, Boussinesq equation, Wave–current interaction, Density variation, Numerical method},
 }
 
+@TechReport{Platzek18,
+  author      = {Frank Platzek},
+  date        = {2018},
+  institution = {\refDeltares{}},
+  title       = {Analysis D-Flow FM results Veluwerandmeren},
+  abstract    = {Frank to V on 2307191535:
+
+That has to do with the way the viscosity term is discretized in FM and in WAQUA. We found this out some years ago in some “uitzoekwerk” for the Veluwerandmeren project of Menno Genseberger. It has been written down in section 4.3 of the attached report.
+There, we found that the conservative formulation (also depending on the local water depth h) of FM gives less water level setup than the non-conservative (and independent) formulation of WAQUA.
+
+So when decreasing the viscosity, this difference becomes smaller. In fact, I expect that decreasing the viscosity has little effect on the water levels in FM, whereas it will decrease the water levels in WAQUA. Hence, the change in the difference between the two.},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
