@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[9]:
 
 
 from html.parser import HTMLParser
@@ -101,7 +101,6 @@ def save_file(entry):
     os.getcwd()
     if not os.path.exists('adlib'):
         os.mkdir('adlib')
-    ext = '.pdf'
     if 'hyperref' in entry.keys():
         path, filename = os.path.split(entry['hyperref'])
         _, ext = os.path.splitext(filename)
@@ -120,8 +119,6 @@ def save_file(entry):
         return 1
         
 def bibtex(entry):
-    if 'Publisher' not in entry.keys():
-        entry['Publisher'] = 'Unknown'
     bibtex_entry = ( 
     f"@techreport{'{'+entry['Citekey']}, \n"
     f"  author      = {entry['Author']},\n"
@@ -165,12 +162,19 @@ def generate_bib(filename):
         print(f"Bibliography document {bibfile} already exists")                
 
 
-# In[ ]:
+# In[10]:
 
 
 import glob
 for file in glob.glob('fullCatalogue*.html'):
     generate_bib(file)
+
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:
