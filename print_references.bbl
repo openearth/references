@@ -1,4 +1,4 @@
-\begin{thebibliography}{2580}
+\begin{thebibliography}{2584}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -3448,15 +3448,44 @@ Deigaard, R., and J.~Freds{\o}e (1978), Longitudinal grain sorting by current
   \doi{10.2166/nh.1978.002}.
 
 \bibitem[{\textit{{\van{Deijl}{Van der}{van
-  der}}~Deijl}(2022)}]{vanderDeijl22_2}
-{\van{Deijl}{Van der}{van der}}~Deijl, E. (2022), {Basisrivierbodemligging
-  analyse Grensmaas hoogwater juli 2021}, \textit{rapport deltares}, Deltares,
-  Delft, 67 p. pp.
+  der}}~Deijl}(2021{\natexlab{a}})}]{Deijl21}
+{\van{Deijl}{Van der}{van der}}~Deijl, E. (2021{\natexlab{a}}), Recente
+  oeverlijnen, huidige oeverlijnen, grenzen aan toelaatbare oevererosie, en
+  prognoses van toekomstige oeverlijnen langs de {Maas}: Deel 1: afbeelding op
+  luchtfoto’s, \textit{Tech. Rep. 11205234-012}, Deltares, Delft, the
+  Netherlands., 55 pp.
 
-\bibitem[{\textit{{\van{Deijl}{Van der}{van der}}~Deijl}(2023)}]{vanderDeijl23}
-{\van{Deijl}{Van der}{van der}}~Deijl, E. (2023), {Aanpassing
+\bibitem[{\textit{{\van{Deijl}{Van der}{van
+  der}}~Deijl}(2021{\natexlab{b}})}]{Deilj21b}
+{\van{Deijl}{Van der}{van der}}~Deijl, E. (2021{\natexlab{b}}), Recente
+  oeverlijnen, huidige oeverlijnen, grenzen aan toelaatbare oevererosie, en
+  prognoses van toekomstige oeverlijnen langs de {Maas}: Deel 2: afbeelding op
+  topografische kaart, \textit{Tech. Rep. 11205234-012}, Deltares, Delft, the
+  Netherlands., 55 pp.
+
+\bibitem[{\textit{{\van{Deijl}{Van der}{van
+  der}}~Deijl}(2022{\natexlab{a}})}]{Deijl22}
+{\van{Deijl}{Van der}{van der}}~Deijl, E. (2022{\natexlab{a}}), Validatie
+  hoogwater maas juli 2021, \textit{Tech. Rep. 11208053-002-ZWS-0006},
+  Deltares, Delft, the Netherlands.
+
+\bibitem[{\textit{{\van{Deijl}{Van der}{van
+  der}}~Deijl}(2022{\natexlab{b}})}]{vanderDeijl22_2}
+{\van{Deijl}{Van der}{van der}}~Deijl, E. (2022{\natexlab{b}}),
+  {Basisrivierbodemligging analyse Grensmaas hoogwater juli 2021},
+  \textit{rapport deltares}, Deltares, Delft, 67 p. pp.
+
+\bibitem[{\textit{{\van{Deijl}{Van der}{van
+  der}}~Deijl}(2023{\natexlab{a}})}]{vanderDeijl23}
+{\van{Deijl}{Van der}{van der}}~Deijl, E. (2023{\natexlab{a}}), {Aanpassing
   Basisrivierbodemligging eisen en actualisatie rivierbodemligging 2021},
   \textit{rapport deltares}, Deltares, Delft, 77 p. pp.
+
+\bibitem[{\textit{{\van{Deijl}{Van der}{van
+  der}}~Deijl}(2023{\natexlab{b}})}]{vanderDeijl23_2}
+{\van{Deijl}{Van der}{van der}}~Deijl, E. (2023{\natexlab{b}}), Update van de
+  standaardsommen jamm2022 naar jamm2023, \textit{Tech. Rep.
+  11209233-002-ZWS-0003}, Deltares, Delft, the Netherlands., 19 pp.
 
 \bibitem[{\textit{Delaunay}(1934)}]{Delaunay34}
 Delaunay, B. (1934), Sur la sph\`ere vide, \textit{Bulletin de l'Acad\'emie des
@@ -8963,10 +8992,10 @@ Mosselman, E., G.~Dur\'{o}, E.~{van der Deijl}, C.~Eijsberg-Bak, and T.~Buijse
   11205234-012-ZWS-0001}, Deltares and Witteveen + Bos, the Netherlands, 62 pp.
 
 \bibitem[{\textit{Mosselman et~al.}(2021{\natexlab{b}})\textit{Mosselman,
-  Buijse, van~der Deijl, de~Jong, Chavarrías, Ottevanger, Asselman., de~Grave,
+  Buijse, van~der eijl, de~Jong, Chavarrías, Ottevanger, Asselman., de~Grave,
   van~der Mark, van~der Wijk, Collas, van~der Vat, Sloff, Verbrugge, and
   van~den Born}}]{Mosselman21_2}
-Mosselman, E., T.~Buijse, E.~van~der Deijl, J.~de~Jong, V.~Chavarrías,
+Mosselman, E., T.~Buijse, E.~van~der eijl, J.~de~Jong, V.~Chavarrías,
   W.~Ottevanger, N.~Asselman., P.~de~Grave, R.~van~der Mark, R.~van~der Wijk,
   F.~Collas, M.~van~der Vat, K.~Sloff, L.~Verbrugge, and R.~van~den Born
   (2021{\natexlab{b}}), Eindevaluatie pilot {L}angsdammen in de {W}aal;
@@ -10709,6 +10738,12 @@ Rodríguez-Amaya, C., A.~Durán-Ariza, and S.~Duarte-Méndez (2020), Submerged
   vane technology in colombia: Five representative projects, \textit{Water},
   \textit{12}(4), \doi{10.3390/w12040984}.
 
+\bibitem[{\textit{Roelofsen et~al.}(2015)\textit{Roelofsen, Kuijper, and
+  Borren}}]{Roelofsen15}
+Roelofsen, F.~J., M.~J.~M. Kuijper, and W.~Borren (2015), {Stuwpand Sambeek
+  vóór ingrepen : analyse meetnet Grondwater Zandmaas}, \textit{rapport
+  deltares}, Deltares, Delft, 27, [149] p. pp.
+
 \bibitem[{\textit{Roelvink}()}]{RoelvinkXX}
 Roelvink, D. (), Strategies for morphodynamic updating, \textit{Tech. rep.}
 
@@ -11599,6 +11634,13 @@ Sklar, L.~S., W.~E. Dietrich, E.~Foufoula-Georgiou, B.~Lashermes, and
   network structure?, \textit{Water Resour Res}, \textit{42}, W06D18,
   \doi{10.1029/2006WR005035}.
 
+\bibitem[{\textit{{\van{Sligte}{Van der}{van der}}~Sligte
+  et~al.}(2012)\textit{{\van{Sligte}{Van der}{van der}}~Sligte, Weij, Spruyt,
+  and Schuurman}}]{vanderSligte12}
+{\van{Sligte}{Van der}{van der}}~Sligte, R., D.~Weij, A.~Spruyt, and
+  F.~Schuurman (2012), {Schuivende marges 2011 : casestudy IJssel en Maas},
+  \textit{concept rapport deltares}, Deltares, Delft.
+
 \bibitem[{\textit{Slingerland and Smith}(1998)}]{Slingerland98}
 Slingerland, R., and N.~D. Smith (1998), Necessary conditions for a
   meandering-river avulsion, \textit{Geology}, \textit{26}(5), 435--438,
@@ -11632,7 +11674,7 @@ Sloff, C.~J. (1992), The method of characteristics applied to analyse 2{DH}
 \bibitem[{\textit{Sloff}(2001)}]{Sloff01}
 Sloff, C.~J. (2001), Morfologische berekeningen {Zandmaas}: {Scope} 2000 met
   gegradeerd sediment, \textit{{T}ech. {R}ep. Q2772}, Delft Hydraulics
-  Laboratory, Delft, the Netherlands.
+  Laboratory, Delft, the Netherlands., 92 p. pp.
 
 \bibitem[{\textit{Sloff}(2006{\natexlab{b}})}]{Sloff06}
 Sloff, C.~J. (2006{\natexlab{b}}), Uitbreiding {SOBEK-RT} model naar
@@ -12932,27 +12974,6 @@ van Rooijen, E., E.~Mosselman, K.~Sloff, and W.~Uijttewaal (2020), The effect
   A.~Wilbers (2000), De allier als morfologisch voorbeeld voor de grensmaas: I:
   vergelijkbaarheid en rivierpatroon, \textit{Natuurhistorisch Maandblad},
   \textit{89}(7), 118--122.
-
-\bibitem[{\textit{\van{Deijl}{Van der}{van der}
-  Deijl}(2021{\natexlab{a}})}]{Deijl21}
-\van{Deijl}{Van der}{van der} Deijl, E. (2021{\natexlab{a}}), Recente
-  oeverlijnen, huidige oeverlijnen, grenzen aan toelaatbare oevererosie, en
-  prognoses van toekomstige oeverlijnen langs de {Maas}: Deel 1: afbeelding op
-  luchtfoto’s, \textit{Tech. Rep. 11205234-012}, Deltares, Delft, the
-  Netherlands., 55 pp.
-
-\bibitem[{\textit{\van{Deijl}{Van der}{van der}
-  Deijl}(2021{\natexlab{b}})}]{Deilj21b}
-\van{Deijl}{Van der}{van der} Deijl, E. (2021{\natexlab{b}}), Recente
-  oeverlijnen, huidige oeverlijnen, grenzen aan toelaatbare oevererosie, en
-  prognoses van toekomstige oeverlijnen langs de {Maas}: Deel 2: afbeelding op
-  topografische kaart, \textit{Tech. Rep. 11205234-012}, Deltares, Delft, the
-  Netherlands., 55 pp.
-
-\bibitem[{\textit{\van{Deijl}{Van der}{van der} Deijl}(2022)}]{Deijl22}
-\van{Deijl}{Van der}{van der} Deijl, E. (2022), Validatie hoogwater maas juli
-  2021, \textit{Tech. Rep. 11208053-002-ZWS-0006}, Deltares, Delft, the
-  Netherlands.
 
 \bibitem[{\textit{Vandenbussche et~al.}(2001)\textit{Vandenbussche, Van~Looy,
   Vanacker, Vermeersch, and Decleer}}]{Vandenbussche01}
@@ -14447,6 +14468,10 @@ Zolezzi, G., W.~Bertoldi, and M.~Tubino (2006), Morphological analysis and
   prediction of river bifurcations., in \textit{Braided Rivers: Process,
   Deposits, Ecology and Management}, edited by G.~H.~S. Smith, J.~L. Best,
   C.~S. Bristow, and G.~E. Petts, pp. 233--256, Wiley-Blackwell.
+
+\bibitem[{\textit{Zuid-Nederland}(2019)}]{RWS19_2}
+Zuid-Nederland, R. (2019), {Statistisch overzicht afvoeren en waterhoogten
+  Watersysteem Maas en Kanalen 1991-2015}, \textit{Tech. rep.}
 
 \bibitem[{\textit{Zuijderwijk and
   {\van{Jong}{De}{de}}~Jong}(2021)}]{Zuijderwijk21}
