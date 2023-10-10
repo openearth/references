@@ -21739,7 +21739,7 @@ school =  {Radboud Universiteit en Universiteit Twente in samenwerking met Delta
 }
 
 @TechReport{Mosselman21_2,
-  author      = {Mosselman, E. and T. Buijse and E. van der Deijl and J. de Jong and V. Chavarrías and W. Ottevanger and N. Asselman. and P. de Grave and R. van der Mark and R. van der Wijk and F. Collas and M. van der Vat and K. Sloff and L. Verbrugge and R. van den Born},
+  author      = {Mosselman, E. and T. Buijse and E. van der eijl and J. de Jong and V. Chavarrías and W. Ottevanger and N. Asselman. and P. de Grave and R. van der Mark and R. van der Wijk and F. Collas and M. van der Vat and K. Sloff and L. Verbrugge and R. van den Born},
   date        = {2021},
   institution = {Deltares, Delft, the Netherlands},
   title       = {Eindevaluatie pilot {L}angsdammen in de {W}aal; Hoofdrapport},
@@ -23873,11 +23873,11 @@ school =  {Delft Hydraulics Laboratory, Delft, the Netherlands},
 }
 
 
-@TechReport{Deijl21,
-	author      = {\van{Deijl}{Van der}{van der} Deijl, E.},
+@TechReport{vanderDeijl21,
+	author      = {{\van{Deijl}{Van der}{van der}} Deijl, E.},
 	date        = {2021},
     institution = {Deltares, Delft, the Netherlands.},
-    title       = {Recente oeverlijnen, huidige oeverlijnen, grenzen aan toelaatbare oevererosie, en prognoses van toekomstige oeverlijnen langs de {Maas}: Deel 1: afbeelding op luchtfoto’s}, 
+    title       = {{Recente oeverlijnen, huidige oeverlijnen, grenzen aan toelaatbare oevererosie, en prognoses van toekomstige oeverlijnen langs de {Maas}: Deel 1: afbeelding op luchtfoto’s}}, 
     number      = {11205234-012},
     pages       = {55},
     comment     = {Oevererosie, rivierkunde, Maas},
@@ -23885,11 +23885,11 @@ year =  {2021},
 school =  {Deltares, Delft, the Netherlands.},
 }
 
-@TechReport{Deilj21b,
-	author      = {\van{Deijl}{Van der}{van der} Deijl, E.},
+@TechReport{vanderDeijl21b,
+	author      = {{\van{Deijl}{Van der}{van der}} Deijl, E.},
 	date        = {2021},
 	institution = {Deltares, Delft, the Netherlands.},
-	title       = {Recente oeverlijnen, huidige oeverlijnen, grenzen aan toelaatbare oevererosie, en prognoses van toekomstige oeverlijnen langs de {Maas}: Deel 2: afbeelding op topografische kaart}, 
+	title       = {{Recente oeverlijnen, huidige oeverlijnen, grenzen aan toelaatbare oevererosie, en prognoses van toekomstige oeverlijnen langs de {Maas}: Deel 2: afbeelding op topografische kaart}}, 
 	number      = {11205234-012},
 	pages       = {55},
 	comment     = {Oevererosie, rivierkunde, Maas},
@@ -27403,15 +27403,15 @@ year =  {2021},
 year =  {2022},
 }
 
-@TechReport{Goede13,
-  author =      {Erik {\van{Goede}{De}{de}} Goede en Jan {\van{Kester}{Van}{van}} Kester},
-  title =       {Toepasbaarheid van kleine roostercellen in WAQUA voor overlaten},
+@TechReport{deGoede13,
+  author      = {Erik {\van{Goede}{De}{de}} Goede en Jan {\van{Kester}{Van}{van}} Kester},
   institution = {Deltares, Delft, the Netherlands},
-  year =        {2013},
-  type =        {{M}emo},
-  number =      {1207880-006-ZWS-0009},
-  month  =  {no}, 
-school =  {Deltares, Delft, the Netherlands},
+  title       = {Toepasbaarheid van kleine roostercellen in WAQUA voor overlaten},
+  number      = {1207880-006-ZWS-0009},
+  type        = {{M}emo},
+  month       = {no},
+  school      = {Deltares, Delft, the Netherlands},
+  year        = {2013},
 }
 
 @Article{Stoker92,
@@ -28292,11 +28292,11 @@ journal =  {Int J Numer Meth Fl},
   year         = {2016},
 }
 
-@TechReport{Deijl22,
-	author      = {\van{Deijl}{Van der}{van der} Deijl, E.},
+@TechReport{vanderDeijl22,
+	author      = {{\van{Deijl}{Van der}{van der}} Deijl, E.},
 	year        = {2022},
 	institution = {Deltares, Delft, the Netherlands},
-	title       = {Validatie hoogwater Maas juli 2021},
+	title       = {{Validatie hoogwater Maas juli 2021}},
 	number      = {11208053-002-ZWS-0006},
 school =  {Deltares, Delft, the Netherlands},
 }
@@ -30973,8 +30973,13 @@ school =  {RIZA Rijkswaterstaat},
   title       = {Morfologische berekeningen {Zandmaas}: {Scope} 2000 met gegradeerd sediment},
   number      = {Q2772},
   type        = {{T}ech. {R}ep.},
-year =  {2001},
-school =  {Delft Hydraulics Laboratory, Delft, the Netherlands.},
+  geographicalkeyword = {Maas},
+  keywords   = {morfologische modellen, morphological models, gevoeligheidsanalyse, sensitivity analysis, modelijking, model calibration},
+  hyperref   = {https://kennisbank.deltares.nl/repos/Q2772_2.pdf},
+  pages      = {92 p.},
+  year =  {2001},
+  school =  {Delft Hydraulics Laboratory, Delft, the Netherlands.},
+  notes      = {I.o.v. Rijkswaterstaat, RIZA},
 }
 
 @TechReport{Vermeer90_2,
@@ -32384,6 +32389,7 @@ TKE increases by forming the scour hole on the flat bed.},
 @TechReport{deGoede09,
   author      = {{\van{Goede}{De}{de}} Goede, E. D. and Jan van Kester},
   date        = {2009},
+  year        = {2009},
   institution = {\refWL{}},
   title       = {Vegetatie op overlaten in WAQUA},
   comment     = {Villemonte},
@@ -32473,7 +32479,7 @@ TKE increases by forming the scour hole on the flat bed.},
 @Article{Vanzo16,
   author       = {Davide Vanzo and Annunziato Siviglia and Eleuterio F. Toro},
   date         = {2016},
-  journaltitle = {Journal of Computational Physics},
+  journaltitle = {J. Comput. Phys.},
   title        = {Pollutant transport by shallow water equations on unstructured meshes: Hyperbolization of the model and numerical solution via a novel flux splitting scheme},
   doi          = {https://doi.org/10.1016/j.jcp.2016.05.023},
   issn         = {0021-9991},
@@ -32482,6 +32488,426 @@ TKE increases by forming the scour hole on the flat bed.},
   volume       = {321},
   abstract     = {The purpose of this paper is twofold. First, using the Cattaneo's relaxation approach, we reformulate the system of governing equations for the pollutant transport by shallow water flows over non-flat topography and anisotropic diffusion as hyperbolic balance laws with stiff source terms. The proposed relaxation system circumvents the infinite wave speed paradox which is inherent in standard advection–diffusion models. This turns out to give a larger stability range for the choice of the time step. Second, following a flux splitting approach, we derive a novel numerical method to discretise the resulting problem. In particular, we propose a new flux splitting and study the associated two systems of differential equations, called the “hydrodynamic” and the “relaxed diffusive” system, respectively. For the presented splitting we analyse the resulting two systems of differential equations and propose two discretisation schemes of the Godunov-type. These schemes are simple to implement, robust, accurate and fast when compared with existing methods. The resulting method is implemented on unstructured meshes and is systematically assessed for accuracy, robustness and efficiency on a carefully selected suite of test problems including non-flat topography and wetting and drying problems. Formal second order accuracy is assessed through convergence rates studies.},
   keywords     = {Shallow water equations, Pollutant transport, Advection–diffusion, Cattaneo's relaxation approach, Finite volume, Flux vector splitting},
+}
+
+@TechReport{Chavarrias23_4,
+  author      = {Victor Chavarrias},
+  date        = {2023},
+  institution = {\refDeltares{}},
+  title       = {Derivation of Villemonte formulation in Delft3D FM},
+  number      = {11209261-004-ZWS-0002},
+}
+
+@article{Nelson99,
+author = {Nelson, Jonathan},
+title = {Erosion and Sedimentation},
+journal = {Eos, Transactions American Geophysical Union},
+volume = {80},
+number = {15},
+pages = {176-177},
+doi = {https://doi.org/10.1029/99EO00128},
+url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/99EO00128},
+eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/99EO00128},
+abstract = {According to legend, a conversation that took place more than 70 years ago between Albert Einstein and his eldest son, Hans Albert Einstein, gives rise to the favorite anecdote of every scientist or engineer working in the field of sediment transport. During this conversation, Hans told his father of his intent to carry out research on the mechanics of sediment transport. Albert had done some work in this area, notably on hindered settling in sediment suspensions, and he advised his son not to pursue study in this field, as he felt sediment transport was so difficult that it was intractable. Like many good sons before him, Hans ignored this advice, and went on to be one of a handful of prominent scientists that shaped modern sediment-transport theory and practice.},
+year = {1999}
+}
+
+@MastersThesis{Tam23_MSc,
+  author      = {Tam, Zeta},
+  title       = {Simulating 3D Sand Wave Recovery After Pre-sweeping by Delft3D FM},
+  school      = {Delft University of Technology},
+  year        = {2023},
+}
+
+@TechReport{Asselman22,
+  author        = {Asselman, N.E.M. and Mens, M.J.P. and Maarse, M.J. and {\van{Maas}{F.}{F.}} Maas, B. and {\van{Grave}{De}{de}} Grave, P. and {\van{Deijl}{Van der}{van der}} Deijl, E.},
+  institution   = {Deltares, Delft},
+  title         = {{Effectbepaling nulalternatief IRM}},
+  pages         = {227 p.},
+  type          = {rapport Deltares},
+  hyperref      = {https://kennisbank.deltares.nl/repos/11208036_004_0002.pdf},
+  illustrations = {fig., ref.},
+  keywords      = {klimaatverandering, integraal waterbeheer, rivierbeheer, rivierbodem, bodemligging, natuur, bevaarbaarheid, hoogwaterbeveiliging},
+  month         = {(nov.)},
+  projectnumber = {11208036},
+  year          = {2022},
+}
+
+@TechReport{Sorber95,
+  author              = {Sorber, A. and {\van{Vaan}{De}{de}} Vaan, G.},
+  institution         = {IGC-Bureau, Amsterdam},
+  title               = {{Ruimtelijke variatie van de sedimentaire structuur en textuur van de bedding van de Grensmaas (stuw Borgharen, km. 15.5 - Maaseik, km. 52.7) : periode van veldonderzoek: 3 juli - 25 augustus 1995}},
+  pages               = {98 p.},
+  type                = {monografie},
+  corporateauthor     = {['Interuniversitair Centrum voor Geo-ecologisch onderzoek']},
+  geographicalkeyword = {Grensmaas},
+  keywords            = {erodeerbaarheid, erodibility, riviermorfologie, river morphology, korrelgrootteverdeling, grain size distribution, bodemafpleistering, bed armouring},
+  month               = {(okt.)},
+  notes               = {I.o.v. Rijkswaterstaat/RIZA},
+  series              = {ICG; 95/3},
+  year                = {1995},
+}
+
+@techreport{vanManen94, 
+  author      = {{\van{Manen}{Van}{van}} Manen, G. R. and Onneweer, J. G. and {\van{Berg}{Van den}{van den}} Berg, J. H.},
+  title       = {{Ruimtelijke variatie van de sedimentaire structuur en textuur van de bedding van de Grensmaas (stuw Borgharen, km. 15.5 - Maaseik, km. 52.7)}},
+  institution = {Universiteit Utrecht, Utrecht},
+  year        = {1994},
+  type        = {monografie},
+  pages      = {90 p.},
+  address     = {},
+  month       = {},
+  note        = {},
+  annote      = {},
+  geographicalkeyword = {Grensmaas},
+  keywords   = {erosie, erosion, sedimentatie, sedimentation, korrelgrootteverdeling, grain size distribution, bodemafpleistering, bed armouring},
+  corporateauthor = {['Universiteit Utrecht']},
+  series     = {GEOPRO rapport; 1994.04},
+}
+
+@techreport{RWS19_2, 
+  author =  {Rijkswaterstaat Zuid-Nederland},
+  title =   {{Statistisch overzicht afvoeren en waterhoogten Watersysteem Maas en Kanalen 1991-2015}},
+  year =    {2019},
+}
+
+@TechReport{vanderSligte12,
+  author              = {{\van{Sligte}{Van der}{van der}} Sligte, R.A.M. and Weij, D. and Spruyt, A. and Schuurman, F.},
+  institution         = {Deltares, Delft},
+  title               = {{Schuivende marges 2011 : casestudy IJssel en Maas}},
+  type                = {concept rapport Deltares},
+  geographicalkeyword = {Maas, IJssel},
+  hyperref            = {https://kennisbank.deltares.nl/repos/1204153_003.pdf},
+  keywords            = {oevererosie, bank erosion},
+  month               = {(jan.)},
+  notes               = {I.o.v. Rijkswaterstaat Waterdienst},
+  year                = {2012},
+}
+
+@TechReport{Roelofsen15,
+  author              = {Roelofsen, F. J. and Kuijper, M. J. M. and Borren, W.},
+  institution         = {Deltares, Delft},
+  title               = {{Stuwpand Sambeek vóór ingrepen : analyse meetnet Grondwater Zandmaas}},
+  pages               = {27, [149] p.},
+  type                = {rapport Deltares},
+  geographicalkeyword = {Maas, Zandmaas},
+  hyperref            = {https://kennisbank.deltares.nl/repos/1202771_000b.pdf},
+  illustrations       = {fig.},
+  keywords            = {meetnetten, grondwaterstandmeting, grondwaterstand, rivierstand},
+  month               = {(sept.)},
+  projectnumber       = {1202771},
+  year                = {2015},
+}
+
+@TechReport{vanderDeijl23_2,
+	author      = {{\van{Deijl}{Van der}{van der}} Deijl, E.},
+	date        = {2023},
+    institution = {Deltares, Delft, the Netherlands.},
+    title       = {Update van de standaardsommen JAMM2022 naar JAMM2023}, 
+    number      = {11209233-002-ZWS-0003},
+    pages       = {19},
+    comment     = {},
+year =  {2023},
+school =  {Deltares, Delft, the Netherlands.},
+}
+
+@TechReport{Chavarrias21_7,
+  author  = {Victor Chavarrias},
+  title   = {Differences between paralleland sequential simulations},
+  comment = {chaos},
+}
+
+@Article{vandenBout23,
+  author       = {B. {van den Bout} and V.G. Jetten and C.J. {van Westen} and L. Lombardo},
+  date         = {2023},
+  journaltitle = {Environmental Modelling & Software},
+  title        = {A breakthrough in fast flood simulation},
+  doi          = {https://doi.org/10.1016/j.envsoft.2023.105787},
+  issn         = {1364-8152},
+  pages        = {105787},
+  url          = {https://www.sciencedirect.com/science/article/pii/S1364815223001731},
+  volume       = {168},
+  abstract     = {The current status of technological advancement does not allow to generate detailed spatial flood forecasts. This hinders warning-systems, interactive planning tools and detailed forecasts. Our novel method computes flood hazard maps over three orders of magnitude faster than current state-of-the-art methods. It applies physically-based principles of steady-state flow to evade dynamic aspects of flood simulations. It estimates the relevant information for flood hazard, such as peak flow height, velocity and flood arrival time. Performance indicators show similar or exceeding accuracy compared to traditional flow models depending on the type of and data. In our tests, computation is reduced 1500 times. The method provides new perspective for the field of flood hazards, flood risk reduction through new types of early-warning systems, and user-interactive hazard assessment systems. As climate change is expected to aggravate flood hazard, the presented method can bring efficiency to flood simulation. The method is freely available at www.fastflood.org.},
+  keywords     = {Floods, Flow networks, Algorithms, Forecasting},
+}
+
+@TechReport{Sieben23_2,
+  author =      {Arjan Sieben},
+  title =       {{Bepaling standaardset afvoeren DFAST-MI}},
+  institution = {Rijkswaterstaat},
+  year =        {2023},
+  type =        {{N}ote 31-08-2023},
+  number =      {},
+  pages       = {6},
+school =  {Rijkswaterstaat},
+}
+
+@Article{Li23,
+  author       = {Li, Zhi and Mendoza, Alejandro and Abad, Jorge D. and Endreny, Theodore A. and Han, Bangshuai and Carrisoza, Eliseo and Dominguez, Ramon},
+  date         = {2023},
+  journaltitle = {Frontiers in Earth Science},
+  title        = {High-resolution modeling of meander neck cutoffs: laboratory and field scales},
+  doi          = {10.3389/feart.2023.1208782},
+  issn         = {2296-6463},
+  url          = {https://www.frontiersin.org/articles/10.3389/feart.2023.1208782},
+  volume       = {11},
+  abstract     = {Meandering rivers are distinguished by their characteristic sinuosity, which is subject to modulation through channel cutoff, resulting in the formation of oxbow lakes within the abandoned meander loops. Throughout the evolutionary course of a river, these cutoffs establish a connection between the channel and floodplain systems, both crucial to maintaining the dynamic equilibrium of the river system. Nonetheless, the interactive dynamic between the channel and floodplain and its influence on the transient behavior of the channel’s morphodynamics during a cutoff event are frequently reduced to simplistic representations in computational models. This study introduces a comprehensive numerical model that elucidates the adaptive processes of bed and planform during and subsequent to the inception of cutoff and oxbow lakes. The model is assessed through its application to a laboratory scale cutoff, before being employed to a real-world meandering river, specifically the Ucayali River in Peru, in order to gain understanding into channel development and the intricate patterns of planform dynamics following cutoff events. The model is able to capture the main modes of planform migration, translation and expansion for the case of the bend in the Ucayali River. During the neck cutoff, the model simulates the progression of erosional and depositional waves traveling in upstream and downstream directions respectively, underscoring the importance of incorporating both hydrodynamic and morphodynamic factors in characterizing the river dynamics associated with meander cutoffs.},
+}
+
+@phdthesis{vanThieldeVries09_PhD,
+title  =  {{Dune Erosion during Storm Surges}}, 
+author  =  {{\van{Thiel de Vries}{Van}{van}} Thiel de Vries, J. S. M.},
+abstract = {Large parts of The Netherlands are protected from flooding by a narrow strip of sandy beaches and dunes. The aim of this thesis is to extend the existing knowledge of dune erosion during storm surges as it occurs along the Dutch coast. The thesis discusses:  A large scale dune erosion experiment to obtain better insight in near dune hydrodynamics, sediment transport and the interaction between dune face and swash zone;  Detailed models to study dune erosion physics, which are validated against measurements;  A morphodynamic dune erosion model that includes the longshore direction and new physical insights. The model is applied in a variety of dune erosion conditions.}, 
+year  =  {2009}, 
+issn  =  {1877-5608}, 
+school  =  {Delft University of Technology}, 
+}
+
+@article{Ruessink12,
+  author                   = {Ruessink, B.G. and Ramaekers, G. and {van Rijn}, L.C.},
+  title                    = {On the parameterization of the free-stream non-linear wave orbital motion in nearshore morphodynamic models},
+  journal                  = {Coastal Engineering},
+  volume                   = {65},
+  pages                    = {56--63},
+  year                     = {2012},
+  issn                     = {0378-3839},
+  doi                      = {https://doi.org/10.1016/j.coastaleng.2012.03.006},
+  url                      = {https://www.sciencedirect.com/science/article/pii/S0378383912000488},
+}
+
+@article{Komar75,
+    author = {Komar, P. D. and Miller, M. C.},
+    title = "{On the comparison between the threshold of sediment motion under waves and unidirectional currents with a discussion of the practical evaluation of the threshold; reply}",
+    journal = {Journal of Sedimentary Research},
+    volume = {45},
+    number = {1},
+    pages = {362-367},
+    year = {1975},
+    month = {03},
+    issn = {1527-1404},
+    doi = {10.1306/212F6D66-2B24-11D7-8648000102C1865D},
+    url = {https://doi.org/10.1306/212F6D66-2B24-11D7-8648000102C1865D},
+    eprint = {https://pubs.geoscienceworld.org/sepm/jsedres/article-pdf/45/1/362/2807109/362.pdf},
+}
+
+@techreport{Maynord78,
+  title={Practical riprap design},
+  author={Maynord, Stephen T},
+  year={1978},
+  institution={US Army Engineer Waterways Experiment Station}
+}
+
+@article{Neill68,
+  title={Note on initial movement of coarse uniform bed-material},
+  author={Neill, CR},
+  journal={Journal of hydraulic research},
+  volume={6},
+  number={2},
+  pages={173--176},
+  year={1968},
+  publisher={Taylor \& Francis}
+}
+
+@MastersThesis{deVet14_MSc,
+  author      = {{\van{Vet}{De}{de}} Vet, P. L. M.},
+  title       = {Modelling sediment transport and morphology during overwash and breaching events},
+  school      = {Delft University of Technology},
+  year        = {2014},
+}
+
+
+@Article{vanRhee10,
+  author   = {{\van{Rhee}{Van}{van}} Rhee, C.},
+  title    = {Sediment Entrainment at High Flow Velocity},
+  doi      = {10.1061/(ASCE)HY.1943-7900.0000214},
+  eprint   = {https://ascelibrary.org/doi/pdf/10.1061/%28ASCE%29HY.1943-7900.0000214},
+  number   = {9},
+  pages    = {572-582},
+  url      = {https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29HY.1943-7900.0000214},
+  volume   = {136},
+  abstract = {In dredging practice sand is eroded at very high flow velocities using water jets. Breaching of dikes or dams is another process where sediments are eroded under the influence of high flow velocities. The existing pick-up functions were developed for relative low values of bed shear stress and hence overestimate erosion. Conventional pick-up functions can be made suitable for dealing with high-velocity erosion by taking the permeability of the sediment into account. This can be achieved by modifying the critical Shields parameter. The procedure is demonstrated using the van Rijn pick-up function. The theory is compared with experiment, and agreement is found to be good.},
+  journal  = {Journal of Hydraulic Engineering},
+  year     = {2010},
+}
+
+@Article{Roelvink89,
+  author       = {Roelvink, J. A. and Stive, M. J. F.},
+  date         = {1989},
+  journaltitle = {Journal of Geophysical Research: Oceans},
+  title        = {Bar-generating cross-shore flow mechanisms on a beach},
+  doi          = {https://doi.org/10.1029/JC094iC04p04785},
+  eprint       = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/JC094iC04p04785},
+  number       = {C4},
+  pages        = {4785-4800},
+  url          = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/JC094iC04p04785},
+  volume       = {94},
+  abstract     = {Random waves normally incident on a dissipative beach induce a variety of cross-shore flows, such as asymmetric oscillatory flow, wave grouping-induced long-wave flow, breaking-induced turbulent flow, and momentum decay-induced undertow. These flows are identified, analyzed and hindcasted in a set of laboratory experiments with the aim of revealing the role of each of the flow mechanisms in the two-dimensional case of bar generation on a beach.},
+}
+
+@Article{Rienecker81,
+  author       = {Rienecker, M. M. and Fenton, J. D.},
+  date         = {1981},
+  journaltitle = {Journal of Fluid Mechanics},
+  title        = {A Fourier approximation method for steady water waves},
+  doi          = {10.1017/S0022112081002851},
+  pages        = {119–137},
+  volume       = {104},
+  publisher    = {Cambridge University Press},
+}
+
+
+
+
+
+
+
+
+@Article{Hakim17,
+  author       = {Sara Seyed Hakim and Amir H. Azimi},
+  date         = {2017},
+  journaltitle = {Journal of Irrigation and Drainage Engineering},
+  title        = {Hydraulics of Submerged Triangular Weirs and Weirs of Finite-Crest Length with Upstream and Downstream Ramps},
+  doi          = {10.1061/(ASCE)IR.1943-4774.0001207},
+  eprint       = {https://ascelibrary.org/doi/pdf/10.1061/%28ASCE%29IR.1943-4774.0001207},
+  number       = {8},
+  pages        = {06017008},
+  url          = {https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29IR.1943-4774.0001207},
+  volume       = {143},
+  abstract     = {Laboratory tests were carried out to investigate the hydraulics of submerged flow over triangular weirs and weirs of finite-crest length with upstream and/or downstream ramp(s). Water surface profiles were recorded as the weir submergence set and for various stages of submergence. Variations in modular limit and discharge reduction factors for the present weirs were studied. It was found that the modular limit varied with the ratio of the free-flow head to the total streamwise length of the weir. Characteristic length scales such as horizontal and vertical distances from the toe of the surface jump and the first wave trough to the downstream crest edge of the weir were measured to generalize different wave patterns. It was found that the toe of the surface jump moved toward the weir as the weir submerged and varied linearly with the submergence level, which is the ratio of tailwater to headwater depths. For weirs of finite-crest length with upstream and downstream ramps (i.e.,\&nbsp;embankment weirs), the toe of the surface jump moved toward the weir as the submergence level increased up to 0.7. For higher submergence levels, the trough of the surface wave moved toward the downstream and eventually washed away. Efficiency and performance of the present weirs were evaluated with their own free-flow conditions. Empirical formulations were developed to predict the discharge reduction factor with submergence level. The performance of triangular weirs in submerged-flow conditions was found to be better than that of corresponding sharp-crested weirs; weirs became more efficient as the ratio of the free-flow head and the total length of the weir increased.},
+}
+
+
+
+
+
+
+
+
+@Article{Riha14,
+  author       = {Jarom\'{i}r Riha and Zbynek Zachoval},
+  date         = {2014},
+  journaltitle = {Journal of Hydraulic Engineering},
+  title        = {Discharge Coefficient of a Trapezoidal Broad-Crested Side Weir for Low Approach Froude Numbers},
+  doi          = {10.1061/(ASCE)HY.1943-7900.0000889},
+  eprint       = {https://ascelibrary.org/doi/pdf/10.1061/%28ASCE%29HY.1943-7900.0000889},
+  number       = {8},
+  pages        = {06014013},
+  url          = {https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29HY.1943-7900.0000889},
+  volume       = {140},
+  abstract     = {Even though broad-crested side weirs have been subjected to numerous studies, guidance for discharge coefficient determination for broad-crested side weirs still has not been clearly given. Experimental research was carried out to describe the flow conditions in front of a trapezoidal broad-crested side weir at low Froude numbers in the approach channel for various combinations of inflow and overflow discharges. Three side weir variants with different oblique angles were studied. Flow characteristics at the side weir were analyzed and assessed based on the results obtained from extensive measurements performed on a hydraulic model. The empirical relation between the coefficient of obliqueness, the angle of side weir obliqueness, and Froude numbers upstream and downstream of the weir was derived.},
+}
+
+
+
+
+
+
+
+
+@Article{Azimi16,
+  author       = {Amir H. Azimi and Nallamuthu Rajaratnam and David Z. Zhu},
+  date         = {2016},
+  journaltitle = {Journal of Hydraulic Engineering},
+  title        = {Water Surface Characteristics of Submerged Rectangular Sharp-Crested Weirs},
+  doi          = {10.1061/(ASCE)HY.1943-7900.0001110},
+  eprint       = {https://ascelibrary.org/doi/pdf/10.1061/%28ASCE%29HY.1943-7900.0001110},
+  number       = {5},
+  pages        = {06016001},
+  url          = {https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29HY.1943-7900.0001110},
+  volume       = {142},
+  abstract     = {Laboratory experiments were carried out to investigate the water surface characteristics of submerged flow over sharp-crested weirs. Interesting observations were made on the water surface profiles near the weir as weir submergence sets in as well as for various stages of submergence. Submerged flow was divided into four regimes: (I) impinging jet, (II) surface jump, (III) surface wave, and (IV) surface jet. It was found that a surface jump turned into a surface wave when the wave trough became level with the tip of the weir. The surface jet regime began as the surface waves faded out. A condition was set to quantify the boundary between the surface wave and surface jet regimes. Based on flow observations, the surface jet regime sets in as the amplitude of the surface wave becomes small (i.e.,\&nbsp;less than 0.1h, where h is the head). An empirical equation was developed based on the literature data to predict the discharge reduction factor in the generally used discharge equation. This formulation was compared with other formulations in the literature. It was found that the proposed formulation provides a slightly better estimation of flow discharge.},
+}
+
+
+
+
+
+
+
+
+@Article{Azimi14,
+  author       = {Amir Hossein Azimi and Nallamuthu Rajaratnam and David Z. Zhu},
+  date         = {2014},
+  journaltitle = {Journal of Irrigation and Drainage Engineering},
+  title        = {Submerged Flows over Rectangular Weirs of Finite Crest Length},
+  doi          = {10.1061/(ASCE)IR.1943-4774.0000728},
+  eprint       = {https://ascelibrary.org/doi/pdf/10.1061/%28ASCE%29IR.1943-4774.0000728},
+  number       = {5},
+  pages        = {06014001},
+  url          = {https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29IR.1943-4774.0000728},
+  volume       = {140},
+  abstract     = {This work presents a critical analysis of submerged flow over rectangular weirs of finite crest length. For finite crest length weirs, because the existing data sets are not extensive, new experiments for these weirs with sharp-edged and rounded crest were conducted. Based on these data, a diagram is developed to show the variation of the normalized tailwater depth with ho/L where ho is the free flow head and L is the length of the crest, to predict the onset of submergence or the modular limit. Water surface profiles of flow over weirs of finite crest length with square-edge and rounded crests were plotted to study the formation of waves in modular and submerged conditions. Characteristics length scales such as wave length and amplitude at the modularity limit and the location of the first trough downstream of the weir were measured to generalize surface profiles at different flow discharges. An empirical equation for the discharge reduction factor was also formulated. This equation has two exponents with different values for several classes of finite crest length weirs with either square edged or rounded crest.},
+}
+
+
+
+
+
+
+
+
+@Article{Hager94,
+  author       = {Willi H. Hager and Markus Schwalt},
+  date         = {1994},
+  journaltitle = {Journal of Irrigation and Drainage Engineering},
+  title        = {Broad‐Crested Weir},
+  doi          = {10.1061/(ASCE)0733-9437(1994)120:1(13)},
+  eprint       = {https://ascelibrary.org/doi/pdf/10.1061/%28ASCE%290733-9437%281994%29120%3A1%2813%29},
+  number       = {1},
+  pages        = {13-26},
+  url          = {https://ascelibrary.org/doi/abs/10.1061/%28ASCE%290733-9437%281994%29120%3A1%2813%29},
+  volume       = {120},
+  abstract     = {The flow features over the broad‐crested weir with vertical upstream wall and sharp‐crested corner are analyzed experimentally. Only the long‐crested weir is considered, for which the discharge coefficient remains practically constant. For a relative overflow depth between 10\% and 40\%, the surface profile, the bottom pressure profile, the boundary separation profile, and the velocity profiles close to the upper corner are self‐similar, provided effects of scale may be dropped. For extremely long‐crested weirs, undular flow occurs. The first wave profile is shown to be identical with the solitary wave profile. The main properties of the undular hydraulic jump are explored. The broad‐crested weir is characterized by insensitivity to tailwater submergence. The modular limit is found practically constant at 75\% of the tailwater level, independent of the relative head on the weir. The discharge‐head relation for submerged flow is analyzed under a novel approach. Finally, recommendations are specified under which a broad‐crested weir may be used as a discharge measurement structure.},
+}
+
+
+
+
+
+
+
+
+@Article{Azimi13,
+  author       = {Amir Hossein Azimi and Nallamuthu Rajaratnam and David Z. Zhu},
+  date         = {2013},
+  journaltitle = {Journal of Irrigation and Drainage Engineering},
+  title        = {Discharge Characteristics of Weirs of Finite Crest Length with Upstream and Downstream Ramps},
+  doi          = {10.1061/(ASCE)IR.1943-4774.0000519},
+  eprint       = {https://ascelibrary.org/doi/pdf/10.1061/%28ASCE%29IR.1943-4774.0000519},
+  number       = {1},
+  pages        = {75-83},
+  url          = {https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29IR.1943-4774.0000519},
+  volume       = {139},
+  abstract     = {This paper considers flow measurement in open channels with transverse weirs of finite crest length with sloping crests and upstream or downstream ramps—or both—for free flows. Using the broad-crested weir equation with a discharge coefficient as the basis and following the earlier studies of broad-crested weirs, robust correlations have been developed for the discharge coefficient by using the experimental results available in the literature. Effects of upstream and downstream ramps were studied by introducing the upstream and the downstream length scales, respectively. The proposed correlations of embankment weirs were compared with the head-discharge formulations of embankment weirs in the literature. Triangular (hump) weirs with either upstream or downstream ramps (or both) have also been considered. It was found that in triangular (hump) weirs, the discharge coefficient increases when the downstream slope increases, but it decreases when the upstream slope increases.},
+}
+
+
+
+
+
+
+
+
+@Article{Sargison09,
+  author       = {Jane E. Sargison and Aaron Percy},
+  date         = {2009},
+  journaltitle = {Journal of Irrigation and Drainage Engineering},
+  title        = {Hydraulics of Broad-Crested Weirs with Varying Side Slopes},
+  doi          = {10.1061/(ASCE)0733-9437(2009)135:1(115)},
+  eprint       = {https://ascelibrary.org/doi/pdf/10.1061/%28ASCE%290733-9437%282009%29135%3A1%28115%29},
+  number       = {1},
+  pages        = {115-118},
+  url          = {https://ascelibrary.org/doi/abs/10.1061/%28ASCE%290733-9437%282009%29135%3A1%28115%29},
+  volume       = {135},
+  abstract     = {The flow of water over a trapezoidal, broad-crested, or embankment weir with varying upstream and downstream slopes has been investigated. Data are presented comparing the effect of slopes of 
+
+2H:1V
+
+, 
+
+1H:1V
+
+ and vertical in various combinations on the upstream and downstream faces of the weir. Pressure and surface profiles were self-similar for all cases tested. Increasing the upstream slope to the vertical decreased the height of the surface profile and, hence, the static pressure of the crest. It also reduced the discharge coefficient. The variation in downstream static pressures was negligible though. Varying the downstream slope had a negligible effect on the surface and pressure profiles over the weir. Changes in flow were constrained to the region downstream of the crest. Cavitation could occur at the downstream corner of the weir if the upstream head was sufficiently high and a sloped face was used. This paper presents data that will be of use in the design of hydraulic structures for flow control and measurement.},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
