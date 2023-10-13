@@ -32496,6 +32496,7 @@ TKE increases by forming the scour hole on the flat bed.},
   institution = {\refDeltares{}},
   title       = {Derivation of Villemonte formulation in Delft3D FM},
   number      = {11209261-004-ZWS-0002},
+  year        = {2023},
 }
 
 @article{Nelson99,
@@ -32908,6 +32909,78 @@ school  =  {Delft University of Technology},
 1H:1V
 
  and vertical in various combinations on the upstream and downstream faces of the weir. Pressure and surface profiles were self-similar for all cases tested. Increasing the upstream slope to the vertical decreased the height of the surface profile and, hence, the static pressure of the crest. It also reduced the discharge coefficient. The variation in downstream static pressures was negligible though. Varying the downstream slope had a negligible effect on the surface and pressure profiles over the weir. Changes in flow were constrained to the region downstream of the crest. Cavitation could occur at the downstream corner of the weir if the upstream head was sufficiently high and a sloped face was used. This paper presents data that will be of use in the design of hydraulic structures for flow control and measurement.},
+}
+
+@TechReport{Beyer01,
+  author      = {D. Beyer},
+  date        = {2001},
+  institution = {\refRWS{}},
+  title       = {Testverslag nieuwe overlaatroutines {WAQUA}},
+  comment     = {Villemonte tabellenboek},
+}
+
+@MastersThesis{vanSlingerland06,
+  author      = {Paulien van Slingerland},
+  date        = {2006},
+  institution = {\refTUD{}},
+  title       = {An accurate and robust finite volume method forthe advection diffusion equation},
+}
+
+@TechReport{Jongeling05,
+  author      = {T. H. J. Jongeling},
+  date        = {2005},
+  institution = {\refWL{}},
+  title       = {Stroming over een kribsectie: Nadere analyse afvoermetingen Wirken \& Van Bladel},
+  comment     = {Villemonte Tabellenboek},
+}
+
+@InProceedings{Sloff01_2,
+  author    = {C. J. Sloff and H. R. A. Jagers and Y. Kitamura and P. Kitamura},
+  booktitle = {Proceedings of the 2nd IAHR symposium on River, Coastal and Estuarine Morphodynamics (RCEM), 10-14 september, Obihiro, Japan.},
+  date      = {2001},
+  title     = {2D morphodynamic modelling with graded sediment},
+}
+
+@TechReport{vanderPijl18,
+  author      = {Sander van der Pijl},
+  date        = {2018},
+  institution = {\refDeltares{}},
+  title       = {A review of D-Flow FM numerical modellingand coding},
+}
+
+@TechReport{Borsboom17_2,
+  author      = {Mart Borsboom},
+  date        = {2017},
+  institution = {\refDeltares{}},
+  title       = {D-Flow FM on the sphere},
+}
+
+@TechReport{Borsboom14_2,
+  author      = {Mart Borsboom},
+  date        = {2014},
+  institution = {\refDeltares{}},
+  title       = {Analysis of subgrid bed modeling in 2DH D-FLOW FM},
+}
+
+@TechReport{Borsboom22_2,
+  author      = {Mart Borsboom},
+  date        = {2022},
+  institution = {\refDeltares{}},
+  title       = {About the Coriolis term in D-Flow FM},
+}
+
+@TechReport{Borsboom15_2,
+  author      = {Mart Borsboom},
+  date        = {2015},
+  institution = {\refDeltares{}},
+  title       = {Development of a horizontal 1D-2D coupling for a Flood Modeling Tool (FMT)},
+}
+
+@TechReport{Noort15,
+  author      = {Jan Noort and Mart Borsboom},
+  date        = {2015},
+  institution = {\refDeltares{}},
+  title       = {1D-2D coupling of SOBEK-1D and D-Flow FMTechnical Reference Manual},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
