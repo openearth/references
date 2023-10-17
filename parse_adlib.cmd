@@ -1,0 +1,1 @@
+call "C:\Users\ottevan\Miniconda3\Scripts\activate.bat" C:\Users\ottevan\Miniconda3\envs\bmi37 & python ParseAdLib.py

@@ -13,14 +13,14 @@ Reallocating 'cite_info' (item size: 4) to 3000 items.
 Reallocating 'cite_list' (item size: 4) to 3000 items.
 Reallocating 'entry_exists' (item size: 1) to 3000 items.
 Reallocating 'type_list' (item size: 4) to 3000 items.
-White space in argument---line 2506 of file print_references.aux
+White space in argument---line 2543 of file print_references.aux
  : \citation{jabref-meta:
  :                        databaseType:biblatex;}
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 The style file: agufull08_mod.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
-Reallocating 'field_info' (item size: 4) to 69600 items.
+Reallocating 'field_info' (item size: 4) to 70700 items.
 Database file #1: references.bib
 Warning--I'm ignoring Ahnert94's extra "journal" field
 --line 297 of file references.bib
@@ -172,6 +172,11 @@ Repeated entry---line 64033 of file references.bib
  : @article{Petts89
  :                 ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 65299 of file references.bib
+ : @techreport{Chavarrias21_7
+ :                           ,
+I'm skipping whatever remains of this entry
+Reallocating 'str_pool' (item size: 1) to 520000 items.
 Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karacan" has a comma at the end for entry Bakker22
 while executing---line 1741 of file agufull08_mod.bst
 Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karacan" has a comma at the end for entry Bakker22
@@ -355,9 +360,7 @@ Warning--missing publisher in Boersema20
 Warning--there's a number but no volume in Boesch94
 Warning--missing publisher in Booij03_2
 Warning--empty journal in BorsboomXX
-Warning--empty journal in Brevis14
 Warning--can't use both author and editor fields in Buffington12
-Warning--empty journal in Carrillo20
 Warning--can't use both author and editor fields in Chapra10
 Warning--missing publisher in Chavarrias17
 Warning--missing publisher in Chavarrias20_8
@@ -411,12 +414,10 @@ Warning--can't use both author and editor fields in FoufoulaGeorgiou13
 Warning--can't use both author and editor fields in Galloway75
 Warning--missing publisher in colombia07
 Warning--missing publisher in Gastel16
-Warning--empty journal in Goksu20
 Warning--there's a number but no volume in Govedarska17
 Warning--missing publisher in Grijsen76
 Warning--missing institution in Hazewinkel04
 Warning--missing institution in HEC-RAS_ice
-Warning--empty journal in HerreraGranados21
 Warning--can't use both author and editor fields in Hey87
 Warning--there's a number but no volume in Hirano72
 Warning--can't use both author and editor fields in Howard80
@@ -446,15 +447,12 @@ while executing---line 1822 of file agufull08_mod.bst
 Warning--can't use both author and editor fields in Kellermann11
 Warning--missing institution in King18
 Warning--missing institution in King33
-Warning--empty journal in Kleinhans23
 Warning--missing publisher in Kok17
 Warning--can't use both author and editor fields in Komarova95
-Warning--missing school in Kruijt13
 Warning--can't use both author and editor fields in Kuhnle92_2
 Warning--missing publisher in vanLandeghem20
 Warning--can't use both author and editor fields in Leopold92
 Warning--can't use both volume and number fields in Macqueen67
-Warning--empty journal in Maghsoodi12
 Name 1 in "Matt Czapiga, Astrid Blom, and Enrica Viparelli" has a comma at the end for entry Czapiga21_2
 while executing---line 1822 of file agufull08_mod.bst
 Name 1 in "Matt Czapiga, Astrid Blom, and Enrica Viparelli" has a comma at the end for entry Czapiga21_2
@@ -602,7 +600,6 @@ Warning--there's a number but no volume in vanderVaart99
 Warning--missing publisher in vanDuin13
 Warning--missing institution in vanRijn00
 Warning--can't use both author and editor fields in vandeVen93
-Warning--empty journal in Vanzo16
 Warning--missing publisher in Vanzo11
 Warning--can't use both author and editor fields in Verhulst05
 Warning--missing publisher in daVinci78
@@ -613,45 +610,45 @@ Warning--missing publisher in Wiesemann06
 Warning--missing publisher in Winterwerp22
 Warning--empty journal in Yalin
 Warning--missing institution in RWS19_2
-You've used 2584 entries,
+You've used 2628 entries,
             3080 wiz_defined-function locations,
-            16137 strings with 453630 characters,
-and the built_in function-call counts, 2032282 in all, are:
-= -- 218179
-> -- 60765
-< -- 2169
-+ -- 28167
-- -- 16680
-* -- 128791
-:= -- 201178
-add.period$ -- 2584
-call.type$ -- 2584
-change.case$ -- 11280
-chr.to.int$ -- 2585
-cite$ -- 2812
-duplicate$ -- 223128
-empty$ -- 127135
-format.name$ -- 23712
-if$ -- 406839
-int.to.chr$ -- 182
+            16370 strings with 460298 characters,
+and the built_in function-call counts, 2063367 in all, are:
+= -- 221448
+> -- 61617
+< -- 2207
++ -- 28585
+- -- 16912
+* -- 130707
+:= -- 204333
+add.period$ -- 2628
+call.type$ -- 2628
+change.case$ -- 11480
+chr.to.int$ -- 2629
+cite$ -- 2848
+duplicate$ -- 226559
+empty$ -- 129178
+format.name$ -- 24052
+if$ -- 413073
+int.to.chr$ -- 186
 int.to.str$ -- 1
-missing$ -- 23685
-newline$ -- 7759
-num.names$ -- 10336
-pop$ -- 77686
+missing$ -- 24063
+newline$ -- 7891
+num.names$ -- 10513
+pop$ -- 78827
 preamble$ -- 1
-purify$ -- 8380
+purify$ -- 8523
 quote$ -- 0
-skip$ -- 119320
+skip$ -- 121151
 stack$ -- 0
-substring$ -- 79812
-swap$ -- 181144
-text.length$ -- 517
+substring$ -- 80976
+swap$ -- 183872
+text.length$ -- 521
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 22671
-warning$ -- 184
-while$ -- 12061
+type$ -- 23067
+warning$ -- 176
+while$ -- 12244
 width$ -- 0
-write$ -- 29955
-(There were 152 error messages)
+write$ -- 30471
+(There were 153 error messages)

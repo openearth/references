@@ -80,19 +80,29 @@ def parse_adlib_catalog_entry(html_file):
         text = f.read()
         parser.feed(text)
     entry = parser.d
+    if 'Author' not in entry.keys(): 
+        entry['Author'] = entry['Corporate author']
     authors = [author[::-1].strip()[::-1].split(' ') for author in entry['Author']]
+    print(authors)
     authorslistbib = []
 
     for author in authors: 
         if len(author) > 2: 
             inbetween = ' '.join(author[1:-1])
             authorbib = f"{'{'}\\van{'{'+author[-1]+'}{'+inbetween.capitalize()+'}{'+inbetween+'}'}{'}'} {author[-1]}, {author[0]}"
-        else:
+        elif len(author) == 2:
             authorbib = f"{author[1]}, {author[0]}"
+        elif len(author) == 1:
+            authorbib = f"{author[0]}"        
         authorslistbib.append(authorbib)
 
     entry['Author'] = '{' + ' and '.join(authorslistbib) + '}'
-
+    if 'Year of publication' not in entry.keys():
+        entry['Year of publication']=''
+    if 'Publisher' not in entry.keys():
+        entry['Publisher']=''
+    if 'Place of publication' not in entry.keys():
+        entry['Place of publication']=''
     entry['Citekey'] = ''.join(authors[0][1:]) +entry['Year of publication'][2:4]        
     return entry
 
@@ -147,6 +157,7 @@ def bibtex(entry):
 
 def generate_bib(filename): 
     import os
+    print(f'Parsing {filename}')
     entry = parse_adlib_catalog_entry(filename)
     print(entry)
     base, ext = os.path.splitext(filename)
