@@ -17,6 +17,7 @@
 \newcommand{\isreport}{0} %0=memo; 1=report
 \newcommand{\addAppendix}{0} %0=no appendix; 1=add appendix
 \newcommand{\addCitation}{0} %0=no; 1=yes
+\newcommand{\addmemosignatures}{1} %0=no; 1=yes
 
 %Add colon in \mySubtitle if desired or leave empty if no substitle is desired. 
 \def\myTitle{Fixed weirs in 6th generation models for BOI.}
@@ -215,6 +216,20 @@
 \deltarestitle
 \ifnum \isreport=1
 	\newpage
+\fi
+\ifnum \isreport=0
+\begin{tabular}{p{\textwidth/8}|p{0.175\textwidth}|p{0.2\textwidth}|p{0.2\textwidth}|p{0.2\textwidth}}
+    \rowcolor{dblue1}  \textbf{Document version} & \textbf{Date} & \textbf{Author} & \textbf{Reviewer} & \textbf{Approval} \\
+    \topline
+    0.2   & & Victor Chavarrias   & Erik de Goede  &  \\
+		\midline
+		0.3   & & Victor Chavarrias   & Erik de Goede  &  \\
+		\midline
+		1.0   & \today{} & Victor Chavarrias   & Erik de Goede  &  Johan Boon \\
+		\midline
+		& & & \\
+    \midline                                                 
+\end{tabular}
 \fi
 %
 %
