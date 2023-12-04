@@ -341,15 +341,6 @@
 
 \def\ds@draft{\overfullrule 5pt \@drafttrue}
 
-\if@dutch
-    \def\@Version{Versie: \@version.\svnrev}
-\else
-    \if@spanish
-        \def\@Version{Versi\'on: \@version.\svnrev}
-    \else
-        \def\@Version{Version: \@version.\svnrev}
-    \fi
-\fi
 \def\svn@revinit{00}
 \let\svnrev\svn@revinit\let\@svn@rev\svn@revinit
 
@@ -1636,7 +1627,7 @@
 \def\@setgitdirectory{-{}-{}-{}-}
 \def\setgitdirectory#1{\gdef\@setgitdirectory{#1}\giscontent}
 \def\@gitrepository{-{}-{}-{}-}
-\def\@branch{-{}-{}-{}-}
+\def\@gitbranch{-{}-{}-{}-}
 \def\@githashlong{-{}-{}-{}-}
 \def\@githashshort{-{}-{}-{}-}
 %
@@ -1655,8 +1646,10 @@
     \CatchFileDef{\configfull}{\@setgitdirectory/config.}{}
     \StrBehind{\configfull}{[remote "origin"]}[\gitreposA]  % look for the string "[remote "origin"]"
     \StrBehind{\gitreposA}{=}[\gitreposB]  % then behind the equal-sign
-    \StrBefore{\gitreposB}{fetch}[\gitreposC]  % the before the "fetch" string
-    \gdef\@gitrepository{\gitreposC}
+    \StrBefore{\gitreposB}{fetch}[\gitreposC]  % then before the "fetch" string
+    \StrSubstitute{\gitreposC}{\\}{\textbackslash }[\gitreposD]
+    \StrSubstitute{\gitreposD}{_}{\_}[\gitreposE]
+    \gdef\@gitrepository{\gitreposE}
     \StrLeft{\@githashlong}{7}[\@githashshort]
     }{
     }
@@ -1665,7 +1658,7 @@
 \newcommand{\gitrepository}{\@gitrepository}
 \newcommand{\githashlong}{\@githashlong}
 \newcommand{\githash}{\@githashshort}
-\newcommand{\gitbranch}{\StrSubstitute{\@branch}{_}{\_}}
+\newcommand{\gitbranch}{\StrSubstitute{\@gitbranch}{_}{\_}}
 
 %------------------------------------------------------------------------------
 \makeatother

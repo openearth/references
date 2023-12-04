@@ -28,6 +28,17 @@
 \DeclareOption{biblatex}{%
     \@dbiblatextrue%
 }
+\newif\if@git% version control system GIT is used
+\@gitfalse%
+\DeclareOption{git}{%
+    \@gittrue%
+}
+\newif\if@svn% version control system SVN is used
+\@svnfalse%
+\DeclareOption{svn}{%
+    \@svntrue%
+}    
+
 \newif\if@subfooter
 \@subfooterfalse
 \DeclareOption{subfooter}{%
@@ -71,7 +82,7 @@
 \usepackage[pdftex]{graphicx}
 \usepackage{epstopdf}
 \usepackage{color}
-\usepackage[table]{xcolor}
+\usepackage[table,dvipsnames]{xcolor}
 \usepackage{frcursive} % needed for 'write' letter (French Cursive), use in processes library
 \usepackage{float} % needed to force the location of figures \begin{figure}[H]
 \usepackage{textcomp} % needed for the promille sign: \textperthousand
@@ -82,10 +93,10 @@
 \usepackage[detect-all=true]{siunitx}
 
 \if@dutch
-    \usepackage[dutch]{babel}
+    \usepackage[shorthands=off, dutch]{babel}
 \else
     \if@spanish
-        \usepackage[spanish, es-tabla]{babel}
+        \usepackage[shorthands=off, spanish, es-tabla]{babel}
     \else
         \usepackage[english]{babel}
     \fi
@@ -94,8 +105,10 @@
 \usepackage{svn-multi}
 \usepackage{tabularx}
 \usepackage{longtable}
+\usepackage{multirow}
 \usepackage{verbatim}
 \usepackage{upquote} % needed for realistic quotes in verbatim
+%\usepackage{csquotes} % needed for realisic double quotes
 \usepackage{fancyvrb} % needed for framed verbatim environment
 \usepackage{calc} % adding, substracting, multiplying of lengths
 \usepackage{wrapfig}
@@ -127,6 +140,7 @@
 \usepackage{nomencl}
 \usepackage[intoc]{deltares_nomentbl}  % adjusted for the table of content
 \usepackage{bookmark}
+\usepackage{currfile} % needed to detect the directory of the current tex-file
 \usepackage{adjustbox}
 \usepackage{booktabs}
 \usepackage{minitoc}
@@ -327,7 +341,7 @@
 \AtBeginEnvironment{longtable}{\gdef\there@is@a@table{}}%
 \AtEndEnvironment{table}{\gdef\there@is@a@table{}}%
 \AtEndDocument{\ifdefined\there@is@a@table\label{table:was:used:in:doc}\fi}%
-\newcommand{\conditionalLoT}{\@ifundefined{r@table:was:used:in:doc}{}{{\listofTables\adjustmtc}}}%
+\newcommand{\conditionalLoT}{\@ifundefined{r@table:was:used:in:doc}{}{\listofTables\adjustmtc}}%
 
 \AtEndEnvironment{figure}{\gdef\there@is@a@figure{}}%
 \AtEndDocument{\ifdefined\there@is@a@figure\label{fig:was:used:in:doc}\fi}%
@@ -446,6 +460,7 @@
         \def\@listactiename{List of To Do's}
     \fi
 \fi
+
 \newenvironment{actie}{\@float{actie}}{\end@float}% the environment
 \newenvironment{actie*}{\@dblfloat{actie}}{\end@dblfloat}% the starred
 % version for twocolumn documents
@@ -480,6 +495,32 @@
 \fi
 \def\svn@revinit{00}
 \let\svnrev\svn@revinit\let\@svn@rev\svn@revinit
+
+\if@svn
+{
+    \def\tempa{}%
+    \def\tempb{\svnrev}%
+    \ifx\tempa\tempb
+        \gdef\vcsrev{-{}-{}-{}-}% vcsrev: version control system revision number
+    \else
+        \gdef\vcsrev{\svnrev}% vcsrev: version control system revision number
+    \fi
+}
+\else
+    \if@git
+    {
+        \def\tempa{}%
+        \def\tempb{\githash}%
+        \ifx\tempa\tempb
+            \gdef\vcsrev{-{}-{}-{}-}% vcsrev: version control system revision number
+        \else
+            \gdef\vcsrev{\githash}% vcsrev: version control system revision number
+        \fi
+    }
+    \else
+       \gdef\vcsrev{-{}-{}-{}-}% vcsrev: version control system revision number
+    \fi
+\fi
 
 \if@dutch
     \renewcommand{\monthname}{%
@@ -945,7 +986,7 @@
 }
 %
 %------------------------------------------------------------------------------
-% Signatures ES
+% Signatures ESP
 %------------------------------------------------------------------------------
 %
 \newcommand{\signatureESP}{
@@ -1129,8 +1170,8 @@
     \put(2.54,1.46){%
         \parbox[b]{101mm}{\FrontCoverB}%
     }%
-    \put(3.94,-1.69){%
-        \parbox[b]{22.5mm}{\FrontCoverC}%
+    \put(3.94,-1.69){% 3.94 = 2.54 + 1.4
+        {\FrontCoverC}% Location of the icons on the front page
     }%
     \put(2.54,-1.14){%
         \parbox[b]{182mm}{\FrontCircle}%
@@ -2375,37 +2416,51 @@
 }
 
 \makenomenclature
+%------------------------------------------------------------------------------
+% New definition of sqrt 
+%
+\LetLtxMacro{\oldsqrt}{\sqrt} % makes all sqrts closed
+\renewcommand{\sqrt}[1][\ ]{%
+    \def\DHLindex{#1}\mathpalette\DHLhksqrt}
+\def\DHLhksqrt#1#2{%
+    \setbox0=\hbox{$#1\oldsqrt[\DHLindex]{#2}$}\dimen0=\ht0
+    \advance\dimen0-0.15\ht0
+    \setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+    {\box0\lower0.48pt\box2}}
 
 %------------------------------------------------------------------------------
 % retrieving GIT repository, branch and hash
 %
 
 \def\@setgitdirectory{-{}-{}-{}-}
-\def\setgitdirectory#1{\gdef\@setgitdirectory{#1}\giscontent}
-\def\@gitrepository{----}
+\def\setgitdirectory#1{\gdef\@setgitdirectory{#1}\gitcontent}
+\def\@gitrepository{-{}-{}-{}-}
 \def\@branch{-{}-{}-{}-}
 \def\@githashlong{-{}-{}-{}-}
 \def\@githashshort{-{}-{}-{}-}
 %
-\def\giscontent{
-    \IfFileExists{\@setgitdirectory/HEAD.}{%
-    \CatchFileDef{\headfull}{\@setgitdirectory/HEAD.}{}
-    \StrGobbleRight{\headfull}{1}[\head]
-    \StrBehind[2]{\head}{/}[\@branch]
-    \IfFileExists{\@setgitdirectory/refs/heads/\@branch.}{%
-        \CatchFileDef{\@githashlong}{\@setgitdirectory/refs/heads/\@branch.}{}
-        }{%
-        \newcommand{\@githashlong}{\dots~(in \emph{packed-refs})}
+\def\gitcontent{
+    \IfFileExists{\@setgitdirectory/HEAD.}{%   
+        \CatchFileDef{\headfull}{\@setgitdirectory/HEAD.}{}   
+        \StrGobbleRight{\headfull}{1}[\head]    
+        \StrBehind[2]{\head}{/}[\@branch] 
+        \IfFileExists{\@setgitdirectory/refs/heads/\@branch.}{%
+            \CatchFileDef{\@githashlong}{\@setgitdirectory/refs/heads/\@branch.}{}
+        }{%    
+            \newcommand{\@githashlong}{\dots~(in \emph{packed-refs})}
         }
 
-    % find the git-repository
-    \CatchFileDef{\configfull}{\@setgitdirectory/config.}{}
-    \StrBehind{\configfull}{[remote "origin"]}[\gitreposA]  % look for the string "[remote "origin"]"
-    \StrBehind{\gitreposA}{=}[\gitreposB]  % then behind the equal-sign
-    \StrBefore{\gitreposB}{fetch}[\gitreposC]  % the before the "fetch" string
-    \gdef\@gitrepository{\gitreposC}
-    \StrLeft{\@githashlong}{7}[\@githashshort]
+        % find the git-repository
+        \CatchFileDef{\configfull}{\@setgitdirectory/config.}{}
+        \StrBehind{\configfull}{[remote "origin"]}[\gitreposA]  % look for the string "[remote "origin"]"
+        \StrBehind{\gitreposA}{=}[\gitreposB]  % then behind the equal-sign
+        \StrBefore{\gitreposB}{fetch}[\gitreposC]  % the before the "fetch" string
+        \StrSubstitute{\gitreposC}{\\}{\textbackslash }[\gitreposD]%
+        \StrSubstitute{\gitreposD}{_}{\_}[\gitreposE]
+        \gdef\@gitrepository{\gitreposE}
+        \StrLeft{\@githashlong}{7}[\@githashshort]
     }{
+        % nothing: File \@setgitdirectory/HEAD. does not exist
     }
 }
 \newcommand{\gitdirectory}{\@setgitdirectory}

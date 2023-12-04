@@ -29,6 +29,16 @@
 \DeclareOption{biblatex}{%
     \@dbiblatextrue%
 }
+\newif\if@git% version control system GIT is used
+\@gitfalse%
+\DeclareOption{git}{%
+    \@gittrue%
+}
+\newif\if@svn% version control system SVN is used
+\@svnfalse%
+\DeclareOption{svn}{%
+    \@svntrue%
+}    
 \newif\if@druler% deltares ruler
 \@drulerfalse
 \DeclareOption{druler}{%
@@ -97,10 +107,10 @@
 \usepackage[detect-all=true]{siunitx}
 
 \if@dutch
-    \usepackage[dutch]{babel}
+    \usepackage[shorthands=off, dutch]{babel}
 \else
     \if@spanish
-        \usepackage[spanish, es-tabla]{babel}
+        \usepackage[shorthands=off, spanish, es-tabla]{babel}
     \else
         \usepackage[english]{babel}
     \fi
@@ -510,6 +520,32 @@
 \def\svn@revinit{00}
 \let\svnrev\svn@revinit\let\@svn@rev\svn@revinit
 
+\if@svn
+{
+    \def\tempa{}%
+    \def\tempb{\svnrev}%
+    \ifx\tempa\tempb
+        \gdef\vcsrev{-{}-{}-{}-}% vcsrev: version control system revision number
+    \else
+        \gdef\vcsrev{\svnrev}% vcsrev: version control system revision number
+    \fi
+}
+\else
+    \if@git
+    {
+        \def\tempa{}%
+        \def\tempb{\githash}%
+        \ifx\tempa\tempb
+            \gdef\vcsrev{-{}-{}-{}-}% vcsrev: version control system revision number
+        \else
+            \gdef\vcsrev{\githash}% vcsrev: version control system revision number
+        \fi
+    }
+    \else
+       \gdef\vcsrev{-{}-{}-{}-}% vcsrev: version control system revision number
+    \fi
+\fi
+
 \if@dutch
     \renewcommand{\monthname}{%
         \ifcase\month\or januari \or februari%
@@ -612,7 +648,7 @@
 
 %\def\tiny{\@setsize\tiny{7pt}\vipt\@vipt}
 %\def\scriptsize{\@setsize\scriptsize{9.5pt}\viiipt\@viiipt}
-%\def\large{\@setsize\large{14pt}\xiipt\@xiipt}
+%\def\large{\@setsize\large{13pt}\xiipt\@xiipt}
 %\def\Large{\@setsize\Large{18pt}\xivpt\@xivpt}
 %\def\LARGE{\@setsize\LARGE{22pt}\xviipt\@xviipt}
 %\def\huge{\@setsize\huge{25pt}\xxpt\@xxpt}
@@ -653,6 +689,10 @@
 \long\def\dateiv#1{\gdef\@dateiv{#1}}
 \long\def\keywords#1{\gdef\@keywords{#1}}
 \long\def\projectnumber#1{\gdef\@projectnumber{#1}}
+\long\def\organisationi#1{\gdef\@organisationi{#1}}
+\long\def\organisationii#1{\gdef\@organisationii{#1}}
+\long\def\organisationiii#1{\gdef\@organisationiii{#1}}
+\long\def\organisationiv#1{\gdef\@organisationiv{#1}}
 \long\def\reference#1{\gdef\@reference{#1}}
 \long\def\references#1{\gdef\@references{#1}}
 \long\def\revieweri#1{\gdef\@revieweri{#1}}
@@ -682,6 +722,10 @@
 \long\def\@dateiv{}
 \long\def\@keywords{\texttt{$\backslash$keywords\{\ldots\}}}
 \long\def\@projectnumber{\texttt{$\backslash$projectnumber\{\ldots\}}}
+\long\def\@organisationi{\texttt{$\backslash$organisationi\{\ldots\}}}
+\long\def\@organisationii{}
+\long\def\@organisationiii{}
+\long\def\@organisationiv{}
 \long\def\@reference{\texttt{$\backslash$reference\{\ldots\}}}
 \long\def\@references{\texttt{$\backslash$references\{\ldots\}}}
 \long\def\@revieweri{\tiny \texttt{$\backslash$revieweri\{\ldots\}}}
@@ -753,14 +797,14 @@
     \vfil
     \if@dutch
         \hangindent 80pt \hspace*{80pt}{\helv Versie: \@version\newline
-                                              SVN Revisie: \svnrev \par}
+                                              Revisie: \vcsrev \par}
     \else
         \if@spanish
             \hangindent 80pt \hspace*{80pt}{\helv Versi\'on: \@version\newline
-                                                  SVN Revisi\'on: \svnrev \par}
+                                                  Revisi\'on: \vcsrev \par}
         \else
             \hangindent 80pt \hspace*{80pt}{\helv Version: \@version\newline
-                                                  SVN Revision: \svnrev \par}
+                                                  Revision: \vcsrev \par}
         \fi
     \fi
     \hangindent 80pt \hspace*{80pt}{\helv \@date  \par}
@@ -820,11 +864,9 @@
         \end{tabular}
     }
 
-    %\signatureAuthors
+    \signatureAuthors
 
-    \if@signature
-        \signatureDocVersionGB
-    \fi
+    \signatureDocVersionGB
 
     \vfill
 
@@ -857,9 +899,9 @@
     \begin{tabular}{p{40mm-12pt}|p{\texttab-40.0mm-12pt}}
         \rowcolor{dblue1} \multicolumn{2}{l}{\textbf{Document controle}} \\
         \topline
-        \footnotesize{\textbf{Versie}} & \@versioni \\
+        \footnotesize{\textbf{Versie}} & \@version \\
         \midline
-        \footnotesize{\textbf{Datum}} & \@datei  \\
+        \footnotesize{\textbf{Datum}} & \@date  \\
         \midline
         \footnotesize{\textbf{Projectnummer}} & \@projectnumber  \\
         \midline
@@ -880,11 +922,9 @@
         \end{tabular}
     }
 
-    %\signatureAuthors
+    \signatureAuthors
 
-    \if@signature
-        \signatureDocVersionNL
-    \fi
+    \signatureDocVersionNL
 
     \vfill
 
@@ -893,7 +933,7 @@
 }
 %
 %------------------------------------------------------------------------------
-% Signatures ES
+% Signatures ESP
 %------------------------------------------------------------------------------
 %
 \newcommand{\signatureESP}{
@@ -940,15 +980,46 @@
         \end{tabular}
     }
 
-    %\signatureAuthors
+    \signatureAuthors
 
-    \if@signature
-        \signatureDocVersionESP
-    \fi
+    \signatureDocVersionESP
+
     \vfill
 
     \nonumchapter{Resumen ejecutivo}
     \@summary
+}
+\newcommand{\signatureAuthors}{
+    \if@dutch
+        \hspace*{-19.75mm}
+        \begin{tabular}{p{40mm-12pt}|p{\texttab/2-20mm-12pt}|p{\texttab/2-20mm-12pt}}
+            \rowcolor{dblue1} \multicolumn{3}{l}{\textbf{Auteur(s)}} \\
+            \topline
+            & \@authori & \@organisationi \\
+            \midline
+            & \@authorii & \@organisationii \\
+        \end{tabular}
+    \else
+        \if@spanish
+            \hspace*{-19.75mm}
+            \begin{tabular}{p{40mm-12pt}|p{\texttab/2-20mm-12pt}|p{\texttab/2-20mm-12pt}}
+                \rowcolor{dblue1} \multicolumn{3}{l}{\textbf{Autor(es)}} \\
+                \topline
+                & \@authori & \@organisationi \\
+                \midline
+                & \@authorii & \@organisationii \\
+            \end{tabular}
+        \else
+            \hspace*{-19.75mm}
+            \begin{tabular}{p{40mm-12pt}|p{\texttab/2-20mm-12pt}|p{\texttab/2-20mm-12pt}}
+                \rowcolor{dblue1} \multicolumn{3}{l}{\textbf{Author(s)}} \\
+                \topline
+                & \@authori & \@organisationi \\
+                \midline
+                & \@authorii & \@organisationii \\
+            \end{tabular}
+        \fi
+    \fi
 }
 \newcommand{\signatureDocVersionGB}{
     \vspace{\baselineskip}
@@ -1045,8 +1116,8 @@
         \begin{tabbing}
         \textbf{Verkoop:} \\
         telefoon: \= +31\,88\,335\,81\,88 \\
-        e-mail:    \> software@deltares.nl \\
-        www:       \> https://www.deltares.nl/software
+        e-mail:    \> \href{mailto: software@deltares.nl}{Verkoop}   \\
+        www:       \> \href{https://www.deltares.nl/software-en-data}{Verkoop \& Ondersteuning}
         \end{tabbing}
         %
         &
@@ -1054,31 +1125,53 @@
         \begin{tabbing}
         \textbf{Ondersteuning:} \\
         telefoon: \= +31\,88\,335\,81\,00 \\
-        e-mail:    \> software.support@deltares.nl \\
-        www:       \> https://www.deltares.nl/software
+        e-mail:    \> \href{mailto: software.support@deltares.nl}{Ondersteuning} \\
+        www:       \> \href{https://www.deltares.nl/software-en-data}{Verkoop \& Ondersteuning}
         \end{tabbing}
         \end{tabular}
     }
 \else
-    \newcommand{\contactsalesandsupport}{
-        \begin{tabular}[t]{@{}p{0.50\textwidth}p{0.50\textwidth}}
-        \begin{tabbing}
-        \textbf{For sales contact:} \\
-        telephone: \= +31\,88\,335\,81\,88 \\
-        e-mail:    \> software@deltares.nl\\
-        www:       \> https://www.deltares.nl/software
-        \end{tabbing}
-        %
-        &
-        %
-        \begin{tabbing}
-        \textbf{For support contact:} \\
-        telephone: \= +31\,88\,335\,81\,00 \\
-        e-mail:    \> software.support@deltares.nl\\
-        www:       \> https://www.deltares.nl/software
-        \end{tabbing}
-        \end{tabular}
-    }
+    \if@spanish
+        \newcommand{\contactsalesandsupport}{
+            \begin{tabular}[t]{@{}p{0.50\textwidth}p{0.50\textwidth}}
+            \begin{tabbing}
+            \textbf{Para ventas contacte:} \\
+            tel\a'efono: \= +31\,88\,335\,81\,88 \\
+            e-mail:    \> \href{mailto: software@deltares.nl}{Venta} \\
+            www:       \> \href{https://www.deltares.nl/en/software-and-data}{Venta \& Mantener}
+            \end{tabbing}
+            %
+            &
+            %
+            \begin{tabbing}
+            \textbf{Para soporte contacte:} \\
+            tel\a'efono: \= +31\,88\,335\,81\,00 \\
+            e-mail:    \> \href{mailto: software.support@deltares.nl}{Mantener} \\
+            www:       \> \href{https://www.deltares.nl/en/software-and-data}{Venta \& Mantener}
+            \end{tabbing}
+            \end{tabular}
+        }
+    \else
+        \newcommand{\contactsalesandsupport}{
+            \begin{tabular}[t]{@{}p{0.50\textwidth}p{0.50\textwidth}}
+            \begin{tabbing}
+            \textbf{For sales contact:} \\
+            telephone: \= +31\,88\,335\,81\,88 \\
+            e-mail:    \> \href{mailto: software@deltares.nl}{Sales} \\
+            www:       \> \href{https://www.deltares.nl/en/software-and-data}{Sales \& Support}
+            \end{tabbing}
+            %
+            &
+            %
+            \begin{tabbing}
+            \textbf{For support contact:} \\
+            telephone: \= +31\,88\,335\,81\,00 \\
+            e-mail:    \> \href{mailto: software.support@deltares.nl}{Support} \\
+            www:       \> \href{https://www.deltares.nl/en/software-and-data}{Sales \& Support}
+            \end{tabbing}
+            \end{tabular}
+        }
+    \fi
 \fi
 \newcommand{\manualtitle}{%
     \frontmatter
@@ -1104,8 +1197,8 @@
             \begin{tabbing}
             \\
             telefoon:  \=  +31\,88\,335\,82\,73\\
-            e-mail:    \>  info@deltares.nl\\
-            www:       \>  https://www.deltares.nl
+            e-mail:    \>  \href{mailto: info@deltares.nl}{Informatie} \\
+            www:       \>  \href{https://www.deltares.nl}{Deltares}
             \end{tabbing}
         \end{tabular}
     \else
@@ -1124,8 +1217,8 @@
                 \begin{tabbing}
                     \\
                     tel\a'efono: \=  +31\,88\,335\,82\,73\\
-                    e-mail:    \>  info@deltares.nl\\
-                    www:       \>  https://www.deltares.nl
+                    e-mail:    \>  \href{mailto: info@deltares.nl}{Informe}\\
+                    www:       \>  \href{https://www.deltares.nl}{Deltares}
                 \end{tabbing}
             \end{tabular}
         \else
@@ -1143,8 +1236,8 @@
                 \begin{tabbing}
                     \\
                     telephone: \=  +31\,88\,335\,82\,73\\
-                    e-mail:    \>  info@deltares.nl\\
-                    www:       \>  https://www.deltares.nl
+                    e-mail:    \>  \href{mailto: info@deltares.nl}{Information} \\
+                    www:       \>  \href{https://www.deltares.nl}{Deltares}
                 \end{tabbing}
             \end{tabular}
         \fi
@@ -1169,12 +1262,12 @@
     \cleardoublepage%
     \if@signature
         \if@dutch
-            \signatureDocVersionNL
+            \signatureNL
         \else
             \if@spanish
-                \signatureDocVersionESP
+                \signatureESP
             \else
-                \signatureDocVersionGB
+                \signatureGB
             \fi
         \fi
         \
@@ -2306,7 +2399,7 @@
 
 \def\@setgitdirectory{-{}-{}-{}-}
 \def\setgitdirectory#1{\gdef\@setgitdirectory{#1}\giscontent}
-\def\@gitrepository{----}
+\def\@gitrepository{-{}-{}-{}-}
 \def\@branch{-{}-{}-{}-}
 \def\@githashlong{-{}-{}-{}-}
 \def\@githashshort{-{}-{}-{}-}
@@ -2327,7 +2420,9 @@
     \StrBehind{\configfull}{[remote "origin"]}[\gitreposA]  % look for the string "[remote "origin"]"
     \StrBehind{\gitreposA}{=}[\gitreposB]  % then behind the equal-sign
     \StrBefore{\gitreposB}{fetch}[\gitreposC]  % the before the "fetch" string
-    \gdef\@gitrepository{\gitreposC}
+    \StrSubstitute{\gitreposC}{\\}{\textbackslash }[\gitreposD]%
+    \StrSubstitute{\gitreposD}{_}{\_}[\gitreposE]
+    \gdef\@gitrepository{\gitreposE}
     \StrLeft{\@githashlong}{7}[\@githashshort]
     }{
     }
@@ -2338,4 +2433,5 @@
 \newcommand{\githash}{\@githashshort}
 \newcommand{\gitbranch}{\StrSubstitute{\@branch}{_}{\_}}
 
+%------------------------------------------------------------------------------
 \makeatother

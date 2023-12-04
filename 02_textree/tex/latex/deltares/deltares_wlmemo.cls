@@ -13,6 +13,16 @@
 \DeclareOption{dutch}{%
     \@dutchtrue%
 }
+\newif\if@spanish
+\@spanishfalse
+\DeclareOption{spanish}{%
+    \@spanishtrue%
+}
+\newif\if@dbiblatex% deltares biblatex
+\@dbiblatexfalse
+\DeclareOption{biblatex}{%
+    \@dbiblatextrue%
+}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
@@ -36,7 +46,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[pdftex]{graphicx}
 \usepackage{epstopdf}
-\usepackage{color}
+\usepackage[table]{xcolor}
 \usepackage{frcursive} % needed for 'write' letter (French Cursive), use in processes library
 \usepackage{float} % needed to force the location of figures \begin{figure}[H]
 \usepackage{textcomp} % needed for the promille sign: \textperthousand
@@ -74,16 +84,53 @@
 \usepackage[detect-all=true]{siunitx}
 \usepackage{paralist} % inline enumeration
 
-\RequirePackage{transparent}
-\definecolor{dbluelink}{RGB}{000,000,100} % the colour of hyper links in the pdf-document (daaark blue)
 \usepackage{hyperref}
 \hypersetup{pdfborder={0 0 0}, bookmarksnumbered=true, colorlinks=true, linkcolor=dbluelink, citecolor=dbluelink, urlcolor=dbluelink}
+\usepackage{nomencl}
+\usepackage[intoc]{nomentbl}
+\usepackage{bookmark}
+\usepackage{adjustbox}
+\usepackage{booktabs}
 \usepackage{lastpage}
+\usepackage{lipsum}
 
 \usepackage{datetime} % to generate a timestamp
 \settimeformat{hhmmsstime}
 \renewcommand{\dateseparator}{-}
 \yyyymmdddate
+
+%------------------------------------------------------------------------------
+
+\RequirePackage{transparent}
+\definecolor{dbluelink}{RGB}{000,000,100} % the colour of hyper links in the pdf-document (daaark blue)
+\definecolor{dblue}{RGB}{  8,  12,128}  % v5: the colour of deltares-name.pdf
+\definecolor{dblue0}{RGB}{ 13, 56,224}  % v5: blue table header color
+\definecolor{dblue1}{RGB}{236,239,253}  % v5: alternating blue colour in the blue table (light)
+\definecolor{dblue2}{RGB}{217,223,250}  % v5: alternating blue colour in the blue table (dark)
+\definecolor{dblue4}{RGB}{  8, 12,128}  % v5: colouring the Over Deltares text. title/subtitle of report
+\definecolor{dblue5}{RGB}{240,243,254}  % v5: the backgound colour of footer
+\definecolor{dgreen0}{RGB}{0, 204,150}  % v5: green table header color
+\definecolor{dgreen1}{RGB}{235, 251, 247}  % v5: alternating green colour in the green table (light)
+\definecolor{dgreen2}{RGB}{215, 247, 239}  % v5: alternating green colour in the green table (dark)
+
+\definecolor{dname}{RGB}{  8,  12,128}  % v5: the colour of deltares-name.pdf
+\definecolor{dmetallic}{RGB}{128,169,189}
+\definecolor{dsand}{RGB}{160,158,141}
+\definecolor{dgreen}{RGB}{180,211,0}
+\definecolor{dorange}{RGB}{255,114,0}
+\definecolor{dcyclaam}{RGB}{235,0,115}
+\definecolor{dcyan}{RGB}{0,196,214}
+\definecolor{dgrey1}{RGB}{150,150,150}
+\definecolor{dgrey2}{RGB}{180,180,180}
+\definecolor{dgrey3}{RGB}{210,210,210}
+\definecolor{dgrey4}{RGB}{230,230,230}  % v5: color of the word 'concept' on title page
+
+%------------------------------------------------------------------------------
+
+\newcommand{\topline}{\specialrule{1.0pt}{0pt}{0pt}}
+\newcommand{\midline}{\specialrule{0.25pt}{0pt}{0pt}}
+\newcommand{\bottomline}{\topline}
+\renewcommand{\arraystretch}{1.33}  % 6 mm = 1.33 * 4.5 ( 4.5==\baselineskip)
 
 %------------------------------------------------------------------------------
 
@@ -93,15 +140,14 @@
 \topmargin 1.5cm
 \headheight 1cm
 \headsep \baselineskip
-\setlength{\textheight}{29.7cm-5cm-\baselineskip-2\baselineskip}
+\setlength{\textheight}{29.7cm-3.5cm-\baselineskip-2\baselineskip}
 \footskip 1cm
-% 1.5cm remaining
 
-\oddsidemargin 3.5cm
-\setlength{\textwidth}{21cm-5.5cm}
+\oddsidemargin 25mm
+\evensidemargin 25mm
+\setlength{\textwidth}{21cm-50mm}
 \marginparsep 0mm
 \marginparwidth 0mm
-\evensidemargin 2cm
 
 %C5 paper format (formaat van envelope voor dubbel gevouwen A4; en user manaul MSheet)
 
@@ -219,6 +265,8 @@
 \newcommand{\thechap}{$\;$\leftmark{}$\;$}
 
 % MEMO header
+\newif\if@confidential
+\newif\if@memocopy
 
 \def\program#1{\gdef\@program{#1}}
 \def\@program{Memo}
@@ -231,6 +279,21 @@
 \def\memoEmail#1{\gdef\@memoEmail{#1}}
 \def\memoCopy#1{\gdef\@memoCopy{#1}}
 \def\memoAction#1{\gdef\@memoAction{#1}}
+
+\def\memoConfidentialUntil#1{%
+    \def\tempa{}%
+    \def\tempb{#1}%
+    \ifx\tempa\tempb
+        \@confidentialfalse%
+    \else
+        \@confidentialtrue%
+        \gdef\@memoConfidentialUntil{#1}
+    \fi
+}
+\ifdefined\memoConfidentialUntil
+    \@confidentialtrue%
+\else
+\fi
 
 \def\@memoVersion{use \texttt{$\backslash$memoVersion\{\ldots\}}}
 \def\@memoTo{use \texttt{$\backslash$memoTo\{\ldots\}}}
@@ -539,8 +602,8 @@
 \newcommand{\window}[1]{\textbf{#1}}
 \newcommand{\menu}[1]{\textit{#1}}
 \newcommand{\button}[1]{\textit{#1}}
-\newcommand{\file}[1]{$<${#1}$>$} 
-\newcommand{\dir}[1]{$<${#1}$>$}  
+\newcommand{\file}[1]{$<${#1}$>$}
+\newcommand{\dir}[1]{$<${#1}$>$}
 \newcommand{\ginput}[1]{``#1''}
 \newcommand{\command}[1]{{\normalfont\ttfamily #1}}
 \newcommand{\block}[1]{\textbf{\rmfamily #1}}
@@ -697,10 +760,82 @@
 
 \newcommand{\perscomm}[1]{\citetext{#1, pers.\ comm.}}
 \newcommand{\deltarestitle}{\makememoHeader}
-\usepackage{natbib}
-\bibpunct[, ]{(}{)}{;}{a}{,}{,}
-\renewcommand\bibsection{}
-\bibliographystyle{deltares_chicago_like}
-%\usepackage{chapterbib}
-\makeatother
+\if@dbiblatex
+    \newcommand{\citet}{\textcite}
+    \newcommand{\citep}{\parencite}
+    \usepackage[backend=bibtex, style=deltares_authoryear, maxcitenames=2, maxbibnames=10]{biblatex}
+    \newcommand{\printrefsegment}{\printbibliography[segment=\therefsegment, heading=subbibheading]}
+    \newcommand{\printallbibliography}{\printbibliography[heading=bibintoc,locallabelwidth=true]}
 
+    \if@dutch
+        \DefineBibliographyStrings{dutch}{%
+            bibliography = {Referenties}
+        }
+        \defbibheading{subbibheading}{
+            \subparagraph*{Referenties} % for \Autoref{refsegment:\therefsection\therefsegment}}
+        }
+        \DeclareFieldFormat{urldate}{%
+            (Benaderd %
+            \thefield{urlday} \addspace%
+            \mkbibmonth{\thefield{urlmonth}}\addspace%
+            \thefield{urlyear}\isdot)}
+    \else
+        \if@spanish
+            \DefineBibliographyStrings{spanish}{%
+                bibliography = {Referencias}
+            }
+            \defbibheading{subbibheading}{
+                \subparagraph*{Referencias} % for \Autoref{refsegment:\therefsection\therefsegment}}
+            }
+            \DeclareFieldFormat{urldate}{%
+                (Accedido %
+                \thefield{urlday} \addspace%
+                \mkbibmonth{\thefield{urlmonth}}\addspace%
+                \thefield{urlyear}\isdot)}
+        \else  % i.e. English
+            \DefineBibliographyStrings{english}{%
+            bibliography = {References}
+            }
+            \defbibheading{subbibheading}{
+                \subparagraph*{References} % for \Autoref{refsegment:\therefsection\therefsegment}}
+            }
+            \DeclareFieldFormat{urldate}{%
+                (Accessed %
+                \thefield{urlday} \addspace%
+                \mkbibmonth{\thefield{urlmonth}}\addspace%
+                \thefield{urlyear}\isdot)}
+        \fi
+    \fi
+    \setlength\bibitemsep{0.5\baselineskip}
+    \setlength\biblabelsep{14mm}
+\else
+    \usepackage{natbib}
+    \bibpunct[, ]{(}{)}{;}{a}{,}{,}
+    \renewcommand\bibsection{}
+    \if@dutch
+        \bibliographystyle{deltares_chicago_like_dutch}
+    \else
+        \if@spanish
+            \bibliographystyle{deltares_chicago_like_spanish}
+        \else
+            \bibliographystyle{deltares_chicago_like}
+        \fi
+    \fi
+    %\usepackage{chapterbib}
+\fi
+%\usepackage{chapterbib}
+
+%------------------------------------------------------------------------------
+% New definition of sqrt 
+%
+\LetLtxMacro{\oldsqrt}{\sqrt} % makes all sqrts closed
+\renewcommand{\sqrt}[1][\ ]{%
+    \def\DHLindex{#1}\mathpalette\DHLhksqrt}
+\def\DHLhksqrt#1#2{%
+    \setbox0=\hbox{$#1\oldsqrt[\DHLindex]{#2}$}\dimen0=\ht0
+    \advance\dimen0-0.15\ht0
+    \setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+    {\box0\lower0.48pt\box2}}
+
+%------------------------------------------------------------------------------
+\makeatother
