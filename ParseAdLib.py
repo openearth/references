@@ -135,7 +135,7 @@ def bibtex(entry):
     f"  title       = {'{{'+entry['Title']+'}}'},\n"
     f"  institution = {'{'+entry['Publisher']}, {entry['Place of publication']+'}'},\n"
     f"  year        = {'{'+entry['Year of publication'][0:4]+'}'},\n"
-    f"  type        = {'{'+entry['Material']+'}'},\n"
+    f"  type        = {'{{'+entry['Material']+'}}'},\n"
     )
     if 'Pagination' in entry.keys(): 
         bibtex_entry += f"  pages      = {'{'+entry['Pagination']+'}'},\n" 
