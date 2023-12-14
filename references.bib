@@ -33823,4 +33823,34 @@ school =  {Deltares, Delft, the Netherlands},
   keywords     = {shallow water equation, analytic solutions, benchmarking, validation of numerical methods, steady-state flow, transitory flow, source terms},
 }
 
+@Article{Karniadakis21,
+  author       = {Karniadakis, George Em and Kevrekidis, Ioannis G. and Lu, Lu and Perdikaris, Paris and Wang, Sifan and Yang, Liu},
+  date         = {2021},
+  journaltitle = {Nature Reviews Physics},
+  title        = {Physics-informed machine learning},
+  doi          = {10.1038/s42254-021-00314-5},
+  issn         = {2522-5820},
+  number       = {6},
+  pages        = {422--440},
+  url          = {https://doi.org/10.1038/s42254-021-00314-5},
+  volume       = {3},
+  abstract     = {Despite great progress in simulating multiphysics problems using the numerical discretization of partial differential equations (PDEs), one still cannot seamlessly incorporate noisy data into existing algorithms, mesh generation remains complex, and high-dimensional problems governed by parameterized PDEs cannot be tackled. Moreover, solving inverse problems with hidden physics is often prohibitively expensive and requires different formulations and elaborate computer codes. Machine learning has emerged as a promising alternative, but training deep neural networks requires big data, not always available for scientific problems. Instead, such networks can be trained from additional information obtained by enforcing the physical laws (for example, at random points in the continuous space-time domain). Such physics-informed learning integrates (noisy) data and mathematical models, and implements them through neural networks or other kernel-based regression networks. Moreover, it may be possible to design specialized network architectures that automatically satisfy some of the physical invariants for better accuracy, faster training and improved generalization. Here, we review some of the prevailing trends in embedding physics into machine learning, present some of the current capabilities and limitations and discuss diverse applications of physics-informed learning both for forward and inverse problems, including discovering hidden physics and tackling high-dimensional problems.},
+  refid        = {Karniadakis2021},
+}
+
+@Article{Jiang23,
+  author       = {Jiang, Zichao and Jiang, Junyang and Yao, Qinghe and Yang, Gengchao},
+  date         = {2023},
+  journaltitle = {Scientific Reports},
+  title        = {A neural network-based PDE solving algorithm with high precision},
+  doi          = {10.1038/s41598-023-31236-0},
+  issn         = {2045-2322},
+  number       = {1},
+  pages        = {4479},
+  url          = {https://doi.org/10.1038/s41598-023-31236-0},
+  volume       = {13},
+  abstract     = {The consumption of solving large-scale linear equations is one of the most critical issues in numerical computation. An innovative method is introduced in this study to solve linear equations based on deep neural networks. To achieve a high accuracy, we employ the residual network architecture and the correction iteration inspired by the classic iteration methods. By solving the one-dimensional Burgers equation and the two-dimensional heat-conduction equation, the precision and effectiveness of the proposed method have been proven. Numerical results indicate that this DNN-based technique is capable of obtaining an error of less than 10-7. Moreover, its computation time is less sensitive to the problem size than that of classic iterative methods. Consequently, the proposed method possesses a significant efficiency advantage for large-scale problems.},
+  refid        = {Jiang2023},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
