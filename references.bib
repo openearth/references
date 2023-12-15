@@ -33935,4 +33935,113 @@ This chapter discusses that the application of methods of statistical analysis a
   title       = {Oplegnotitie bij Deltares memo: Chavarrías, V. (2023):Role of fixed weirs in 6th generation models for BOI},
 }
 
+@Article{Raissi19,
+  author       = {M. Raissi and P. Perdikaris and G. E. Karniadakis},
+  date         = {2019},
+  journaltitle = {Journal of Computational Physics},
+  title        = {Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations},
+  doi          = {https://doi.org/10.1016/j.jcp.2018.10.045},
+  issn         = {0021-9991},
+  pages        = {686-707},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0021999118307125},
+  volume       = {378},
+  abstract     = {We introduce physics-informed neural networks – neural networks that are trained to solve supervised learning tasks while respecting any given laws of physics described by general nonlinear partial differential equations. In this work, we present our developments in the context of solving two main classes of problems: data-driven solution and data-driven discovery of partial differential equations. Depending on the nature and arrangement of the available data, we devise two distinct types of algorithms, namely continuous time and discrete time models. The first type of models forms a new family of data-efficient spatio-temporal function approximators, while the latter type allows the use of arbitrarily accurate implicit Runge–Kutta time stepping schemes with unlimited number of stages. The effectiveness of the proposed framework is demonstrated through a collection of classical problems in fluids, quantum mechanics, reaction–diffusion systems, and the propagation of nonlinear shallow-water waves.},
+  keywords     = {Data-driven scientific computing, Machine learning, Predictive modeling, Runge–Kutta methods, Nonlinear dynamics},
+}
+
+@Article{Li20,
+  author       = {Li, Dongzhuo and Xu, Kailai and Harris, Jerry M. and Darve, Eric},
+  date         = {2020},
+  journaltitle = {Water Resources Research},
+  title        = {Coupled Time-Lapse Full-Waveform Inversion for Subsurface Flow Problems Using Intrusive Automatic Differentiation},
+  doi          = {https://doi.org/10.1029/2019WR027032},
+  eprint       = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2019WR027032},
+  note         = {e2019WR027032 10.1029/2019WR027032},
+  number       = {8},
+  pages        = {e2019WR027032},
+  url          = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019WR027032},
+  volume       = {56},
+  abstract     = {Abstract We describe a novel framework for estimating subsurface properties, such as rock permeability and porosity, from time-lapse observed seismic data by coupling full-waveform inversion (FWI), subsurface flow processes, and rock physics models. For the inverse modeling, we handle the back propagation of gradients by an intrusive automatic differentiation strategy that offers three levels of user control: (1) At the wave physics level, we adopted the discrete adjoint method in order to use our existing high-performance FWI code; (2) at the rock physics level, we used built-in automatic differentiation operators from the TensorFlow backend; (3) at the flow physics level, we implemented customized partial differential equation (PDE) operators for the multiphase flow equations. The three-level coupled inversion strategy strikes a good balance between computational efficiency and programming efforts, and when the gradients are chained together, it constitutes a coupled inverse system. Our numerical experiments demonstrate that the three-level coupled inverse problem is superior in terms of accuracy to a traditional decoupled inversion strategy. Additionally, our method is able to simultaneously invert for parameters in empirical relationships such as the rock physics models. Our proposed inverted model can be used for reservoir performance prediction and reservoir management/optimization purposes.},
+  keywords     = {subsurface flow, FWI, adjoint method, automatic differentiation, coupled inversion},
+}
+
+@Article{Tartakovsky20,
+  author       = {Tartakovsky, A. M. and Marrero, C. Ortiz and Perdikaris, Paris and Tartakovsky, G. D. and Barajas-Solano, D.},
+  date         = {2020},
+  journaltitle = {Water Resources Research},
+  title        = {Physics-Informed Deep Neural Networks for Learning Parameters and Constitutive Relationships in Subsurface Flow Problems},
+  doi          = {https://doi.org/10.1029/2019WR026731},
+  eprint       = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2019WR026731},
+  note         = {e2019WR026731 10.1029/2019WR026731},
+  number       = {5},
+  pages        = {e2019WR026731},
+  url          = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019WR026731},
+  volume       = {56},
+  abstract     = {Abstract We present a physics-informed deep neural network (DNN) method for estimating hydraulic conductivity in saturated and unsaturated flows governed by Darcy's law. For saturated flow, we approximate hydraulic conductivity and head with two DNNs and use Darcy's law in addition to measurements of hydraulic conductivity and head to train these DNNs. For unsaturated flow, we approximate unsaturated conductivity function and capillary pressure with DNNs and train these DNNs using measurements of capillary pressure and the Richards equation. Because it is difficult to measure unsaturated conductivity in the field, we assume that no measurements of unsaturated conductivity are available. The proposed approach enforces the partial differential equation (PDE) (Darcy or Richards equation) constraints by minimizing the PDE residual at select points in the simulation domain. We demonstrate that physics constraints increase the accuracy of DNN approximations of sparsely observed functions and allow for training DNNs when no direct measurements of the functions of interest are available. For the saturated conductivity estimation problem, we show that the physics-informed DNN method is more accurate than the state-of-the-art maximum a posteriori probability method. For the unsaturated flow in homogeneous porous media, we find that the proposed method can accurately estimate the pressure-conductivity relationship based on the capillary pressure measurements only, even in the presence of measurement noise.},
+  keywords     = {deep neural networks, physics-informed machine learning, parameter estimation, learning constitutive relationships, unsaturated flow, MAP},
+}
+
+@Article{Jagtap20,
+  author       = {Ameya D. Jagtap and Ehsan Kharazmi and George Em Karniadakis},
+  date         = {2020},
+  journaltitle = {Computer Methods in Applied Mechanics and Engineering},
+  title        = {Conservative physics-informed neural networks on discrete domains for conservation laws: Applications to forward and inverse problems},
+  doi          = {https://doi.org/10.1016/j.cma.2020.113028},
+  issn         = {0045-7825},
+  pages        = {113028},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0045782520302127},
+  volume       = {365},
+  abstract     = {We propose a conservative physics-informed neural network (cPINN) on discrete domains for nonlinear conservation laws. Here, the term discrete domain represents the discrete sub-domains obtained after division of the computational domain, where PINN is applied and the conservation property of cPINN is obtained by enforcing the flux continuity in the strong form along the sub-domain interfaces. In case of hyperbolic conservation laws, the convective flux contributes at the interfaces, whereas in case of viscous conservation laws, both convective and diffusive fluxes contribute. Apart from the flux continuity condition, an average solution (given by two different neural networks) is also enforced at the common interface between two sub-domains. One can also employ a deep neural network in the domain, where the solution may have complex structure, whereas a shallow neural network can be used in the sub-domains with relatively simple and smooth solutions. Another advantage of the proposed method is the additional freedom it gives in terms of the choice of optimization algorithm and the various training parameters like residual points, activation function, width and depth of the network etc. Various forms of errors involved in cPINN such as optimization, generalization and approximation errors and their sources are discussed briefly. In cPINN, locally adaptive activation functions are used, hence training the model faster compared to its fixed counterparts. Both, forward and inverse problems are solved using the proposed method. Various test cases ranging from scalar nonlinear conservation laws like Burgers, Korteweg–de Vries (KdV) equations to systems of conservation laws, like compressible Euler equations are solved. The lid-driven cavity test case governed by incompressible Navier–Stokes equation is also solved and the results are compared against a benchmark solution. The proposed method enjoys the property of domain decomposition with separate neural networks in each sub-domain, and it efficiently lends itself to parallelized computation, where each sub-domain can be assigned to a different computational node.},
+  keywords     = {cPINN, Mortar PINN, Domain decomposition, Machine learning, Conservation laws, Inverse problems},
+}
+
+
+
+
+
+
+
+
+@Article{Raissi20,
+  author       = {Maziar Raissi and Alireza Yazdani and George Em Karniadakis},
+  date         = {2020},
+  journaltitle = {Science},
+  title        = {Hidden fluid mechanics: Learning velocity and pressure fields from flow visualizations},
+  doi          = {10.1126/science.aaw4741},
+  eprint       = {https://www.science.org/doi/pdf/10.1126/science.aaw4741},
+  number       = {6481},
+  pages        = {1026-1030},
+  url          = {https://www.science.org/doi/abs/10.1126/science.aaw4741},
+  volume       = {367},
+  abstract     = {Quantifying fluid flow is relevant to disciplines ranging from geophysics to medicine. Flow can be experimentally visualized using, for example, smoke or contrast agents, but extracting velocity and pressure fields from this information is tricky. Raissi et al. developed a machine-learning approach to tackle this problem. Their method exploits the knowledge of Navier-Stokes equations, which govern the dynamics of fluid flow in many scientifically relevant situations. The authors illustrate their approach using examples such as blood flow in an aneurysm. Science, this issue p. 1026 A machine learning approach exploiting the knowledge of Navier-Stokes equations can extract detailed fluid flow information. For centuries, flow visualization has been the art of making fluid motion visible in physical and biological systems. Although such flow patterns can be, in principle, described by the Navier-Stokes equations, extracting the velocity and pressure fields directly from the images is challenging. We addressed this problem by developing hidden fluid mechanics (HFM), a physics-informed deep-learning framework capable of encoding the Navier-Stokes equations into the neural networks while being agnostic to the geometry or the initial and boundary conditions. We demonstrate HFM for several physical and biomedical problems by extracting quantitative information for which direct measurements may not be possible. HFM is robust to low resolution and substantial noise in the observation data, which is important for potential applications.},
+}
+
+@Article{Yang21,
+  author       = {Liu Yang and Xuhui Meng and George Em Karniadakis},
+  date         = {2021},
+  journaltitle = {Journal of Computational Physics},
+  title        = {B-PINNs: Bayesian physics-informed neural networks for forward and inverse PDE problems with noisy data},
+  doi          = {https://doi.org/10.1016/j.jcp.2020.109913},
+  issn         = {0021-9991},
+  pages        = {109913},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0021999120306872},
+  volume       = {425},
+  abstract     = {We propose a Bayesian physics-informed neural network (B-PINN) to solve both forward and inverse nonlinear problems described by partial differential equations (PDEs) and noisy data. In this Bayesian framework, the Bayesian neural network (BNN) combined with a PINN for PDEs serves as the prior while the Hamiltonian Monte Carlo (HMC) or the variational inference (VI) could serve as an estimator of the posterior. B-PINNs make use of both physical laws and scattered noisy measurements to provide predictions and quantify the aleatoric uncertainty arising from the noisy data in the Bayesian framework. Compared with PINNs, in addition to uncertainty quantification, B-PINNs obtain more accurate predictions in scenarios with large noise due to their capability of avoiding overfitting. We conduct a systematic comparison between the two different approaches for the B-PINNs posterior estimation (i.e., HMC or VI), along with dropout used for quantifying uncertainty in deep neural networks. Our experiments show that HMC is more suitable than VI with mean field Gaussian approximation for the B-PINNs posterior estimation, while dropout employed in PINNs can hardly provide accurate predictions with reasonable uncertainty. Finally, we replace the BNN in the prior with a truncated Karhunen-Loève (KL) expansion combined with HMC or a deep normalizing flow (DNF) model as posterior estimators. The KL is as accurate as BNN and much faster but this framework cannot be easily extended to high-dimensional problems unlike the BNN based framework.},
+  keywords     = {Nonlinear PDEs, Noisy data, Bayesian physics-informed neural networks, Hamiltonian Monte Carlo, Variational inference},
+}
+
+@Article{Patel22,
+  author       = {Ravi G. Patel and Indu Manickam and Nathaniel A. Trask and Mitchell A. Wood and Myoungkyu Lee and Ignacio Tomas and Eric C. Cyr},
+  date         = {2022},
+  journaltitle = {Journal of Computational Physics},
+  title        = {Thermodynamically consistent physics-informed neural networks for hyperbolic systems},
+  doi          = {https://doi.org/10.1016/j.jcp.2021.110754},
+  issn         = {0021-9991},
+  pages        = {110754},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0021999121006495},
+  volume       = {449},
+  abstract     = {Physics-informed neural network architectures have emerged as a powerful tool for developing flexible PDE solvers that easily assimilate data. When applied to problems in shock physics however, these approaches face challenges related to the collocation-based PDE discretization underpinning them. By instead adopting a least squares space-time control volume scheme, we obtain a scheme which more naturally handles: regularity requirements, imposition of boundary conditions, entropy compatibility, and conservation, substantially reducing requisite hyperparameters in the process. Additionally, connections to classical finite volume methods allows application of inductive biases toward entropy solutions and total variation diminishing properties. For inverse problems in shock hydrodynamics, we propose inductive biases for discovering thermodynamically consistent equations of state that guarantee hyperbolicity. This framework therefore provides a means of discovering continuum shock models from molecular simulations of rarefied gases and metals. The output of the learning process provides a data-driven equation of state which may be incorporated into traditional shock hydrodynamics codes.},
+  keywords     = {Physics-informed neural networks, Inverse problems, Machine learning, Equation of state, Conservation laws, Shock hydrodynamics},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
