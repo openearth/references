@@ -13,14 +13,14 @@ Reallocating 'cite_info' (item size: 4) to 3000 items.
 Reallocating 'cite_list' (item size: 4) to 3000 items.
 Reallocating 'entry_exists' (item size: 1) to 3000 items.
 Reallocating 'type_list' (item size: 4) to 3000 items.
-White space in argument---line 2580 of file print_references.aux
+White space in argument---line 2587 of file print_references.aux
  : \citation{jabref-meta:
  :                        databaseType:biblatex;}
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 The style file: agufull08_mod.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
-Reallocating 'field_info' (item size: 4) to 72075 items.
+Reallocating 'field_info' (item size: 4) to 72250 items.
 Database file #1: references.bib
 Warning--I'm ignoring Ahnert94's extra "journal" field
 --line 297 of file references.bib
@@ -39,9 +39,9 @@ Warning--entry type for "Parker04" isn't style-file defined
 --line 28173 of file references.bib
 Warning--entry type for "Reula04" isn't style-file defined
 --line 30551 of file references.bib
+Reallocating 'str_pool' (item size: 1) to 325000 items.
 Warning--I'm ignoring Smale00_MSc's extra "school" field
 --line 33475 of file references.bib
-Reallocating 'str_pool' (item size: 1) to 325000 items.
 Repeated entry---line 36641 of file references.bib
  : @article{vanderMark13
  :                      ,
@@ -432,6 +432,7 @@ while executing---line 1822 of file agufull08_mod.bst
 Warning--empty journal in Jafarinik19
 Warning--empty title in Jagers99
 Warning--missing institution in Jagers99
+Warning--empty journal in Jagtap20
 Warning--empty journal in Jiang23
 Warning--missing publisher in Lindenschmidt20
 Warning--empty journal in Karniadakis21
@@ -455,6 +456,7 @@ Warning--can't use both author and editor fields in Komarova95
 Warning--can't use both author and editor fields in Kuhnle92_2
 Warning--missing publisher in vanLandeghem20
 Warning--can't use both author and editor fields in Leopold92
+Warning--empty journal in Li20
 Warning--can't use both volume and number fields in Macqueen67
 Name 1 in "Matt Czapiga, Astrid Blom, and Enrica Viparelli" has a comma at the end for entry Czapiga21_2
 while executing---line 1822 of file agufull08_mod.bst
@@ -496,6 +498,7 @@ Warning--can't use both author and editor fields in Paola01
 Warning--can't use both author and editor fields in Parker08
 Warning--missing publisher in Parker08
 Warning--missing publisher in Parker08_4
+Warning--empty journal in Patel22
 Warning--empty chapter and pages in Peery88
 Warning--missing publisher in Peery88
 Warning--missing publisher in Plato_Phaedo
@@ -505,6 +508,8 @@ Warning--there's a number but no volume in Preissmann61_3
 Warning--missing institution in vanProoijen12
 Warning--can't use both author and editor fields in Radecki15
 Warning--empty journal in Raissi17
+Warning--empty journal in Raissi19
+Warning--empty journal in Raissi20
 Warning--empty booktitle in Reid84
 Warning--missing publisher in RWS99
 Warning--missing institution in RoelvinkXX
@@ -594,6 +599,7 @@ Warning--empty journal in Stoker92
 Warning--missing publisher in STOWA19
 Warning--can't use both author and editor fields in Strauss08
 Warning--empty booktitle in Symonds17
+Warning--empty journal in Tartakovsky20
 Warning--missing publisher in Thuerey22
 Warning--missing publisher in Tockner22
 Warning--empty journal in Tsujimoto
@@ -614,46 +620,47 @@ Warning--missing publisher in deVries69
 Warning--missing publisher in Wiesemann06
 Warning--missing publisher in Winterwerp22
 Warning--empty journal in Yalin
+Warning--empty journal in Yang21
 Warning--missing institution in RWS19_2
-You've used 2683 entries,
+You've used 2690 entries,
             3080 wiz_defined-function locations,
-            16637 strings with 468930 characters,
-and the built_in function-call counts, 2096193 in all, are:
-= -- 224427
-> -- 62802
+            16686 strings with 470747 characters,
+and the built_in function-call counts, 2104351 in all, are:
+= -- 225377
+> -- 63058
 < -- 2259
-+ -- 29069
-- -- 17236
-* -- 132872
-:= -- 208042
-add.period$ -- 2683
-call.type$ -- 2683
-change.case$ -- 11729
-chr.to.int$ -- 2684
-cite$ -- 2912
-duplicate$ -- 230031
-empty$ -- 131462
-format.name$ -- 24495
-if$ -- 419610
-int.to.chr$ -- 192
++ -- 29200
+- -- 17306
+* -- 133401
+:= -- 208767
+add.period$ -- 2690
+call.type$ -- 2690
+change.case$ -- 11759
+chr.to.int$ -- 2691
+cite$ -- 2926
+duplicate$ -- 230938
+empty$ -- 131882
+format.name$ -- 24586
+if$ -- 421226
+int.to.chr$ -- 194
 int.to.str$ -- 1
-missing$ -- 24551
-newline$ -- 8056
-num.names$ -- 10733
-pop$ -- 80284
+missing$ -- 24630
+newline$ -- 8077
+num.names$ -- 10761
+pop$ -- 80616
 preamble$ -- 1
-purify$ -- 8697
+purify$ -- 8718
 quote$ -- 0
-skip$ -- 122679
+skip$ -- 123196
 stack$ -- 0
-substring$ -- 81886
-swap$ -- 186310
+substring$ -- 82296
+swap$ -- 187114
 text.length$ -- 532
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 23553
-warning$ -- 185
-while$ -- 12446
+type$ -- 23616
+warning$ -- 192
+while$ -- 12481
 width$ -- 0
-write$ -- 31091
+write$ -- 31170
 (There were 152 error messages)

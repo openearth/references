@@ -1,4 +1,4 @@
-\begin{thebibliography}{2683}
+\begin{thebibliography}{2690}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -6644,6 +6644,13 @@ Jagers, B. (), \textit{Tech. rep.}
 Jagers, B. (2003), Modelling planform changes of braided rivers, Ph.D. thesis,
   University of Twente, Enschede, the Netherlands.
 
+\bibitem[{\textit{Jagtap et~al.}()\textit{Jagtap, Kharazmi, and
+  Karniadakis}}]{Jagtap20}
+Jagtap, A.~D., E.~Kharazmi, and G.~E. Karniadakis (), Conservative
+  physics-informed neural networks on discrete domains for conservation laws:
+  Applications to forward and inverse problems, \textit{365}, 113,028,
+  \doi{https://doi.org/10.1016/j.cma.2020.113028}.
+
 \bibitem[{\textit{Jain}(1981)}]{Jain81}
 Jain, S.~C. (1981), Riverbed aggradation due to overloading, \textit{Journal of
   the Hydraulics Division}, \textit{107}.
@@ -8165,6 +8172,13 @@ Li, C., M.~J. Czapiga, E.~C. Eke, E.~Viparelli, and G.~Parker
   {E}ke, {E}nrica {V}iparelli, and {G}ary {P}arker, {J}. {H}ydraulic {R}es.
   53(1), 2015, 36-48,, \textit{J. Hydraul. Res.}, \textit{54}(2), 234--237,
   \doi{10.1080/00221686.2015.1137088}.
+
+\bibitem[{\textit{Li et~al.}()\textit{Li, Xu, Harris, and Darve}}]{Li20}
+Li, D., K.~Xu, J.~M. Harris, and E.~Darve (), Coupled time-lapse full-waveform
+  inversion for subsurface flow problems using intrusive automatic
+  differentiation, \textit{56}(8), e2019WR027,032,
+  \doi{https://doi.org/10.1029/2019WR027032}, e2019WR027032
+  10.1029/2019WR027032.
 
 \bibitem[{\textit{Li and Zheng}(2016{\natexlab{a}})}]{Li16_3}
 Li, F., and Q.~Zheng (2016{\natexlab{a}}), Probabilistic modelling of flood
@@ -10398,6 +10412,13 @@ Patalano, A., C.~M. García, and A.~Rodríguez (2017), Rectification of image
   velocimetry ({PTV}), \textit{Computers \& Geosciences}, \textit{109},
   323--330, \doi{https://doi.org/10.1016/j.cageo.2017.07.009}.
 
+\bibitem[{\textit{Patel et~al.}()\textit{Patel, Manickam, Trask, Wood, Lee,
+  Tomas, and Cyr}}]{Patel22}
+Patel, R.~G., I.~Manickam, N.~A. Trask, M.~A. Wood, M.~Lee, I.~Tomas, and E.~C.
+  Cyr (), Thermodynamically consistent physics-informed neural networks for
+  hyperbolic systems, \textit{449}, 110,754,
+  \doi{https://doi.org/10.1016/j.jcp.2021.110754}.
+
 \bibitem[{\textit{Payne and Sather}(1967)}]{Payne67}
 Payne, L., and D.~Sather (1967), On some improperly posed problems for the
   {C}haplygin equation, \textit{J Math Anal Appl}, \textit{19}(1), 67--77,
@@ -10846,11 +10867,25 @@ Rai~Yangkhurung, J. (2018), {Effect of Canal Operation on Sedimentation and
   System, Nepal}, Master's thesis, IHE Institute for Water Education, Delft,
   the Netherlands.
 
-\bibitem[{\textit{Raissi et~al.}()\textit{Raissi, Perdikaris, and
+\bibitem[{\textit{Raissi et~al.}({\natexlab{a}})\textit{Raissi, Perdikaris, and
   Karniadakis}}]{Raissi17}
-Raissi, M., P.~Perdikaris, and G.~E. Karniadakis (), Machine learning of linear
-  differential equations using gaussian processes, \textit{348}, 683--693,
-  \doi{https://doi.org/10.1016/j.jcp.2017.07.050}.
+Raissi, M., P.~Perdikaris, and G.~E. Karniadakis ({\natexlab{a}}), Machine
+  learning of linear differential equations using gaussian processes,
+  \textit{348}, 683--693, \doi{https://doi.org/10.1016/j.jcp.2017.07.050}.
+
+\bibitem[{\textit{Raissi et~al.}({\natexlab{b}})\textit{Raissi, Perdikaris, and
+  Karniadakis}}]{Raissi19}
+Raissi, M., P.~Perdikaris, and G.~E. Karniadakis ({\natexlab{b}}),
+  Physics-informed neural networks: A deep learning framework for solving
+  forward and inverse problems involving nonlinear partial differential
+  equations, \textit{378}, 686--707,
+  \doi{https://doi.org/10.1016/j.jcp.2018.10.045}.
+
+\bibitem[{\textit{Raissi et~al.}({\natexlab{c}})\textit{Raissi, Yazdani, and
+  Karniadakis}}]{Raissi20}
+Raissi, M., A.~Yazdani, and G.~E. Karniadakis ({\natexlab{c}}), Hidden fluid
+  mechanics: Learning velocity and pressure fields from flow visualizations,
+  \textit{367}(6481), 1026--1030, \doi{10.1126/science.aaw4741}.
 
 \bibitem[{\textit{Rakha and Kamphuis}(1997)}]{Rakha97}
 Rakha, K.~A., and J.~W. Kamphuis (1997), A morphology model for an eroding
@@ -12861,6 +12896,14 @@ Tarekul~Islam, G.~M., M.~R. Kabir, and A.~Nishat (2006), Nodal point relation
   Eng.}, \textit{132}(10), 1105--1109,
   \doi{10.1061/(ASCE)0733-9429(2006)132:10(1105)}.
 
+\bibitem[{\textit{Tartakovsky et~al.}()\textit{Tartakovsky, Marrero,
+  Perdikaris, Tartakovsky, and Barajas-Solano}}]{Tartakovsky20}
+Tartakovsky, A.~M., C.~O. Marrero, P.~Perdikaris, G.~D. Tartakovsky, and
+  D.~Barajas-Solano (), Physics-informed deep neural networks for learning
+  parameters and constitutive relationships in subsurface flow problems,
+  \textit{56}(5), e2019WR026,731, \doi{https://doi.org/10.1029/2019WR026731},
+  e2019WR026731 10.1029/2019WR026731.
+
 \bibitem[{\textit{Tassi et~al.}(2008)\textit{Tassi, Rhebergen, Vionnet, and
   Bokhove}}]{Tassi08}
 Tassi, P.~A., S.~Rhebergen, C.~A. Vionnet, and O.~Bokhove (2008), A
@@ -14714,6 +14757,11 @@ Yamaguchi, S., S.~Giri, Y.~Shimizu, and J.~M. Nelson (), Morphological
   computation of dune evolution with equilibrium and non-equilibrium
   sediment-transport models, \textit{Water Resour Res}, \textit{n/a}(n/a),
   \doi{10.1029/2018WR024166}.
+
+\bibitem[{\textit{Yang et~al.}()\textit{Yang, Meng, and Karniadakis}}]{Yang21}
+Yang, L., X.~Meng, and G.~E. Karniadakis (), B-pinns: Bayesian physics-informed
+  neural networks for forward and inverse pde problems with noisy data,
+  \textit{425}, 109,913, \doi{https://doi.org/10.1016/j.jcp.2020.109913}.
 
 \bibitem[{\textit{Yang et~al.}(2001)\textit{Yang, Ding, and Chen}}]{Yang01}
 Yang, S.-L., P.-X. Ding, and S.-L. Chen (2001), Temporal change in bed level of
