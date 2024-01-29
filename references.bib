@@ -34182,17 +34182,17 @@ school =  {Deltares, Delft, the Netherlands},
 }
 
 @Article{Kleinhans23_2,
-  author = {Maarten G. Kleinhans  and William J. McMahon  and Neil S. Davies },
-  title = {What even is a meandering river? A philosophy-enhanced synthesis of multilevel causes and systemic interactions contributing to river meandering},
+  author   = {Maarten G. Kleinhans and William J. McMahon and Neil S. Davies},
+  title    = {What even is a meandering river? A philosophy-enhanced synthesis of multilevel causes and systemic interactions contributing to river meandering},
   doi      = {10.1144/SP540-2022-138},
   eprint   = {https://www.lyellcollection.org/doi/pdf/10.1144/SP540-2022-138},
-  number = {1},
-  pages = {SP540-2022-138},
+  number   = {1},
+  pages    = {SP540-2022-138},
   url      = {https://www.lyellcollection.org/doi/abs/10.1144/SP540-2022-138},
   volume   = {540},
   abstract = {Despite creating one of Earth's most iconic landforms, and having been studied since antiquity, river meandering is currently explained by several alternative models that remain debated. This is partly because observers have deconstructed meanders to a set of properties thought to be fundamental or significant for meandering, but each of these underpinning properties is itself complex and in turn requires analysis of its causes and mechanisms. This philosophical contribution aims to provide a perspective on the state of the science that makes a rigorous interrogation into what ‘causation’ actually means, and explores what a systems perspective can elucidate about meandering phenomena. We approach the problem through a discussion of the variety of ways in which previous researchers have tackled the problem of meandering, from a channel and floodplain perspective, on Earth and Mars, in the field and laboratory, and at the present day through to the ancient stratigraphic record. It is evident that river meandering has numerous causal pathways rather than a single set of necessary and sufficient conditions. A systemic view on the evolution of plant species shows that their feedbacks on river pattern likewise have several pathways. Employing the conceptual apparatus of the philosophy of science will move us towards a more consensual synthesis of river meandering.},
   journal  = {Geological Society, London, Special Publications},
-  year = {2024},
+  year     = {2024},
 }
 
 @TechReport{Chavarrias23_7,
@@ -34232,6 +34232,35 @@ school =  {Deltares, Delft, the Netherlands},
   volume       = {420},
   abstract     = {We extend and analyze the deep neural network multigrid solver (DNN-MG) for the Navier–Stokes equations in three dimensions. The idea of the method is to augment a finite element simulation on coarse grids with fine scale information obtained using deep neural networks. The neural network operates locally on small patches of grid elements. The local approach proves to be highly efficient, since the network can be kept (relatively) small and since it can be applied in parallel on all grid patches. However, the main advantage of the local approach is the inherent generalizability of the method. Since the network only processes data of small sub-areas, it never “sees” the global problem and thus does not learn false biases. We describe the method with a focus on the interplay between the finite element method and deep neural networks. Further, we demonstrate with numerical examples the excellent efficiency of the hybrid approach, which allows us to achieve very high accuracy with a coarse grid and thus reduce the computation time by orders of magnitude.},
   keywords     = {Geometric multigrid methods, Deep neural network, Navier–Stokes equations, Machine learning},
+}
+
+@Article{Margenberg22,
+  author       = {Nils Margenberg and Dirk Hartmann and Christian Lessig and Thomas Richter},
+  date         = {2022},
+  journaltitle = {Journal of Computational Physics},
+  title        = {A neural network multigrid solver for the Navier-Stokes equations},
+  doi          = {https://doi.org/10.1016/j.jcp.2022.110983},
+  issn         = {0021-9991},
+  pages        = {110983},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0021999122000456},
+  volume       = {460},
+  abstract     = {We present the deep neural network multigrid solver (DNN-MG) that we develop for the instationary Navier-Stokes equations. DNN-MG improves computational efficiency using a judicious combination of a geometric multigrid solver and a recurrent neural network with memory. DNN-MG uses the multi-grid method to classically solve on coarse levels while the neural network corrects interpolated solutions on fine ones, thus avoiding the increasingly expensive computations that would have to be performed there. This results in a reduction in computation time through DNN-MG's highly compact neural network. The compactness results from its design for local patches and the available coarse multigrid solutions that provides a “guide” for the corrections. A compact neural network with a small number of parameters also reduces training time and data. Furthermore, the network's locality facilitates generalizability and allows one to use DNN-MG trained on one mesh domain also on different ones. We demonstrate the efficacy of DNN-MG for variations of the 2D laminar flow around an obstacle. For these, our method significantly improves the solutions as well as lift and drag functionals while requiring only about half the computation time of a full multigrid solution. We also show that DNN-MG trained for the configuration with one obstacle can be generalized to other time dependent problems that can be solved efficiently using a geometric multigrid method.},
+  keywords     = {Computational fluid dynamics, Machine learning, Deep learning, Geometric multigrid, Navier-Stokes equations},
+}
+
+@Article{Cuomo22,
+  author       = {Cuomo, Salvatore and Di Cola, Vincenzo Schiano and Giampaolo, Fabio and Rozza, Gianluigi and Raissi, Maziar and Piccialli, Francesco},
+  date         = {2022},
+  journaltitle = {Journal of Scientific Computing},
+  title        = {Scientific Machine Learning Through Physics-Informed Neural Networks: Where we are and What’s Next},
+  doi          = {10.1007/s10915-022-01939-z},
+  issn         = {1573-7691},
+  number       = {3},
+  pages        = {88},
+  url          = {https://doi.org/10.1007/s10915-022-01939-z},
+  volume       = {92},
+  abstract     = {Physics-Informed Neural Networks (PINN) are neural networks (NNs) that encode model equations, like Partial Differential Equations (PDE), as a component of the neural network itself. PINNs are nowadays used to solve PDEs, fractional equations, integral-differential equations, and stochastic PDEs. This novel methodology has arisen as a multi-task learning framework in which a NN must fit observed data while reducing a PDE residual. This article provides a comprehensive review of the literature on PINNs: while the primary goal of the study was to characterize these networks and their related advantages and disadvantages. The review also attempts to incorporate publications on a broader range of collocation-based physics informed neural networks, which stars form the vanilla PINN, as well as many other variants, such as physics-constrained neural networks (PCNN), variational hp-VPINN, and conservative PINN (CPINN). The study indicates that most research has focused on customizing the PINN through different activation functions, gradient optimization techniques, neural network structures, and loss function structures. Despite the wide range of applications for which PINNs have been used, by demonstrating their ability to be more feasible in some contexts than classical numerical techniques like Finite Element Method (FEM), advancements are still possible, most notably theoretical issues that remain unresolved.},
+  refid        = {Cuomo2022},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
