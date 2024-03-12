@@ -13,14 +13,14 @@ Reallocating 'cite_info' (item size: 4) to 3000 items.
 Reallocating 'cite_list' (item size: 4) to 3000 items.
 Reallocating 'entry_exists' (item size: 1) to 3000 items.
 Reallocating 'type_list' (item size: 4) to 3000 items.
-White space in argument---line 2587 of file print_references.aux
+White space in argument---line 2637 of file print_references.aux
  : \citation{jabref-meta:
  :                        databaseType:biblatex;}
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 The style file: agufull08_mod.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
-Reallocating 'field_info' (item size: 4) to 72250 items.
+Reallocating 'field_info' (item size: 4) to 73550 items.
 Database file #1: references.bib
 Warning--I'm ignoring Ahnert94's extra "journal" field
 --line 297 of file references.bib
@@ -49,130 +49,134 @@ I'm skipping whatever remains of this entry
 Warning--I'm ignoring Vreugdenhil01's extra "journal" field
 --line 38387 of file references.bib
 Reallocating 'str_pool' (item size: 1) to 390000 items.
-Repeated entry---line 45639 of file references.bib
+Repeated entry---line 45663 of file references.bib
  : @article{Luijendijk19
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 45667 of file references.bib
+Repeated entry---line 45691 of file references.bib
  : @article{Dietrich83
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 45695 of file references.bib
+Repeated entry---line 45719 of file references.bib
  : @article{MosqueraMachado07
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 45725 of file references.bib
+Repeated entry---line 45749 of file references.bib
  : @techreport{Kranenburg15_2
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 45745 of file references.bib
+Repeated entry---line 45769 of file references.bib
  : @techreport{Kranenburg15
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 45765 of file references.bib
+Repeated entry---line 45789 of file references.bib
  : @techreport{Kranenburg15_3
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 45785 of file references.bib
+Repeated entry---line 45809 of file references.bib
  : @techreport{Cotino20
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 45799 of file references.bib
+Repeated entry---line 45823 of file references.bib
  : @incollection{Koren93
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 45821 of file references.bib
+Repeated entry---line 45845 of file references.bib
  : @techreport{Borsboom97
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 45839 of file references.bib
+Repeated entry---line 45863 of file references.bib
  : @book{Uijttewaal20
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 45853 of file references.bib
+Repeated entry---line 45877 of file references.bib
  : @article{Ponce91
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 45881 of file references.bib
+Repeated entry---line 45905 of file references.bib
  : @techreport{Irving20
  :                     ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Swamee88's extra "journal" field
---line 47175 of file references.bib
+--line 47201 of file references.bib
 Warning--I'm ignoring Arnaud15's extra "journal" field
---line 47423 of file references.bib
+--line 47449 of file references.bib
 Warning--I'm ignoring An19's extra "journal" field
---line 47541 of file references.bib
+--line 47567 of file references.bib
 Warning--I'm ignoring KabiriSamani12's extra "journal" field
---line 47637 of file references.bib
+--line 47663 of file references.bib
 Warning--entry type for "GeowebProfielZN21" isn't style-file defined
---line 47827 of file references.bib
+--line 47853 of file references.bib
 Warning--I'm ignoring Chavarrias21_2's extra "journal" field
---line 48413 of file references.bib
-Repeated entry---line 48907 of file references.bib
+--line 48439 of file references.bib
+Repeated entry---line 48933 of file references.bib
  : @techreport{Niesten20
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 49351 of file references.bib
+Repeated entry---line 49377 of file references.bib
  : @techreport{Mosselman05
  :                        ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Preissmann61_2's extra "journal" field
---line 50033 of file references.bib
+--line 50059 of file references.bib
 Warning--I'm ignoring Preissmann61_3's extra "journal" field
---line 50053 of file references.bib
+--line 50079 of file references.bib
 Warning--I'm ignoring vonKarman30's extra "journal" field
---line 50591 of file references.bib
+--line 50617 of file references.bib
 Warning--I'm ignoring Gibson34's extra "journal" field
---line 50641 of file references.bib
+--line 50667 of file references.bib
 Warning--I'm ignoring Chiew92's extra "journal" field
---line 50867 of file references.bib
+--line 50893 of file references.bib
 Warning--I'm ignoring Garg05's extra "journal" field
---line 50895 of file references.bib
+--line 50921 of file references.bib
 Warning--I'm ignoring Raudkivi83's extra "journal" field
---line 50955 of file references.bib
-Repeated entry---line 51019 of file references.bib
+--line 50981 of file references.bib
+Repeated entry---line 51045 of file references.bib
  : @article{Giri21
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 51525 of file references.bib
+Repeated entry---line 51551 of file references.bib
  : @techreport{Chavarrias21_6
  :                           ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Merrill95's extra "journal" field
---line 53333 of file references.bib
+--line 53359 of file references.bib
 Warning--I'm ignoring Ketcheson21's extra "journal" field
---line 53363 of file references.bib
+--line 53389 of file references.bib
 Reallocating 'str_pool' (item size: 1) to 455000 items.
-Repeated entry---line 54479 of file references.bib
+Repeated entry---line 54505 of file references.bib
  : @mastersthesis{Stenfert17_MSc
  :                              ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Johnson92's extra "journal" field
---line 54603 of file references.bib
+--line 54629 of file references.bib
 Warning--entry type for "Denaro23" isn't style-file defined
---line 56921 of file references.bib
-Repeated entry---line 59131 of file references.bib
+--line 56947 of file references.bib
+Repeated entry---line 59157 of file references.bib
  : @techreport{Ogink04
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 60321 of file references.bib
+Repeated entry---line 60347 of file references.bib
  : @article{Barneveld23
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 63015 of file references.bib
+Repeated entry---line 63079 of file references.bib
  : @techreport{Hubbell64
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 63123 of file references.bib
+Repeated entry---line 63187 of file references.bib
  : @article{Lien99
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 64025 of file references.bib
+Repeated entry---line 64089 of file references.bib
  : @article{Petts89
  :                 ,
 I'm skipping whatever remains of this entry
 Reallocating 'str_pool' (item size: 1) to 520000 items.
+I was expecting a `,' or a `}'---line 68989 of file references.bib
+ :   pages = 849
+ :              --865,
+I'm skipping whatever remains of this entry
 Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karacan" has a comma at the end for entry Bakker22
 while executing---line 1741 of file agufull08_mod.bst
 Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karacan" has a comma at the end for entry Bakker22
@@ -236,7 +240,6 @@ Name 1 in "National Academies of Sciences, Engineering, and Medicine" has a comm
 while executing---line 1741 of file agufull08_mod.bst
 Name 1 in "National Academies of Sciences, Engineering, and Medicine" has a comma at the end for entry NASEM23
 while executing---line 1741 of file agufull08_mod.bst
-Warning--to sort, need author or key in RWS19
 Warning--to sort, need author or key in SOBEK_Kalman
 Warning--to sort, need author or key in SOBEK_asciiparser
 Warning--to sort, need author or key in SOBEK_flow
@@ -344,9 +347,12 @@ while executing---line 1822 of file agufull08_mod.bst
 Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karacan" has a comma at the end for entry Bakker22
 while executing---line 1822 of file agufull08_mod.bst
 Warning--missing publisher in Ban19
+Warning--empty journal in Barile24
+Warning--empty journal in Barneveld24
 Warning--can't use both author and editor fields in Batchelor70
 Warning--empty journal in Bateman15
 Warning--empty journal in Baydoun18
+Warning--empty journal in Benjamin99
 Warning--can't use both author and editor fields in Berrar13
 Warning--can't use both author and editor fields in Biedenharn08
 Warning--can't use both author and editor fields in Blench66
@@ -370,9 +376,11 @@ Warning--missing publisher in Colombini17
 Warning--missing institution in CECB20
 Warning--missing publisher in Crosato13
 Warning--missing publisher in Crowe09
+Warning--empty journal in Cuomo22
 Warning--missing publisher in deGoede14
 Warning--missing institution in DecykXX
 Warning--empty journal in Delestre13
+Warning--empty journal in Dodd03
 Warning--empty booktitle in Donchyts13
 Warning--can't use both author and editor fields in Drazin82
 Warning--can't use both author and editor fields in Drew99
@@ -411,8 +419,10 @@ Warning--empty journal in Escauriaza11
 Warning--can't use both author and editor fields in Fenton15
 Warning--can't use both author and editor fields in Ferguson98
 Warning--empty journal in Escalante17
+Warning--empty journal in Flora23
 Warning--can't use both author and editor fields in FoufoulaGeorgiou13
 Warning--can't use both author and editor fields in Galloway75
+Warning--empty journal in Gao24
 Warning--missing publisher in colombia07
 Warning--missing publisher in Gastel16
 Warning--there's a number but no volume in Govedarska17
@@ -425,6 +435,7 @@ Warning--can't use both author and editor fields in Howard80
 Warning--can't use both author and editor fields in Howard87
 Warning--there's a number but no volume in Hubbell65
 Warning--missing institution in IW18
+Warning--can't use both author and editor fields in IUPAC07
 Name 2 in "S. Jafarinik and R. Hern\'ández a Moreira, and E. Viparelli" has a comma at the end for entry Jafarinik19
 while executing---line 1822 of file agufull08_mod.bst
 Name 2 in "S. Jafarinik and R. Hern\'ández a Moreira, and E. Viparelli" has a comma at the end for entry Jafarinik19
@@ -458,10 +469,14 @@ Warning--missing publisher in vanLandeghem20
 Warning--can't use both author and editor fields in Leopold92
 Warning--empty journal in Li20
 Warning--can't use both volume and number fields in Macqueen67
+Warning--empty journal in Marnin24
+Warning--empty journal in Margenberg22
+Warning--empty journal in Margenberg24
 Name 1 in "Matt Czapiga, Astrid Blom, and Enrica Viparelli" has a comma at the end for entry Czapiga21_2
 while executing---line 1822 of file agufull08_mod.bst
 Name 1 in "Matt Czapiga, Astrid Blom, and Enrica Viparelli" has a comma at the end for entry Czapiga21_2
 while executing---line 1822 of file agufull08_mod.bst
+Warning--empty journal in Mobasher19
 Warning--missing publisher in Monge50
 Warning--can't use both author and editor fields in Mosselman06
 Warning--can't use both author and editor fields in Mosselman09
@@ -510,6 +525,8 @@ Warning--can't use both author and editor fields in Radecki15
 Warning--empty journal in Raissi17
 Warning--empty journal in Raissi19
 Warning--empty journal in Raissi20
+Warning--there's a number but no volume in Rehbock1921_2
+Warning--there's a number but no volume in Rehbock21
 Warning--empty booktitle in Reid84
 Warning--missing publisher in RWS99
 Warning--missing institution in RoelvinkXX
@@ -524,6 +541,7 @@ Warning--empty journal in Simon05
 Warning--can't use both author and editor fields in Sloff11
 Warning--missing publisher in Smith03
 Warning--empty journal in SoaresFrazao99
+Warning--empty journal in Spilimbergo24
 Warning--missing publisher in Spruyt11
 Too many commas in name 1 of "Boersema, M.P., Schielen, R.M.J., Eijsbergen, E. van, Rinsema, J.G." for entry Spruyt20
 while executing---line 1822 of file agufull08_mod.bst
@@ -609,58 +627,61 @@ Warning--empty journal in vanBalen_XX
 Warning--empty journal in vanBalen_XX2
 Warning--there's a number but no volume in vanderVaart99
 Warning--missing publisher in vanDuin13
+Warning--missing publisher in vanHeezik06
 Warning--missing institution in vanRijn00
 Warning--can't use both author and editor fields in vandeVen93
 Warning--missing publisher in Vanzo11
 Warning--can't use both author and editor fields in Verhulst05
 Warning--missing publisher in daVinci78
 Warning--can't use both author and editor fields in Vollmer06
+Warning--empty journal in Voortman23
 Warning--missing publisher in Vreugdenhil89
 Warning--missing publisher in deVries69
 Warning--missing publisher in Wiesemann06
 Warning--missing publisher in Winterwerp22
 Warning--empty journal in Yalin
 Warning--empty journal in Yang21
+Warning--empty journal in Yee18
 Warning--missing institution in RWS19_2
-You've used 2690 entries,
+You've used 2742 entries,
             3080 wiz_defined-function locations,
-            16686 strings with 470747 characters,
-and the built_in function-call counts, 2104351 in all, are:
-= -- 225377
-> -- 63058
-< -- 2259
-+ -- 29200
-- -- 17306
-* -- 133401
-:= -- 208767
-add.period$ -- 2690
-call.type$ -- 2690
-change.case$ -- 11759
-chr.to.int$ -- 2691
-cite$ -- 2926
-duplicate$ -- 230938
-empty$ -- 131882
-format.name$ -- 24586
-if$ -- 421226
-int.to.chr$ -- 194
+            16964 strings with 479627 characters,
+and the built_in function-call counts, 2142245 in all, are:
+= -- 229074
+> -- 64445
+< -- 2302
++ -- 29787
+- -- 17686
+* -- 135914
+:= -- 212775
+add.period$ -- 2742
+call.type$ -- 2742
+change.case$ -- 11989
+chr.to.int$ -- 2743
+cite$ -- 2993
+duplicate$ -- 234999
+empty$ -- 134300
+format.name$ -- 25093
+if$ -- 428775
+int.to.chr$ -- 202
 int.to.str$ -- 1
-missing$ -- 24630
-newline$ -- 8077
-num.names$ -- 10761
-pop$ -- 80616
+missing$ -- 25139
+newline$ -- 8233
+num.names$ -- 10973
+pop$ -- 82237
 preamble$ -- 1
-purify$ -- 8718
+purify$ -- 8883
 quote$ -- 0
-skip$ -- 123196
+skip$ -- 125124
 stack$ -- 0
-substring$ -- 82296
-swap$ -- 187114
-text.length$ -- 532
+substring$ -- 83594
+swap$ -- 190221
+text.length$ -- 543
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 23616
-warning$ -- 192
-while$ -- 12481
+type$ -- 24072
+warning$ -- 209
+while$ -- 12699
 width$ -- 0
-write$ -- 31170
-(There were 152 error messages)
+write$ -- 31755
+(There were 153 error messages)
