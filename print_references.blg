@@ -13,14 +13,14 @@ Reallocating 'cite_info' (item size: 4) to 3000 items.
 Reallocating 'cite_list' (item size: 4) to 3000 items.
 Reallocating 'entry_exists' (item size: 1) to 3000 items.
 Reallocating 'type_list' (item size: 4) to 3000 items.
-White space in argument---line 2637 of file print_references.aux
+White space in argument---line 2659 of file print_references.aux
  : \citation{jabref-meta:
  :                        databaseType:biblatex;}
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 The style file: agufull08_mod.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
-Reallocating 'field_info' (item size: 4) to 73550 items.
+Reallocating 'field_info' (item size: 4) to 74175 items.
 Database file #1: references.bib
 Warning--I'm ignoring Ahnert94's extra "journal" field
 --line 297 of file references.bib
@@ -140,43 +140,39 @@ Repeated entry---line 51551 of file references.bib
  :                           ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Merrill95's extra "journal" field
---line 53359 of file references.bib
+--line 53357 of file references.bib
 Warning--I'm ignoring Ketcheson21's extra "journal" field
---line 53389 of file references.bib
+--line 53387 of file references.bib
 Reallocating 'str_pool' (item size: 1) to 455000 items.
-Repeated entry---line 54505 of file references.bib
+Repeated entry---line 54503 of file references.bib
  : @mastersthesis{Stenfert17_MSc
  :                              ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Johnson92's extra "journal" field
---line 54629 of file references.bib
+--line 54627 of file references.bib
 Warning--entry type for "Denaro23" isn't style-file defined
---line 56947 of file references.bib
-Repeated entry---line 59157 of file references.bib
+--line 56969 of file references.bib
+Repeated entry---line 59179 of file references.bib
  : @techreport{Ogink04
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 60347 of file references.bib
+Repeated entry---line 60369 of file references.bib
  : @article{Barneveld23
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 63079 of file references.bib
+Repeated entry---line 63095 of file references.bib
  : @techreport{Hubbell64
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 63187 of file references.bib
+Repeated entry---line 63203 of file references.bib
  : @article{Lien99
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 64089 of file references.bib
+Repeated entry---line 64105 of file references.bib
  : @article{Petts89
  :                 ,
 I'm skipping whatever remains of this entry
 Reallocating 'str_pool' (item size: 1) to 520000 items.
-I was expecting a `,' or a `}'---line 68989 of file references.bib
- :   pages = 849
- :              --865,
-I'm skipping whatever remains of this entry
 Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karacan" has a comma at the end for entry Bakker22
 while executing---line 1741 of file agufull08_mod.bst
 Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karacan" has a comma at the end for entry Bakker22
@@ -363,10 +359,11 @@ Warning--missing publisher in Boersema20
 Warning--there's a number but no volume in Boesch94
 Warning--missing publisher in Booij03_2
 Warning--empty journal in BorsboomXX
+Warning--empty journal in Brooke22
 Warning--can't use both author and editor fields in Buffington12
 Warning--empty booktitle in Burgers48
+Warning--empty journal in Carrier58
 Warning--can't use both author and editor fields in Chapra10
-Warning--missing institution in Chavarrias21_7
 Warning--missing publisher in Chavarrias17
 Warning--missing publisher in Chavarrias20_8
 Warning--missing publisher in Chavarrias16_2
@@ -377,10 +374,11 @@ Warning--missing institution in CECB20
 Warning--missing publisher in Crosato13
 Warning--missing publisher in Crowe09
 Warning--empty journal in Cuomo22
+Warning--empty booktitle in Ferraz24
+Warning--empty journal in DeBartolo22
 Warning--missing publisher in deGoede14
 Warning--missing institution in DecykXX
 Warning--empty journal in Delestre13
-Warning--empty journal in Dodd03
 Warning--empty booktitle in Donchyts13
 Warning--can't use both author and editor fields in Drazin82
 Warning--can't use both author and editor fields in Drew99
@@ -529,6 +527,7 @@ Warning--there's a number but no volume in Rehbock1921_2
 Warning--there's a number but no volume in Rehbock21
 Warning--empty booktitle in Reid84
 Warning--missing publisher in RWS99
+Warning--empty journal in Rizzello24
 Warning--missing institution in RoelvinkXX
 Warning--empty booktitle in Roos07_2
 Warning--empty note in Schielen95
@@ -620,11 +619,13 @@ Warning--empty booktitle in Symonds17
 Warning--empty journal in Tartakovsky20
 Warning--missing publisher in Thuerey22
 Warning--missing publisher in Tockner22
+Warning--empty journal in Trefethen82
 Warning--empty journal in Tsujimoto
 Warning--can't use both author and editor fields in Tubino08
 Warning--missing publisher in Uijttewaal20
 Warning--empty journal in vanBalen_XX
 Warning--empty journal in vanBalen_XX2
+Warning--empty journal in vanDenderen24
 Warning--there's a number but no volume in vanderVaart99
 Warning--missing publisher in vanDuin13
 Warning--missing publisher in vanHeezik06
@@ -632,6 +633,7 @@ Warning--missing institution in vanRijn00
 Warning--can't use both author and editor fields in vandeVen93
 Warning--missing publisher in Vanzo11
 Warning--can't use both author and editor fields in Verhulst05
+Warning--empty journal in Vichnevetsky87
 Warning--missing publisher in daVinci78
 Warning--can't use both author and editor fields in Vollmer06
 Warning--empty journal in Voortman23
@@ -642,46 +644,47 @@ Warning--missing publisher in Winterwerp22
 Warning--empty journal in Yalin
 Warning--empty journal in Yang21
 Warning--empty journal in Yee18
+Warning--empty journal in Ylla24
 Warning--missing institution in RWS19_2
-You've used 2742 entries,
+You've used 2767 entries,
             3080 wiz_defined-function locations,
-            16964 strings with 479627 characters,
-and the built_in function-call counts, 2142245 in all, are:
-= -- 229074
-> -- 64445
-< -- 2302
-+ -- 29787
-- -- 17686
-* -- 135914
-:= -- 212775
-add.period$ -- 2742
-call.type$ -- 2742
-change.case$ -- 11989
-chr.to.int$ -- 2743
-cite$ -- 2993
-duplicate$ -- 234999
-empty$ -- 134300
-format.name$ -- 25093
-if$ -- 428775
-int.to.chr$ -- 202
+            17104 strings with 483764 characters,
+and the built_in function-call counts, 2158132 in all, are:
+= -- 230481
+> -- 65111
+< -- 2319
++ -- 30042
+- -- 17869
+* -- 137061
+:= -- 214581
+add.period$ -- 2767
+call.type$ -- 2767
+change.case$ -- 12099
+chr.to.int$ -- 2768
+cite$ -- 3025
+duplicate$ -- 236629
+empty$ -- 135391
+format.name$ -- 25343
+if$ -- 431929
+int.to.chr$ -- 204
 int.to.str$ -- 1
-missing$ -- 25139
-newline$ -- 8233
-num.names$ -- 10973
-pop$ -- 82237
+missing$ -- 25372
+newline$ -- 8308
+num.names$ -- 11074
+pop$ -- 82933
 preamble$ -- 1
-purify$ -- 8883
+purify$ -- 8963
 quote$ -- 0
-skip$ -- 125124
+skip$ -- 125831
 stack$ -- 0
-substring$ -- 83594
-swap$ -- 190221
-text.length$ -- 543
+substring$ -- 84031
+swap$ -- 191365
+text.length$ -- 546
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24072
-warning$ -- 209
-while$ -- 12699
+type$ -- 24279
+warning$ -- 216
+while$ -- 12790
 width$ -- 0
-write$ -- 31755
-(There were 153 error messages)
+write$ -- 32036
+(There were 152 error messages)
