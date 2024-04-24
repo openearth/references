@@ -1,4 +1,4 @@
-\begin{thebibliography}{2767}
+\begin{thebibliography}{2775}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -426,6 +426,11 @@ Ardiclioglu, M., A.~M.~M. Hadi, E.~Periku, and A.~Kuriqi (2022), Experimental
 Ardron, K.~H. (1980), One-dimensional two-fluid equations for horizontal
   stratified two-phase flow, \textit{Int J Multiphase Flow}, \textit{6}(4),
   295--304, \doi{10.1016/0301-9322(80)90022-1}.
+
+\bibitem[{\textit{Arfken et~al.}()\textit{Arfken, Harris, and
+  Weber}}]{Arfken12}
+Arfken, G.~B., F.~E. Harris, and H.~J. Weber (), \textit{Mathematical Methods
+  for Physicists}, 7 ed., \doi{https://doi.org/10.1016/C2009-0-30629-7}.
 
 \bibitem[{\textit{Arkesteijn}()}]{ArkesteijnXX}
 Arkesteijn, L. (), to be determined, \textit{Nature or Science :D}.
@@ -5498,6 +5503,11 @@ Giri, S., S.~V. Vuren, W.~Ottevanger, K.~Sloff, and A.~Sieben (2008), A
   marine and river dune dynamics 1-3 April 2008, Leeds, UK}, edited by
   D.~Parsons, T.~Garlan, and J.~Best.
 
+\bibitem[{\textit{Giri et~al.}(2015)\textit{Giri, Yamaguchi, Nabi, Nelson, and
+  Shmizu}}]{Giri15}
+Giri, S., S.~Yamaguchi, M.~Nabi, J.~Nelson, and Y.~Shmizu (2015), Numerical
+  modelling of river dunes in the waal under extreme floods.
+
 \bibitem[{\textit{Giri et~al.}(2021)\textit{Giri, Thompson, Donchyts,
   Oberhagemann, Mosselman, and Alam}}]{Giri21}
 Giri, S., A.~Thompson, G.~Donchyts, K.~Oberhagemann, E.~Mosselman, and J.~Alam
@@ -6603,6 +6613,11 @@ Huthoff, F., A.~Paarlberg, H.~Barneveld, and M.~van~der Wal (2011),
 Huthoff, F., A.~Paarlberg, J.~V. da~Silva, and A.~K. de~Jong (2014), Globaal
   ontwerp langsdammen: Rijnsplitsingspuntengebied en overige rijntakken,
   \textit{{T}ech. {R}ep. PR2758.20}, HKV Lijn in Water, 42 pp.
+
+\bibitem[{\textit{Hyman}()}]{Hyman76}
+Hyman, J.~M. (), Method of lines solution of partial differential equations.
+  [mol1d package], \textit{Tech. rep.}, New York Univ., NY (USA). Courant Inst.
+  of Mathematical Sciences, \doi{10.2172/7311903}.
 
 \bibitem[{\textit{{I en W}}(2018)}]{IW18}
 {I en W} (2018), Mirt onderzoek duurzame bodemligging rijntakken
@@ -8636,6 +8651,13 @@ Luijendijk, A.~P., M.~A. de~Schipper, and R.~Ranasinghe (2019), Morphodynamic
   interventions, \textit{Journal of Marine Science and Engineering},
   \textit{7}(3), \doi{10.3390/jmse7030078}.
 
+\bibitem[{\textit{Luo et~al.}()\textit{Luo, Yuan, Tang, Xu, Ran, Cen, and
+  Liang}}]{Luo24}
+Luo, X., S.~Yuan, H.~Tang, D.~Xu, Q.~Ran, Y.~Cen, and D.~Liang (), Enhanced
+  physics-informed neural networks for efficient modelling of hydrodynamics in
+  river networks, \textit{38}(4), e15,143,
+  \doi{https://doi.org/10.1002/hyp.15143}.
+
 \bibitem[{\textit{Luque}(1974)}]{FernandezLuque74_PhD}
 Luque, R.~F. (1974), Erosion and transport of bed-load sediment, Ph.D. thesis,
   Delft University of Technology.
@@ -9877,6 +9899,10 @@ Niesten, I., A.~Kosters, and A.~Spruyt (2020), Ontwikkeling zesde-generatie
   rijntakken model: Modelbouw, kalibratie en validatie, \textit{{T}ech {R}ep.
   concept 11205258-004-ZWS-0008}, Deltares, Delft, the Netherlands, 171 pp.
 
+\bibitem[{\textit{Niesten and Hoitink}(2024)}]{Niesten24}
+Niesten, T. N. v. G. D. B. H. W.~K., I, and T.~Hoitink (Eds.) (2024),
+  \textit{NCR DAYS 2024 | TOMORROW'S RIVERS}, vol. 54-2024.
+
 \bibitem[{\textit{Nieuwstadt et~al.}(2016)\textit{Nieuwstadt, Boersma, and
   Westerweel}}]{Nieuwstadt16}
 Nieuwstadt, F. T.~M., B.~J. Boersma, and J.~Westerweel (2016),
@@ -10264,6 +10290,12 @@ Ottevanger, W., V.~Chavarrias, and A.~Omer (2024{\natexlab{a}}), Morphological
 Ottevanger, W., V.~Chavarrias, M.~Busnelli, A.~Omer, and C.~Eijsberg
   (2024{\natexlab{b}}), Morphodynamic model of the meuse river, \textit{Tech.
   Rep. 11209261-002-ZWS-0006}, \refDeltares{}.
+
+\bibitem[{\textit{Ottevanger et~al.}(2024{\natexlab{c}})\textit{Ottevanger,
+  Sloff, and van Denderen}}]{Ottevanger24_2}
+Ottevanger, W., K.~Sloff, and P.~van Denderen (2024{\natexlab{c}}), {Protocol
+  voor conversie van Baseline 5 geodatabase naar Delft3D 4 morfologisch model:
+  Rijntakkenmodel 2024}, \textit{rapport}, Deltares, Delft, 25 p. pp.
 
 \bibitem[{\textit{Ouwehand}(1958)}]{Ouwehand58}
 Ouwehand, C. (1958), Some notes on the god {S}usa-no-o, \textit{Monum Nippon},
@@ -12568,6 +12600,12 @@ Sloff, K., A.~Becker, A.~Paarlberg, and P.~van Denderen (2023), {2D
   morfologisch model IRM}, \textit{{C}oncept 11209264-001}, Deltares, Delft,
   the Netherlands, 82 pp.
 
+\bibitem[{\textit{Sloff et~al.}(2024)\textit{Sloff, Becker, Paarlberg, and van
+  Denderen}}]{Sloff24}
+Sloff, K., A.~Becker, A.~Paarlberg, and P.~van Denderen (2024), {2D
+  morfologisch model IRM}, \textit{rapport Deltares 11209264-001-ZWS-0005},
+  Deltares, Delft, 99 pp.
+
 \bibitem[{\textit{Smagorinsky}(1963)}]{Smagorinsky63}
 Smagorinsky, J. (1963), General circulation experiments with the primitive
   equations, \textit{Mon Weather Rev}, \textit{91}(3), 99--164,
@@ -14302,6 +14340,10 @@ Visconti, F., L.~Stefanon, C.~Camporeale, F.~Susin, L.~Ridolfi, and S.~Lanzoni
   (2012), Bed evolution measurement with flowing water in morphodynamics
   experiments, \textit{Earth Surf Process Landf}, \textit{37}(8), 818--827,
   \doi{10.1002/esp.3200}.
+
+\bibitem[{\textit{Visee}()}]{Visee16}
+Visee, E. (), Second order velocity reconstruction on unstructured grids,
+  Master's thesis.
 
 \bibitem[{\textit{Visser}(10-2000)}]{Visser00}
 Visser, P.~J. (10-2000), Bodemontwikkeling {R}ijnsysteem: Een verkenning van
