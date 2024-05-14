@@ -5,6 +5,9 @@
 %		-<#/00_references/>
 %		-<#/01_memo/memo.tex>
 %
+%Folder <#00_reference/02_textree> must be in the MikTeX path. See <#00_reference/02_textree/readme>
+%
+%
 %
 %
 %
@@ -81,12 +84,12 @@
 %
 
 \ifnum \isreport=1
-	\documentclass[english,signature]{../00_references/02_textree/tex/latex/deltares/deltares_report}
+	\documentclass[english,signature]{deltares_report}
 	%language: english, ducth, spanish
 	%nosummary: writes no executive summary 
 	%signature: adds box for signatures
 \else
-	\documentclass{../00_references/02_textree/tex/latex/deltares/deltares_memo}
+	\documentclass{deltares_memo}
 \fi
 
 %
