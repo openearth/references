@@ -389,6 +389,7 @@
 
 \def\@memoVersion{\texttt{$\backslash$memoVersion\{\ldots\}}}
 \def\@memoTo{\texttt{$\backslash$memoTo\{\ldots\}}}
+\def\@memoName{Memo}
 \def\@memoConfidentialUntil{\texttt{$\backslash$memoConfidentialUntil\{\ldots\}}}
 \def\@memoFrom{\texttt{$\backslash$memoFrom\{\ldots\}}}
 \def\@memoSubject{\texttt{$\backslash$memoSubject\{\ldots\}}}
@@ -402,6 +403,7 @@
 \def\@program{Memo}
 \def\memoVersion#1{\gdef\@memoVersion{#1}}
 \def\memoTo#1{\gdef\@memoTo{#1}}
+\def\memoName#1{\gdef\@memoName{#1}}
 
 \def\memoConfidentialUntil#1{%
     \def\tempa{}%
@@ -627,7 +629,7 @@
 \def\makememoHeader{
     \begin{tabular}{@{}p{90mm-6pt}p{\textwidth-90mm-12pt}}
     \vspace{-2.5\baselineskip}
-    \color{dblue4}\huge Memo  &    \vspace{-5.75\baselineskip}  \hfill \parbox[t][28mm]{28mm}{\headerfont \includegraphics[height=18mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}\\
+    \color{dblue4}\huge \@memoName  &    \vspace{-5.75\baselineskip}  \hfill \parbox[t][28mm]{28mm}{\headerfont \includegraphics[height=18mm]{pictures/Deltares_logo_D-blauw_RGB.pdf}}\\
     \end{tabular}
     \vskip 2\baselineskip
     \begin{tabular}{@{}p{90mm-6pt}}
