@@ -1,4 +1,4 @@
-\begin{thebibliography}{2779}
+\begin{thebibliography}{2780}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -991,6 +991,14 @@ Becker, A., S.~Giri, A.~Paarlberg, C.~J. Sloff, P.~van Denderen, and
   M.~Zagonjoli (2022), {Eindevaluatie suppletie Boven-Rijn. Deelrapport 1: Data
   en effecten}, \textit{rapport Deltares, (in preparation)
   11208437-000-ZWS-0007}, Deltares, Delft.
+
+\bibitem[{\textit{Becker et~al.}(2023)\textit{Becker, Kosters,
+  {\van{Osorio}{Nunes de alencar}{Nunes de Alencar}}~Osorio, Chavarrias, and
+  Ottevanger}}]{Becker23}
+Becker, A., A.~Kosters, A.~{\van{Osorio}{Nunes de alencar}{Nunes de
+  Alencar}}~Osorio, V.~Chavarrias, and W.~Ottevanger (2023), {Morphological
+  model for the river Rhine : First (v0) model of the Waal branch},
+  \textit{{rapport Deltares}}, Deltares, Delft, 120 p. pp.
 
 \bibitem[{\textit{Beckers et~al.}(2020)\textit{Beckers, Heredia, Noack, Nowak,
   Wieprecht, and Oladyshkin}}]{Beckers20}
@@ -4040,6 +4048,14 @@ Dong, T.~Y., J.~A. Nittrouer, E.~Il\textsc{\char13}icheva, M.~Pavlov,
 {\van{Dongen}{Van}{van}}~Dongen, B., and D.~Meijer (2008),
   Zomerbedveranderingen van de maas (1889 – 2007), \textit{Tech. Rep. 10314 /
   4500103893}, Meander.
+
+\bibitem[{\textit{{\van{Dongeren}{Van}{van}}~Dongeren
+  et~al.}(2018)\textit{{\van{Dongeren}{Van}{van}}~Dongeren, van~der Lugt,
+  Robke, Swinkels, Luijendijk, Moerman, and Gawehn}}]{Dongeren18}
+{\van{Dongeren}{Van}{van}}~Dongeren, A., M.~van~der Lugt, B.~Robke,
+  C.~Swinkels, A.~Luijendijk, E.~Moerman, and M.~Gawehn (2018), {Delft3D FM
+  morphology: results of testing}, \textit{rapport Deltares, concept
+  I1000394-002}, Deltares, Delft, 25 pp.
 
 \bibitem[{\textit{Doornekamp}(4 june 2019)}]{Doornekamp19}
 Doornekamp, J. (4 june 2019), Rivierkundig beoordelingskader voor ingrepen in
@@ -13939,14 +13955,6 @@ Vandenbussche, V., K.~Van~Looy, S.~Vanacker, S.~Vermeersch, and K.~Decleer
 \van{Dongen}{Van}{van} Dongen, B., and D.~Meijer (2008),
   {Zomerbedbodemveranderingen van de Maas (1889-2007)}, \textit{Tech. Rep.
   10314/4500103893}, \refMeander{}.
-
-\bibitem[{\textit{\van{Dongeren}{Van}{van} Dongeren
-  et~al.}(2018)\textit{\van{Dongeren}{Van}{van} Dongeren, van~der Lugt, Robke,
-  Swinkels, Luijendijk, Moerman, and Gawehn}}]{Dongeren18}
-\van{Dongeren}{Van}{van} Dongeren, A., M.~van~der Lugt, B.~Robke, C.~Swinkels,
-  A.~Luijendijk, E.~Moerman, and M.~Gawehn (2018), {Delft3D FM morphology:
-  results of testing}, \textit{rapport Deltares, concept I1000394-002},
-  Deltares, Delft, 25 pp.
 
 \bibitem[{\textit{\van{Huib}{De}{de} Vriend}(1981)}]{deVriend81}
 \van{Huib}{De}{de} Vriend, H.~J. (1981), Velocity redistribution in curved
