@@ -1,4 +1,4 @@
-\begin{thebibliography}{2775}
+\begin{thebibliography}{2779}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -137,6 +137,12 @@ Afentoulis, V., A.~Papadimitriou, K.~Belibassakis, and V.~Tsoukala (2022), A
 Agtersloot, R., and A.~Sieben (2020), {Kentallen bodemdynamiek Maas, verkenning
   traject km 176-227}, \textit{Tech. rep.}, Agtersloot Hydraulisch Advies and
   Rijkswaterstaat, the Netherlands, 13 pp.
+
+\bibitem[{\textit{Agtersloot and \van{Veen}{Van der}{van der}
+  Veen}(2023)}]{Agtersloot23}
+Agtersloot, R.~C., and R.~\van{Veen}{Van der}{van der} Veen (2023), 6g d-hydro
+  model maas: Opzet stuwbeheer, \textit{Tech. Rep. 11209233-000-ZWS-0022,
+  P0040.25}, Agtersloot Hydraulisch Advies, 98 pp., concept v1.3.
 
 \bibitem[{\textit{Agtersloot et~al.}(2019)\textit{Agtersloot, Michels, and
   \van{Veen}{Van der}{van der} Veen}}]{Agtersloot19}
@@ -3920,6 +3926,9 @@ Dietrich, W.~E., J.~W. Kirchner, H.~Ikeda, and F.~Iseya (1989), Sediment supply
 Dijkman, J. (1981), {Investigation of characteristic parameters of Delft Bottle
   suspended sediment sampler}, \textit{{rapport Deltares}}, WL Delft
   Hydraulics, Delft.
+
+\bibitem[{\textit{Dijkstra}()}]{Dijkstra82}
+Dijkstra, E.~W. (), Why numbering should start at zero, \textit{Tech. rep.}
 
 \bibitem[{\textit{{\van{Dijk}{Van}{van}}~Dijk
   et~al.}(2014)\textit{{\van{Dijk}{Van}{van}}~Dijk, Schuurman, van~de Lageweg,
@@ -8583,6 +8592,10 @@ Lonnquest, J., B.~Toussaint, J.~Joe~Manous, and M.~Ertsen (Eds.) (2014),
   Dutch-U.S. Retrospective.}, Institute for Water Resources, U.S. Army Corps of
   Engineers and Rijkswaterstaat, Ministry of Infrastructure and the
   Environment.
+
+\bibitem[{\textit{Loose}(2008)}]{Loose08}
+Loose, M. (2008), Morphodynamics suriname river: Study of mud transport and
+  impact due tolowering the fairway channel, Master's thesis, \refTUD{}.
 
 \bibitem[{\textit{Lopez~Dubon and Lanzoni}(2019)}]{LopezDubon19}
 Lopez~Dubon, S., and S.~Lanzoni (2019), Meandering evolution and width
@@ -13926,6 +13939,14 @@ Vandenbussche, V., K.~Van~Looy, S.~Vanacker, S.~Vermeersch, and K.~Decleer
 \van{Dongen}{Van}{van} Dongen, B., and D.~Meijer (2008),
   {Zomerbedbodemveranderingen van de Maas (1889-2007)}, \textit{Tech. Rep.
   10314/4500103893}, \refMeander{}.
+
+\bibitem[{\textit{\van{Dongeren}{Van}{van} Dongeren
+  et~al.}(2018)\textit{\van{Dongeren}{Van}{van} Dongeren, van~der Lugt, Robke,
+  Swinkels, Luijendijk, Moerman, and Gawehn}}]{Dongeren18}
+\van{Dongeren}{Van}{van} Dongeren, A., M.~van~der Lugt, B.~Robke, C.~Swinkels,
+  A.~Luijendijk, E.~Moerman, and M.~Gawehn (2018), {Delft3D FM morphology:
+  results of testing}, \textit{rapport Deltares, concept I1000394-002},
+  Deltares, Delft, 25 pp.
 
 \bibitem[{\textit{\van{Huib}{De}{de} Vriend}(1981)}]{deVriend81}
 \van{Huib}{De}{de} Vriend, H.~J. (1981), Velocity redistribution in curved
