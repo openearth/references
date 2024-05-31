@@ -13,14 +13,14 @@ Reallocating 'cite_info' (item size: 4) to 3000 items.
 Reallocating 'cite_list' (item size: 4) to 3000 items.
 Reallocating 'entry_exists' (item size: 1) to 3000 items.
 Reallocating 'type_list' (item size: 4) to 3000 items.
-White space in argument---line 2674 of file print_references.aux
+White space in argument---line 2685 of file print_references.aux
  : \citation{jabref-meta:
  :                        databaseType:biblatex;}
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 The style file: agufull08_mod.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
-Reallocating 'field_info' (item size: 4) to 74500 items.
+Reallocating 'field_info' (item size: 4) to 74775 items.
 Database file #1: references.bib
 Warning--I'm ignoring Ahnert94's extra "journal" field
 --line 297 of file references.bib
@@ -160,28 +160,28 @@ Repeated entry---line 60369 of file references.bib
  : @article{Barneveld23
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 63095 of file references.bib
+Repeated entry---line 63099 of file references.bib
  : @techreport{Hubbell64
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 63203 of file references.bib
+Repeated entry---line 63207 of file references.bib
  : @article{Lien99
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 64105 of file references.bib
+Repeated entry---line 64109 of file references.bib
  : @article{Petts89
  :                 ,
 I'm skipping whatever remains of this entry
 Reallocating 'str_pool' (item size: 1) to 520000 items.
 Warning--I'm ignoring Seminara23's extra "year" field
---line 69741 of file references.bib
+--line 69910 of file references.bib
 Warning--I'm ignoring Seminara23_2's extra "year" field
---line 69765 of file references.bib
-Repeated entry---line 69903 of file references.bib
+--line 69934 of file references.bib
+Repeated entry---line 70077 of file references.bib
  : @techreport{Deltares20
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 69971 of file references.bib
+Repeated entry---line 70153 of file references.bib
  : @article{Kleinhans17
  :                     ,
 I'm skipping whatever remains of this entry
@@ -384,12 +384,9 @@ while executing---line 1822 of file agufull08_mod.bst
 Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karacan" has a comma at the end for entry Bakker22
 while executing---line 1822 of file agufull08_mod.bst
 Warning--missing publisher in Ban19
-Warning--empty journal in Barile24
-Warning--empty journal in Barneveld24
+Warning--missing publisher in Barrett94
 Warning--can't use both author and editor fields in Batchelor70
-Warning--empty journal in Bateman15
 Warning--empty journal in Baydoun18
-Warning--empty journal in Benjamin99
 Warning--can't use both author and editor fields in Berrar13
 Warning--can't use both author and editor fields in Biedenharn08
 Warning--can't use both author and editor fields in Blench66
@@ -400,10 +397,8 @@ Warning--missing publisher in Boersema20
 Warning--there's a number but no volume in Boesch94
 Warning--missing publisher in Booij03_2
 Warning--empty journal in BorsboomXX
-Warning--empty journal in Brooke22
 Warning--can't use both author and editor fields in Buffington12
 Warning--empty booktitle in Burgers48
-Warning--empty journal in Carrier58
 Warning--can't use both author and editor fields in Chapra10
 Warning--missing publisher in Chavarrias17
 Warning--missing publisher in Chavarrias20_8
@@ -414,12 +409,9 @@ Warning--missing publisher in Colombini17
 Warning--missing institution in CECB20
 Warning--missing publisher in Crosato13
 Warning--missing publisher in Crowe09
-Warning--empty journal in Cuomo22
 Warning--empty booktitle in Ferraz24
-Warning--empty journal in DeBartolo22
 Warning--missing publisher in deGoede14
 Warning--missing institution in DecykXX
-Warning--empty journal in Delestre13
 Warning--missing institution in Dijkstra82
 Warning--empty booktitle in Donchyts13
 Warning--can't use both author and editor fields in Drazin82
@@ -455,14 +447,11 @@ Name 1 in "F Engelund, and and J Freds{\o}e" has a comma at the end for entry En
 while executing---line 1822 of file agufull08_mod.bst
 Name 1 in "F Engelund, and and J Freds{\o}e" has a comma at the end for entry Engelund82
 while executing---line 1822 of file agufull08_mod.bst
-Warning--empty journal in Escauriaza11
 Warning--can't use both author and editor fields in Fenton15
 Warning--can't use both author and editor fields in Ferguson98
 Warning--empty journal in Escalante17
-Warning--empty journal in Flora23
 Warning--can't use both author and editor fields in FoufoulaGeorgiou13
 Warning--can't use both author and editor fields in Galloway75
-Warning--empty journal in Gao24
 Warning--missing publisher in colombia07
 Warning--missing publisher in Gastel16
 Warning--empty booktitle in Giri15
@@ -484,10 +473,7 @@ while executing---line 1822 of file agufull08_mod.bst
 Warning--empty journal in Jafarinik19
 Warning--empty title in Jagers99
 Warning--missing institution in Jagers99
-Warning--empty journal in Jagtap20
-Warning--empty journal in Jiang23
 Warning--missing publisher in Lindenschmidt20
-Warning--empty journal in Karniadakis21
 Too many commas in name 1 of "Kashyap, Shalini; Rennie, Colin D.; Townsend, D. R.; Constantinescu, George; Tokyay, Talia" for entry Kashyap10
 while executing---line 1822 of file agufull08_mod.bst
 Too many commas in name 1 of "Kashyap, Shalini; Rennie, Colin D.; Townsend, D. R.; Constantinescu, George; Tokyay, Talia" for entry Kashyap10
@@ -508,17 +494,11 @@ Warning--can't use both author and editor fields in Komarova95
 Warning--can't use both author and editor fields in Kuhnle92_2
 Warning--missing publisher in vanLandeghem20
 Warning--can't use both author and editor fields in Leopold92
-Warning--empty journal in Li20
-Warning--empty journal in Luo24
 Warning--can't use both volume and number fields in Macqueen67
-Warning--empty journal in Marnin24
-Warning--empty journal in Margenberg22
-Warning--empty journal in Margenberg24
 Name 1 in "Matt Czapiga, Astrid Blom, and Enrica Viparelli" has a comma at the end for entry Czapiga21_2
 while executing---line 1822 of file agufull08_mod.bst
 Name 1 in "Matt Czapiga, Astrid Blom, and Enrica Viparelli" has a comma at the end for entry Czapiga21_2
 while executing---line 1822 of file agufull08_mod.bst
-Warning--empty journal in Mobasher19
 Warning--missing publisher in Monge50
 Warning--can't use both author and editor fields in Mosselman06
 Warning--can't use both author and editor fields in Mosselman09
@@ -583,7 +563,6 @@ Warning--can't use both author and editor fields in Paola01
 Warning--can't use both author and editor fields in Parker08
 Warning--missing publisher in Parker08
 Warning--missing publisher in Parker08_4
-Warning--empty journal in Patel22
 Warning--empty chapter and pages in Peery88
 Warning--missing publisher in Peery88
 Warning--missing publisher in Plato_Phaedo
@@ -592,14 +571,10 @@ Warning--there's a number but no volume in Preissmann61_2
 Warning--there's a number but no volume in Preissmann61_3
 Warning--missing institution in vanProoijen12
 Warning--can't use both author and editor fields in Radecki15
-Warning--empty journal in Raissi17
-Warning--empty journal in Raissi19
-Warning--empty journal in Raissi20
 Warning--there's a number but no volume in Rehbock1921_2
 Warning--there's a number but no volume in Rehbock21
 Warning--empty booktitle in Reid84
 Warning--missing publisher in RWS99
-Warning--empty journal in Rizzello24
 Warning--missing institution in RoelvinkXX
 Warning--empty booktitle in Roos07_2
 Warning--empty note in Schielen95
@@ -612,7 +587,6 @@ Warning--empty journal in Simon05
 Warning--can't use both author and editor fields in Sloff11
 Warning--missing publisher in Smith03
 Warning--empty journal in SoaresFrazao99
-Warning--empty journal in Spilimbergo24
 Warning--missing publisher in Spruyt11
 Too many commas in name 1 of "Boersema, M.P., Schielen, R.M.J., Eijsbergen, E. van, Rinsema, J.G." for entry Spruyt20
 while executing---line 1822 of file agufull08_mod.bst
@@ -688,16 +662,13 @@ Warning--empty journal in Stoker92
 Warning--missing publisher in STOWA19
 Warning--can't use both author and editor fields in Strauss08
 Warning--empty booktitle in Symonds17
-Warning--empty journal in Tartakovsky20
 Warning--missing publisher in Thuerey22
 Warning--missing publisher in Tockner22
-Warning--empty journal in Trefethen82
 Warning--empty journal in Tsujimoto
 Warning--can't use both author and editor fields in Tubino08
 Warning--missing publisher in Uijttewaal20
 Warning--empty journal in vanBalen_XX
 Warning--empty journal in vanBalen_XX2
-Warning--empty journal in vanDenderen24
 Warning--there's a number but no volume in vanderVaart99
 Warning--missing publisher in vanDuin13
 Warning--missing publisher in vanHeezik06
@@ -705,59 +676,53 @@ Warning--missing institution in vanRijn00
 Warning--can't use both author and editor fields in vandeVen93
 Warning--missing publisher in Vanzo11
 Warning--can't use both author and editor fields in Verhulst05
-Warning--empty journal in Vichnevetsky87
 Warning--missing publisher in daVinci78
-Warning--missing school in Visee16
 Warning--can't use both author and editor fields in Vollmer06
-Warning--empty journal in Voortman23
 Warning--missing publisher in Vreugdenhil89
 Warning--missing publisher in deVries69
 Warning--missing publisher in Wiesemann06
 Warning--missing publisher in Winterwerp22
 Warning--empty journal in Yalin
-Warning--empty journal in Yang21
-Warning--empty journal in Yee18
-Warning--empty journal in Ylla24
 Warning--missing institution in RWS19_2
-You've used 2780 entries,
+You've used 2791 entries,
             3080 wiz_defined-function locations,
-            17170 strings with 485931 characters,
-and the built_in function-call counts, 2164906 in all, are:
-= -- 230933
-> -- 65496
-< -- 2329
-+ -- 30167
-- -- 17975
-* -- 137627
-:= -- 215472
-add.period$ -- 2780
-call.type$ -- 2780
-change.case$ -- 12159
-chr.to.int$ -- 2781
-cite$ -- 3043
-duplicate$ -- 237275
-empty$ -- 135882
-format.name$ -- 25484
-if$ -- 433246
-int.to.chr$ -- 205
+            17243 strings with 488456 characters,
+and the built_in function-call counts, 2173587 in all, are:
+= -- 231746
+> -- 65855
+< -- 2332
++ -- 30309
+- -- 18076
+* -- 138205
+:= -- 216416
+add.period$ -- 2791
+call.type$ -- 2791
+change.case$ -- 12203
+chr.to.int$ -- 2792
+cite$ -- 3019
+duplicate$ -- 238241
+empty$ -- 136511
+format.name$ -- 25612
+if$ -- 435031
+int.to.chr$ -- 203
 int.to.str$ -- 1
-missing$ -- 25496
-newline$ -- 8347
-num.names$ -- 11127
-pop$ -- 83231
+missing$ -- 25610
+newline$ -- 8380
+num.names$ -- 11171
+pop$ -- 83282
 preamble$ -- 1
-purify$ -- 9004
+purify$ -- 9037
 quote$ -- 0
-skip$ -- 126044
+skip$ -- 126648
 stack$ -- 0
-substring$ -- 84113
-swap$ -- 191732
+substring$ -- 84377
+swap$ -- 192515
 text.length$ -- 550
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24393
-warning$ -- 221
-while$ -- 12831
+type$ -- 24480
+warning$ -- 186
+while$ -- 12875
 width$ -- 0
-write$ -- 32181
+write$ -- 32341
 (There were 182 error messages)
