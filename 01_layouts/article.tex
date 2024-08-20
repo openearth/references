@@ -1,0 +1,179 @@
+%LAYOUT ARTICLE
+%
+%for TWO COLUMNS:
+%-use the following line
+%-use \twocolumns before and after the abstract
+%-use \saythanks after the abstract
+%\documentclass[a4paper,10pt,twocolumns]{article} %two column
+%
+%for ONE COLUMN:
+%-use the following line
+%-do not use \twocolumns before and after the abstract
+%-do not use \saythanks after the abstract
+\documentclass[a4paper,10pt,onecolumn]{article} %one columns
+%
+%for numbering lines:
+%-use lineno and setspace package
+%-use the environment lineomath in the equations
+%
+%
+%----------------------------
+%---------PACKAGES-----------
+%----------------------------
+%
+\input{../00_references/abbreviations}
+\input{../00_references/packages}
+
+%---------linenumbers and double spacing
+\usepackage{lineno}
+	\linenumbers
+\usepackage{setspace}
+	\doublespacing
+%
+%---------spanish
+%\usepackage[latin1]{inputenc} %unix
+%\usepackage[utf8]{inputenc} %este
+%\usepackage[spanish, es-tabla]{babel}
+%
+%---------geometry
+\usepackage{geometry}
+	\geometry{
+		a4paper,
+		left=30mm,
+		right=30mm,
+		top=30mm,
+		bottom=30mm,
+		}
+	\setlength{\columnsep}{5mm}
+	\setlength{\parskip}{5mm}%
+	\setlength{\parindent}{5mm}
+
+\begin{document}
+%
+%----------------------------
+%---------TITLE
+%----------------------------
+%
+%\clearpage %for not having number page in the first page
+%
+\title{
+\begin{center}
+\huge{A Regularization Strategy to Model Mixed-Sediment River Morphodynamics}
+\vspace{5mm}
+\end{center}
+}
+\date{\today}
+\author[1]{V\'ictor Chavarr\'ias \thanks{Corresponding author: \ttfamily{victor.chavarrias@deltares.nl}}}
+\author[1]{Bert Jagers}
+% \author{\vspace{-20mm}} %in case you do not want an author
+
+\affil[1]{\small{Deltares, Delft, The Netherlands.}}
+
+%
+%----------------------------
+%---------ABSTRACT
+%----------------------------
+%
+%\twocolumn[\begin{@twocolumnfalse}
+%
+\maketitle
+%
+\begin{abstract}
+Lorem ipsum dolor sit amet, \citet{Ribberink85,vanBendegom47,Einstein50,Engelund67,Lane54,deVries71} consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\end{abstract}
+%
+\vspace{5mm}
+%
+%\end{@twocolumnfalse}]
+%\saythanks
+%
+%
+%%%%%%%%%
+%%%%%%%%%
+%%%%%%%%%
+\section{Introduction}
+%%%%%%%%%
+%%%%%%%%%
+%%%%%%%%%
+\label{sec:int}
+%
+Lorem ipsum dolor sit amet, \citet{Ribberink85,vanBendegom47,Einstein50,Engelund67,Lane54,deVries71} consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+Lorem ipsum dolor sit amet, \citet{Ribberink85,vanBendegom47,Einstein50,Engelund67,Lane54,deVries71} consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+Lorem ipsum dolor sit amet, \citet{Ribberink85,vanBendegom47,Einstein50,Engelund67,Lane54,deVries71} consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+Lorem ipsum dolor sit amet, \citet{Ribberink85,vanBendegom47,Einstein50,Engelund67,Lane54,deVries71} consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+Lorem ipsum dolor sit amet, \citet{Ribberink85,vanBendegom47,Einstein50,Engelund67,Lane54,deVries71} consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+Lorem ipsum dolor sit amet, \citet{Ribberink85,vanBendegom47,Einstein50,Engelund67,Lane54,deVries71} consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+
+%\begin{figure}
+	%\centerline{\includegraphics{figure.pdf}}
+	%\caption{Measured water level (dashed thin line) and predicted (continuous thick line) at the brinkpoint (red), the initial brinkpoint position (green), and upstream end (blue).}
+	%\label{fig:wl_t_comp}
+%\end{figure}
+
+%  \begin{linenomath*}
+\begin{equation}
+\label{eq:beta}
+\begin{split}
+\lambda_c=\mathbb{R}\left(\lambda\rvert_{\alpha=1;\beta=1}\right) \Rightarrow \beta=\frac{a_{11}+a_{22}/\alpha_c}{a_{11}+a_{22}}
+\end{split}
+\end{equation}
+%  \end{linenomath*}
+
+%
+%%%%%%%%%
+%%%%%%%%%
+%%%%%%%%%
+\section{Conclusions}
+%%%%%%%%%
+%%%%%%%%%
+%%%%%%%%%
+\label{sec:c}
+%
+
+
+%
+%----------------------------
+%---------APPENDIX
+%----------------------------
+%
+\appendix
+
+%
+%%%%%%%%%
+%%%%%%%%%
+%%%%%%%%%
+\section{Appendix}
+%%%%%%%%%
+%%%%%%%%%
+%%%%%%%%%
+\label{app:c}
+%
+
+%
+%----------------------------
+%---------BIBLIOGRAPHY
+%----------------------------
+%
+\DeclareRobustCommand{\van}[3]{#3}
+\bibliographystyle{agufull08}
+%\bibliographystyle{apa}
+\bibliography{references}
+	
+
+
+
+
+\end{document}
