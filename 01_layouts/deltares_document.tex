@@ -22,6 +22,27 @@
 \newcommand{\addCitation}{0} %0=no; 1=yes
 \newcommand{\addMemoSignatures}{1} %0=no; 1=yes
 \newcommand{\addLastPage}{1} %0=no; 1=yes
+\newcommand{\addBibliography}{1} %0=no; 1=yes
+
+%
+%
+%
+%----------------------------
+%---------PACKAGES AND COMMANDS
+%----------------------------
+%
+
+\input{../00_references/abbreviations}
+\input{../00_references/packages}
+%\input{../00_references/project_info} %common data in proposals
+
+%
+%
+%
+%----------------------------
+%---------COMMON INPUT
+%----------------------------
+%
 
 %Add colon in \mySubtitle if desired or leave empty if no substitle is desired. 
 \def\myTitle{Fixed weirs in 6th generation models for BOI.}
@@ -37,6 +58,7 @@
 %\def\myPhoneii{+31\,(0)88\,335\,8033}
 %\def\myEmailii{willem.ottevanger@deltares.nl}
 
+%\def\myVersion{\projectnumber{}-001\_v1.\svnInfoRevision} %using common data in proposals
 \def\myVersion{I1000641-010-ZWS-0001\_v1.\svnInfoRevision}
 \def\myDate{\today}
 
@@ -97,24 +119,8 @@
 %
 %
 %----------------------------
-%---------PACKAGES AND COMMANDS
-%----------------------------
-%
-
-\input{../00_references/abbreviations}
-\input{../00_references/packages}
-
-%
-%
-%
-%----------------------------
-%---------DOCUEMENT INFORMATION
-%----------------------------
-%
-
-%%%%%%%%
 %---------REPORT INPUT
-%%%%%%%%
+%----------------------------
 %
 
 \ifnum \isreport=1
@@ -182,11 +188,13 @@
 \projectnumber{}
 
 
-%%%%%%%%
-%---------MEMO INPUT
-%%%%%%%%
 %
-
+%
+%
+%----------------------------
+%---------MEMO INPUT
+%----------------------------
+%
 
 \else
 
@@ -220,11 +228,21 @@
 %---------COVER
 %----------------------------
 %
+
 \svnInfo $Id: report.tex 83 2022-12-05 10:24:56Z ottevan $
 \deltarestitle
 \ifnum \isreport=1
 	\newpage
 \fi
+
+%
+%
+%
+%----------------------------
+%---------TABLE SIGNATURES
+%----------------------------
+%
+
 \ifnum \isreport=0
 \ifnum \addMemoSignatures=1
 \begin{tabular}{p{\textwidth/8}|p{0.175\textwidth}|p{0.2\textwidth}|p{0.2\textwidth}|p{0.2\textwidth}}
@@ -241,6 +259,7 @@
 \end{tabular}
 \fi
 \fi
+
 %
 %
 %
@@ -307,11 +326,14 @@
 %---------BIBLIOGRAPHY
 %----------------------------
 %
-%\newpage
-%\gensection{\isreport}{1}{References}
+
+\ifnum \addBibliography=1
+\newpage
+\gensection{\isreport}{1}{References}
 \DeclareRobustCommand{\van}[3]{#3}
-%\bibliographystyle{agufull08_mod}
+\bibliographystyle{agufull08_mod}
 \bibliography{../00_references/references}
+\fi %BIBLIOGRAPHY
 
 %
 %
@@ -352,8 +374,27 @@ Please cite this work using: \\
 \appendix
 \renewcommand\thesection{\AlphAlph{\value{section}}}
 
+%---------GENERAL
 %\FloatBarrier
-%\input{./02_include/bc}
+%\gensection{\isreport}{1}{This and that}
+%\label{app:tad}
+
+%---------CV
+%\FloatBarrier
+%\gensection{\isreport}{1}{Curricula Vit\ae}
+%\label{app:CV}
+
+%\includepdf[pages=-,offset=2.54cm -2.54cm,angle=0]{../11_CV/CV_VC.pdf}
+%\includepdf[pages=-,offset=2.54cm -2.54cm,angle=0]{../11_CV/CV_AB.pdf}
+%\includepdf[pages=-,offset=2.54cm -2.54cm,angle=0]{../11_CV/CV_BvM.pdf}
+%\includepdf[pages=-,offset=2.54cm -2.54cm,angle=0]{../11_CV/CV_BS.pdf}
+
+%---------TERMS AND CONDITIONS
+%\FloatBarrier
+%\gensection{\isreport}{1}{Terms and Conditions}
+%\label{app:conditions}
+%
+%\includepdf[pages=-,offset=2.54cm -2.54cm,angle=0]{../12_conditions/conditions.pdf}
 
 \fi %APPENDINX
 
