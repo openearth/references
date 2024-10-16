@@ -20,7 +20,8 @@
 \newcommand{\isreport}{0} %0=memo; 1=report
 \newcommand{\addAppendix}{0} %0=no appendix; 1=add appendix
 \newcommand{\addCitation}{0} %0=no; 1=yes
-\newcommand{\addmemosignatures}{1} %0=no; 1=yes
+\newcommand{\addMemoSignatures}{1} %0=no; 1=yes
+\newcommand{\addLastPage}{1} %0=no; 1=yes
 
 %Add colon in \mySubtitle if desired or leave empty if no substitle is desired. 
 \def\myTitle{Fixed weirs in 6th generation models for BOI.}
@@ -225,7 +226,7 @@
 	\newpage
 \fi
 \ifnum \isreport=0
-\ifnum \addmemosignatures=1
+\ifnum \addMemoSignatures=1
 \begin{tabular}{p{\textwidth/8}|p{0.175\textwidth}|p{0.2\textwidth}|p{0.2\textwidth}|p{0.2\textwidth}}
     \rowcolor{dblue1}  \textbf{Document version} & \textbf{Date} & \textbf{Author} & \textbf{Reviewer} & \textbf{Approval} \\
     \topline
@@ -247,6 +248,34 @@
 %---------START DOCUMENT
 %----------------------------
 %
+
+%
+%
+%
+%----------------------------
+%---------LETTER
+%----------------------------
+
+%Dear ,\\
+%\vspace{1cm}
+%
+%here letter
+%
+%\vfill
+%Yours faithfully,\\
+%\vspace{2.5cm}
+%Johan Boon \\
+%Head of department Rivers and Inland Shipping
+%
+%\FloatBarrier
+%\newpage
+
+%
+%
+%
+%----------------------------
+%---------SECTIONS
+%----------------------------
 
 %Second input is the level of the section.
 %\gensection{\isreport}{1}{Introduction}
@@ -284,7 +313,13 @@
 %\bibliographystyle{agufull08_mod}
 \bibliography{../00_references/references}
 
-
+%
+%
+%
+%----------------------------
+%---------CITATION
+%----------------------------
+%
 \vfill
 \ifnum \addCitation=1
 Please cite this work using: \\
@@ -302,7 +337,7 @@ Please cite this work using: \\
 \fi
 ~~\}
 }
-\fi
+\fi %CITATION
 
 %
 %
@@ -320,7 +355,25 @@ Please cite this work using: \\
 %\FloatBarrier
 %\input{./02_include/bc}
 
-\fi
+\fi %APPENDINX
 
+%
+%
+%
+%----------------------------
+%---------LAST PAGE
+%----------------------------
+%
+\ifnum \addLastPage=1
 \LastPage
+\fi %LAST PAGE
+
+%
+%
+%
+%----------------------------
+%---------END 
+%----------------------------
+%
+
 \end{document}
