@@ -1,4 +1,4 @@
-\begin{thebibliography}{2862}
+\begin{thebibliography}{2850}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -319,14 +319,6 @@ An, C., M.~A. Hassan, C.~Ferrer-Boix, and X.~Fu (2021), Effect of stress
   history on sediment transport and channel adjustment in graded gravel-bed
   rivers, \textit{Earth Surf Dyn}, \textit{9}(2), 333--350,
   \doi{10.5194/esurf-9-333-2021}.
-
-\bibitem[{\textit{An et~al.}(2024)\textit{An, Parker, Venditti, Lamb, Hassan,
-  Miwa, and Fu}}]{An24}
-An, C., G.~Parker, J.~G. Venditti, M.~P. Lamb, M.~A. Hassan, H.~Miwa, and X.~Fu
-  (2024), Autogenic formation of bimodal grain size distributions in rivers and
-  its contribution to gravel-sand transitions, \textit{Geophysical Research
-  Letters}, \textit{51}(17), e2024GL109,109,
-  \doi{https://doi.org/10.1029/2024GL109109}, e2024GL109109 2024GL109109.
 
 \bibitem[{\textit{An and Yu}(2012)}]{An12}
 An, H., and S.~Yu (2012), Well-balanced shallow water flow simulation on
@@ -3878,6 +3870,10 @@ Deltares (2020{\natexlab{b}}), \textit{RGFGRID, User Manual}, Bousinesqweg 1,
   P.O. box 177, 2600 MH Delft, The Netherlands, 144 pp., delft3d fm suite 2020
   ed.
 
+\bibitem[{\textit{Deltares}(2021)}]{fm_manual}
+Deltares (2021), {Delft3D} {F}lexible {M}esh {S}uite, \textit{{T}ech. {R}ep.},
+  Deltares, Delft, the Netherlands, 496 pp.
+
 \bibitem[{\textit{Deltares}(2022{\natexlab{a}})}]{Deltares22}
 Deltares (2022{\natexlab{a}}), Focus on the future, fast forward now. strategic
   agenda 2022-2025, \textit{Tech. rep.}, Deltares, Delft, the Netherlands.
@@ -3885,10 +3881,6 @@ Deltares (2022{\natexlab{a}}), Focus on the future, fast forward now. strategic
 \bibitem[{\textit{Deltares}(2022{\natexlab{b}})}]{fm_trm}
 Deltares (2022{\natexlab{b}}), {D-Flow Flexible Mesh}: Technical reference
   manual, \textit{Tech. rep.}, Deltares, Delft, the Netherlands.
-
-\bibitem[{\textit{Deltares}(2024)}]{fm_manual}
-Deltares (2024), {Delft3D} {F}lexible {M}esh {S}uite, \textit{{T}ech. {R}ep.},
-  Deltares, Delft, the Netherlands, 496 pp.
 
 \bibitem[{\textit{Denaro}(2023)}]{Denaro23}
 Denaro, F.~M. (2023), Cfd course evidence of issues in the discretization of
@@ -6495,9 +6487,6 @@ Himat (1977), Proyecto cuenca magdalena cauca, \textit{Tech. rep.}, Himat.
 Hindriksen, V. (), Deltares d-flow flexible mesh gpu porting report,
   \textit{Tech. rep.}, StreamComputing.
 
-\bibitem[{\textit{Hirahara}()}]{Hirahara22}
-Hirahara, S. (), Np-hardness of learning programs and partial mcsp.
-
 \bibitem[{\textit{Hirano}(1971)}]{Hirano71}
 Hirano, M. (1971), River bed degradation with armoring, \textit{Proc. Jpn. Soc.
   Civ. Eng.}, \textit{195}, 55--65, \doi{10.2208/jscej1969.1971.195\_55}.
@@ -8518,15 +8507,6 @@ Leijnse, T., M.~\van{Ormondt}{Van}{van} Ormondt, K.~Nederhoff, and
   \textit{Coast Eng}, \textit{163}, 103,796,
   \doi{https://doi.org/10.1016/j.coastaleng.2020.103796}.
 
-\bibitem[{\textit{Lelia~Erscoi and Guest}()}]{Erscoi23}
-Lelia~Erscoi, A.~K., and O.~Guest (), Pygmalion displacement: When humanising
-  ai dehumanises women, \doi{https://doi.org/10.31235/osf.io/jqxb6}.
-
-\bibitem[{\textit{Lely}(1921)}]{Lely21}
-Lely, C.~W. (1921), De invloed van de zuiderzee op de stormvloedstanden langs
-  de friesche kust, Ph.D. thesis, Delft University of Technology, Delft, the
-  Netherlands.
-
 \bibitem[{\textit{Lely}(1926)}]{Lely26}
 Lely, C.~W. (1926), {De Verbetering van de Maas voor Groote Afvoeren},
   \textit{Tech. rep.}, Rijkswaterstaat.
@@ -9117,10 +9097,6 @@ Margenberg, N., R.~Jendersie, C.~Lessig, and T.~Richter (2024), Dnn-mg: A
   simulations of the navier–stokes equations, \textit{Computer Methods in
   Applied Mechanics and Engineering}, \textit{420}, 116,692,
   \doi{https://doi.org/10.1016/j.cma.2023.116692}.
-
-\bibitem[{\textit{Margolin and Lloyd-Ronning}(2022)}]{Margolin22}
-Margolin, L.~G., and N.~M. Lloyd-Ronning (2022), Artificial viscosity -- then
-  and now.
 
 \bibitem[{\textit{Marion and Fraccarollo}(1997)}]{Marion97_2}
 Marion, A., and L.~Fraccarollo (1997), Experimental investigation of mobile
@@ -12253,12 +12229,6 @@ Scholten, M. (2023), Oplegnotitie bij deltares memo: Chavarrías, v.
 Schoonman, H.~B. (1991), {Bodemtransportmetingen op de Grensmaas},
   \textit{Tech. Rep. B241}, \refDHL{}, 99 pp.
 
-\bibitem[{\textit{Schot et~al.}(1998)\textit{Schot, Lintsen, Rip, and {Albert
-  de la Bruheze}}}]{Schot98}
-Schot, J., H.~Lintsen, A.~Rip, and A.~{Albert de la Bruheze} (Eds.) (1998),
-  \textit{Techniek in Nederland in de twintigste eeuw. Deel 1. Techniek in
-  ontwikkeling, waterstaat, kantoor en informatietechnologie}, Walburg Pers.
-
 \bibitem[{\textit{Schrier}(2004)}]{vanderSchrier04}
 Schrier, D. M. v.~d. (2004), Wanneer de ijssel een rijntak werd en hoe het meer
   flevo afwaterde, \textit{Westerheem}, \textit{53}, 182--189.
@@ -12348,10 +12318,6 @@ Sekine, M., and H.~Kikkawa (1992), Mechanics of saltating grains. {II},
 Sekine, M., and G.~Parker (1992), Bed-load transport on transverse slope. {I},
   \textit{J. Hydraul. Eng.}, \textit{118}(4), 513--535,
   \doi{10.1061/(ASCE)0733-9429(1992)118:4(513)}.
-
-\bibitem[{\textit{Seminara}()}]{Seminara98}
-Seminara, G. (), Stability and morphodynamics, \textit{33}(1), 59--99,
-  \doi{10.1023/A:1004225516566}.
 
 \bibitem[{\textit{Seminara}(2006)}]{Seminara06}
 Seminara, G. (2006), Meanders, \textit{J Fluid Mech}, \textit{554}, 271--297,
@@ -12456,11 +12422,6 @@ Shimizu, Y., S.~Giri, S.~Yamaguchi, and J.~Nelson (2009), Numerical simulation
   of dune-flat bed transition and stage-discharge relationship with hysteresis
   effect, \textit{Water Resour Res}, \textit{45}(4), W04,429,
   \doi{10.1029/2008WR006830}.
-
-\bibitem[{\textit{Shipman and Randles}()}]{Shipman23}
-Shipman, G.~M., and T.~C. Randles (), An evaluation of risks associated with
-  relying on fortran for mission critical codes for the next 15 years,
-  \textit{Tech. rep.}, \doi{10.2172/1970284}.
 
 \bibitem[{\textit{Shores}(2018)}]{Shores18}
 Shores, T.~S. (2018), \textit{Applied Linear Algebra and Matrix Analysis},
@@ -13843,10 +13804,6 @@ Tonnon, P.~K., and E.~\van{Goede}{De}{de} Goede (2021), Voorstel voor oplossen
 {\van{Toorn}{Van der}{van der}}~Toorn, J. (1866), Het slibgehalte van het water
   der rivieren de waal en de maas, \textit{Tech. rep.}, \refRWS{}.
 
-\bibitem[{\textit{Toro}()}]{Toro24}
-Toro, E.~F. (), \textit{Computational Algorithms for Shallow Water Equations},
-  \doi{10.1007/978-3-031-61395-1}.
-
 \bibitem[{\textit{Toro}(2001)}]{Toro01}
 Toro, E.~F. (2001), \textit{Shock-capturing methods for free-surface shallow
   flows}, 326 pp., John Wiley \& Sons, Hoboken, NJ, United States.
@@ -14305,12 +14262,6 @@ van Heezik, A. (2006), \textit{Battle over the Rivers, Two Hundred Years of
 van Rijn, L., J.~A. Roelvink, and W.~ter Horst (), Approximation formulae for
   sand transport by currents and waves and implementation in delft-mor,
   \textit{Tech. rep.}
-
-\bibitem[{\textit{van Rooij et~al.}()\textit{van Rooij, Guest, Adolfi, de~Haan,
-  Kolokolova, and Rich}}]{vanRooij24}
-van Rooij, I., O.~Guest, F.~Adolfi, R.~de~Haan, A.~Kolokolova, and P.~Rich (),
-  Reclaiming ai as a theoretical tool for cognitive science,
-  \doi{10.1007/s42113-024-00217-5}.
 
 \bibitem[{\textit{van Rooijen et~al.}(2020)\textit{van Rooijen, Mosselman,
   Sloff, and Uijttewaal}}]{vanRooijen20}
@@ -15181,12 +15132,6 @@ Wang, G., J.~Xia, and B.~Wu (2008{\natexlab{a}}), Numerical simulation of
   {L}ower {Y}ellow {R}iver, \textit{J. Hydraul. Eng.}, \textit{134}(8),
   1064--1078, \doi{10.1061/(ASCE)0733-9429(2008)134:8(1064)}.
 
-\bibitem[{\textit{Wang et~al.}()\textit{Wang, Chu, Dai, and Nienhuis}}]{Wang24}
-Wang, J., A.~Chu, Z.~Dai, and J.~Nienhuis (), {Delft3D} model-based estuarine
-  suspended sediment budget with morphodynamic changes of the channel-shoal
-  complex in a mega fluvial-tidal delta, \textit{18}(1), 2300,763,
-  \doi{10.1080/19942060.2023.2300763}.
-
 \bibitem[{\textit{Wang and {\van{Kaaij}{Van der}{van
   der}}~Kaaij}(1994)}]{Wang94}
 Wang, Z.~B., and T.~{\van{Kaaij}{Van der}{van der}}~Kaaij (1994),
@@ -15492,10 +15437,6 @@ Wilson, G., D.~A. Aruliah, C.~T. Brown, N.~P. Chue~Hong, M.~Davis, R.~T. Guy,
 Wilson, G.~W., and A.~E. Hay (2016), Acoustic observations of near-bed sediment
   concentration and flux statistics above migrating sand dunes, \textit{Geophys
   Res Lett}, \textit{43}(12), 6304--6312, \doi{10.1002/2016GL069579}.
-
-\bibitem[{\textit{{\van{Winden}{Van}{van}}~Winden}(2024)}]{vanWinden24}
-{\van{Winden}{Van}{van}}~Winden, A. (2024), Ontwikkelingen grindbank meers en
-  oorzaak damdoorbraken, \textit{Tech. rep.}, Bureau Stroming, (in Dutch).
 
 \bibitem[{\textit{{\van{Winden}{Van}{van}}~Winden
   et~al.}(2018)\textit{{\van{Winden}{Van}{van}}~Winden, Reeze, and

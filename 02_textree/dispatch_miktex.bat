@@ -1,3 +1,7 @@
+REM add option clone repository from github
+REM alternatively, copy from Jan Mooiman's Bulletin
+REM add flag with user location
+
 rem copy to MiKTeX ProgramData directory
 
 rem copy from Jan Mooiman's Bulletin to (do not use, copy from Bulletin to tree in repository)
