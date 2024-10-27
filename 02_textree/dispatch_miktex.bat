@@ -1,4 +1,6 @@
 REM add option clone repository from github
+sour = c:\checkouts\LatexInstallation\MiKTeX\
+dest = c:\Users\chavarri\AppData\Roaming\MiKTeX\
 REM alternatively, copy from Jan Mooiman's Bulletin
 REM add flag with user location
 
