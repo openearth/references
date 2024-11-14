@@ -1,1 +1,2 @@
-call "C:\Users\ottevan\Miniconda3\Scripts\activate.bat" C:\Users\ottevan\Miniconda3\envs\bmi37 & python ParseAdLib.py
+call "%USERPROFILE%\AppData\Local\miniforge3\Scripts\activate.bat" %USERPROFILE%\AppData\Local\miniforge3\envs\test & python ParseAdLib.py
+

@@ -161,7 +161,7 @@ def generate_bib(filename):
     entry = parse_adlib_catalog_entry(filename)
     print(entry)
     base, ext = os.path.splitext(filename)
-    save_file(entry)
+    #save_file(entry)
     bibentry = bibtex(entry)
     print(bibentry)
     bibfile = os.path.join('adlib',entry['Citekey']+'.bib')
