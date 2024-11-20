@@ -13,14 +13,14 @@ Reallocating 'cite_info' (item size: 4) to 3000 items.
 Reallocating 'cite_list' (item size: 4) to 3000 items.
 Reallocating 'entry_exists' (item size: 1) to 3000 items.
 Reallocating 'type_list' (item size: 4) to 3000 items.
-White space in argument---line 2771 of file print_references.aux
+White space in argument---line 2775 of file print_references.aux
  : \citation{jabref-meta:
  :                        databaseType:biblatex;}
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 The style file: agufull08_mod.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
-Reallocating 'field_info' (item size: 4) to 77050 items.
+Reallocating 'field_info' (item size: 4) to 77150 items.
 Database file #1: references.bib
 Warning--I'm ignoring Ahnert94's extra "journal" field
 --line 297 of file references.bib
@@ -192,11 +192,6 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 72565 of file references.bib
  : @article{Roache97
  :                  ,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 72959 of file references.bib
- :   
- :   title = {{Erodibiliteit en kans op het ontstaan van zettingsvloeiing als maat voor stabiliteit van oevers, onderwatertaluds en rivierbodem van de Lek}},
-(Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karacan" has a comma at the end for entry Bakker22
 while executing---line 1741 of file agufull08_mod.bst
@@ -695,8 +690,6 @@ Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hä
 while executing---line 1822 of file agufull08_mod.bst
 Warning--empty booktitle in Stam03
 Warning--empty journal in Stoker92
-Warning--empty title in Stouthamer11_2
-Warning--missing institution in Stouthamer11_2
 Warning--missing publisher in STOWA19
 Warning--can't use both author and editor fields in Strauss08
 Warning--empty booktitle in Symonds17
@@ -724,45 +717,45 @@ Warning--missing publisher in Winterwerp22
 Warning--empty journal in Yadav24
 Warning--empty journal in Yalin
 Warning--missing institution in RWS19_2
-You've used 2882 entries,
+You've used 2886 entries,
             3080 wiz_defined-function locations,
-            17718 strings with 504347 characters,
-and the built_in function-call counts, 2233938 in all, are:
-= -- 237451
-> -- 68098
-< -- 2404
-+ -- 31222
-- -- 18693
-* -- 142285
-:= -- 223003
-add.period$ -- 2882
-call.type$ -- 2882
-change.case$ -- 12627
-chr.to.int$ -- 2883
-cite$ -- 3129
-duplicate$ -- 244629
-empty$ -- 140505
-format.name$ -- 26477
-if$ -- 447020
+            17741 strings with 505411 characters,
+and the built_in function-call counts, 2236088 in all, are:
+= -- 237583
+> -- 68235
+< -- 2405
++ -- 31264
+- -- 18731
+* -- 142474
+:= -- 223294
+add.period$ -- 2886
+call.type$ -- 2886
+change.case$ -- 12649
+chr.to.int$ -- 2887
+cite$ -- 3131
+duplicate$ -- 244837
+empty$ -- 140663
+format.name$ -- 26529
+if$ -- 447441
 int.to.chr$ -- 209
 int.to.str$ -- 1
-missing$ -- 26446
-newline$ -- 8653
-num.names$ -- 11537
-pop$ -- 85802
+missing$ -- 26489
+newline$ -- 8665
+num.names$ -- 11553
+pop$ -- 85880
 preamble$ -- 1
-purify$ -- 9333
+purify$ -- 9346
 quote$ -- 0
-skip$ -- 129672
+skip$ -- 129733
 stack$ -- 0
-substring$ -- 86244
-swap$ -- 197212
+substring$ -- 86256
+swap$ -- 197325
 text.length$ -- 563
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 25287
-warning$ -- 205
-while$ -- 13224
+type$ -- 25323
+warning$ -- 203
+while$ -- 13236
 width$ -- 0
-write$ -- 33359
-(There were 189 error messages)
+write$ -- 33410
+(There were 188 error messages)

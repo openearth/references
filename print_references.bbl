@@ -1,4 +1,4 @@
-\begin{thebibliography}{2882}
+\begin{thebibliography}{2886}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -5912,6 +5912,12 @@ Grill, G., B.~Lehner, M.~Thieme, B.~Geenen, D.~Tickner, F.~Antonelli, S.~Babu,
   Schmitt, J.~Snider, F.~Tan, K.~Tockner, P.~H. Valdujo, A.~van Soesbergen, and
   C.~Zarfl (2019), Mapping the world’s free-flowing rivers, \textit{Nature},
   \textit{569}(7755), 215--221.
+
+\bibitem[{\textit{Groenenboom and Veenstra}(2017)}]{Groenenboom17}
+Groenenboom, J., and J.~Veenstra (2017), {Beperking zoutindringing Nieuwe
+  Waterweg : CCIP 2017 : studie naar de effecten van openingen in de
+  Splitsingsdam, pompschepen en bellenboten}, \textit{{rapport Deltares}},
+  Deltares, Delft, 132 p. pp.
 
 \bibitem[{\textit{Groenewege}(2022)}]{Groenewege22}
 Groenewege, R. J.~L. (2022), Multi-model simulation of wadi flash floods and
@@ -13428,9 +13434,12 @@ Stouthamer, E., and T.~de~Haas (2011), {Erodibiliteit en risico op
   rivierbodems van de Oude Maas, de Noord en het Spui}, \textit{Tech. rep.},
   {Dept. Fysische Geografie / Universiteit Utrecht}, 105 p. pp.
 
-\bibitem[{\textit{Stouthamer et~al.}()\textit{Stouthamer, Pierik, and
+\bibitem[{\textit{Stouthamer et~al.}(2011)\textit{Stouthamer, Pierik, and
   Cohen}}]{Stouthamer11_2}
-Stouthamer, E., H.~J. Pierik, and K.~M. Cohen (), \textit{Tech. rep.}
+Stouthamer, E., H.~J. Pierik, and K.~M. Cohen (2011), {Erodibiliteit en kans op
+  het ontstaan van zettingsvloeiing als maat voor stabiliteit van oevers,
+  onderwatertaluds en rivierbodem van de Lek}, \textit{Tech. rep.}, {Dept.
+  Fysische Geografie / Universiteit Utrecht / Deltares}, 109 p. pp.
 
 \bibitem[{\textit{Stouthamer et~al.}(2019)\textit{Stouthamer, Middelkoop,
   Kleinhans, van~der Perk, and Straatsma}}]{Stouthamer19}
@@ -14636,6 +14645,27 @@ V\"astil\"a, K., and J.~J\"arvel\"a (2014), Modeling the flow resistance of
 {\van{Vat}{Van der}{van der}}~Vat, M. (2021), Eindevaluatie pilot {L}angsdammen
   in de {W}aal; functie zoetwatervoorziening, \textit{{R}apport 11204644},
   Deltares, Delft, the Netherlands, september.
+
+\bibitem[{\textit{Veenstra et~al.}(2020)\textit{Veenstra, Zijl, and
+  Verlaan}}]{Veenstra20}
+Veenstra, J., F.~Zijl, and M.~Verlaan (2020), {Effect van zeespiegelstijging op
+  getij langs de Nederlandse kust : studie met IPCC klimaatscenario’s en het
+  DCSMDCSM-FM 100m model}, \textit{{rapport Deltares}}, Deltares, Delft, 36 p.
+  pp.
+
+\bibitem[{\textit{Veenstra et~al.}(2021)\textit{Veenstra, Domhof, Laan, Visser,
+  and {\van{Wijk}{Van der}{van der}}~Wijk}}]{Veenstra21}
+Veenstra, J., B.~Domhof, S.~Laan, A.~Visser, and R.~{\van{Wijk}{Van der}{van
+  der}}~Wijk (2021), {Kenmerkende waarden Rijn-Maasmonding}, \textit{{rapport
+  Deltares}}, Deltares, Delft, 36 p. pp.
+
+\bibitem[{\textit{Veenstra et~al.}(2022)\textit{Veenstra, {\van{Kaaij}{Van
+  der}{van der}}~Kaaij, Visser, Becker, and {\van{Wijk}{Van der}{van
+  der}}~Wijk}}]{Veenstra22}
+Veenstra, J., T.~{\van{Kaaij}{Van der}{van der}}~Kaaij, A.~Visser, A.~Becker,
+  and R.~{\van{Wijk}{Van der}{van der}}~Wijk (2022), {Ontwikkeling
+  zesde-generatie Rijn-Maasmonding-model : modelbouw, kalibratie en validatie
+  2D model}, \textit{{rapport Deltares}}, Deltares, Delft, 158 p. pp.
 
 \bibitem[{\textit{{\van{Veen}{Van der}{van der}}~Veen
   et~al.}(1998)\textit{{\van{Veen}{Van der}{van der}}~Veen, Pakes,
