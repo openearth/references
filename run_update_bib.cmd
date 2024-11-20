@@ -1,4 +1,8 @@
 del print_references.bbl
+del print_references.aux
+del print_references.blg
+del print_references.log
+del print_references.out
 python update_print_references.py
 pdflatex print_references.tex
 bibtex print_references
