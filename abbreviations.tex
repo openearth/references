@@ -92,8 +92,9 @@
 \newcommand{\thresh}{\textsc{Thresh}} 
 \newcommand{\dpuopt}{\texttt{dpuopt}} 
 
-\newcommand{\keyword}[1]{\texttt{#1}}
-
+\newcommand{\variable}[1]{\texttt{#1}}
+\newenvironment{myvarfont}{\fontfamily{<qag>}\selectfont}{\par}
+\newcommand{\keyword}[1]{{\myvarfont{#1}}}
 
 %reference levels 
 \newcommand{\OLR}{OLR}
