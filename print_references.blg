@@ -13,397 +13,371 @@ Reallocating 'cite_info' (item size: 4) to 3000 items.
 Reallocating 'cite_list' (item size: 4) to 3000 items.
 Reallocating 'entry_exists' (item size: 1) to 3000 items.
 Reallocating 'type_list' (item size: 4) to 3000 items.
-White space in argument---line 2875 of file print_references.aux
+Reallocating 'cite_info' (item size: 4) to 3750 items.
+Reallocating 'cite_list' (item size: 4) to 3750 items.
+Reallocating 'entry_exists' (item size: 1) to 3750 items.
+Reallocating 'type_list' (item size: 4) to 3750 items.
+White space in argument---line 3039 of file print_references.aux
  : \citation{jabref-meta:
  :                        databaseType:biblatex;}
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 The style file: agufull08_mod.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
-Reallocating 'field_info' (item size: 4) to 79800 items.
+Reallocating 'field_info' (item size: 4) to 80200 items.
 Database file #1: references.bib
 Reallocating 'str_pool' (item size: 1) to 130000 items.
 Warning--I'm ignoring Ahnert94's extra "journal" field
---line 287 of file references.bib
+--line 297 of file references.bib
 Warning--I'm ignoring Blom16_2's extra "journal" field
---line 3308 of file references.bib
+--line 3443 of file references.bib
 Reallocating 'str_pool' (item size: 1) to 195000 items.
 Warning--I'm ignoring Gill68's extra "journal" field
---line 13842 of file references.bib
+--line 14413 of file references.bib
 Reallocating 'str_pool' (item size: 1) to 260000 items.
 Warning--entry type for "Lane57" isn't style-file defined
---line 20817 of file references.bib
+--line 21665 of file references.bib
 Warning--I'm ignoring Lin84's extra "journal" field
---line 22228 of file references.bib
+--line 23133 of file references.bib
 Warning--entry type for "Parker04" isn't style-file defined
---line 27077 of file references.bib
+--line 28177 of file references.bib
 Warning--entry type for "Reula04" isn't style-file defined
---line 29364 of file references.bib
+--line 30555 of file references.bib
 Reallocating 'str_pool' (item size: 1) to 325000 items.
 Warning--I'm ignoring Smale00_MSc's extra "school" field
---line 32176 of file references.bib
-Repeated entry---line 35210 of file references.bib
+--line 33479 of file references.bib
+Repeated entry---line 36645 of file references.bib
  : @article{vanderMark13
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Vreugdenhil01's extra "journal" field
---line 36917 of file references.bib
+--line 38423 of file references.bib
 Reallocating 'str_pool' (item size: 1) to 390000 items.
-Repeated entry---line 43930 of file references.bib
+Repeated entry---line 45755 of file references.bib
  : @article{Luijendijk19
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 43957 of file references.bib
+Repeated entry---line 45783 of file references.bib
  : @article{Dietrich83
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 43984 of file references.bib
+Repeated entry---line 45811 of file references.bib
  : @article{MosqueraMachado07
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 44015 of file references.bib
+Repeated entry---line 45843 of file references.bib
  : @techreport{Cotino20
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 44028 of file references.bib
+Repeated entry---line 45857 of file references.bib
  : @incollection{Koren93
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 44049 of file references.bib
+Repeated entry---line 45879 of file references.bib
  : @techreport{Borsboom97
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 44066 of file references.bib
+Repeated entry---line 45897 of file references.bib
  : @book{Uijttewaal20
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 44079 of file references.bib
+Repeated entry---line 45911 of file references.bib
  : @article{Ponce91
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 44106 of file references.bib
+Repeated entry---line 45939 of file references.bib
  : @techreport{Irving20
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 44119 of file references.bib
+Repeated entry---line 45953 of file references.bib
  : @manual{RWS19
  :              ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Swamee88's extra "journal" field
---line 45344 of file references.bib
+--line 47235 of file references.bib
 Warning--I'm ignoring Arnaud15's extra "journal" field
---line 45582 of file references.bib
+--line 47483 of file references.bib
 Warning--I'm ignoring An19's extra "journal" field
---line 45696 of file references.bib
+--line 47601 of file references.bib
 Warning--I'm ignoring KabiriSamani12's extra "journal" field
---line 45788 of file references.bib
+--line 47697 of file references.bib
 Warning--entry type for "GeowebProfielZN21" isn't style-file defined
---line 45969 of file references.bib
-Warning--I'm ignoring Chavarrias21_2's extra "journal" field
---line 46530 of file references.bib
-Repeated entry---line 47006 of file references.bib
+--line 47887 of file references.bib
+Repeated entry---line 48947 of file references.bib
  : @techreport{Niesten20
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 47432 of file references.bib
+Repeated entry---line 49391 of file references.bib
  : @techreport{Mosselman05
  :                        ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Preissmann61_2's extra "journal" field
---line 48086 of file references.bib
+--line 50073 of file references.bib
 Warning--I'm ignoring Preissmann61_3's extra "journal" field
---line 48105 of file references.bib
+--line 50093 of file references.bib
 Warning--I'm ignoring vonKarman30's extra "journal" field
---line 48620 of file references.bib
+--line 50631 of file references.bib
 Warning--I'm ignoring Gibson34's extra "journal" field
---line 48668 of file references.bib
+--line 50681 of file references.bib
 Warning--I'm ignoring Chiew92's extra "journal" field
---line 48884 of file references.bib
+--line 50907 of file references.bib
 Warning--I'm ignoring Garg05's extra "journal" field
---line 48911 of file references.bib
+--line 50935 of file references.bib
 Warning--I'm ignoring Raudkivi83's extra "journal" field
---line 48969 of file references.bib
-Repeated entry---line 49030 of file references.bib
+--line 50995 of file references.bib
+Repeated entry---line 51059 of file references.bib
  : @article{Giri21
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 49516 of file references.bib
+Repeated entry---line 51565 of file references.bib
  : @techreport{Chavarrias21_6
  :                           ,
 I'm skipping whatever remains of this entry
 Reallocating 'str_pool' (item size: 1) to 455000 items.
 Warning--I'm ignoring Merrill95's extra "journal" field
---line 51243 of file references.bib
+--line 53371 of file references.bib
 Warning--I'm ignoring Ketcheson21's extra "journal" field
---line 51272 of file references.bib
-Repeated entry---line 52343 of file references.bib
+--line 53401 of file references.bib
+Repeated entry---line 54517 of file references.bib
  : @mastersthesis{Stenfert17_MSc
  :                              ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Johnson92's extra "journal" field
---line 52463 of file references.bib
+--line 54641 of file references.bib
 Warning--entry type for "Denaro23" isn't style-file defined
---line 54664 of file references.bib
-Repeated entry---line 57936 of file references.bib
+--line 56941 of file references.bib
+Repeated entry---line 60321 of file references.bib
  : @article{Barneveld23
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 60553 of file references.bib
+Repeated entry---line 63051 of file references.bib
  : @techreport{Hubbell64
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 60657 of file references.bib
+Repeated entry---line 63159 of file references.bib
  : @article{Lien99
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 61522 of file references.bib
+Repeated entry---line 64061 of file references.bib
  : @article{Petts89
  :                 ,
 I'm skipping whatever remains of this entry
 Reallocating 'str_pool' (item size: 1) to 520000 items.
 Warning--I'm ignoring Seminara23's extra "year" field
---line 67127 of file references.bib
+--line 69891 of file references.bib
 Warning--I'm ignoring Seminara23_2's extra "year" field
---line 67150 of file references.bib
-Repeated entry---line 67289 of file references.bib
+--line 69915 of file references.bib
+Repeated entry---line 70061 of file references.bib
  : @techreport{Deltares20
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 67362 of file references.bib
+Repeated entry---line 70137 of file references.bib
  : @article{Kleinhans17
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 68655 of file references.bib
+Repeated entry---line 71487 of file references.bib
  : @inproceedings{Parker04_2
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 69646 of file references.bib
+Repeated entry---line 72539 of file references.bib
  : @article{Roache97
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 70208 of file references.bib
+Repeated entry---line 73145 of file references.bib
  : @techreport{Sloff13
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 71531 of file references.bib
+Repeated entry---line 74535 of file references.bib
  : @techreport{Becker15
  :                     ,
 I'm skipping whatever remains of this entry
 Reallocating 'str_pool' (item size: 1) to 585000 items.
-Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karacan" has a comma at the end for entry Bakker22
-while executing---line 1741 of file agufull08_mod.bst
-Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karacan" has a comma at the end for entry Bakker22
-while executing---line 1741 of file agufull08_mod.bst
+Warning--to sort, need editor or key in bfg06
+Warning--to sort, need author or key in colombia00
 Warning--to sort, need author or key in Berger25
-Name 1 in "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," has a comma at the end for entry Blade14
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
-while executing---line 1741 of file agufull08_mod.bst
-Name 1 in "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," has a comma at the end for entry Blade14
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
-while executing---line 1741 of file agufull08_mod.bst
-Name 1 in "National Academies of Sciences, Engineering, and Medicine" has a comma at the end for entry Borsboom16
-while executing---line 1741 of file agufull08_mod.bst
-Name 1 in "National Academies of Sciences, Engineering, and Medicine" has a comma at the end for entry Borsboom16
-while executing---line 1741 of file agufull08_mod.bst
-Name 1 in "Matt Czapiga, Astrid Blom, and Enrica Viparelli" has a comma at the end for entry Czapiga21_2
-while executing---line 1741 of file agufull08_mod.bst
-Name 1 in "Matt Czapiga, Astrid Blom, and Enrica Viparelli" has a comma at the end for entry Czapiga21_2
-while executing---line 1741 of file agufull08_mod.bst
+Warning--to sort, need author or key in deingenieur47
+Warning--to sort, need author or key in dhi70_M932
+Warning--to sort, need author or key in dhi83_M1905
 Name 1 in "F Engelund, and and J Freds{\o}e" has a comma at the end for entry Engelund82
 while executing---line 1741 of file agufull08_mod.bst
 Name 1 in "F Engelund, and and J Freds{\o}e" has a comma at the end for entry Engelund82
-while executing---line 1741 of file agufull08_mod.bst
-Name 1 in "Lelia Erscoi, Annelies Kleinherenbrink, and Olivia Guest" has a comma at the end for entry Erscoi23
-while executing---line 1741 of file agufull08_mod.bst
-Name 1 in "Lelia Erscoi, Annelies Kleinherenbrink, and Olivia Guest" has a comma at the end for entry Erscoi23
 while executing---line 1741 of file agufull08_mod.bst
 Warning--to sort, need author or key in Flokstra85
-Warning--to sort, need editor or key in Friedrich19
 Warning--to sort, need author or key in HRW90
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1741 of file agufull08_mod.bst
-Name 2 in "S. Jafarinik and R. Hern\'andez a Moreira, and E. Viparelli" has a comma at the end for entry Jafarinik19
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Kashyap, Shalini; Rennie, Colin D.; Townsend, D. R.; Constantinescu, George; Tokyay, Talia" for entry Kashyap10
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Kashyap, Shalini; Rennie, Colin D.; Townsend, D. R.; Constantinescu, George; Tokyay, Talia" for entry Kashyap10
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Kashyap, Shalini; Rennie, Colin D.; Townsend, D. R.; Constantinescu, George; Tokyay, Talia" for entry Kashyap10
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Kashyap, Shalini; Rennie, Colin D.; Townsend, D. R.; Constantinescu, George; Tokyay, Talia" for entry Kashyap10
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Kashyap, Shalini; Rennie, Colin D.; Townsend, D. R.; Constantinescu, George; Tokyay, Talia" for entry Kashyap10
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Kashyap, Shalini; Rennie, Colin D.; Townsend, D. R.; Constantinescu, George; Tokyay, Talia" for entry Kashyap10
-while executing---line 1741 of file agufull08_mod.bst
-Warning--to sort, need author or key in Klaassen88
-Name 1 in "National Academies of Sciences, Engineering, and Medicine" has a comma at the end for entry NASEM23
-while executing---line 1741 of file agufull08_mod.bst
-Name 1 in "National Academies of Sciences, Engineering, and Medicine" has a comma at the end for entry NASEM23
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
-while executing---line 1741 of file agufull08_mod.bst
-Warning--to sort, need author or key in SOBEK_Kalman
 Warning--to sort, need author or key in SOBEK_asciiparser
 Warning--to sort, need author or key in SOBEK_flow
+Warning--to sort, need author or key in SOBEK_Kalman
 Warning--to sort, need author or key in SOBEK_manual
 Warning--to sort, need author or key in SOBEK_morph
 Warning--to sort, need author or key in SOBEK_salt
 Warning--to sort, need author or key in SOBEK_wqual
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+Warning--to sort, need author or key in swe_int
+Too many commas in name 1 of "Olav J. M. VAN DUIN, J. S. RIBBERINK, C. M. DOHMEN-JANSSEN, S. J. M. H. HULSCHER" for entry vanDuin11
 while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
-while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+Too many commas in name 1 of "Olav J. M. VAN DUIN, J. S. RIBBERINK, C. M. DOHMEN-JANSSEN, S. J. M. H. HULSCHER" for entry vanDuin11
 while executing---line 1741 of file agufull08_mod.bst
 Warning--to sort, need author or key in WAQBANK14
-Warning--to sort, need editor or key in bfg06
-Warning--to sort, need author or key in colombia00
-Warning--to sort, need author or key in deingenieur47
-Warning--to sort, need author or key in dhi70_M932
-Warning--to sort, need author or key in dhi83_M1905
-Warning--to sort, need author or key in fortran_format
-Warning--to sort, need author or key in swe_int
-Warning--to sort, need author or key in unknown_XX
-Too many commas in name 1 of "Olav J. M. VAN DUIN, J. S. RIBBERINK, C. M. DOHMEN-JANSSEN, S. J. M. H. HULSCHER" for entry vanDuin11
+Name 2 in "S. Jafarinik and R. Hern\'andez a Moreira, and E. Viparelli" has a comma at the end for entry Jafarinik19
 while executing---line 1741 of file agufull08_mod.bst
-Too many commas in name 1 of "Olav J. M. VAN DUIN, J. S. RIBBERINK, C. M. DOHMEN-JANSSEN, S. J. M. H. HULSCHER" for entry vanDuin11
+Warning--to sort, need editor or key in Friedrich19
+Warning--to sort, need author or key in Klaassen88
+Name 1 in "Matt Czapiga, Astrid Blom, and Enrica Viparelli" has a comma at the end for entry Czapiga21_2
+while executing---line 1741 of file agufull08_mod.bst
+Name 1 in "Matt Czapiga, Astrid Blom, and Enrica Viparelli" has a comma at the end for entry Czapiga21_2
+while executing---line 1741 of file agufull08_mod.bst
+Name 1 in "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," has a comma at the end for entry Blade14
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
+while executing---line 1741 of file agufull08_mod.bst
+Name 1 in "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," has a comma at the end for entry Blade14
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "E. Blad\'e, L. Cea, G. Corestein, E. Escolano, J. Puertas, E. V\'azquez-Cend\'on, J. Dolz, A. Coll," for entry Blade14
+while executing---line 1741 of file agufull08_mod.bst
+Warning--to sort, need author or key in unknown_XX
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
+while executing---line 1741 of file agufull08_mod.bst
+Warning--to sort, need author or key in fortran_format
+Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karacan" has a comma at the end for entry Bakker22
+while executing---line 1741 of file agufull08_mod.bst
+Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karacan" has a comma at the end for entry Bakker22
+while executing---line 1741 of file agufull08_mod.bst
+Name 1 in "National Academies of Sciences, Engineering, and Medicine" has a comma at the end for entry NASEM23
+while executing---line 1741 of file agufull08_mod.bst
+Name 1 in "National Academies of Sciences, Engineering, and Medicine" has a comma at the end for entry NASEM23
+while executing---line 1741 of file agufull08_mod.bst
+Name 1 in "National Academies of Sciences, Engineering, and Medicine" has a comma at the end for entry Borsboom16
+while executing---line 1741 of file agufull08_mod.bst
+Name 1 in "National Academies of Sciences, Engineering, and Medicine" has a comma at the end for entry Borsboom16
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Kashyap, Shalini; Rennie, Colin D.; Townsend, D. R.; Constantinescu, George; Tokyay, Talia" for entry Kashyap10
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Kashyap, Shalini; Rennie, Colin D.; Townsend, D. R.; Constantinescu, George; Tokyay, Talia" for entry Kashyap10
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Kashyap, Shalini; Rennie, Colin D.; Townsend, D. R.; Constantinescu, George; Tokyay, Talia" for entry Kashyap10
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Kashyap, Shalini; Rennie, Colin D.; Townsend, D. R.; Constantinescu, George; Tokyay, Talia" for entry Kashyap10
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Kashyap, Shalini; Rennie, Colin D.; Townsend, D. R.; Constantinescu, George; Tokyay, Talia" for entry Kashyap10
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Kashyap, Shalini; Rennie, Colin D.; Townsend, D. R.; Constantinescu, George; Tokyay, Talia" for entry Kashyap10
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
+while executing---line 1741 of file agufull08_mod.bst
+Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
+while executing---line 1741 of file agufull08_mod.bst
+Name 1 in "Lelia Erscoi, Annelies Kleinherenbrink, and Olivia Guest" has a comma at the end for entry Erscoi23
+while executing---line 1741 of file agufull08_mod.bst
+Name 1 in "Lelia Erscoi, Annelies Kleinherenbrink, and Olivia Guest" has a comma at the end for entry Erscoi23
 while executing---line 1741 of file agufull08_mod.bst
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Warning--empty author in swe_int
+Warning--missing institution in swe_int
 Warning--empty author in Klaassen88
 Warning--empty title in Klaassen88
 Warning--missing institution in Klaassen88
-Warning--empty author in fortran_format
-Warning--missing institution in fortran_format
-Warning--empty author in swe_int
-Warning--missing institution in swe_int
 Warning--empty author in unknown_XX
 Warning--empty title in unknown_XX
 Warning--missing institution in unknown_XX
+Warning--empty author in fortran_format
+Warning--missing institution in fortran_format
 Warning--empty author in Berger25
 Warning--empty author in deingenieur47
 Warning--empty author in dhi70_M932
@@ -416,6 +390,7 @@ Warning--can't use both author and editor fields in Allen78
 Warning--missing publisher in Allgower90
 Warning--missing publisher in Arfken12
 Warning--missing publisher in Ashida73
+Warning--missing institution in Bader25
 Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karacan" has a comma at the end for entry Bakker22
 while executing---line 1822 of file agufull08_mod.bst
 Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karacan" has a comma at the end for entry Bakker22
@@ -424,6 +399,7 @@ Warning--missing publisher in Ban19
 Warning--missing publisher in Barrett94
 Warning--can't use both author and editor fields in Batchelor70
 Warning--empty journal in Baydoun18
+Warning--there's a number but no volume in Berends23
 Warning--can't use both author and editor fields in Berrar13
 Warning--can't use both author and editor fields in Biedenharn08
 Warning--can't use both author and editor fields in Blench66
@@ -446,6 +422,7 @@ Warning--missing publisher in Colombini17
 Warning--missing institution in CECB20
 Warning--missing publisher in Crosato13
 Warning--missing publisher in Crowe09
+Warning--missing school in Daemen25
 Warning--empty journal in Dallmeier24
 Warning--empty booktitle in Ferraz24
 Warning--missing publisher in deGoede14
@@ -543,11 +520,13 @@ while executing---line 1822 of file agufull08_mod.bst
 Warning--empty journal in Erscoi23
 Warning--can't use both author and editor fields in Leopold92
 Warning--can't use both volume and number fields in Macqueen67
+Warning--can't use both author and editor fields in Mancera24
 Warning--empty journal in Margolin22
 Name 1 in "Matt Czapiga, Astrid Blom, and Enrica Viparelli" has a comma at the end for entry Czapiga21_2
 while executing---line 1822 of file agufull08_mod.bst
 Name 1 in "Matt Czapiga, Astrid Blom, and Enrica Viparelli" has a comma at the end for entry Czapiga21_2
 while executing---line 1822 of file agufull08_mod.bst
+Warning--empty journal in Melander25
 Warning--missing publisher in Monge50
 Warning--can't use both author and editor fields in Mosselman06
 Warning--can't use both author and editor fields in Mosselman09
@@ -609,34 +588,6 @@ Warning--can't use both author and editor fields in Orton88
 Warning--can't use both author and editor fields in Paola88
 Warning--can't use both author and editor fields in Paola96_02
 Warning--can't use both author and editor fields in Paola01
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1822 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1822 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1822 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1822 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1822 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1822 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1822 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1822 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1822 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1822 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1822 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1822 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1822 of file agufull08_mod.bst
-Too many commas in name 1 of "Paola Isaacs, Sergio Rojas, Ana Bel\'en Hurtado, Carolina Alc\'azar, Viviana Salinas, Fabi\'an Garz\'on,Natalia Norden, Daniel Garc\'ia, Jhon Nieto, Roy Gonz\'alez-M" for entry Isaacs22
-while executing---line 1822 of file agufull08_mod.bst
 Warning--can't use both author and editor fields in Parker08
 Warning--missing publisher in Parker08
 Warning--missing publisher in Parker08_4
@@ -648,8 +599,8 @@ Warning--there's a number but no volume in Preissmann61_2
 Warning--there's a number but no volume in Preissmann61_3
 Warning--missing institution in vanProoijen12
 Warning--can't use both author and editor fields in Radecki15
-Warning--there's a number but no volume in Rehbock1921_2
 Warning--there's a number but no volume in Rehbock21
+Warning--there's a number but no volume in Rehbock1921_2
 Warning--empty booktitle in Reid84
 Warning--missing publisher in RWS99
 Warning--missing institution in RWS19_3
@@ -768,48 +719,49 @@ Warning--missing publisher in deVries69
 Warning--missing publisher in Wiesemann06
 Warning--empty booktitle in WILSON1972
 Warning--missing publisher in Winterwerp22
+Warning--empty journal in WSP2024
 Warning--empty journal in Yalin
 Warning--missing publisher in Zhang17_2
 Warning--missing institution in RWS19_2
-You've used 2992 entries,
+You've used 3008 entries,
             3080 wiz_defined-function locations,
-            18346 strings with 526481 characters,
-and the built_in function-call counts, 2309350 in all, are:
-= -- 244536
-> -- 71025
-< -- 2486
-+ -- 32399
-- -- 19496
-* -- 147551
-:= -- 231247
-add.period$ -- 2992
-call.type$ -- 2992
-change.case$ -- 13116
-chr.to.int$ -- 2993
-cite$ -- 3238
-duplicate$ -- 252654
-empty$ -- 145468
-format.name$ -- 27562
-if$ -- 461994
-int.to.chr$ -- 222
+            18422 strings with 529097 characters,
+and the built_in function-call counts, 2317084 in all, are:
+= -- 245054
+> -- 71440
+< -- 2499
++ -- 32537
+- -- 19611
+* -- 148153
+:= -- 232283
+add.period$ -- 3008
+call.type$ -- 3008
+change.case$ -- 13184
+chr.to.int$ -- 3009
+cite$ -- 3260
+duplicate$ -- 253408
+empty$ -- 146041
+format.name$ -- 27707
+if$ -- 463497
+int.to.chr$ -- 223
 int.to.str$ -- 1
-missing$ -- 27492
-newline$ -- 8983
-num.names$ -- 11978
-pop$ -- 88723
+missing$ -- 27638
+newline$ -- 9031
+num.names$ -- 12041
+pop$ -- 89077
 preamble$ -- 1
-purify$ -- 9680
+purify$ -- 9728
 quote$ -- 0
-skip$ -- 133429
+skip$ -- 133662
 stack$ -- 0
-substring$ -- 88561
-swap$ -- 203180
-text.length$ -- 587
+substring$ -- 88655
+swap$ -- 203601
+text.length$ -- 591
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 26265
-warning$ -- 204
-while$ -- 13646
+type$ -- 26406
+warning$ -- 210
+while$ -- 13696
 width$ -- 0
-write$ -- 34649
-(There were 215 error messages)
+write$ -- 34824
+(There were 187 error messages)

@@ -8,7 +8,7 @@ with open('references.bib','r', encoding='utf-8') as refs:
             d.append(t[1][:idx]) 
             print(t[1][:idx])
             t[0][1:].lower()
-d.sort()
+#d.sort()
 
 header = [
     '\\documentclass[10pt]{article}\n',
@@ -25,6 +25,7 @@ header = [
 footer = [
 '\\DeclareRobustCommand{\\van}[3]{#3}\n',
 '\\bibliographystyle{agufull08_mod}\n',
+'% \\bibliographystyle{unsrtnat}\n'
 '\\texttt{\\bibliography{references}}\n',
 '\\end{document}'
 ]
