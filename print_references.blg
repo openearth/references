@@ -17,14 +17,14 @@ Reallocating 'cite_info' (item size: 4) to 3750 items.
 Reallocating 'cite_list' (item size: 4) to 3750 items.
 Reallocating 'entry_exists' (item size: 1) to 3750 items.
 Reallocating 'type_list' (item size: 4) to 3750 items.
-White space in argument---line 3039 of file print_references.aux
+White space in argument---line 3045 of file print_references.aux
  : \citation{jabref-meta:
  :                        databaseType:biblatex;}
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 The style file: agufull08_mod.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
-Reallocating 'field_info' (item size: 4) to 80200 items.
+Reallocating 'field_info' (item size: 4) to 80325 items.
 Database file #1: references.bib
 Reallocating 'str_pool' (item size: 1) to 130000 items.
 Warning--I'm ignoring Ahnert94's extra "journal" field
@@ -192,6 +192,10 @@ Repeated entry---line 74535 of file references.bib
  :                     ,
 I'm skipping whatever remains of this entry
 Reallocating 'str_pool' (item size: 1) to 585000 items.
+Repeated entry---line 76227 of file references.bib
+ : @book{Groenland25
+ :                  ,
+I'm skipping whatever remains of this entry
 Warning--to sort, need editor or key in bfg06
 Warning--to sort, need author or key in colombia00
 Warning--to sort, need author or key in Berger25
@@ -723,45 +727,45 @@ Warning--empty journal in WSP2024
 Warning--empty journal in Yalin
 Warning--missing publisher in Zhang17_2
 Warning--missing institution in RWS19_2
-You've used 3008 entries,
+You've used 3013 entries,
             3080 wiz_defined-function locations,
-            18422 strings with 529097 characters,
-and the built_in function-call counts, 2317084 in all, are:
-= -- 245054
-> -- 71440
-< -- 2499
-+ -- 32537
-- -- 19611
-* -- 148153
-:= -- 232283
-add.period$ -- 3008
-call.type$ -- 3008
-change.case$ -- 13184
-chr.to.int$ -- 3009
-cite$ -- 3260
-duplicate$ -- 253408
-empty$ -- 146041
-format.name$ -- 27707
-if$ -- 463497
+            18450 strings with 529972 characters,
+and the built_in function-call counts, 2320840 in all, are:
+= -- 245465
+> -- 71559
+< -- 2502
++ -- 32591
+- -- 19644
+* -- 148393
+:= -- 232670
+add.period$ -- 3013
+call.type$ -- 3013
+change.case$ -- 13207
+chr.to.int$ -- 3014
+cite$ -- 3265
+duplicate$ -- 253811
+empty$ -- 146266
+format.name$ -- 27756
+if$ -- 464245
 int.to.chr$ -- 223
 int.to.str$ -- 1
-missing$ -- 27638
-newline$ -- 9031
-num.names$ -- 12041
-pop$ -- 89077
+missing$ -- 27679
+newline$ -- 9046
+num.names$ -- 12061
+pop$ -- 89219
 preamble$ -- 1
-purify$ -- 9728
+purify$ -- 9745
 quote$ -- 0
-skip$ -- 133662
+skip$ -- 133875
 stack$ -- 0
-substring$ -- 88655
-swap$ -- 203601
+substring$ -- 88798
+swap$ -- 203926
 text.length$ -- 591
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 26406
+type$ -- 26451
 warning$ -- 210
-while$ -- 13696
+while$ -- 13719
 width$ -- 0
-write$ -- 34824
-(There were 187 error messages)
+write$ -- 34881
+(There were 188 error messages)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{3008}
+\begin{thebibliography}{3013}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -6017,6 +6017,11 @@ Godunov, S.~K. (1999), Reminiscences about difference schemes, \textit{J Comput
 {\van{Goede}{De}{de}}~Goede, E.~D., and J.~van Kester (2009), Vegetatie op
   overlaten in waqua, \textit{Tech. rep.}, \refWL{}.
 
+\bibitem[{\textit{Goeury and Souillé}(2025)}]{Goeury25}
+Goeury, C., and F.~Souillé (2025), Bayesian inference of numerical
+  modeling-based morphodynamics: Application to a dam-break over a mobile bed
+  experiment.
+
 \bibitem[{\textit{Goksu SOYDAN~OKSAL et~al.}(2020)\textit{Goksu SOYDAN~OKSAL,
   M.~SAMI, and SIMSEK}}]{Goksu20}
 Goksu SOYDAN~OKSAL, N., A.~K. O.~Z. M.~SAMI, and O.~G. U.~Z. SIMSEK (2020),
@@ -8440,6 +8445,11 @@ Kragten (2018), {Analyse Bodempeilingen Maas}, \textit{Handleiding
 Kramer, S.~C., and G.~S. Stelling (2008), A conservative unstructured scheme
   for rapidly varied flows, \textit{Int J Numer Meth Fl}, \textit{58}(2),
   183--212, \doi{https://doi.org/10.1002/fld.1722}.
+
+\bibitem[{\textit{Kranenborg}(2023)}]{Kranenborg23}
+Kranenborg, J. (2023), Vertical dependences in swash-zone flows and sand
+  transport, Phd thesis - research ut, graduation ut, University of Twente,
+  Netherlands, \doi{10.3990/1.9789036556859}.
 
 \bibitem[{\textit{Kranenburg}(1992)}]{Kranenburg92}
 Kranenburg, C. (1992), On the evolution of roll waves, \textit{J Fluid Mech},
@@ -10896,6 +10906,10 @@ Olesen, K.~W. (1987), Bed topography in shallow river bends, Ph.D. thesis,
 Oliger, J., and A.~Sundström (1978), Theoretical and practical aspects of some
   initial boundary value problems in fluid dynamics, \textit{SIAM J Appl Math},
   \textit{35}(3), 419--446, \doi{10.1137/0135035}.
+
+\bibitem[{\textit{Oliveto et~al.}(2019)}]{Oliveto19}
+Oliveto, G., et~al. (2019), Sediment transport at river contractions,
+  \textit{WIT Trans. Ecol. Environ}, \textit{234}, 1--7.
 
 \bibitem[{\textit{Olsen}(2003)}]{Olsen03}
 Olsen, N. R.~B. (2003), Three-dimensional cfd modeling of self-forming
@@ -14296,6 +14310,12 @@ Sun, J., B.~Lin, and H.~Yang (2015{\natexlab{c}}), Development and application
   Water Resour}, \textit{81}, 62--74,
   \doi{https://doi.org/10.1016/j.advwatres.2014.12.012}.
 
+\bibitem[{\textit{Sun et~al.}(2001)\textit{Sun, Meakin, and Jøssang}}]{Sun01}
+Sun, T., P.~Meakin, and T.~Jøssang (2001), A computer model for meandering
+  rivers with multiple bed load sediment sizes: 1. theory, \textit{Water
+  Resources Research}, \textit{37}(8), 2227--2241,
+  \doi{https://doi.org/10.1029/2000WR900396}.
+
 \bibitem[{\textit{Surian et~al.}(2009)\textit{Surian, Mao, Giacomin, and
   Ziliani}}]{Surian09}
 Surian, N., L.~Mao, M.~Giacomin, and L.~Ziliani (2009), Morphological effects
@@ -15758,6 +15778,14 @@ Voogt, J., and C.~B. Vreugdenhil (1974), Experiences with mathematical models
 Voortman, H.~G. (2023), Robust validation of trends and cycles in sea level and
   tidal amplitude in the dutch north sea, \textit{Journal of Coastal and
   Hydraulic Structures}, \textit{3}, \doi{10.59490/jchs.2023.0032}.
+
+\bibitem[{\textit{{\van{Vos}{De}{de}}~Vos
+  et~al.}(2017)\textit{{\van{Vos}{De}{de}}~Vos, Leijnse, Overeem, and
+  Uijlenhoet}}]{deVos19}
+{\van{Vos}{De}{de}}~Vos, L., H.~Leijnse, A.~Overeem, and R.~Uijlenhoet (2017),
+  The potential of urban rainfall monitoring with crowdsourced automatic
+  weather stations in amsterdam, \textit{Hydrology and Earth System Sciences},
+  \textit{21}(2), 765--777, \doi{10.5194/hess-21-765-2017}.
 
 \bibitem[{\textit{Vreugdenhil}(1979)}]{Vreugdenhil79}
 Vreugdenhil, C.~B. (1979), Waterloopkundige berekeningen, \textit{Handleiding
