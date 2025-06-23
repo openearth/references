@@ -17,16 +17,16 @@ Reallocating 'cite_info' (item size: 4) to 3750 items.
 Reallocating 'cite_list' (item size: 4) to 3750 items.
 Reallocating 'entry_exists' (item size: 1) to 3750 items.
 Reallocating 'type_list' (item size: 4) to 3750 items.
-White space in argument---line 3045 of file print_references.aux
+White space in argument---line 3079 of file print_references.aux
  : \citation{jabref-meta:
  :                        databaseType:biblatex;}
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 The style file: agufull08_mod.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
-Reallocating 'field_info' (item size: 4) to 80325 items.
-Database file #1: references.bib
 Reallocating 'str_pool' (item size: 1) to 130000 items.
+Reallocating 'field_info' (item size: 4) to 81175 items.
+Database file #1: references.bib
 Warning--I'm ignoring Ahnert94's extra "journal" field
 --line 297 of file references.bib
 Warning--I'm ignoring Blom16_2's extra "journal" field
@@ -192,10 +192,12 @@ Repeated entry---line 74535 of file references.bib
  :                     ,
 I'm skipping whatever remains of this entry
 Reallocating 'str_pool' (item size: 1) to 585000 items.
-Repeated entry---line 76227 of file references.bib
+Repeated entry---line 76229 of file references.bib
  : @book{Groenland25
  :                  ,
 I'm skipping whatever remains of this entry
+Warning--entry type for "Klijn22" isn't style-file defined
+--line 76373 of file references.bib
 Warning--to sort, need editor or key in bfg06
 Warning--to sort, need author or key in colombia00
 Warning--to sort, need author or key in Berger25
@@ -400,6 +402,7 @@ while executing---line 1822 of file agufull08_mod.bst
 Name 1 in "M. Bakker, and E. Berger and M. van Duin and S. Broeder and O. Karacan" has a comma at the end for entry Bakker22
 while executing---line 1822 of file agufull08_mod.bst
 Warning--missing publisher in Ban19
+Warning--missing school in Barile25
 Warning--missing publisher in Barrett94
 Warning--can't use both author and editor fields in Batchelor70
 Warning--empty journal in Baydoun18
@@ -410,6 +413,7 @@ Warning--can't use both author and editor fields in Blench66
 Warning--missing publisher in Blom15_2
 Warning--missing publisher in Blom16_3
 Warning--missing publisher in Blom17_3
+Warning--empty journal in Bodnar25
 Warning--missing publisher in Boersema20
 Warning--there's a number but no volume in Boesch94
 Warning--missing publisher in Booij03_2
@@ -432,6 +436,13 @@ Warning--empty booktitle in Ferraz24
 Warning--missing publisher in deGoede14
 Warning--empty journal in deVriesXX
 Warning--missing institution in DecykXX
+Warning--empty journal in Deissler87
+Warning--empty journal in Deissler84
+Warning--empty journal in Deissler85_2
+Warning--empty journal in Deissler87_2
+Warning--empty journal in Deissler87_4
+Warning--empty journal in Deissler89
+Warning--empty journal in Deissler87_3
 Warning--missing institution in Dijkstra82
 Warning--empty booktitle in Donchyts13
 Warning--can't use both author and editor fields in Drazin82
@@ -497,6 +508,7 @@ while executing---line 1822 of file agufull08_mod.bst
 Warning--empty journal in Jafarinik19
 Warning--empty title in Jagers99
 Warning--missing institution in Jagers99
+Warning--empty journal in Jang25
 Warning--missing publisher in Lindenschmidt20
 Too many commas in name 1 of "Kashyap, Shalini; Rennie, Colin D.; Townsend, D. R.; Constantinescu, George; Tokyay, Talia" for entry Kashyap10
 while executing---line 1822 of file agufull08_mod.bst
@@ -513,6 +525,7 @@ while executing---line 1822 of file agufull08_mod.bst
 Warning--can't use both author and editor fields in Kellermann11
 Warning--missing institution in King18
 Warning--missing institution in King33
+Warning--empty journal in Klebanoff62
 Warning--missing publisher in Kok17
 Warning--can't use both author and editor fields in Komarova95
 Warning--can't use both author and editor fields in Kuhnle92_2
@@ -555,6 +568,7 @@ while executing---line 1822 of file agufull08_mod.bst
 Warning--missing publisher in Nedeco73
 Warning--can't use both author and editor fields in Nemec90
 Warning--can't use both author and editor fields in Nemec90_2
+Warning--empty journal in Niemeijer21
 Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
 while executing---line 1822 of file agufull08_mod.bst
 Too many commas in name 1 of "Niesten, I, Tahsin, N, van Grootheest, D., Barneveld, H., Waldschläger, K. and Hoitink,T." for entry Niesten24
@@ -697,6 +711,7 @@ while executing---line 1822 of file agufull08_mod.bst
 Too many commas in name 1 of "Stahl, K., Weiler, M., van Tiel, M., Kohn, I., Hänsler, A., Freudiger, D., Seibert,J., Gerlinger, K., Moretti, G." for entry Stahl22
 while executing---line 1822 of file agufull08_mod.bst
 Warning--empty booktitle in Stam03
+Warning--empty journal in Standford96
 Warning--empty journal in Stoker92
 Warning--missing publisher in STOWA19
 Warning--can't use both author and editor fields in Strauss08
@@ -725,47 +740,48 @@ Warning--empty booktitle in WILSON1972
 Warning--missing publisher in Winterwerp22
 Warning--empty journal in WSP2024
 Warning--empty journal in Yalin
+Warning--empty journal in Yang25
 Warning--missing publisher in Zhang17_2
 Warning--missing institution in RWS19_2
-You've used 3013 entries,
+You've used 3047 entries,
             3080 wiz_defined-function locations,
-            18450 strings with 529972 characters,
-and the built_in function-call counts, 2320840 in all, are:
-= -- 245465
-> -- 71559
-< -- 2502
-+ -- 32591
-- -- 19644
-* -- 148393
-:= -- 232670
-add.period$ -- 3013
-call.type$ -- 3013
-change.case$ -- 13207
-chr.to.int$ -- 3014
-cite$ -- 3265
-duplicate$ -- 253811
-empty$ -- 146266
-format.name$ -- 27756
-if$ -- 464245
-int.to.chr$ -- 223
+            18630 strings with 536102 characters,
+and the built_in function-call counts, 2345565 in all, are:
+= -- 247983
+> -- 72396
+< -- 2530
++ -- 32958
+- -- 19872
+* -- 149968
+:= -- 235243
+add.period$ -- 3047
+call.type$ -- 3047
+change.case$ -- 13355
+chr.to.int$ -- 3048
+cite$ -- 3313
+duplicate$ -- 256468
+empty$ -- 147835
+format.name$ -- 28062
+if$ -- 469180
+int.to.chr$ -- 230
 int.to.str$ -- 1
-missing$ -- 27679
-newline$ -- 9046
-num.names$ -- 12061
-pop$ -- 89219
+missing$ -- 27980
+newline$ -- 9148
+num.names$ -- 12199
+pop$ -- 90234
 preamble$ -- 1
-purify$ -- 9745
+purify$ -- 9853
 quote$ -- 0
-skip$ -- 133875
+skip$ -- 135231
 stack$ -- 0
-substring$ -- 88798
-swap$ -- 203926
-text.length$ -- 591
+substring$ -- 89695
+swap$ -- 205994
+text.length$ -- 595
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 26451
-warning$ -- 210
-while$ -- 13719
+type$ -- 26757
+warning$ -- 224
+while$ -- 13869
 width$ -- 0
-write$ -- 34881
+write$ -- 35249
 (There were 188 error messages)
