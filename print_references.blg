@@ -17,7 +17,7 @@ Reallocating 'cite_info' (item size: 4) to 3750 items.
 Reallocating 'cite_list' (item size: 4) to 3750 items.
 Reallocating 'entry_exists' (item size: 1) to 3750 items.
 Reallocating 'type_list' (item size: 4) to 3750 items.
-White space in argument---line 3079 of file print_references.aux
+White space in argument---line 3104 of file print_references.aux
  : \citation{jabref-meta:
  :                        databaseType:biblatex;}
 I'm skipping whatever remains of this command
@@ -25,7 +25,7 @@ Reallocating 'name_of_file' (item size: 1) to 14 items.
 The style file: agufull08_mod.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Reallocating 'str_pool' (item size: 1) to 130000 items.
-Reallocating 'field_info' (item size: 4) to 81175 items.
+Reallocating 'field_info' (item size: 4) to 81800 items.
 Database file #1: references.bib
 Warning--I'm ignoring Ahnert94's extra "journal" field
 --line 297 of file references.bib
@@ -145,59 +145,59 @@ I'm skipping whatever remains of this entry
 Warning--I'm ignoring Johnson92's extra "journal" field
 --line 54641 of file references.bib
 Warning--entry type for "Denaro23" isn't style-file defined
---line 56941 of file references.bib
-Repeated entry---line 60321 of file references.bib
+--line 56917 of file references.bib
+Repeated entry---line 60297 of file references.bib
  : @article{Barneveld23
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 63051 of file references.bib
+Repeated entry---line 63027 of file references.bib
  : @techreport{Hubbell64
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 63159 of file references.bib
+Repeated entry---line 63135 of file references.bib
  : @article{Lien99
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 64061 of file references.bib
- : @article{Petts89
- :                 ,
-I'm skipping whatever remains of this entry
 Reallocating 'str_pool' (item size: 1) to 520000 items.
 Warning--I'm ignoring Seminara23's extra "year" field
---line 69891 of file references.bib
+--line 69847 of file references.bib
 Warning--I'm ignoring Seminara23_2's extra "year" field
---line 69915 of file references.bib
-Repeated entry---line 70061 of file references.bib
+--line 69871 of file references.bib
+Repeated entry---line 70017 of file references.bib
  : @techreport{Deltares20
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 70137 of file references.bib
+Repeated entry---line 70093 of file references.bib
  : @article{Kleinhans17
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 71487 of file references.bib
+Repeated entry---line 71443 of file references.bib
  : @inproceedings{Parker04_2
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 72539 of file references.bib
+Repeated entry---line 72495 of file references.bib
  : @article{Roache97
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 73145 of file references.bib
+Repeated entry---line 73101 of file references.bib
  : @techreport{Sloff13
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 74535 of file references.bib
+Repeated entry---line 74491 of file references.bib
  : @techreport{Becker15
  :                     ,
 I'm skipping whatever remains of this entry
 Reallocating 'str_pool' (item size: 1) to 585000 items.
-Repeated entry---line 76229 of file references.bib
+Repeated entry---line 76201 of file references.bib
  : @book{Groenland25
  :                  ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Klijn22" isn't style-file defined
---line 76373 of file references.bib
+--line 76345 of file references.bib
+Repeated entry---line 77617 of file references.bib
+ : @article{Groenewege25
+ :                      ,
+I'm skipping whatever remains of this entry
 Warning--to sort, need editor or key in bfg06
 Warning--to sort, need author or key in colombia00
 Warning--to sort, need author or key in Berger25
@@ -406,6 +406,7 @@ Warning--missing school in Barile25
 Warning--missing publisher in Barrett94
 Warning--can't use both author and editor fields in Batchelor70
 Warning--empty journal in Baydoun18
+Warning--empty journal in Benavides22
 Warning--there's a number but no volume in Berends23
 Warning--can't use both author and editor fields in Berrar13
 Warning--can't use both author and editor fields in Biedenharn08
@@ -419,7 +420,9 @@ Warning--there's a number but no volume in Boesch94
 Warning--missing publisher in Booij03_2
 Warning--empty journal in BorsboomXX
 Warning--can't use both author and editor fields in Buffington12
+Warning--missing institution in PedrazaXX
 Warning--empty booktitle in Burgers48
+Warning--empty journal in CabarcasMier25
 Warning--missing institution in CanestrelliXX
 Warning--can't use both author and editor fields in Chapra10
 Warning--missing publisher in Chavarrias17
@@ -482,6 +485,7 @@ Warning--can't use both author and editor fields in Fenton15
 Warning--can't use both author and editor fields in Ferguson98
 Warning--missing publisher in Ferguson05
 Warning--empty journal in Escalante17
+Warning--empty journal in Finotello25
 Warning--can't use both author and editor fields in FoufoulaGeorgiou13
 Warning--missing institution in Furbish24
 Warning--can't use both author and editor fields in Galloway75
@@ -536,6 +540,7 @@ Name 1 in "Lelia Erscoi, Annelies Kleinherenbrink, and Olivia Guest" has a comma
 while executing---line 1822 of file agufull08_mod.bst
 Warning--empty journal in Erscoi23
 Warning--can't use both author and editor fields in Leopold92
+Warning--empty journal in Li25
 Warning--can't use both volume and number fields in Macqueen67
 Warning--can't use both author and editor fields in Mancera24
 Warning--empty journal in Margolin22
@@ -611,6 +616,7 @@ Warning--missing publisher in Parker08
 Warning--missing publisher in Parker08_4
 Warning--empty chapter and pages in Peery88
 Warning--missing publisher in Peery88
+Warning--missing school in Pellegrini25
 Warning--missing publisher in Plato_Phaedo
 Warning--missing publisher in Postman85
 Warning--there's a number but no volume in Preissmann61_2
@@ -715,6 +721,7 @@ Warning--empty journal in Standford96
 Warning--empty journal in Stoker92
 Warning--missing publisher in STOWA19
 Warning--can't use both author and editor fields in Strauss08
+Warning--empty journal in Swartenbroekx10
 Warning--empty booktitle in Symonds17
 Warning--missing publisher in Thuerey22
 Warning--missing publisher in Tockner22
@@ -743,45 +750,45 @@ Warning--empty journal in Yalin
 Warning--empty journal in Yang25
 Warning--missing publisher in Zhang17_2
 Warning--missing institution in RWS19_2
-You've used 3047 entries,
+You've used 3072 entries,
             3080 wiz_defined-function locations,
-            18630 strings with 536102 characters,
-and the built_in function-call counts, 2345565 in all, are:
-= -- 247983
-> -- 72396
-< -- 2530
-+ -- 32958
-- -- 19872
-* -- 149968
-:= -- 235243
-add.period$ -- 3047
-call.type$ -- 3047
-change.case$ -- 13355
-chr.to.int$ -- 3048
-cite$ -- 3313
-duplicate$ -- 256468
-empty$ -- 147835
-format.name$ -- 28062
-if$ -- 469180
-int.to.chr$ -- 230
+            18761 strings with 540351 characters,
+and the built_in function-call counts, 2364501 in all, are:
+= -- 249906
+> -- 73087
+< -- 2547
++ -- 33256
+- -- 20062
+* -- 151205
+:= -- 237201
+add.period$ -- 3072
+call.type$ -- 3072
+change.case$ -- 13466
+chr.to.int$ -- 3073
+cite$ -- 3345
+duplicate$ -- 258509
+empty$ -- 148979
+format.name$ -- 28317
+if$ -- 472920
+int.to.chr$ -- 233
 int.to.str$ -- 1
-missing$ -- 27980
-newline$ -- 9148
-num.names$ -- 12199
-pop$ -- 90234
+missing$ -- 28218
+newline$ -- 9223
+num.names$ -- 12299
+pop$ -- 91002
 preamble$ -- 1
-purify$ -- 9853
+purify$ -- 9933
 quote$ -- 0
-skip$ -- 135231
+skip$ -- 136266
 stack$ -- 0
-substring$ -- 89695
-swap$ -- 205994
-text.length$ -- 595
+substring$ -- 90393
+swap$ -- 207608
+text.length$ -- 597
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 26757
-warning$ -- 224
-while$ -- 13869
+type$ -- 26982
+warning$ -- 231
+while$ -- 13973
 width$ -- 0
-write$ -- 35249
+write$ -- 35524
 (There were 188 error messages)
