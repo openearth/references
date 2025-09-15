@@ -38991,4 +38991,20 @@ school =  {Delft University of Technology, Delft, the Netherlands},
   abstract     = {We present derivations of shallow water model equations of Korteweg–de Vries and Boussinesq type for equatorial tsunami waves in the f-plane approximation and discuss their applicability. This article is part of the theme issue ‘Nonlinear water waves’.},
 }
 
+@Article{Liu25,
+  author       = {Liu, Xiaofeng and Song, Yalan},
+  date         = {2025},
+  journaltitle = {Water Resources Research},
+  title        = {Scientific Machine Learning of Flow Resistance Using Universal Shallow Water Equations With Differentiable Programming},
+  doi          = {https://doi.org/10.1029/2025WR040265},
+  eprint       = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025WR040265},
+  note         = {e2025WR040265 2025WR040265},
+  number       = {9},
+  pages        = {e2025WR040265},
+  url          = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025WR040265},
+  volume       = {61},
+  abstract     = {Abstract Shallow water equations (SWEs) are the backbone of most hydrodynamics models for flood prediction, river engineering, and many other water resources applications. The estimation of flow resistance, that is, the Manning's roughness coefficient \$n\$, is crucial for ensuring model accuracy, and has been previously determined using empirical formulas or tables. To better account for temporal and spatial variability in channel roughness, inverse modeling of \$n\$ using observed flow data is more reliable and adaptable; however, it is challenging when using traditional SWE solvers. Based on the concept of universal differential equation, which combines physics-based differential equations with neural networks (NNs), we developed a universal SWEs (USWEs) solver, Hydrograd, for hybrid hydrodynamics modeling. It can do accurate forward simulations, support automatic differentiation (AD) for gradient-based sensitivity analysis and parameter inversion, and perform scientific machine learning for physics discovery. In this work, we first validated the accuracy of its forward modeling, then applied a real-world case to demonstrate the ability of USWEs to capture model sensitivity (gradients) and perform inverse modeling of Manning's \$n\$. Furthermore, we used a NN to learn a universal relationship between \$n\$, hydraulic parameters, and flow in a real river channel. Unlike inverse modeling using surrogate models, Hydrograd uses a two-dimensional SWEs solver as its physics backbone, which eliminates the need for data-intensive pretraining and resolves the generalization problem when applied to out-of-sample scenarios. This differentiable modeling approach, with seamless integration with NNs, provides a new pathway for solving complex inverse problems and discovering new physics in hydrodynamics.},
+  keywords     = {shallow water equations, differentiable programming, flow resistance, Manning's roughness},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
