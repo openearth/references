@@ -39205,4 +39205,39 @@ I find this an important paper for anybody working on engineering of braided riv
   publisher={Springer}
 }
 
+@TechReport{Huynh17,
+  author      = {H. T. Huynh},
+  date        = {2017},
+  institution = {NASA},
+  title       = {On High-Order Upwind Methods for Advection},
+  abstract    = {In the fourth installment of the celebrated series of five papers entitled “Towards the ultimate
+conservative difference scheme”, Van Leer (1977) introduced five schemes for advection, the first three are
+piecewise linear, and the last two, piecewise parabolic. Among the five, scheme I, which is the least
+accurate, extends with relative ease to systems of equations in multiple dimensions. As a result, it became
+the most popular and is widely known as the MUSCL scheme (monotone upstream-centered schemes for
+conservation laws). Schemes III and V have the same accuracy, are the most accurate, and are closely
+related to current high-order methods. Scheme III uses a piecewise linear approximation that is
+discontinuous across cells, and can be considered as a precursor of the discontinuous Galerkin methods.
+Scheme V employs a piecewise quadratic approximation that is, as opposed to the case of scheme III,
+continuous across cells. This method is the basis for the on-going “active flux scheme” developed by Roe
+and collaborators. Here, schemes III and V are shown to be equivalent in the sense that they yield identical
+(reconstructed) solutions, provided the initial condition for scheme III is defined from that of scheme V in
+a manner dependent on the CFL number. This equivalence is counter intuitive since it is generally believed
+that piecewise linear and piecewise parabolic methods cannot produce the same solutions due to their
+different degrees of approximation. The finding also shows a key connection between the approaches of
+discontinuous and continuous polynomial approximations. In addition to the discussed equivalence, a
+framework using both projection and interpolation that extends schemes III and V into a single family of
+high-order schemes is introduced. For these high-order extensions, it is demonstrated via Fourier analysis
+that schemes with the same number of degrees of freedom 𝐾 per cell, in spite of the different piecewise
+polynomial degrees, share the same sets of eigenvalues and thus, have the same stability and accuracy.
+Moreover, these schemes are accurate to order 2𝐾 − 1, which is higher than the expected order of 𝐾.},
+}
+
+@TechReport{McCall22,
+  author      = {Robert McCall and Dano Roelvink and Ap van Dongeren and Ellen Quataert and Anouk de Bakker and Menno de Ridder and Roel de Goede and Lodewijk de Vet and Marlies van der Lugt},
+  date        = {2022},
+  institution = {\refDeltares{}},
+  title       = {XBeach Documentation},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
