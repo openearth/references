@@ -192,3 +192,28 @@ Task 2 & \ALNUM{15000}\\
 
 \gls{H}
 
+%%%%%%%%
+%listing (code)
+
+\begin{lstlisting}[language=fortran, caption={original code for correcting velocity},label={lst:code_1}]
+if (ChangeVelocityAtStructures) then
+   ! Perform velocity correction for fixed weir and structures
+   ! In some cases the flow area of the hydraulic structure is larger than the flow area of the branch.
+   ! In those cases the flow velocity at the structure is not used, but the upstream velocity
+   do i = 1, size(structuresAndWeirsList)
+      L = structuresAndWeirsList(i)
+      if (jabarrieradvection == 3 .and. L > lnx1D) then
+         if (struclink(L) == 1) cycle
+      end if
+      if (comparereal(au_nostrucs(L), 0.0_dp) == 1) then
+         k1 = ln(1, L)
+         k2 = ln(2, L)
+         u1correction = q1(L) / au_nostrucs(L) - u1(L)
+         ucx(k1) = ucx(k1) + wcx1(L) * u1correction
+         ucy(k1) = ucy(k1) + wcy1(L) * u1correction
+         ucx(k2) = ucx(k2) + wcx2(L) * u1correction
+         ucy(k2) = ucy(k2) + wcy2(L) * u1correction
+      end if
+   end do
+end if
+\end{lstlisting}
