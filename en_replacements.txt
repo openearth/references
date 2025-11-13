@@ -1,0 +1,19 @@
+\b(long|medium|short)\ +term\b;\1-term
+\b(kilo|deci|centi|milli)meter(s)?\b;\1metre\2
+\b(small|large)\ scale\b;\1-scale
+\bhiding\ +exposure\ +(factor|exponent|submodel|relation|correction|setting)\b;hiding-exposure \1
+\briverbed\b;river bed
+(?<!Berg aan de )Maas\b;Meuse
+\b(simulation.management.tool);\\smtlong{}
+\bsub-\b(category)\b;sub\1
+\bChezy\b;Ch\'ezy
+assesment;assessment
+w\.r\.t\.;with respect to
+cell-centres;cell centres
+morhpo;morpho
+dyanmic;dynamic
+sluice doors;lock gates
+steady\ +state\ +(flow|solver|solution|condition);steady-state \1
+Shields';Shields
+\bthe\b\ +\bthe\b;the
+active\ +layer\ +(thickness|model);active-layer \1
