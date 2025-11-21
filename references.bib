@@ -39628,4 +39628,106 @@ one place for easy access.},
   keywords     = {sand waves, grain-size sorting, process-based modeling, internal sorting, field observations, North Sea},
 }
 
+@Article{Iserles90,
+  author       = {Iserles, A.},
+  date         = {1990-01},
+  journaltitle = {IMA Journal of Numerical Analysis},
+  title        = {Stability and Dynamics of Numerical Methods for Nonlinear Ordinary Differential Equations},
+  doi          = {10.1093/imanum/10.1.1},
+  eprint       = {https://academic.oup.com/imajna/article-pdf/10/1/1/1956817/10-1-1.pdf},
+  issn         = {0272-4979},
+  number       = {1},
+  pages        = {1-30},
+  url          = {https://doi.org/10.1093/imanum/10.1.1},
+  volume       = {10},
+  abstract     = {Stability of numerical methods for nonlinear autonomous ordinary differential equations is approached from the point of view of dynamical systems. It is proved that multistep methods (with nonlinear algebraic equations exactly solved) with bounded trajectories always produce correct asymptotic behaviour, but this is not the case with Runge-Kutta. Examples are given of Runge-Kutta schemes converging to wrong solutions in a deceptively ‘smooth’ manner and a characterization of such two-stage methods is presented. PE(CE)m schemes are examined as well, and it is demonstrated that they, like Runge-Kutta, may lead to false asymptotics.},
+}
+
+
+
+
+
+
+@Article{SanzSerna85,
+  author       = {Sanz-Serna, J. M.},
+  date         = {1985},
+  journaltitle = {SIAM Journal on Scientific and Statistical Computing},
+  title        = {Studies in Numerical Nonlinear Instability I. Why do Leapfrog Schemes Go Unstable?},
+  doi          = {10.1137/0906062},
+  eprint       = {https://doi.org/10.1137/0906062},
+  number       = {4},
+  pages        = {923-938},
+  url          = {https://doi.org/10.1137/0906062},
+  volume       = {6},
+  abstract     = {It is well known that leapfrog (explicit mid-point) discretizations of partial differential equations may have unbounded solutions for any choice of mesh-sizes, (even for choices satisfying conditions for linear stability). We provide a means for forecasting the qualitative behaviour of the computed leapfrog points, thus explaining the dynamics of the nonlinear instability phenomenon.},
+}
+
+@Article{Tadmor12,
+  author       = {Tadmor, Eitan},
+  date         = {2012},
+  journaltitle = {Bulletin of the American Mathematical Society},
+  title        = {A review of numerical methods for nonlinear partial differential equations},
+  number       = {4},
+  pages        = {507--554},
+  volume       = {49},
+}
+
+@Article{Sengupta07,
+  author       = {T. K. Sengupta and A. Dipankar and P. Sagaut},
+  date         = {2007},
+  journaltitle = {Journal of Computational Physics},
+  title        = {Error dynamics: Beyond von Neumann analysis},
+  doi          = {https://doi.org/10.1016/j.jcp.2007.06.001},
+  issn         = {0021-9991},
+  number       = {2},
+  pages        = {1211-1218},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0021999107002537},
+  volume       = {226},
+}
+
+@Article{LopezMarcos88,
+  author       = {L\' opez-Marcos, J. C. and Sanz-Serna, J. M.},
+  date         = {1988-01},
+  journaltitle = {IMA Journal of Numerical Analysis},
+  title        = {Stability and Convergence in Numerical Analysis III: Linear Investigation of Nonlinear Stability},
+  doi          = {10.1093/imanum/8.1.71},
+  eprint       = {https://academic.oup.com/imajna/article-pdf/8/1/71/2402880/8-1-71.pdf},
+  issn         = {0272-4979},
+  number       = {1},
+  pages        = {71-84},
+  url          = {https://doi.org/10.1093/imanum/8.1.71},
+  volume       = {8},
+  abstract     = {In a previous paper, we showed that several standard definitions of stability of nonlinear discretizations are so strong that they classify as unstable a number of useful discretizations. Then a weaker definition was introduced which, however, was powerful enough to imply, together with consistency, the existence and convergence of the discrete solutions. In this paper we prove that, for smooth discretizations, stability in the new sense is equivalent to stability of its linearization around the theoretical solution. This fact does not imply that schemes with stable linearizations are automatically useful, due to the appearance of so-called stability thresholds. The abstract ideas introduced are applied to a concrete finite-element example, with a view to assessing the advantages of the new approach.},
+}
+
+@Article{Konangi16,
+  author       = {Konangi, Santosh and Palakurthi, Nikhil K. and Ghia, Urmila},
+  date         = {2016-07},
+  journaltitle = {Journal of Fluids Engineering},
+  title        = {von Neumann Stability Analysis of a Segregated Pressure-Based Solution Scheme for One-Dimensional and Two-Dimensional Flow Equations},
+  doi          = {10.1115/1.4033958},
+  eprint       = {https://asmedigitalcollection.asme.org/fluidsengineering/article-pdf/138/10/101401/6197306/fe_138_10_101401.pdf},
+  issn         = {0098-2202},
+  number       = {10},
+  pages        = {101401},
+  url          = {https://doi.org/10.1115/1.4033958},
+  volume       = {138},
+  abstract     = {The goal of this paper is to derive the von Neumann stability conditions for the pressure-based solution scheme, semi-implicit method for pressure-linked equations (SIMPLE). The SIMPLE scheme lies at the heart of a class of computational fluid dynamics (CFD) algorithms built into several commercial and open-source CFD software packages. To the best of the authors' knowledge, no readily usable stability guidelines appear to be available for this popularly employed scheme. The Euler equations are examined, as the inclusion of viscosity in the Navier–Stokes (NS) equation serves to only soften the stability limits. First, the one-dimensional (1D) Euler equations are studied, and their stability properties are delineated. Next, a rigorous stability analysis is carried out for the two-dimensional (2D) Euler equations; the analysis of the 2D equations is considerably more challenging as compared to analysis of the 1D form of equations. The Euler equations are discretized using finite differences on a staggered grid, which is used to achieve equivalence to finite-volume discretization. Error amplification matrices are determined from the stability analysis, stable and unstable regimes are identified, and practical stability limits are predicted in terms of the maximum allowable Courant–Friedrichs–Lewy (CFL) number as a function of Mach number. The predictions are verified using the Riemann problem, and very good agreement is obtained between the analytically predicted and the “experimentally” observed CFL values. The successfully tested stability limits are presented in graphical form, as compared to complicated mathematical expressions often reported in published literature. Since our analysis accounts for the solution scheme along with the full system of flow equations, the conditions reported in this paper offer practical value over the conditions that arise from analysis of simplified 1D model equations.},
+}
+
+@Article{Butcher87,
+  author       = {Butcher, J. C.},
+  date         = {1987},
+  journaltitle = {BIT Numerical Mathematics},
+  title        = {Linear and non-linear stability for general linear methods},
+  doi          = {10.1007/BF01934183},
+  issn         = {1572-9125},
+  number       = {2},
+  pages        = {181--189},
+  url          = {https://doi.org/10.1007/BF01934183},
+  volume       = {27},
+  abstract     = {We explore the interrelation between a number of linear and non-linear stability properties. The weakest of these,A-stability, is shown by counterexample not to imply any of the various versions ofAN-stability introduced in the paper and two of these properties, weak and strongAN-stability, are also shown not to be equivalent. Finally, another linear stability property defined here, EuclideanAN-stability, is shown to be equivalent to algebraic stability.},
+  refid        = {Butcher1987},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
