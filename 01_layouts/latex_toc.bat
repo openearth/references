@@ -1,6 +1,0 @@
-@echo off
-for %%f in (*.tex) do (
-    rem if "%%~xf"==".tex" echo %%f
-	if "%%~xf"==".tex" call latex_toc %%f
-)
-pause
