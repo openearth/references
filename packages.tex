@@ -1,6 +1,7 @@
 %---------references
 \usepackage{natbib} %references
-	\DeclareRobustCommand{\van}[3]{#2} %add \DeclareRobustCommand{\van}[3]{#3} before the bibliography
+%\DeclareRobustCommand{\van}[3]{#2} %add \DeclareRobustCommand{\van}[3]{#3} before the bibliography
+\DeclareRobustCommand{\van}[3]{{#3}}  %according to review, this is the way its done with a small letter.
 
 %---------math
 \usepackage{array} %math arrays
@@ -52,7 +53,7 @@
 %---------other
 \usepackage{siunitx} %SI units
 \usepackage{alphalph} %after \appendix add \renewcommand\thesection{\AlphAlph{\value{section}}} 
-%\usepackage{enumitem} 
+%\usepackage{enumitem}  adjusts report defaults of itemize/enumerate
 \usepackage{booktabs}
 \usepackage{mfirstuc} %make first letter of sentence capital: \MFUsentencecase, \makefirstuc
 \usepackage[nofancy]{svninfo}
@@ -81,3 +82,5 @@
 \usepackage{pgf, pgffor} % /foreach
 %\usepackage{import} 
 %\usepackage{svg} %\includesvg
+
+\usepackage{needspace}
