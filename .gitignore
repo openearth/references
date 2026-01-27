@@ -1,2 +1,7 @@
 /adlib
 *.html
+print_references.aux
+print_references.bbl
+print_references.blg
+print_references.log
+print_references.out
