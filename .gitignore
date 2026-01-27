@@ -5,3 +5,5 @@ print_references.bbl
 print_references.blg
 print_references.log
 print_references.out
+print_references.fls
+print_references.fdb_latexmk
