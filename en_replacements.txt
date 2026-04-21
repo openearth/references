@@ -17,4 +17,4 @@ steady\ +state\ +(flow|solver|solution|condition);steady-state \1
 Shields';Shields
 \bthe\b\ +\bthe\b;the
 active\ +layer\ +(thickness|model);active-layer \1
-schematization(s)?;schematisation\1
+schematisation(s)?;schematization\1
