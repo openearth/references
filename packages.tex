@@ -47,8 +47,9 @@
 }
 
 %---------glossary
-\usepackage{glossaries}
-\makeglossaries
+\usepackage[nopostdot,nonumberlist]{glossaries}
+\makenoidxglossaries
+%\makeglossaries
 
 %---------other
 \usepackage{siunitx} %SI units
@@ -78,6 +79,9 @@
 %---------prevent breakng paragraphs
 \widowpenalties 1 10000
 \raggedbottom
+
+%---------suppress hbox warnings
+\hbadness=99999
 
 \usepackage{pgf, pgffor} % /foreach
 %\usepackage{import} 
