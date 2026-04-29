@@ -42533,4 +42533,34 @@ note = "8th International Conference on Marine and River Dune Dynamics, MARID 20
 url = "https://www.utwente.nl/en/et/marid26/",
 }
 
+@phdthesis{Bentivoglio26,
+title  =  {Modelling floods via graph neural networks: With applications to dike-breach floods}, 
+abstract  =  {Flooding is one of the most frequent and destructive natural hazards, accounting for significant human and economic losses every year. Flood hazard mapping allows to identify vulnerable areas by estimating water depth, extent, and intensity under specific scenarios. These maps are created via numerical models as they provide accurate flood simulations. However, they are computationally expensive, particularly for overland flow at high resolution. Data-driven methods based on neural networks offer a promising alternative, delivering faster predictions while maintaining high accuracy.
+
+To provide a comprehensive perspective on deep learning for flood mapping, we first reviewed the state of the art across different applications, considering a range of flood types, spatial scales, and deep learning architectures. Our analysis shows that deep learning methods generally outperform both traditional numerical approaches and conventional machine learning in terms of speed and accuracy. However, most existing models are tailored to individual case studies, neglect the dynamic evolution of flood waves, and cannot transfer to new topographic settings and boundary conditions not seen during training. Furthermore, current approaches struggle to incorporate physical principles, represent hydraulic structures, and provide physically consistent methods for validating outputs, particularly in the context of uncertainty quantification. Finally, we highlight that dike-breach floods remain largely under-represented in the literature, despite their high uncertainty stemming from flood defence failures.
+
+In this thesis, we introduce Graph Neural Networks (GNNs) as hydraulics-inspired Surrogate models for simulating the spatio-temporal evolution of floods. While applicable to different flood types, our focus is on dike-breach floods due to their high uncertainty and particular relevance in the Netherlands and other low-lying areas. We build GNNs that are conceptually analogous to finite-volume methods used to solve the shallow water equations: finite-volume cells are treated as graph nodes, and flux exchanges are learned between adjacent cells by the model. The flood propagation in the proposed SWE-GNN model resembles hydraulics principles and enforces water to propagate only from cells with water. The model works in the same fashion as numerical solvers, auto-regressively predicting the evolution of the hydraulic states over time. By stacking multiple GNN layers, the model captures wider spatial dependencies without requiring small numerical time steps, theoretically needed for stability conditions. We also develop a multi-step ahead loss function combined with curriculum learning that further stabilizes long-term predictions.
+
+We propose a multi-scale GNN formulation that models flood dynamics across different spatial resolutions, enabling the capture of both local and large-scale propagation processes. Time-varying boundary conditions are incorporated through ghost cells, removing the need for separate numerical solvers to initialize simulations. To enhance generalization across unseen unstructured meshes and reduce training data demands, we enforce invariance principles, ensuring the model is independent of coordinate rotations. This multi-scale approach proves both faster and more accurate than its single-scale counterpart. Our methods are validated on a suite of two-dimensional synthetic dike-breach simulations generated with a high-fidelity numerical solver. These datasets progressively increase in complexity by varying initial conditions, location of boundary conditions, size of the domain, computational mesh, and time-varying hydrographs used as boundary condition. Results demonstrate that the GNN generalizes well to unseen topographies, boundary configurations, and mesh configurations, without relying on inputs from numerical simulations. The models achieve a testing critical success index consistently higher than 70% in all datasets. The model also shows generalization to a real case study, dike ring 15 in the Netherlands, with only one fine-tuning simulation.
+
+Finally, we extend the model to explicitly include hydraulic structures and to quantify uncertainty in flood hazard mapping of another real-world case study, dike ring 41 in the Netherlands. The framework is tested for large-scale uncertainty analysis with 10,000 scenarios. All simulations are completed in under 10 hours on a single GPU, corresponding to a speed-up of approximately 10,000 times with respect to the numerical solver, with over half of the scenarios maintaining plausible mass conservation. The combined scenarios are then used to produce probabilistic flood hazard maps, which assume equal likelihood of occurrence for each event. We also analyse the flood uncertainty for a given breach location and return period, showing that the model ensemble can provide better flooding estimates than the deterministic scenario.
+
+This thesis highlights the potential of GNN-based surrogates for time-sensitive flood risk assessments under uncertainty. By demonstrating both accuracy and computational efficiency, it contributes to bridging the gap between complex hydraulic modelling and large-scale flood risk analysis. Despite being applied on dike-breach floods, the framework introduced in this thesis can readily be applied to fluvial and coastal floods without modifications. This open pathways for integrating surrogates into operational decision making and future flood resilience planning.}, 
+author  =  {Bentivoglio, R.}, 
+year  =  {2026}, 
+doi  =  {10.4233/uuid:1311bb0f-fbdb-4f08-960d-536dbb09413e}, 
+publisher  =  {\refTUD}, 
+school  =  {\refTUD}, 
+}
+
+@article{Blanckaert10_2,
+  title={Meander dynamics: A nonlinear model without curvature restrictions for flow in open-channel bends},
+  author={Blanckaert, Koen and De Vriend, HJ},
+  journal={Journal of Geophysical Research: Earth Surface},
+  volume={115},
+  number={F4},
+  year={2010},
+  publisher={Wiley Online Library}
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
