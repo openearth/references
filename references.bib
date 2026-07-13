@@ -36162,7 +36162,7 @@ school =  {Deltares, Delft},
   projectnumber       = {11209261},
   year                = {2023},
 school =  {Deltares, Delft},
-  comment             = {Documents choice of morphological spin-up for the Rhine. Figure 10.4}
+comment             = {Documents choice of morphological spin-up for the Rhine. Figure 10.4},
 }
 
 @PhdThesis{Draad96,
@@ -39932,9 +39932,9 @@ school =  {University of Trento, \refDeltares{}},
   volume       = {48},
   comment      = {bank erosion statistics probability},
   fjournal     = {Journal of Hydraulic Research},
-  journal      = {Journal of Hydraulic Research},
+journal =  {Journal of Hydraulic Research},
   publisher    = {IAHR Website},
-  year         = {2010},
+year =  {2010},
 }
 
 @Article{Groenewege25_2,
@@ -42429,7 +42429,7 @@ journal =  {New Journal of Physics},
 	year =        {2026},
 	type =        {{M}emo.},
 	number =      {11212812-002-ZWS-0001\_v0.1},
-   school =  {Deltares, Delft, the Netherlands},
+school =  {Deltares, Delft, the Netherlands},
 }
 
 @TechReport{Leemeijer26,
@@ -42439,7 +42439,7 @@ journal =  {New Journal of Physics},
 	year =        {2026},
 	type =        {{M}emo.},
 	number =      {11212812-002-ZWS-0002\_v0.1},
-   school =  {Deltares, Delft, the Netherlands},
+school =  {Deltares, Delft, the Netherlands},
 }
 
 @TechReport{Leemeijer26_2,
@@ -42449,7 +42449,7 @@ journal =  {New Journal of Physics},
 	year =        {2026},
 	type =        {{M}emo.},
 	number =      {11212812-002-ZWS-0002\_v0.1},
-   school =  {Deltares, Delft, the Netherlands},
+school =  {Deltares, Delft, the Netherlands},
 }
 
 @Article{,
@@ -42531,32 +42531,22 @@ year =  {2026},
 }
 
 @book{PortosAmill26,
-title = "Book of abstracts of the Eighth International Conference on Marine and River Dune Dynamics",
-editor = "\{Portos - Amill\}, Laura and Wout Ploeg and Overes, \{Pauline H.P.\} and Vasileios Kitsikoudis",
-year = "2026",
-month = mar,
-day = "16",
-doi = "10.3990/1.9789036572286",
-language = "English",
-publisher = "University of Twente",
-address = "Netherlands",
-note = "8th International Conference on Marine and River Dune Dynamics, MARID 2026 : From patterns to practice: (applied) research across all scales, MARID 2026 ; Conference date: 12-04-2026 Through 15-04-2026",
-url = "https://www.utwente.nl/en/et/marid26/",
+title  =  {"Book of abstracts of the Eighth International Conference on Marine and River Dune Dynamics"}, 
+editor  =  {"\{Portos - Amill\}, Laura and Wout Ploeg and Overes, \{Pauline H.P.\} and Vasileios Kitsikoudis"}, 
+year  =  {"2026"}, 
+month  =  {mar}, 
+day  =  {"16"}, 
+doi  =  {"10.3990/1.9789036572286"}, 
+language  =  {"English"}, 
+publisher  =  {"University of Twente"}, 
+address  =  {"Netherlands"}, 
+note  =  {"8th International Conference on Marine and River Dune Dynamics, MARID 2026 : From patterns to practice: (applied) research across all scales, MARID 2026 ; Conference date: 12-04-2026 Through 15-04-2026"}, 
+url  =  {"https://www.utwente.nl/en/et/marid26/"}, 
 }
 
 @phdthesis{Bentivoglio26,
 title  =  {Modelling floods via graph neural networks: With applications to dike-breach floods}, 
-abstract  =  {Flooding is one of the most frequent and destructive natural hazards, accounting for significant human and economic losses every year. Flood hazard mapping allows to identify vulnerable areas by estimating water depth, extent, and intensity under specific scenarios. These maps are created via numerical models as they provide accurate flood simulations. However, they are computationally expensive, particularly for overland flow at high resolution. Data-driven methods based on neural networks offer a promising alternative, delivering faster predictions while maintaining high accuracy.
-
-To provide a comprehensive perspective on deep learning for flood mapping, we first reviewed the state of the art across different applications, considering a range of flood types, spatial scales, and deep learning architectures. Our analysis shows that deep learning methods generally outperform both traditional numerical approaches and conventional machine learning in terms of speed and accuracy. However, most existing models are tailored to individual case studies, neglect the dynamic evolution of flood waves, and cannot transfer to new topographic settings and boundary conditions not seen during training. Furthermore, current approaches struggle to incorporate physical principles, represent hydraulic structures, and provide physically consistent methods for validating outputs, particularly in the context of uncertainty quantification. Finally, we highlight that dike-breach floods remain largely under-represented in the literature, despite their high uncertainty stemming from flood defence failures.
-
-In this thesis, we introduce Graph Neural Networks (GNNs) as hydraulics-inspired Surrogate models for simulating the spatio-temporal evolution of floods. While applicable to different flood types, our focus is on dike-breach floods due to their high uncertainty and particular relevance in the Netherlands and other low-lying areas. We build GNNs that are conceptually analogous to finite-volume methods used to solve the shallow water equations: finite-volume cells are treated as graph nodes, and flux exchanges are learned between adjacent cells by the model. The flood propagation in the proposed SWE-GNN model resembles hydraulics principles and enforces water to propagate only from cells with water. The model works in the same fashion as numerical solvers, auto-regressively predicting the evolution of the hydraulic states over time. By stacking multiple GNN layers, the model captures wider spatial dependencies without requiring small numerical time steps, theoretically needed for stability conditions. We also develop a multi-step ahead loss function combined with curriculum learning that further stabilizes long-term predictions.
-
-We propose a multi-scale GNN formulation that models flood dynamics across different spatial resolutions, enabling the capture of both local and large-scale propagation processes. Time-varying boundary conditions are incorporated through ghost cells, removing the need for separate numerical solvers to initialize simulations. To enhance generalization across unseen unstructured meshes and reduce training data demands, we enforce invariance principles, ensuring the model is independent of coordinate rotations. This multi-scale approach proves both faster and more accurate than its single-scale counterpart. Our methods are validated on a suite of two-dimensional synthetic dike-breach simulations generated with a high-fidelity numerical solver. These datasets progressively increase in complexity by varying initial conditions, location of boundary conditions, size of the domain, computational mesh, and time-varying hydrographs used as boundary condition. Results demonstrate that the GNN generalizes well to unseen topographies, boundary configurations, and mesh configurations, without relying on inputs from numerical simulations. The models achieve a testing critical success index consistently higher than 70% in all datasets. The model also shows generalization to a real case study, dike ring 15 in the Netherlands, with only one fine-tuning simulation.
-
-Finally, we extend the model to explicitly include hydraulic structures and to quantify uncertainty in flood hazard mapping of another real-world case study, dike ring 41 in the Netherlands. The framework is tested for large-scale uncertainty analysis with 10,000 scenarios. All simulations are completed in under 10 hours on a single GPU, corresponding to a speed-up of approximately 10,000 times with respect to the numerical solver, with over half of the scenarios maintaining plausible mass conservation. The combined scenarios are then used to produce probabilistic flood hazard maps, which assume equal likelihood of occurrence for each event. We also analyse the flood uncertainty for a given breach location and return period, showing that the model ensemble can provide better flooding estimates than the deterministic scenario.
-
-This thesis highlights the potential of GNN-based surrogates for time-sensitive flood risk assessments under uncertainty. By demonstrating both accuracy and computational efficiency, it contributes to bridging the gap between complex hydraulic modelling and large-scale flood risk analysis. Despite being applied on dike-breach floods, the framework introduced in this thesis can readily be applied to fluvial and coastal floods without modifications. This open pathways for integrating surrogates into operational decision making and future flood resilience planning.}, 
+abstract  =  {Flooding is one of the most frequent and destructive natural hazards, accounting for significant human and economic losses every year. Flood hazard mapping allows to identify vulnerable areas by estimating water depth, extent, and intensity under specific scenarios. These maps are created via numerical models as they provide accurate flood simulations. However, they are computationally expensive, particularly for overland flow at high resolution. Data-driven methods based on neural networks offer a promising alternative, delivering faster predictions while maintaining high accuracy.  To provide a comprehensive perspective on deep learning for flood mapping, we first reviewed the state of the art across different applications, considering a range of flood types, spatial scales, and deep learning architectures. Our analysis shows that deep learning methods generally outperform both traditional numerical approaches and conventional machine learning in terms of speed and accuracy. However, most existing models are tailored to individual case studies, neglect the dynamic evolution of flood waves, and cannot transfer to new topographic settings and boundary conditions not seen during training. Furthermore, current approaches struggle to incorporate physical principles, represent hydraulic structures, and provide physically consistent methods for validating outputs, particularly in the context of uncertainty quantification. Finally, we highlight that dike-breach floods remain largely under-represented in the literature, despite their high uncertainty stemming from flood defence failures.  In this thesis, we introduce Graph Neural Networks (GNNs) as hydraulics-inspired Surrogate models for simulating the spatio-temporal evolution of floods. While applicable to different flood types, our focus is on dike-breach floods due to their high uncertainty and particular relevance in the Netherlands and other low-lying areas. We build GNNs that are conceptually analogous to finite-volume methods used to solve the shallow water equations: finite-volume cells are treated as graph nodes, and flux exchanges are learned between adjacent cells by the model. The flood propagation in the proposed SWE-GNN model resembles hydraulics principles and enforces water to propagate only from cells with water. The model works in the same fashion as numerical solvers, auto-regressively predicting the evolution of the hydraulic states over time. By stacking multiple GNN layers, the model captures wider spatial dependencies without requiring small numerical time steps, theoretically needed for stability conditions. We also develop a multi-step ahead loss function combined with curriculum learning that further stabilizes long-term predictions.  We propose a multi-scale GNN formulation that models flood dynamics across different spatial resolutions, enabling the capture of both local and large-scale propagation processes. Time-varying boundary conditions are incorporated through ghost cells, removing the need for separate numerical solvers to initialize simulations. To enhance generalization across unseen unstructured meshes and reduce training data demands, we enforce invariance principles, ensuring the model is independent of coordinate rotations. This multi-scale approach proves both faster and more accurate than its single-scale counterpart. Our methods are validated on a suite of two-dimensional synthetic dike-breach simulations generated with a high-fidelity numerical solver. These datasets progressively increase in complexity by varying initial conditions, location of boundary conditions, size of the domain, computational mesh, and time-varying hydrographs used as boundary condition. Results demonstrate that the GNN generalizes well to unseen topographies, boundary configurations, and mesh configurations, without relying on inputs from numerical simulations. The models achieve a testing critical success index consistently higher than 70% in all datasets. The model also shows generalization to a real case study, dike ring 15 in the Netherlands, with only one fine-tuning simulation.  Finally, we extend the model to explicitly include hydraulic structures and to quantify uncertainty in flood hazard mapping of another real-world case study, dike ring 41 in the Netherlands. The framework is tested for large-scale uncertainty analysis with 10,000 scenarios. All simulations are completed in under 10 hours on a single GPU, corresponding to a speed-up of approximately 10,000 times with respect to the numerical solver, with over half of the scenarios maintaining plausible mass conservation. The combined scenarios are then used to produce probabilistic flood hazard maps, which assume equal likelihood of occurrence for each event. We also analyse the flood uncertainty for a given breach location and return period, showing that the model ensemble can provide better flooding estimates than the deterministic scenario.  This thesis highlights the potential of GNN-based surrogates for time-sensitive flood risk assessments under uncertainty. By demonstrating both accuracy and computational efficiency, it contributes to bridging the gap between complex hydraulic modelling and large-scale flood risk analysis. Despite being applied on dike-breach floods, the framework introduced in this thesis can readily be applied to fluvial and coastal floods without modifications. This open pathways for integrating surrogates into operational decision making and future flood resilience planning.}, 
 author  =  {Bentivoglio, R.}, 
 year  =  {2026}, 
 doi  =  {10.4233/uuid:1311bb0f-fbdb-4f08-960d-536dbb09413e}, 
@@ -42571,14 +42561,14 @@ school  =  {\refTUD},
   volume={115},
   number={F4},
   year={2010},
-  publisher={Wiley Online Library}
+publisher={Wiley Online Library},
 }
 
 @book{Beltaos13,
   title={River ice formation},
   author={Beltaos, Spyros and others},
   year={2013},
-  publisher={Committee on river ice processes and the environment, Canadian geophysical Union}
+publisher={Committee on river ice processes and the environment, Canadian geophysical Union},
 }
 
 @article{YanToe26,
@@ -42587,7 +42577,7 @@ school  =  {\refTUD},
   journal={J. Fluid Mech},
   volume={1027},
   pages={A18},
-  year={2026}
+year={2026},
 }
 
 @article{Leng26,
@@ -42601,7 +42591,7 @@ doi = {https://doi.org/10.1016/j.jcp.2026.114842},
 url = {https://www.sciencedirect.com/science/article/pii/S0021999126001920},
 author = {Yu Leng and Miles A. Buechler and Gianmarco Manzini},
 keywords = {Virtual element method, Hourglass control, Staggered-grid hydrodynamics, Finite volume method},
-abstract = {Numerical simulations using the staggered-grid hydrodynamics (SGH) discretization suffer from hourglass instabilities. In this work, we develop a stabilization method to suppress the hourglass instabilities using techniques from the virtual element method (VEM). The stiffness matrix of the VEM consists of two terms: the consistency matrix which is rank deficient and the stability matrix. We first show that in two dimensions and on general polygons, the stiffness matrix of the SGH is identical to the consistency matrix of the linear VEM for both the diffusion equation and the linear elasticity equation. These analyses explain the origin of the hourglass instabilities of the SGH discretization method, and establish a theoretical foundation for our proposed stabilization method by augmenting the stiffness matrix of the SGH discretization using the VEM stability matrix. Then, we present numerical examples using Lagrangian SGH simulations. The numerical experiments demonstrate that the proposed VEM stabilization method is effective at eliminating hourglass modes in the SGH discretization.}
+abstract = {Numerical simulations using the staggered-grid hydrodynamics (SGH) discretization suffer from hourglass instabilities. In this work, we develop a stabilization method to suppress the hourglass instabilities using techniques from the virtual element method (VEM). The stiffness matrix of the VEM consists of two terms: the consistency matrix which is rank deficient and the stability matrix. We first show that in two dimensions and on general polygons, the stiffness matrix of the SGH is identical to the consistency matrix of the linear VEM for both the diffusion equation and the linear elasticity equation. These analyses explain the origin of the hourglass instabilities of the SGH discretization method, and establish a theoretical foundation for our proposed stabilization method by augmenting the stiffness matrix of the SGH discretization using the VEM stability matrix. Then, we present numerical examples using Lagrangian SGH simulations. The numerical experiments demonstrate that the proposed VEM stabilization method is effective at eliminating hourglass modes in the SGH discretization.},
 }
 
 @Book{Crank75,
@@ -42611,7 +42601,7 @@ abstract = {Numerical simulations using the staggered-grid hydrodynamics (SGH) d
   edition={2nd},
   publisher={Oxford University Press},
   isbn= {9781119121503},
-  pages={414}
+pages={414},
 }
 
 @TechReport{Sieben26,
@@ -42621,7 +42611,7 @@ abstract = {Numerical simulations using the staggered-grid hydrodynamics (SGH) d
   title       = {{Voorstel empirische formulering Cd coëfficiënt brugpijler.}},
   type        = {Memo},
   institution = {\RWS{}},
-year =  {2026},
+year =  {13-05-2026},
 school =  {\RWS{}},
 }
 
@@ -42635,7 +42625,7 @@ doi = {https://doi.org/10.1016/j.envsoft.2026.107022},
 url = {https://www.sciencedirect.com/science/article/pii/S1364815226001696},
 author = {Sem J. Geerts and Pieter C. Roos and Suzanne J.M.H. Hulscher},
 keywords = {Sediment-scarcity, Bedload, Sediment transport, Struiksma method, Numerical modelling, Tidal sandbanks, Non-erodible layer},
-abstract = {Existing morphodynamic models that consider bedload sediment transport over non-erodible layers often rely on small morphological time steps or numerical filtering techniques for stability. A time-integration method of the Exner equation that can simulate bedform evolution over large timescales without relying on numerical fixes appears to be lacking. In this research, we provide two semi-implicit time-integration methods and propose a method to incorporate the non-erodible layer without numerical fixes, applied to a tidal sandbank model. As shown by our results, both methods work well, and are computationally fast. The newly developed model is compared against a conventional approach, which violates the non-erodibility condition, is computationally less efficient due to the need for small time steps, and introduces new uncertainty by adding more parameters. Our new method to deal with the non-erodibility allows for large morphological time steps and is a suitable method to study tidal sandbank dynamics in sediment-scarce environments.}
+abstract = {Existing morphodynamic models that consider bedload sediment transport over non-erodible layers often rely on small morphological time steps or numerical filtering techniques for stability. A time-integration method of the Exner equation that can simulate bedform evolution over large timescales without relying on numerical fixes appears to be lacking. In this research, we provide two semi-implicit time-integration methods and propose a method to incorporate the non-erodible layer without numerical fixes, applied to a tidal sandbank model. As shown by our results, both methods work well, and are computationally fast. The newly developed model is compared against a conventional approach, which violates the non-erodibility condition, is computationally less efficient due to the need for small time steps, and introduces new uncertainty by adding more parameters. Our new method to deal with the non-erodibility allows for large morphological time steps and is a suitable method to study tidal sandbank dynamics in sediment-scarce environments.},
 }
 
 
@@ -42648,6 +42638,7 @@ abstract = {Existing morphodynamic models that consider bedload sediment transpo
   year        = {1993},
   month       = {December},
   note        = {Joint project of FAP 21/22 and FAP 19; report on probabilistic modelling of braided river planform dynamics},
+school =  {Delft Hydraulics},
 }
 
 
@@ -42660,32 +42651,13 @@ abstract = {Existing morphodynamic models that consider bedload sediment transpo
   institution = {Bank Protection and River Training (AFPM) Pilot Project, FAP 21/22},
   year        = {1993},
   month       = {November},
+school =  {Bank Protection and River Training (AFPM) Pilot Project, FAP 21/22},
 }
 
 @Article{Dam26,
   author   = {Nguyen Dam Quoc Huy, Le Thi Thuy Van Tran Thi Kim},
   title    = {Acceleration and Spatial Reorganization of Bank Erosionunder Prolonged Sediment Starvation: Multi-decadalEvidence from the Vam Nao Channel},
-  abstract = {The reduction in sediment supply in major deltas worldwide is altering the morphological
-dynamics of river delta systems. However, the way in which this process leads to the spatial
-reorganization of erosion has not yet been fully quantified. This study analyzes shoreline
-variations in the Vam Nao channel, Mekong Delta, over the period 1988–2025 in order to
-clarify the morphological changes of this key distributary reach under conditions of
-prolonged sediment deficit.
-The results show that sediment load decreased at a rate of approximately −2.62 Mt/year at
-Tan Chau and −0.99 Mt/year at Vam Nao, reflecting a system-wide sediment deficit. At Vam
-Nao, erosion area increased markedly during the period 1993–2011, with the emergence of
-continuously eroding segments and large negative LRR. The concurrent increase in the
-morphological index asymmetry Index AI (up to 0.72–0.88) and the coefficient of variation
-CV (up to 0.47) indicates that erosion not only intensified in magnitude but also became
-asymmetric and shifted toward the right bank of the river. In the period after 2012,
-although AI index remained at a high level, the decrease in CV suggests that erosion zones
-had been established and became more spatially stable.
-These results indicate that the Vam Nao channel system initially shows that this area has
-undergone a morphological regime shift, from a relatively balanced state to a highly
-dynamic state and subsequently to a structurally organized erosional state. This study
-highlights the importance of analyzing the spatial structure of erosion in identifying early
-signals of morphological transitions in river systems affected by sediment deficit
-worldwide},
+  abstract = {The reduction in sediment supply in major deltas worldwide is altering the morphological dynamics of river delta systems. However, the way in which this process leads to the spatial reorganization of erosion has not yet been fully quantified. This study analyzes shoreline variations in the Vam Nao channel, Mekong Delta, over the period 1988–2025 in order to clarify the morphological changes of this key distributary reach under conditions of prolonged sediment deficit. The results show that sediment load decreased at a rate of approximately −2.62 Mt/year at Tan Chau and −0.99 Mt/year at Vam Nao, reflecting a system-wide sediment deficit. At Vam Nao, erosion area increased markedly during the period 1993–2011, with the emergence of continuously eroding segments and large negative LRR. The concurrent increase in the morphological index asymmetry Index AI (up to 0.72–0.88) and the coefficient of variation CV (up to 0.47) indicates that erosion not only intensified in magnitude but also became asymmetric and shifted toward the right bank of the river. In the period after 2012, although AI index remained at a high level, the decrease in CV suggests that erosion zones had been established and became more spatially stable. These results indicate that the Vam Nao channel system initially shows that this area has undergone a morphological regime shift, from a relatively balanced state to a highly dynamic state and subsequently to a structurally organized erosional state. This study highlights the importance of analyzing the spatial structure of erosion in identifying early signals of morphological transitions in river systems affected by sediment deficit worldwide}, 
   comment  = {vietnam, mekong,},
 }
 
@@ -42696,7 +42668,7 @@ worldwide},
   title       = {Afvoerreeksen KNMI scenarios},
   type        = {Memo},
   note        = {},
-  school =  {\refDeltares{}},
+school =  {\refDeltares{}},
 }
 
 @TechReport{Sieben26_2,
@@ -42706,8 +42678,8 @@ worldwide},
   title       = {{Toepassing modellen in morfologische analyses RWS}},
   type        = {Memo},
   institution = {\RWS{}},
-  year =  {2026},
-  school =  {\RWS{}},
+year =  {20-05-2026},
+school =  {\RWS{}},
 }
 
  
@@ -42724,6 +42696,7 @@ worldwide},
   hyperref   = {https://kb.avi.directory.intra/WeL1543.pdf},
   notes      = {I.o.v. Rijkswaterstaat-RIZA, Delft Cluster},
   subject    = {sedimenttransport, sediment transport, stuwen, weirs, zwevend sediment, suspended sediment},
+school =  {TU Delft, Delft},
 }
 
 @article{Lauchlan04,
@@ -42734,7 +42707,7 @@ worldwide},
   number={5},
   pages={551--558},
   year={2004},
-  publisher={Taylor \& Francis}
+publisher={Taylor \& Francis},
 }
 
 @article{McCarron19,
@@ -42744,7 +42717,7 @@ worldwide},
   volume={410},
   pages={22--31},
   year={2019},
-  publisher={Elsevier}
+publisher={Elsevier},
 }
 
 @TechReport{Zagonjolli19,
@@ -42754,6 +42727,8 @@ worldwide},
   title       = {Aanvaar- en bezwijkkans vande pijlers van Spoorbrug Venlo},
   number      = {11203553-002},
   comment     = {bridge piles, ship, collision},
+year =  {2019},
+school =  {\refDeltares{}},
 }
 
 @TechReport{RWS21,
@@ -42762,6 +42737,8 @@ worldwide},
   institution = {\RWS{}},
   title       = {Richtlijnen Ontwerp Kunstwerken},
   comment     = {ROK, bridge piles, manual, kader,},
+year =  {2021},
+school =  {\RWS{}},
 }
 
 @article{NunezGonzalez18,
@@ -42774,8 +42751,8 @@ note = {River processes and links between fluvial and coastal systems in a chang
 issn = {0309-1708},
 doi = {https://doi.org/10.1016/j.advwatres.2017.07.026},
 url = {https://www.sciencedirect.com/science/article/pii/S0309170816304493},
-author = {Francisco Núñez-González and Albert Rovira and Carles Ibàñez},
-abstract = {A new data set of bed load measurements in a cross-section at the exit of a river bend is presented. Data are analyzed to identify processes that contribute to the morphodynamic stability of gravel bed meanders. It is shown that boundary shear stress and bed material texture are strongly coupled, resulting in an almost equal mobility at incipient motion over the bend point bar in relation to channel flow stage. Conversely, for conditions above bankfull an excess of fine sediment towards the inner-bank, likely related to more intense crosswise flux and grain size sorting, results in size selective transport in relation to the local bed material. We suggest that bed armoring and structuring, as well as crosswise sediment flux, add stability to the outer-bank pool, while the point bar is eroded by large floods and restored by moderate flows. Results reveal the strong feedback of processes at different scales promoting stability at bends of gravel bed rivers.}
+author = {Francisco N\'uñez-Gonz\'alez and Albert Rovira and Carles Ibàñez},
+abstract = {A new data set of bed load measurements in a cross-section at the exit of a river bend is presented. Data are analyzed to identify processes that contribute to the morphodynamic stability of gravel bed meanders. It is shown that boundary shear stress and bed material texture are strongly coupled, resulting in an almost equal mobility at incipient motion over the bend point bar in relation to channel flow stage. Conversely, for conditions above bankfull an excess of fine sediment towards the inner-bank, likely related to more intense crosswise flux and grain size sorting, results in size selective transport in relation to the local bed material. We suggest that bed armoring and structuring, as well as crosswise sediment flux, add stability to the outer-bank pool, while the point bar is eroded by large floods and restored by moderate flows. Results reveal the strong feedback of processes at different scales promoting stability at bends of gravel bed rivers.},
 }
 
 @article{Arcucci26,
@@ -42786,7 +42763,7 @@ abstract = {A new data set of bed load measurements in a cross-section at the ex
   number={1},
   pages={48},
   year={2026},
-  publisher={Nature Publishing Group UK London}
+publisher={Nature Publishing Group UK London},
 }
 
 
@@ -42800,12 +42777,8 @@ abstract = {A new data set of bed load measurements in a cross-section at the ex
   year = {2026},
   publisher = {Taylor \& Francis},
   doi = {10.1080/24705357.2026.2671304},
-  URL = { 
-          https://doi.org/10.1080/24705357.2026.2671304
-  },
-  eprint = { 
-          https://doi.org/10.1080/24705357.2026.2671304
-  }
+  URL = { https://doi.org/10.1080/24705357.2026.2671304 }, 
+  eprint = { https://doi.org/10.1080/24705357.2026.2671304 }, 
 }
 
 @article{Vaswani17,
@@ -42813,7 +42786,7 @@ abstract = {A new data set of bed load measurements in a cross-section at the ex
   author={Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\L}ukasz and Polosukhin, Illia},
   journal={Advances in neural information processing systems},
   volume={30},
-  year={2017}
+year={2017},
 }
 
 @techreport{Kosters25, 
@@ -42834,6 +42807,7 @@ abstract = {A new data set of bed load measurements in a cross-section at the ex
   geographicalkeyword = {Rhine, Waal},
   projectnumber = {11211565},
   illustrations = {fig., ref.},
+school =  {Deltares, Delft},
 }
 
 @TechReport{Sieben25_2,
@@ -42857,15 +42831,19 @@ school =  {\RWS{}},
   pages        = {9469--9495},
   url          = {https://gmd.copernicus.org/articles/18/9469/2025/},
   volume       = {18},
+year =  {2025},
+journal =  {Geoscientific Model Development},
 }
 
 @TechReport{INVEMAR25,
   author      = {INVEMAR-CVS},
   date        = {2025},
-  institution = {Corporacion Autonoma Regional de los Valles de Sinú y del San Jorge. Instituto de investigaciones Marinas y Costeras Jose Benito Vives de Andreis. Santa Marta},
-  title       = {Monitoreo de la erosion costera, alternativas de solución e identificación de efectos sobre el litoral cordobés},
+  institution = {Corporacion Autonoma Regional de los Valles de Sin\'u y del San Jorge. Instituto de investigaciones Marinas y Costeras Jose Benito Vives de Andreis. Santa Marta},
+  title       = {Monitoreo de la erosion costera, alternativas de soluci\'on e identificaci\'on de efectos sobre el litoral cordob\'es},
   number      = {012 de 2025},
   type        = {Convenio},
+year =  {2025},
+school =  {Corporacion Autonoma Regional de los Valles de Sin\'u y del San Jorge. Instituto de investigaciones Marinas y Costeras Jose Benito Vives de Andreis. Santa Marta},
 }
 
 @TechReport{Huisman24,
@@ -42873,6 +42851,8 @@ school =  {\RWS{}},
   date        = {2024},
   institution = {\refDeltares},
   title       = {ShorelineS: Technical manual},
+year =  {2024},
+school =  {\refDeltares},
 }
 
 @TechReport{Himmelstoss21,
@@ -42882,6 +42862,8 @@ school =  {\RWS{}},
   title       = {Digital Shoreline Analysis System (DSAS) user guide},
   number      = {5.1},
   type        = {Version},
+year =  {2021},
+school =  {U.S. Geological Survey},
 }
 
 @Article{Kunsch89,
@@ -42893,6 +42875,8 @@ school =  {\RWS{}},
   number       = {3},
   pages        = {1217--1241},
   volume       = {17},
+year =  {1989},
+journal =  {Ann. Statist.},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
