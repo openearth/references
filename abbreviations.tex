@@ -61,6 +61,8 @@
 \newcommand{\grideditor}{\textsc{GridEditor}}
 \newcommand{\interacter}{\textsc{Interacter}}
 \newcommand{\rgfgrid}{\textsc{RGFGRID}}
+\newcommand{\ShorelineS}{ShorelineS}
+\newcommand{\SnapWave}{SnapWave}
 
 %institutes
 \newcommand{\RWS}{\textit{Rijkswaterstaat}}
@@ -218,6 +220,10 @@
 				\ifnum #2=4
 						\subsubsection{#3}
 				\else
+					\ifnum #2=5
+						\paragraph{#3}
+					\else
+					\fi %paragraph
 				\fi %subsubsection
 			\fi %subsection
 		\fi %section
