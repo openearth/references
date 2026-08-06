@@ -29691,10 +29691,11 @@ journal =  {Isis},
   url          = {https://www.sciencedirect.com/science/article/pii/S0098300422000644},
   volume       = {163},
   abstract     = {The development of reliable, sophisticated hydro-morphodynamic models is essential for protecting the coastal environment against hazards such as flooding and erosion. There exists a high degree of uncertainty associated with the application of these models, in part due to incomplete knowledge of various physical, empirical and numerical closure related parameters in both the hydrodynamic and morphodynamic solvers. This uncertainty can be addressed through the application of adjoint methods. These have the notable advantage that the number and/or dimension of the uncertain parameters has almost no effect on the computational cost associated with calculating the model sensitivities. Here, we develop the first freely available and fully flexible adjoint hydro-morphodynamic model framework. This flexibility is achieved through using the pyadjoint library, which allows us to assess the uncertainty of any parameter with respect to any model functional, without further code implementation. The model is developed within the coastal ocean model Thetis constructed using the finite element code-generation library Firedrake. We present examples of how this framework can perform sensitivity analysis, inversion and calibration for a range of uncertain parameters based on the final bedlevel. These results are verified using so-called dual-twin experiments, where the ‘correct’ parameter value is used in the generation of synthetic model test data, but is unknown to the model in subsequent testing. Moreover, we show that inversion and calibration with experimental data using our framework produces physically sensible optimum parameters and that these parameters always lead to more accurate results. In particular, we demonstrate how our adjoint framework can be applied to a tsunami-like event to invert for the tsunami wave from sediment deposits.},
+  comment      = {calibration, differentiable, automatic differentiation},
   fjournal     = {Computers \& Geosciences},
-journal =  {Computers \& Geosciences},
+  journal      = {Computers \& Geosciences},
   keywords     = {Adjoint methods, Uncertainty, Sediment transport, Morphology, Tsunami inversion, Model calibration},
-year =  {2022},
+  year         = {2022},
 }
 
 @TechReport{fortran_format,
@@ -40162,10 +40163,11 @@ year =  {2018},
   url          = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025WR040265},
   volume       = {61},
   abstract     = {Abstract Shallow water equations (SWEs) are the backbone of most hydrodynamics models for flood prediction, river engineering, and many other water resources applications. The estimation of flow resistance, that is, the Manning's roughness coefficient \$n\$, is crucial for ensuring model accuracy, and has been previously determined using empirical formulas or tables. To better account for temporal and spatial variability in channel roughness, inverse modeling of \$n\$ using observed flow data is more reliable and adaptable; however, it is challenging when using traditional SWE solvers. Based on the concept of universal differential equation, which combines physics-based differential equations with neural networks (NNs), we developed a universal SWEs (USWEs) solver, Hydrograd, for hybrid hydrodynamics modeling. It can do accurate forward simulations, support automatic differentiation (AD) for gradient-based sensitivity analysis and parameter inversion, and perform scientific machine learning for physics discovery. In this work, we first validated the accuracy of its forward modeling, then applied a real-world case to demonstrate the ability of USWEs to capture model sensitivity (gradients) and perform inverse modeling of Manning's \$n\$. Furthermore, we used a NN to learn a universal relationship between \$n\$, hydraulic parameters, and flow in a real river channel. Unlike inverse modeling using surrogate models, Hydrograd uses a two-dimensional SWEs solver as its physics backbone, which eliminates the need for data-intensive pretraining and resolves the generalization problem when applied to out-of-sample scenarios. This differentiable modeling approach, with seamless integration with NNs, provides a new pathway for solving complex inverse problems and discovering new physics in hydrodynamics.},
+  comment      = {adjoint method, calibration},
   fjournal     = {Water Resources Research},
-journal =  {Water Resources Research},
+  journal      = {Water Resources Research},
   keywords     = {shallow water equations, differentiable programming, flow resistance, Manning's roughness},
-year =  {2025},
+  year         = {2025},
 }
 
 @Article{Hjulstrom35,
@@ -42977,6 +42979,25 @@ be accessed through https://public.yoda.uu.nl/geo/UU01/KKEUY5.html (Nota et al.,
   volume={51},
   pages={5260--5283},
   year={2014}
+}
+
+
+
+
+
+
+
+
+@InBook{Booij96,
+  author    = {N. Booij and L. H. Holthuijsen and R. C. Ris},
+  booktitle = {Coastal Engineering},
+  date      = {1996},
+  title     = {The "Swan" Wave Model for Shallow Water},
+  doi       = {10.1061/9780784402429.053},
+  eprint    = {https://ascelibrary.org/doi/pdf/10.1061/9780784402429.053},
+  pages     = {668-676},
+  url       = {https://ascelibrary.org/doi/abs/10.1061/9780784402429.053},
+  abstract  = {The numerical model SWAN (Simulating WAves Nearshore) for the computation of wave conditions in shallow water with ambient currents is briefly described. The model is based on a fully spectral representation of the action balance equation with all physical processes modelled explicitly. No a priori limitations are imposed on the spectral evolution. This makes the model a third-generation model. In Holthuijsen et al. (1993) and Ris et al. (1994) test cases for propagation, generation and dissipation have been shown without currents. Current effects have now been added and academic cases are shown here. The model is also applied in a fairly academic case of a shallow lake (Lake George, Australia) and in a complex, realistic case of an inter-tidal area with currents (Friesche Zeegat, the Netherlands). The results are compared with observations. A new development to formulate the model on a curvi-linear grid to accommodate linkage to hydro-dynamic circulation models is presented and a first test is shown.},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
