@@ -19,7 +19,7 @@ Shields';Shields
 active\ +layer\ +(thickness|model);active-layer \1
 schematization(s)?;schematisation\1
 summariz([a-z]+);summaris\1
-mutli-beam;mutlibeam
+multi-beam;multibeam
 discretization;discretisation
 c\.f\.;cf.
 river-kilometre;river kilometre
