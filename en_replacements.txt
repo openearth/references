@@ -22,3 +22,4 @@ summariz([a-z]+);summaris\1
 mutli-beam;mutlibeam
 discretization;discretisation
 c\.f\.;cf.;
+river-kilometre;river kilometre
