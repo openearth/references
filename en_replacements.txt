@@ -21,3 +21,4 @@ schematization(s)?;schematisation\1
 summariz([a-z]+);summaris\1
 mutli-beam;mutlibeam
 discretization;discretisation
+c\.f\.;cf.;
